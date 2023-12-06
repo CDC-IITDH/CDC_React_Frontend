@@ -1,0 +1,32 @@
+{
+  "titleStyle": {
+    "position": "relative",
+    "top": "10px",
+    "margin": "10px",
+    "fontFamily": "Arial, sans-serif",
+    "fontSize": "46px",
+    "fontWeight": "bold"
+  },
+  "InfoStyle": {
+    "fontSize": "20px"
+  },
+
+  "truncateText": {
+    "maxHeight": "200px",
+    "overflow": "hidden",
+    "position": "relative"
+  },
+  "truncateTextAfter": {
+    "content": "''",
+    "position": "absolute",
+    "bottom": "0",
+    "right": "0",
+    "left": "0",
+    "height": "20px",
+    "background": "linear-gradient(to bottom, transparent, white 50%)"
+  },
+
+  "readMore": {
+    "color": "#777777"
+  }
+}
