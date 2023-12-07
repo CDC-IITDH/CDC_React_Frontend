@@ -23,7 +23,7 @@ function Touch() {
                     </div>
                     <div className="services-content2">
                         <h5>
-                        <a href="tel:+14440008888">+1 (444) 000-8888</a>
+                        <a href="tel:+918362212839">+91 836 2212 839</a>
                         </h5>
                         <p>Phone Support</p>
                     </div>
