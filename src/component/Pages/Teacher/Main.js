@@ -11,7 +11,6 @@ function Main() {
         <Header/>
         <Bredcom title="Home" subtitle="Our Teacher"/>
         <First/>
-        <Brand/>
         <Expert/>
     </>
   )

@@ -13,7 +13,6 @@ function Main() {
         <Bredcom title="Home" subtitle="Contact Us"/>
         <Touch/>
         <Map/>
-        <Brand/>
     </>
   )
 }
