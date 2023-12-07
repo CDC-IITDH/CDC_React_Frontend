@@ -2,11 +2,27 @@ import React from 'react'
 import { Link } from 'react-router-dom'
 
 function First() {
+    const facultyInCharge = [
+        { name: "Dr. Naveen M B", role: "Assistant Professor", dept:"Dept. of Electrical Engineering", image: "assets/img/team/team09.png" }
+    ]
+
+    const placementExecutive = [
+        { name: "Priyanka Naga", role: "", image: "assets/img/team/team09.png" }
+    ]
+
+    const facultyAdvisors = [
+        { name: "Dr. Vandana Bharti", role: "Assistant Professor", dept:"Dept. of Computer Science and Engineering", image: "assets/img/team/team09.png" },
+        { name: "Dr. Sairam Boggavarapu", role: "Assistant Professor", dept:"Dept. of EECE", image: "assets/img/team/team09.png" },
+        { name: "Dr. Satyapriya Gupta", role: "Assistant Professor", dept:"Dept. of Mechanical, Materials and Aerospace Engineering", image: "assets/img/team/team09.png" },
+        { name: "Dr. Dhriti Sundar Ghosh", role: "Assistant Professor", dept:"Dept. of Physics", image: "assets/img/team/team09.png" },
+        { name: "Dr. Suvamay Jana", role: "Assistant Professor", dept:"Dept. of Chemical Engineering", image: "assets/img/team/team09.png" },
+        { name: "Dr. Ramesh Nayaka", role: "Assistant Professor", dept:"Dept. of Civil and Infrastruture Engineering", image: "assets/img/team/team09.png" },
+    ]
     const teamMembers = [
-        { name: "Howard Holmes", role: "CEO & Founder", image: "assets/img/team/team09.png" },
-        { name: "Ella Thompson", role: "Kids Teacher", image: "assets/img/team/team10.png" },
-        { name: "Vincent Cooper", role: "Kids Teacher", image: "assets/img/team/team11.png" },
-        { name: "Danielle Bryant", role: "Kids Teacher", image: "assets/img/team/team12.png" },
+        { name: "Aryan Trimukhe", role: "", image: "assets/img/team/team09.png" },
+        { name: "Dharani Samsritha", role: "", image: "assets/img/team/team10.png" },
+        { name: "Varad Kamtekar", role: "", image: "assets/img/team/team11.png" },
+        { name: "Rahul Raj", role: "", image: "assets/img/team/team12.png" },
     ];
 
     return (
@@ -19,8 +35,94 @@ function First() {
                     <img src="assets/img/bg/slider_shape03.png" alt="contact-bg-an-01" />
                 </div>
                 <div className="container">
-                    <div className="row">
-                        {teamMembers.map((member, index) => (
+                    <div className='col'>
+                        <div className="row d-flex justify-content-center">
+                            {facultyInCharge.map((member, index) => (
+                                <div key={index} className="col-xl-3 col-md-6">
+                                    <div className="single-team mb-40">
+                                        <div className="team-thumb">
+                                            <div className="brd">
+                                                <Link to="/team-single">
+                                                    {" "}
+                                                    <img src={member.image} alt="img" />
+                                                </Link>
+                                            </div>
+                                        </div>
+                                        <div className="team-info">
+                                            <h4>
+                                                <Link to="/team-single">{member.name}</Link>
+                                            </h4>
+                                            <p>{member.role}</p>
+                                            <p>{member.dept}</p>
+                                            <div className="team-social">
+                                                <ul>
+                                                    <li>
+                                                        <Link to="#">
+                                                            <i className="fab fa-facebook-f" />
+                                                        </Link>
+                                                    </li>
+                                                    <li>
+                                                        <Link to="#">
+                                                            <i className="fab fa-instagram" />
+                                                        </Link>
+                                                    </li>
+                                                    <li>
+                                                        {" "}
+                                                        <Link to="#">
+                                                            <i className="fab fa-twitter" />
+                                                        </Link>
+                                                    </li>
+                                                </ul>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            ))}
+                        </div>
+                        <div className="row d-flex justify-content-center">
+                            {placementExecutive.map((member, index) => (
+                                <div key={index} className="col-xl-3 col-md-6">
+                                    <div className="single-team mb-40">
+                                        <div className="team-thumb">
+                                            <div className="brd">
+                                                <Link to="/team-single">
+                                                    {" "}
+                                                    <img src={member.image} alt="img" />
+                                                </Link>
+                                            </div>
+                                        </div>
+                                        <div className="team-info">
+                                            <h4>
+                                                <Link to="/team-single">{member.name}</Link>
+                                            </h4>
+                                            <p>{member.role}</p>
+                                            <div className="team-social">
+                                                <ul>
+                                                    <li>
+                                                        <Link to="#">
+                                                            <i className="fab fa-facebook-f" />
+                                                        </Link>
+                                                    </li>
+                                                    <li>
+                                                        <Link to="#">
+                                                            <i className="fab fa-instagram" />
+                                                        </Link>
+                                                    </li>
+                                                    <li>
+                                                        {" "}
+                                                        <Link to="#">
+                                                            <i className="fab fa-twitter" />
+                                                        </Link>
+                                                    </li>
+                                                </ul>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            ))}
+                        </div>
+                        <div className="row d-flex justify-content-center">
+                        {facultyAdvisors.map((member, index) => (
                             <div key={index} className="col-xl-3 col-md-6">
                                 <div className="single-team mb-40">
                                     <div className="team-thumb">
@@ -36,6 +138,7 @@ function First() {
                                             <Link to="/team-single">{member.name}</Link>
                                         </h4>
                                         <p>{member.role}</p>
+                                        <p>{member.dept}</p>
                                         <div className="team-social">
                                             <ul>
                                                 <li>
@@ -60,6 +163,49 @@ function First() {
                                 </div>
                             </div>
                         ))}
+                    </div>
+                        <div className="row">
+                            {teamMembers.map((member, index) => (
+                                <div key={index} className="col-xl-3 col-md-6">
+                                    <div className="single-team mb-40">
+                                        <div className="team-thumb">
+                                            <div className="brd">
+                                                <Link to="/team-single">
+                                                    {" "}
+                                                    <img src={member.image} alt="img" />
+                                                </Link>
+                                            </div>
+                                        </div>
+                                        <div className="team-info">
+                                            <h4>
+                                                <Link to="/team-single">{member.name}</Link>
+                                            </h4>
+                                            <p>{member.role}</p>
+                                            <div className="team-social">
+                                                <ul>
+                                                    <li>
+                                                        <Link to="#">
+                                                            <i className="fab fa-facebook-f" />
+                                                        </Link>
+                                                    </li>
+                                                    <li>
+                                                        <Link to="#">
+                                                            <i className="fab fa-instagram" />
+                                                        </Link>
+                                                    </li>
+                                                    <li>
+                                                        {" "}
+                                                        <Link to="#">
+                                                            <i className="fab fa-twitter" />
+                                                        </Link>
+                                                    </li>
+                                                </ul>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            ))}
+                        </div>
                     </div>
                 </div>
             </section>
