@@ -36,175 +36,195 @@ function First() {
                 </div>
                 <div className="container">
                     <div className='col'>
-                        <div className="row d-flex justify-content-center">
-                            {facultyInCharge.map((member, index) => (
-                                <div key={index} className="col-xl-3 col-md-6">
-                                    <div className="single-team mb-40">
-                                        <div className="team-thumb">
-                                            <div className="brd">
-                                                <Link to="/team-single">
-                                                    {" "}
-                                                    <img src={member.image} alt="img" />
-                                                </Link>
-                                            </div>
-                                        </div>
-                                        <div className="team-info">
-                                            <h4>
-                                                <Link to="/team-single">{member.name}</Link>
-                                            </h4>
-                                            <p>{member.role}</p>
-                                            <p>{member.dept}</p>
-                                            <div className="team-social">
-                                                <ul>
-                                                    <li>
-                                                        <Link to="#">
-                                                            <i className="fab fa-facebook-f" />
-                                                        </Link>
-                                                    </li>
-                                                    <li>
-                                                        <Link to="#">
-                                                            <i className="fab fa-instagram" />
-                                                        </Link>
-                                                    </li>
-                                                    <li>
-                                                        {" "}
-                                                        <Link to="#">
-                                                            <i className="fab fa-twitter" />
-                                                        </Link>
-                                                    </li>
-                                                </ul>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            ))}
-                        </div>
-                        <div className="row d-flex justify-content-center">
-                            {placementExecutive.map((member, index) => (
-                                <div key={index} className="col-xl-3 col-md-6">
-                                    <div className="single-team mb-40">
-                                        <div className="team-thumb">
-                                            <div className="brd">
-                                                <Link to="/team-single">
-                                                    {" "}
-                                                    <img src={member.image} alt="img" />
-                                                </Link>
-                                            </div>
-                                        </div>
-                                        <div className="team-info">
-                                            <h4>
-                                                <Link to="/team-single">{member.name}</Link>
-                                            </h4>
-                                            <p>{member.role}</p>
-                                            <div className="team-social">
-                                                <ul>
-                                                    <li>
-                                                        <Link to="#">
-                                                            <i className="fab fa-facebook-f" />
-                                                        </Link>
-                                                    </li>
-                                                    <li>
-                                                        <Link to="#">
-                                                            <i className="fab fa-instagram" />
-                                                        </Link>
-                                                    </li>
-                                                    <li>
-                                                        {" "}
-                                                        <Link to="#">
-                                                            <i className="fab fa-twitter" />
-                                                        </Link>
-                                                    </li>
-                                                </ul>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            ))}
-                        </div>
-                        <div className="row d-flex justify-content-center">
-                        {facultyAdvisors.map((member, index) => (
-                            <div key={index} className="col-xl-3 col-md-6">
-                                <div className="single-team mb-40">
-                                    <div className="team-thumb">
-                                        <div className="brd">
-                                            <Link to="/team-single">
-                                                {" "}
-                                                <img src={member.image} alt="img" />
-                                            </Link>
-                                        </div>
-                                    </div>
-                                    <div className="team-info">
-                                        <h4>
-                                            <Link to="/team-single">{member.name}</Link>
-                                        </h4>
-                                        <p>{member.role}</p>
-                                        <p>{member.dept}</p>
-                                        <div className="team-social">
-                                            <ul>
-                                                <li>
-                                                    <Link to="#">
-                                                        <i className="fab fa-facebook-f" />
-                                                    </Link>
-                                                </li>
-                                                <li>
-                                                    <Link to="#">
-                                                        <i className="fab fa-instagram" />
-                                                    </Link>
-                                                </li>
-                                                <li>
-                                                    {" "}
-                                                    <Link to="#">
-                                                        <i className="fab fa-twitter" />
-                                                    </Link>
-                                                </li>
-                                            </ul>
-                                        </div>
-                                    </div>
-                                </div>
+                        <div className='col'>
+                            <div className='d-flex justify-content-center'>
+                                <h2>Faculty In Charge</h2>
                             </div>
-                        ))}
-                    </div>
-                        <div className="row">
-                            {teamMembers.map((member, index) => (
-                                <div key={index} className="col-xl-3 col-md-6">
-                                    <div className="single-team mb-40">
-                                        <div className="team-thumb">
-                                            <div className="brd">
-                                                <Link to="/team-single">
-                                                    {" "}
-                                                    <img src={member.image} alt="img" />
-                                                </Link>
-                                            </div>
-                                        </div>
-                                        <div className="team-info">
-                                            <h4>
-                                                <Link to="/team-single">{member.name}</Link>
-                                            </h4>
-                                            <p>{member.role}</p>
-                                            <div className="team-social">
-                                                <ul>
-                                                    <li>
-                                                        <Link to="#">
-                                                            <i className="fab fa-facebook-f" />
-                                                        </Link>
-                                                    </li>
-                                                    <li>
-                                                        <Link to="#">
-                                                            <i className="fab fa-instagram" />
-                                                        </Link>
-                                                    </li>
-                                                    <li>
+                            <div className="row d-flex justify-content-center">
+                                {facultyInCharge.map((member, index) => (
+                                    <div key={index} className="col-xl-3 col-md-6">
+                                        <div className="single-team mb-40">
+                                            <div className="team-thumb">
+                                                <div className="brd">
+                                                    <Link to="/team-single">
                                                         {" "}
-                                                        <Link to="#">
-                                                            <i className="fab fa-twitter" />
-                                                        </Link>
-                                                    </li>
-                                                </ul>
+                                                        <img src={member.image} alt="img" />
+                                                    </Link>
+                                                </div>
+                                            </div>
+                                            <div className="team-info">
+                                                <h4>
+                                                    <Link to="/team-single">{member.name}</Link>
+                                                </h4>
+                                                <p>{member.role}</p>
+                                                <p>{member.dept}</p>
+                                                <div className="team-social">
+                                                    <ul>
+                                                        <li>
+                                                            <Link to="#">
+                                                                <i className="fab fa-facebook-f" />
+                                                            </Link>
+                                                        </li>
+                                                        <li>
+                                                            <Link to="#">
+                                                                <i className="fab fa-instagram" />
+                                                            </Link>
+                                                        </li>
+                                                        <li>
+                                                            {" "}
+                                                            <Link to="#">
+                                                                <i className="fab fa-twitter" />
+                                                            </Link>
+                                                        </li>
+                                                    </ul>
+                                                </div>
                                             </div>
                                         </div>
                                     </div>
-                                </div>
-                            ))}
+                                ))}
+                            </div>
+                        </div>
+                        <div className='col'>
+                        <div className='d-flex justify-content-center'>
+                                <h2>Placement Executive</h2>
+                            </div>
+                            <div className="row d-flex justify-content-center">
+                                {placementExecutive.map((member, index) => (
+                                    <div key={index} className="col-xl-3 col-md-6">
+                                        <div className="single-team mb-40">
+                                            <div className="team-thumb">
+                                                <div className="brd">
+                                                    <Link to="/team-single">
+                                                        {" "}
+                                                        <img src={member.image} alt="img" />
+                                                    </Link>
+                                                </div>
+                                            </div>
+                                            <div className="team-info">
+                                                <h4>
+                                                    <Link to="/team-single">{member.name}</Link>
+                                                </h4>
+                                                <p>{member.role}</p>
+                                                <div className="team-social">
+                                                    <ul>
+                                                        <li>
+                                                            <Link to="#">
+                                                                <i className="fab fa-facebook-f" />
+                                                            </Link>
+                                                        </li>
+                                                        <li>
+                                                            <Link to="#">
+                                                                <i className="fab fa-instagram" />
+                                                            </Link>
+                                                        </li>
+                                                        <li>
+                                                            {" "}
+                                                            <Link to="#">
+                                                                <i className="fab fa-twitter" />
+                                                            </Link>
+                                                        </li>
+                                                    </ul>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                ))}
+                            </div>
+                        </div>
+                        <div className='col'>
+                        <div className='d-flex justify-content-center'>
+                                <h2>Faculty Advisors</h2>
+                            </div>
+                            <div className="row d-flex justify-content-center">
+                                {facultyAdvisors.map((member, index) => (
+                                    <div key={index} className="col-xl-3 col-md-6">
+                                        <div className="single-team mb-40">
+                                            <div className="team-thumb">
+                                                <div className="brd">
+                                                    <Link to="/team-single">
+                                                        {" "}
+                                                        <img src={member.image} alt="img" />
+                                                    </Link>
+                                                </div>
+                                            </div>
+                                            <div className="team-info">
+                                                <h4>
+                                                    <Link to="/team-single">{member.name}</Link>
+                                                </h4>
+                                                <p>{member.role}</p>
+                                                <p>{member.dept}</p>
+                                                <div className="team-social">
+                                                    <ul>
+                                                        <li>
+                                                            <Link to="#">
+                                                                <i className="fab fa-facebook-f" />
+                                                            </Link>
+                                                        </li>
+                                                        <li>
+                                                            <Link to="#">
+                                                                <i className="fab fa-instagram" />
+                                                            </Link>
+                                                        </li>
+                                                        <li>
+                                                            {" "}
+                                                            <Link to="#">
+                                                                <i className="fab fa-twitter" />
+                                                            </Link>
+                                                        </li>
+                                                    </ul>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                ))}
+                            </div>
+                        </div>
+                        <div className='col'>
+                        <div className='d-flex justify-content-center'>
+                                <h2>CDC Student Heads</h2>
+                            </div>
+                            <div className="row">
+                                {teamMembers.map((member, index) => (
+                                    <div key={index} className="col-xl-3 col-md-6">
+                                        <div className="single-team mb-40">
+                                            <div className="team-thumb">
+                                                <div className="brd">
+                                                    <Link to="/team-single">
+                                                        {" "}
+                                                        <img src={member.image} alt="img" />
+                                                    </Link>
+                                                </div>
+                                            </div>
+                                            <div className="team-info">
+                                                <h4>
+                                                    <Link to="/team-single">{member.name}</Link>
+                                                </h4>
+                                                <p>{member.role}</p>
+                                                <div className="team-social">
+                                                    <ul>
+                                                        <li>
+                                                            <Link to="#">
+                                                                <i className="fab fa-facebook-f" />
+                                                            </Link>
+                                                        </li>
+                                                        <li>
+                                                            <Link to="#">
+                                                                <i className="fab fa-instagram" />
+                                                            </Link>
+                                                        </li>
+                                                        <li>
+                                                            {" "}
+                                                            <Link to="#">
+                                                                <i className="fab fa-twitter" />
+                                                            </Link>
+                                                        </li>
+                                                    </ul>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                ))}
+                            </div>
                         </div>
                     </div>
                 </div>
