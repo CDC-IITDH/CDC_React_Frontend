@@ -37,7 +37,7 @@ function Touch() {
                     <div className="services-content2">
                         <h5>
                         <a href="mailto:jobs@webtrueexample.com">
-                            jobs@webtrueexample.com
+                            cdc@iitdh.ac.in
                         </a>
                         </h5>
                         <p>Email Address</p>
@@ -50,8 +50,8 @@ function Touch() {
                         <img src="assets/img/bg/contact-icon03.png" alt="image" />
                     </div>
                     <div className="services-content2">
-                        <h5>12/A, New Jone, NYC</h5>
-                        <p>Office Address</p>
+                        <h6>Indian Institute of Technology Dharwad Karnataka, India - 580011</h6>
+                        <p>Address</p>
                     </div>
                     </div>
                 </div>
