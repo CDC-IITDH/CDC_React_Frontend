@@ -27,7 +27,7 @@ function Main() {
       {/* <Frequently/> */}
       {/* <Video/> */}
       <Testimonial />
-      <Testimonialthree />    {/*Director's Message */}
+      <Testimonialthree />    {/* ------- Director's Message  ---------- */}
       {/* <Search/> */}
       {/* <Admission/> */}
       <Redslider />
