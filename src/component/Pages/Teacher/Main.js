@@ -9,7 +9,7 @@ function Main() {
   return (
     <>
         <Header/>
-        <Bredcom title="Home" subtitle="Our Teacher"/>
+        <Bredcom title="Home" subtitle="Our Team"/>
         <First/>
         {/*<Expert/>*/}
     </>

@@ -3,11 +3,11 @@ import { Link } from 'react-router-dom'
 
 function First() {
     const facultyInCharge = [
-        { name: "Dr. Naveen M B", role: "Assistant Professor", dept:"Dept. of Electrical Engineering", image: "assets/img/team/team09.png" }
+        { name: "Dr. Naveen M B", role: "Assistant Professor", dept:"Dept. of Electrical Engineering", image: "assets/img/team/NaveenMB_Image.jpeg" }
     ]
 
     const placementExecutive = [
-        { name: "Priyanka Naga", role: "", image: "assets/img/team/team09.png" }
+        { name: "Priyanka Naga", role: "", image: "assets/img/team/SAVE_20230606_231008 - Priyanka N.jpg" }
     ]
 
     const facultyAdvisors = [
@@ -19,10 +19,10 @@ function First() {
         { name: "Dr. Ramesh Nayaka", role: "Assistant Professor", dept:"Dept. of Civil and Infrastruture Engineering", image: "assets/img/team/team09.png" },
     ]
     const teamMembers = [
-        { name: "Aryan Trimukhe", role: "", image: "assets/img/team/team09.png" },
-        { name: "Dharani Samsritha", role: "", image: "assets/img/team/team10.png" },
-        { name: "Varad Kamtekar", role: "", image: "assets/img/team/team11.png" },
-        { name: "Rahul Raj", role: "", image: "assets/img/team/team12.png" },
+        { name: "Aryan Trimukhe", role: "", image: "assets/img/team/Aryan_Photo_Square - Trimukhe Aryan Dhananjay.jpg" },
+        { name: "Dharani Samsritha", role: "", image: "assets/img/team/InShot_20220905_215808159 - Pasumarthi Dharani Samsritha.jpg" },
+        { name: "Varad Kamtekar", role: "", image: "assets/img/team/081AE1D4-053F-4E3C-A68C-D98450DD9172 - Kamtekar Varad Mahesh -2.jpg" },
+        { name: "Rahul Raj", role: "", image: "assets/img/team/rahul-raj - Rahul Raj.jpg" },
     ];
 
     return (
@@ -46,7 +46,7 @@ function First() {
                                         <div className="single-team mb-40">
                                             <div className="team-thumb">
                                                 <div className="brd">
-                                                    <Link to="/team-single">
+                                                    <Link to="#">
                                                         {" "}
                                                         <img src={member.image} alt="img" />
                                                     </Link>
@@ -54,7 +54,7 @@ function First() {
                                             </div>
                                             <div className="team-info">
                                                 <h4>
-                                                    <Link to="/team-single">{member.name}</Link>
+                                                    <Link to="#">{member.name}</Link>
                                                 </h4>
                                                 <p>{member.role}</p>
                                                 <p>{member.dept}</p>
@@ -94,7 +94,7 @@ function First() {
                                         <div className="single-team mb-40">
                                             <div className="team-thumb">
                                                 <div className="brd">
-                                                    <Link to="/team-single">
+                                                    <Link to="#">
                                                         {" "}
                                                         <img src={member.image} alt="img" />
                                                     </Link>
@@ -102,7 +102,7 @@ function First() {
                                             </div>
                                             <div className="team-info">
                                                 <h4>
-                                                    <Link to="/team-single">{member.name}</Link>
+                                                    <Link to="#">{member.name}</Link>
                                                 </h4>
                                                 <p>{member.role}</p>
                                                 <div className="team-social">
@@ -141,7 +141,7 @@ function First() {
                                         <div className="single-team mb-40">
                                             <div className="team-thumb">
                                                 <div className="brd">
-                                                    <Link to="/team-single">
+                                                    <Link to="#">
                                                         {" "}
                                                         <img src={member.image} alt="img" />
                                                     </Link>
@@ -149,7 +149,7 @@ function First() {
                                             </div>
                                             <div className="team-info">
                                                 <h4>
-                                                    <Link to="/team-single">{member.name}</Link>
+                                                    <Link to="#">{member.name}</Link>
                                                 </h4>
                                                 <p>{member.role}</p>
                                                 <p>{member.dept}</p>
@@ -189,7 +189,7 @@ function First() {
                                         <div className="single-team mb-40">
                                             <div className="team-thumb">
                                                 <div className="brd">
-                                                    <Link to="/team-single">
+                                                    <Link to="#">
                                                         {" "}
                                                         <img src={member.image} alt="img" />
                                                     </Link>
@@ -197,7 +197,7 @@ function First() {
                                             </div>
                                             <div className="team-info">
                                                 <h4>
-                                                    <Link to="/team-single">{member.name}</Link>
+                                                    <Link to="#">{member.name}</Link>
                                                 </h4>
                                                 <p>{member.role}</p>
                                                 <div className="team-social">
