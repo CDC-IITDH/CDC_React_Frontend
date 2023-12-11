@@ -42,6 +42,7 @@ function Index() {
         <Route path="/student/faq" element={<Faq />} />
         <Route path="/recruiter/faq" element={<Faq />} />
         <Route path="/team" element={<Teacher />} />
+        
 
         {/* <Route path="/home-two" element={<Hometwo />} />
         <Route path="/home-three" element={<Homethree />} />

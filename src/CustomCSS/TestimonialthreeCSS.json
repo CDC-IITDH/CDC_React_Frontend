@@ -29,5 +29,10 @@
 
   "readMore": {
     "color": "#777777"
+  },
+  "imageStyles": {
+    "widht": "70px",
+    "height": "70px",
+    "borderRadius": "50%"
   }
 }
