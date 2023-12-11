@@ -1,21 +1,13 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
 
-import facultyInChargeImage from '../../../assets/img/team/NaveenMB_Image.jpeg';
-import placementExecutiveImage from '../../../assets/img/team/SAVE_20230606_231008 - Priyanka N.jpg';
-
-import teamMemberImage1 from '../../../assets/img/team/Aryan_Photo_Square - Trimukhe Aryan Dhananjay.jpg';
-import teamMemberImage2 from '../../../assets/img/team/InShot_20220905_215808159 - Pasumarthi Dharani Samsritha.jpg';
-import teamMemberImage3 from '../../../assets/img/team/081AE1D4-053F-4E3C-A68C-D98450DD9172 - Kamtekar Varad Mahesh -2.jpg';
-import teamMemberImage4 from '../../../assets/img/team/rahul-raj - Rahul Raj.jpg';
-
 function First() {
     const facultyInCharge = [
-        { name: "Dr. Naveen M B", role: "Assistant Professor", dept:"Dept. of Electrical Engineering", image: facultyInChargeImage }
+        { name: "Dr. Naveen M B", role: "Assistant Professor", dept:"Dept. of Electrical Engineering", image: "assets/img/team/NaveenMB_Image.jpeg" }
     ]
 
     const placementExecutive = [
-        { name: "Priyanka Naga", role: "", image: placementExecutiveImage }
+        { name: "Priyanka Naga", role: "", image: "assets/img/team/SAVE_20230606_231008 - Priyanka N.jpg" }
     ]
 
     const facultyAdvisors = [
@@ -27,10 +19,10 @@ function First() {
         { name: "Dr. Ramesh Nayaka", role: "Assistant Professor", dept:"Dept. of Civil and Infrastruture Engineering", image: "assets/img/team/team09.png" },
     ]
     const teamMembers = [
-        { name: "Aryan Trimukhe", role: "", image: teamMemberImage1 },
-        { name: "Dharani Samsritha", role: "", image: teamMemberImage2 },
-        { name: "Varad Kamtekar", role: "", image: teamMemberImage3 },
-        { name: "Rahul Raj", role: "", image: teamMemberImage4 },
+        { name: "Aryan Trimukhe", role: "", image: "assets/img/team/Aryan_Photo_Square - Trimukhe Aryan Dhananjay.jpg" },
+        { name: "Dharani Samsritha", role: "", image: "assets/img/team/InShot_20220905_215808159 - Pasumarthi Dharani Samsritha.jpg" },
+        { name: "Varad Kamtekar", role: "", image: "assets/img/team/081AE1D4-053F-4E3C-A68C-D98450DD9172 - Kamtekar Varad Mahesh -2.jpg" },
+        { name: "Rahul Raj", role: "", image: "assets/img/team/rahul-raj - Rahul Raj.jpg" },
     ];
 
     return (
