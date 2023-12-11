@@ -8,7 +8,8 @@
     "fontWeight": "bold"
   },
   "InfoStyle": {
-    "fontSize": "20px"
+    "fontSize": "20px",
+    "color": "#0f0f0f"
   },
 
   "truncateText": {
@@ -28,5 +29,10 @@
 
   "readMore": {
     "color": "#777777"
+  },
+  "imageStyles": {
+    "widht": "70px",
+    "height": "70px",
+    "borderRadius": "50%"
   }
 }
