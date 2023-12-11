@@ -21,10 +21,12 @@ function Main() {
                         </p>
                         </div>
                         <div className="footer-social mt-10">
-                            <a href="#">
-                                <i className="fab fa-facebook-f" />
+                            <a href="https://www.linkedin.com/company/cdciitdharwad/?originalSubdomain=in">
+                                {/* <i className="fab fa-facebook-f" /> */}
+                                <i className="fab fa-linkedin" />
+
                             </a>
-                            <a href="#">
+                            <a href="https://www.instagram.com/cdc.iitdh/?hl=en">
                                 <i className="fab fa-instagram" />
                             </a>
                             <a href="#">
@@ -44,16 +46,16 @@ function Main() {
                                 <Link to="/">Home</Link>
                             </li>
                             <li>
-                                <Link to="/about"> About</Link>
+                                <Link to="/about"> Academic Information</Link>
                             </li>
                             <li>
-                                <Link to="/courses">Courses</Link>
+                                <Link to="/courses">Undergraduate</Link>
                             </li>
                             <li>
-                                <Link to="/contact"> Contact Us</Link>
+                                <Link to="/contact"> Faculty</Link>
                             </li>
                             <li>
-                                <Link to="/blog">Blog </Link>
+                                <Link to="/blog">Academic Facilities </Link>
                             </li>
                         </ul>
                         </div>
@@ -104,26 +106,32 @@ function Main() {
                         <div className="f-contact">
                         <ul>
                             <li>
+                            <div style={{ display: 'flex', alignItems: 'center' }}>
                             <i className="icon fal fa-phone" />
                             <span>
-                                <Link to="tel:+14440008888">+1 (444) 000-8888</Link>
-                                <br />
-                                <Link to="tel:+917052101786">+91 7052 101 786</Link>
+                                {/* <Link to="tel:+14440008888">+1 (444) 000-8888</Link>
+                                <br /> */}
+                                <Link style={{  display: 'block' }}   to="tel:+91 836 2212 839">+91 836 2212 839</Link>
                             </span>
+                            </div>
                             </li>
                             <li>
+                            <div style={{ display: 'flex', alignItems: 'center' }}>
                             <i className="icon fal fa-envelope" />
-                            <span>
-                                <Link to="mailto:info@example.com">info@example.com</Link>
-                                <br />
-                                <Link to="mailto:help@example.com">help@example.com</Link>
+                            <span >
+                            <Link style={{  display: 'block' }} to="mailto:cdc@iitdh.ac.in">
+                            cdc@iitdh.ac.in
+                             </Link>
+                             {/* <br />
+                                <Link to="mailto:help@example.com">help@example.com</Link> */}
                             </span>
+                            </div>
                             </li>
                             <li>
                             <i className="icon fal fa-map-marker-check" />
                             <span>
-                                1247/Plot No. 39, 15th Phase,
-                                <br /> LHB Colony, Kanpur
+                            Indian Institute of Technology Dharwad
+                            Karnataka, India - 580011.
                             </span>
                             </li>
                         </ul>
@@ -133,7 +141,7 @@ function Main() {
                 </div>
                 </div>
             </div>
-            <div className="copyright-wrap">
+            {/* <div className="copyright-wrap">
                 <div className="container">
                 <div className="row align-items-center">
                     <div className="col-lg-4">
@@ -149,7 +157,7 @@ function Main() {
                     </div>
                 </div>
                 </div>
-            </div>
+            </div> */}
         </footer>
     </>
   )
