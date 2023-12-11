@@ -8,7 +8,6 @@ import Expert from '../../menhomethree/Expert'
 function Main() {
   return (
     <>
-        <Header/>
         <Bredcom title="Home" subtitle="Our Team"/>
         <First/>
         {/*<Expert/>*/}

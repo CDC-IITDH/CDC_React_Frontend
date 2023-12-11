@@ -9,7 +9,6 @@ import Form from '../mencontact/Form'
 function Main() {
   return (
     <>
-        <Header/>
         <Bredcom title="Home" subtitle="Contact Us"/>
         <Touch/>
         <Map/>
