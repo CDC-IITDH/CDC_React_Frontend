@@ -8,11 +8,10 @@ import Form from "../mencontact/Form";
 function Main() {
   return (
     <>
-      <Bredcom title="Home" subtitle="Contact Us" />
-      <Touch />
-      <Map />
-      <Form />
-      <Brand />
+        <Bredcom title="Home" subtitle="Contact Us"/>
+        <Touch/>
+        <Map/>
+
     </>
   );
 }
