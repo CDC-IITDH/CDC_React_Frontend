@@ -8,7 +8,8 @@
     "fontWeight": "bold"
   },
   "InfoStyle": {
-    "fontSize": "20px"
+    "fontSize": "20px",
+    "color": "#0f0f0f"
   },
 
   "truncateText": {
