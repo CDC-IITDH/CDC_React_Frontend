@@ -41,13 +41,13 @@ function Main() {
                     </Link>
                   </div>
                 </div>
-                <div className="col-xl-8 col-lg-8">
+                <div className="col-xl-7 col-lg-7">
                   <div className="main-menu text-right text-xl-right">
                     <nav id="mobile-menu">
                       <ul>
-                        <li className="has-sub">
+                        {/* <li className="has-sub">
                           <Link to="/">Home</Link>
-                          {/* <ul>
+                          <ul>
                             <li>
                               <Link to="/">University</Link>
                             </li>
@@ -57,46 +57,61 @@ function Main() {
                             <li>
                               <Link to="/home-three">High School</Link>
                             </li>
-                          </ul> */}
-                        </li>
+                          </ul>
+                        </li> */}
                         <li className="has-sub">
                           <Link to="/about">About Us</Link>
                         </li>
                         <li className="has-sub">
-                          <Link to="/student/faq">For Students</Link>
-                          {/* <ul>
+                          <Link>For Students</Link>
+                          <ul>
                             <li>
-                              <Link to="/courses">Courses</Link>
+                            <Link to="https://drive.google.com/file/d/1P8z5w-PVAl3w6p2Z8kWgSDOUPukuMx--/view?usp=sharing" target="_blank">
+      Placements - Rules & Regulations
+    </Link>
                             </li>
                             <li>
                               {" "}
-                              <Link to="/courses-2">Courses 02</Link>
+                              <Link to ="https://drive.google.com/file/d/1PLHd6BiXP7fAbQaob8o0juXZzRSu8vWa/view" target="_blank">Internships - Rules & Regulations</Link>
                             </li>
                             <li>
                               {" "}
-                              <Link to="/single-courses">Course Details</Link>
+                              <Link to="https://drive.google.com/file/d/1a8cRL4i3aeEWcCVRQIRAv-DrFybPl9N0/view" target="_blank">Internship Information</Link>
                             </li>
                             <li>
+                              <Link to ="https://cdc.iitdh.ac.in/portal/index.html" target="_blank">Student Portal</Link>
+                            </li>
+                            <li>
+                              <Link to="/student/faq">
+                                FAQs
+                              </Link>
+                            </li>
+                            {/* <li>
                               {" "}
                               <Link to="/single-courses-2">
                                 Course Details 02
                               </Link>
-                            </li>
-                          </ul> */}
+                            </li> */}
+                          </ul>
                         </li>
                         <li className="has-sub">
-                          <Link to="/recruiter/faq">For Recruiters</Link>
-                          {/* <ul>
+                          <Link>For Recruiters</Link>
+                          <ul>
                             <li>
-                              <Link to="/event">Event</Link>
+                              <Link >Internship</Link>
                             </li>
                             <li>
-                              <Link to="/single-event">Event Details</Link>
+                              <Link>Placement</Link>
                             </li>
                             <li>
-                              <Link to="/projects">Gallery</Link>
+                              <Link to="https://drive.google.com/file/d/1QpP0K4J6AXiFcezI-mBRzrpesci0gsAh/view" target="_blank">Brochure</Link>
                             </li>
                             <li>
+                              <Link to="/recruiter/faq">
+                                FAQs
+                              </Link>
+                            </li>
+                            {/* <li>
                               <Link to="/pricing">Pricing</Link>
                             </li>
                             <li>
@@ -110,8 +125,8 @@ function Main() {
                             </li>
                             <li>
                               <Link to="/404-error">404 Error</Link>
-                            </li>
-                          </ul> */}
+                            </li> */}
+                          </ul>
                         </li>
                         <li className="has-sub">
                           <Link to="/blog">Blog</Link>
@@ -166,8 +181,8 @@ function Main() {
                       {mobile && (
                         <nav className="mean-nav">
                           <ul style={{ display: "block" }}>
-                            <li className="has-sub">
-                              <Link to="/">Home</Link>
+                            {/* <li className="has-sub">
+                              <Link to="/">Home</Link> */}
                               {/* {Events && (
                                 <ul style={{ display: "block" }}>
                                   <li>
@@ -193,37 +208,49 @@ function Main() {
                               >
                                 {Events ? "-" : "+"}
                               </a> */}
-                            </li>
+                            {/* </li> */}
                             <li>
                               <Link to="/about">About Us</Link>
                             </li>
                             <li className="has-sub">
-                              <Link to="/student/faq">For Students</Link>
-                              {/* {News && (
+                              <Link>For Students</Link>
+                              {News && (
                                 <ul style={{ display: "block" }}>
                                   <li>
-                                    <Link to="/courses">Courses</Link>
+                                  <Link to="https://drive.google.com/file/d/1P8z5w-PVAl3w6p2Z8kWgSDOUPukuMx--/view?usp=sharing" target="_blank">
+      Placements - Rules & Regulations
+    </Link>
                                   </li>
                                   <li>
                                     {" "}
-                                    <Link to="/courses-2">Courses 02</Link>
+                                    <Link to = "https://drive.google.com/file/d/1PLHd6BiXP7fAbQaob8o0juXZzRSu8vWa/view" target="_blank">Internships - Rules & Regulations</Link>
                                   </li>
                                   <li>
                                     {" "}
-                                    <Link to="/single-courses">
-                                      Course Details
+                                    <Link to ="https://drive.google.com/file/d/1a8cRL4i3aeEWcCVRQIRAv-DrFybPl9N0/view" target="_blank">
+                                    Internship Information
                                     </Link>
                                   </li>
                                   <li>
+                                    <Link to ="https://cdc.iitdh.ac.in/portal/index.html" target="_blank">
+                                      Student Portal
+                                    </Link>
+                                  </li>
+                                  <li>
+                                    <Link to="/student/faq" >
+                                      FAQs
+                                    </Link>
+                                  </li>
+                                  {/* <li>
                                     {" "}
                                     <Link to="/single-courses-2">
                                       Course Details 02
                                     </Link>
-                                  </li>
+                                  </li> */}
                                 </ul>
-                              )} */}
+                              )}
 
-                              {/* <a
+                              <a
                                 className={`mean-expand ${
                                   mobile && "mean-clicked"
                                 }`}
@@ -234,24 +261,29 @@ function Main() {
                                 style={{ fontSize: 18 }}
                               >
                                 {News ? "-" : "+"}
-                              </a> */}
+                              </a>
                             </li>
                             <li className="has-sub">
-                              <Link to="/recruiter/faq">For Recruiters</Link>
-                              {/* {Services && (
+                              <Link>For Recruiters</Link>
+                              {Services && (
                                 <ul style={{ display: "block" }}>
                                   <li>
-                                    <Link to="/event">Event</Link>
+                                    <Link>Internship</Link>
                                   </li>
                                   <li>
-                                    <Link to="/single-event">
-                                      Event Details
+                                    <Link>
+                                      Placement
                                     </Link>
                                   </li>
                                   <li>
-                                    <Link to="/projects">Gallery</Link>
+                                    <Link to="https://drive.google.com/file/d/1QpP0K4J6AXiFcezI-mBRzrpesci0gsAh/view" target="_blank">Brochure</Link>
                                   </li>
                                   <li>
+                                    <Link to="/recruiter/faq">
+                                      FAQs
+                                    </Link>
+                                  </li>
+                                  {/* <li>
                                     <Link to="/pricing">Pricing</Link>
                                   </li>
                                   <li>
@@ -267,10 +299,10 @@ function Main() {
                                   </li>
                                   <li>
                                     <Link to="/404-error">404 Error</Link>
-                                  </li>
+                                  </li> */}
                                 </ul>
-                              )} */}
-                              {/* <a
+                              )}
+                              <a
                                 className={`mean-expand ${
                                   mobile && "mean-clicked"
                                 }`}
@@ -281,7 +313,7 @@ function Main() {
                                 style={{ fontSize: 18 }}
                               >
                                 {Services ? "-" : "+"}
-                              </a> */}
+                              </a>
                             </li>
                             <li className="has-sub">
                               <Link to="/blog">Blog</Link>

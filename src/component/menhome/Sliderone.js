@@ -56,7 +56,7 @@ function Sliderone() {
             <div
               className="single-slider slider-bg"
               style={{
-                backgroundImage: `linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(${"https://www.iitdh.ac.in/sites/default/files/2023-10/slide-03-new.jpg"})`, // banner image 1 with overlay
+                backgroundImage: `linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(${"https://www.iitdh.ac.in/sites/default/files/2023-10/slide-02-new_3.jpg"})`, // banner image 1 with overlay
                 backgroundSize: "cover",
               }}
             >
@@ -104,7 +104,7 @@ function Sliderone() {
             <div
               className="single-slider slider-bg"
               style={{
-                backgroundImage: `linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("https://www.iitdh.ac.in/sites/default/files/2023-10/slide-02-new_3.jpg")`, // banner image 2 with overlay 
+                backgroundImage: `linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("https://www.iitdh.ac.in/sites/default/files/2023-10/slide-03-new.jpg")`, // banner image 2 with overlay 
                 backgroundSize: "cover",
               }}
             >

@@ -27,7 +27,7 @@ function Campus() {
                 </div>
                 <div className="col-lg-6 col-md-12">
                     <div className="step-img2 wow fadeInLeft animated" data-animation="fadeInLeft" data-delay=".4s" >
-                        <img src="https://www.iitdh.ac.in/sites/default/files/2023-10/slide-01-new_1.jpg" alt="class image" /> {/*added image to block 1*/}
+                        <img src="assets/img/bg/steps-img-2.png" alt="class image" /> {/*added image to block 1*/}
                     </div>
                 </div>
                 </div>
@@ -42,7 +42,7 @@ function Campus() {
                 <div className="row align-items-center">
                 <div className="col-lg-6 col-md-12">
                     <div className="step-img3 wow fadeInLeft animated" data-animation="fadeInLeft" data-delay=".4s" >
-                        <img src="https://www.iitdh.ac.in/sites/default/files/2023-10/slide-02-new_3.jpg" alt="class image" /> {/*added image to block 2*/}
+                        <img src="assets/img/bg/steps-img-3.png" alt="class image" /> {/*added image to block 2*/}
                     </div>
                 </div>
                 <div className="col-lg-6 col-md-12">

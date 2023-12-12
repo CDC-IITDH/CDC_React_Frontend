@@ -2,7 +2,7 @@ import React from "react";
 import About from "../menhome/About";
 // import Courses from "../menhome/Courses";
 import Event from "../menhome/Event";
-// import Scholarship from "../menhome/Scholarship";
+import Scholarship from "../menhome/Scholarship";
 // import Shep from "../menhome/Shep";
 import Slider from "../menhome/Sliderone";
 // import Frequently from "../menhome/Frequently";
@@ -23,7 +23,7 @@ function Main() {
       {/* <Courses /> */}
       {/* <Shep/> */}
       <Event />
-      {/* <Scholarship/> */}
+      <Scholarship/>
       {/* <Frequently/> */}
       {/* <Video/> */}
       <Testimonial />

@@ -19,15 +19,15 @@ function Main() {
                         </p>
                         </div>
                         <div className="footer-social mt-10">
-                            <a href="https://www.linkedin.com/company/cdciitdharwad/?originalSubdomain=in">
+                            <a href="https://www.linkedin.com/company/cdciitdharwad/?originalSubdomain=in" target='_blank'>
                                 {/* <i className="fab fa-facebook-f" /> */}
                                 <i className="fab fa-linkedin" />
 
                             </a>
-                            <a href="https://www.instagram.com/cdc.iitdh/?hl=en">
+                            <a href="https://www.instagram.com/cdc.iitdh/?hl=en" target='_blank'>
                                 <i className="fab fa-instagram" />
                             </a>
-                            <a href="#">
+                            <a href="https://twitter.com/cdc_iitdh" target='_blank'>
                                 <i className="fab fa-twitter" />
                             </a>
                         </div>
@@ -51,6 +51,9 @@ function Main() {
                             </li>
                             <li>
                                 <Link to="/contact"> Faculty</Link>
+                            </li>
+                            <li>
+                                <Link to = "/team">Team</Link>
                             </li>
                             <li>
                                 <Link to="/blog">Academic Facilities </Link>
