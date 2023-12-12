@@ -13,23 +13,21 @@ function Main() {
                         <div className="f-widget-title">
                         <h2>About Us</h2>
                         </div>
-                        <div className="f-contact">
+                        <div className="f-contact"> {/* about cdc */}
                         <p>
-                            Suspendisse non sem ante. Cras pretium gravida leo a convallis.
-                            Nam malesuada interdum metus, sit amet dictum ante congue eu.
-                            Maecenas ut maximus enim.
+                        CDC is a body of IIT Dharwad that supports students in shaping and managing their careers by building critical ingredients required for a student to be a complete professional.It is committed to assisting all IIT Dharwad students in achieving their career goal.
                         </p>
                         </div>
                         <div className="footer-social mt-10">
-                            <a href="https://www.linkedin.com/company/cdciitdharwad/?originalSubdomain=in">
+                            <a href="https://www.linkedin.com/company/cdciitdharwad/?originalSubdomain=in" target='_blank'>
                                 {/* <i className="fab fa-facebook-f" /> */}
                                 <i className="fab fa-linkedin" />
 
                             </a>
-                            <a href="https://www.instagram.com/cdc.iitdh/?hl=en">
+                            <a href="https://www.instagram.com/cdc.iitdh/?hl=en" target='_blank'>
                                 <i className="fab fa-instagram" />
                             </a>
-                            <a href="#">
+                            <a href="https://twitter.com/cdc_iitdh" target='_blank'>
                                 <i className="fab fa-twitter" />
                             </a>
                         </div>
@@ -53,6 +51,9 @@ function Main() {
                             </li>
                             <li>
                                 <Link to="/contact"> Faculty</Link>
+                            </li>
+                            <li>
+                                <Link to = "/team">Team</Link>
                             </li>
                             <li>
                                 <Link to="/blog">Academic Facilities </Link>
@@ -128,11 +129,13 @@ function Main() {
                             </div>
                             </li>
                             <li>
+                            <div  >
                             <i className="icon fal fa-map-marker-check" />
-                            <span>
+                            <span style={{ display: 'flex', alignItems: 'center' }}>
                             Indian Institute of Technology Dharwad
                             Karnataka, India - 580011.
                             </span>
+                            </div>
                             </li>
                         </ul>
                         </div>
