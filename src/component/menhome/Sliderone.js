@@ -56,7 +56,7 @@ function Sliderone() {
             <div
               className="single-slider slider-bg"
               style={{
-                backgroundImage: `url(${"https://www.iitdh.ac.in/themes/base/images/explore-campus-bg.jpg"})`, // banner image 1
+                backgroundImage: `linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(${"https://www.iitdh.ac.in/sites/default/files/2023-10/slide-03-new.jpg"})`, // banner image 1 with overlay
                 backgroundSize: "cover",
               }}
             >
@@ -65,15 +65,13 @@ function Sliderone() {
                   <div className="col-lg-7 col-md-7">
                     <div className="slider-content s-slider-content mt-130">
                       <h5 data-animation="fadeInUp" data-delay=".4s">
-                        welcome To Qeducato
+                        welcome To CDC
                       </h5>
                       <h2 data-animation="fadeInUp" data-delay=".4s">
-                        Education is the best key success in life
+                        Career Development Cell IIT Dharwad
                       </h2>
                       <p data-animation="fadeInUp" data-delay=".6s">
-                        Donec vitae libero non enim placerat eleifend aliquam
-                        erat volutpat. Curabitur diam ex, dapibus purus sapien,
-                        cursus sed nisl tristique, commodo gravida lectus non.
+                      CDC is a body of IIT Dharwad that supports students in shaping and managing their careers by building critical ingredients required for a student to be a complete professional.
                       </p>
                       <div className="slider-btn mt-30">
                         <Link
@@ -87,7 +85,8 @@ function Sliderone() {
                         </Link>
                         <Link
                           to="/contact"
-                          className="btn ss-btn active"
+                          // className="btn ss-btn active"
+                          className="btn ss-btn mr-15"
                           data-animation="fadeInLeft"
                           data-delay=".4s"
                         >
@@ -105,24 +104,22 @@ function Sliderone() {
             <div
               className="single-slider slider-bg"
               style={{
-                backgroundImage: `url(${"https://cdc.iitdh.ac.in/images/home/banner2.jpg"})`, // banner image 2
+                backgroundImage: `linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("https://www.iitdh.ac.in/sites/default/files/2023-10/slide-02-new_3.jpg")`, // banner image 2 with overlay 
                 backgroundSize: "cover",
               }}
             >
               <div className="container">
                 <div className="row">
                   <div className="col-lg-7 col-md-7">
-                    <div className="slider-content s-slider-content mt-130">
+                    <div className="slider-content s-slider-content mt-130" >
                       <h5 data-animation="fadeInUp" data-delay=".4s">
-                        welcome To Qeducato
+                        welcome To CDC
                       </h5>
                       <h2 data-animation="fadeInUp" data-delay=".4s">
-                        Education is the best key success in life
+                        Career Development Cell IIT Dharwad
                       </h2>
                       <p data-animation="fadeInUp" data-delay=".6s">
-                        Donec vitae libero non enim placerat eleifend aliquam
-                        erat volutpat. Curabitur diam ex, dapibus purus sapien,
-                        cursus sed nisl tristique, commodo gravida lectus non.
+                      CDC is a body of IIT Dharwad that supports students in shaping and managing their careers by building critical ingredients required for a student to be a complete professional.
                       </p>
                       <div className="slider-btn mt-30">
                         <Link
@@ -136,7 +133,8 @@ function Sliderone() {
                         </Link>
                         <Link
                           to="/contact"
-                          className="btn ss-btn active"
+                          // className="btn ss-btn active" {/*Change the classname to have an orange background*/}
+                          className="btn ss-btn mr-15"
                           data-animation="fadeInLeft"
                           data-delay=".4s"
                         >

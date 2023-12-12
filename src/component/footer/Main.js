@@ -13,11 +13,9 @@ function Main() {
                         <div className="f-widget-title">
                         <h2>About Us</h2>
                         </div>
-                        <div className="f-contact">
+                        <div className="f-contact"> {/* about cdc */}
                         <p>
-                            Suspendisse non sem ante. Cras pretium gravida leo a convallis.
-                            Nam malesuada interdum metus, sit amet dictum ante congue eu.
-                            Maecenas ut maximus enim.
+                        CDC is a body of IIT Dharwad that supports students in shaping and managing their careers by building critical ingredients required for a student to be a complete professional.It is committed to assisting all IIT Dharwad students in achieving their career goal.
                         </p>
                         </div>
                         <div className="footer-social mt-10">
@@ -128,11 +126,13 @@ function Main() {
                             </div>
                             </li>
                             <li>
+                            <div  >
                             <i className="icon fal fa-map-marker-check" />
-                            <span>
+                            <span style={{ display: 'flex', alignItems: 'center' }}>
                             Indian Institute of Technology Dharwad
                             Karnataka, India - 580011.
                             </span>
+                            </div>
                             </li>
                         </ul>
                         </div>

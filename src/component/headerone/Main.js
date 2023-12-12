@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from "react";
 import { Link } from "react-router-dom";
-
+import logo from '../../assets/img/Cdc_Logos/cdc_logo.png'
 function Main() {
   const [Btnshow, setBtnshow] = useState(false);
   const [mobile, setmobile] = useState(false);
@@ -35,19 +35,19 @@ function Main() {
             <div className="second-menu">
               <div className="row align-items-center">
                 <div className="col-xl-3 col-lg-3">
-                  <div className="logo">
+                  <div className="logo" style={{width:'140px' }}> {/* Added a logo and adjusted its width */}
                     <Link to="/">
-                      <img src="" alt="logo" />
+                      <img src={logo}  alt="logo" />
                     </Link>
                   </div>
                 </div>
-                <div className="col-xl-6 col-lg-6">
+                <div className="col-xl-8 col-lg-8">
                   <div className="main-menu text-right text-xl-right">
                     <nav id="mobile-menu">
                       <ul>
                         <li className="has-sub">
                           <Link to="/">Home</Link>
-                          <ul>
+                          {/* <ul>
                             <li>
                               <Link to="/">University</Link>
                             </li>
@@ -57,14 +57,14 @@ function Main() {
                             <li>
                               <Link to="/home-three">High School</Link>
                             </li>
-                          </ul>
+                          </ul> */}
                         </li>
-                        <li>
+                        <li className="has-sub">
                           <Link to="/about">About Us</Link>
                         </li>
                         <li className="has-sub">
-                          <Link to="/courses">Courses</Link>
-                          <ul>
+                          <Link to="/student/faq">For Students</Link>
+                          {/* <ul>
                             <li>
                               <Link to="/courses">Courses</Link>
                             </li>
@@ -82,11 +82,11 @@ function Main() {
                                 Course Details 02
                               </Link>
                             </li>
-                          </ul>
+                          </ul> */}
                         </li>
                         <li className="has-sub">
-                          <Link to="#">Pages</Link>
-                          <ul>
+                          <Link to="/recruiter/faq">For Recruiters</Link>
+                          {/* <ul>
                             <li>
                               <Link to="/event">Event</Link>
                             </li>
@@ -111,21 +111,27 @@ function Main() {
                             <li>
                               <Link to="/404-error">404 Error</Link>
                             </li>
-                          </ul>
+                          </ul> */}
                         </li>
                         <li className="has-sub">
                           <Link to="/blog">Blog</Link>
-                          <ul>
+                          {/* <ul>
                             <li>
                               <Link to="/blog">Blog</Link>
                             </li>
                             <li>
                               <Link to="/blog-details">Blog Details</Link>
                             </li>
-                          </ul>
+                          </ul> */}
                         </li>
-                        <li>
-                          <Link to="/contact">Contact</Link>
+                        <li className="has-sub">
+                        <Link to='/event'>
+                        Events
+                        </Link>
+
+                        </li>
+                        <li className="has-sub"> 
+                          <Link to="/contact">Contact Us</Link>
                         </li>
                       </ul>
                     </nav>
@@ -141,6 +147,7 @@ function Main() {
                         style={{
                           right: 0,
                           left: "auto",
+                          top: isScrolled ? "auto" : "-10px",
                           textAlign: "center",
                           textIndent: 0,
                           fontSize: 18,
@@ -160,8 +167,8 @@ function Main() {
                         <nav className="mean-nav">
                           <ul style={{ display: "block" }}>
                             <li className="has-sub">
-                              <a href="/">Home</a>
-                              {Events && (
+                              <Link to="/">Home</Link>
+                              {/* {Events && (
                                 <ul style={{ display: "block" }}>
                                   <li>
                                     <Link to="/">University</Link>
@@ -173,8 +180,8 @@ function Main() {
                                     <Link to="/home-three">High School</Link>
                                   </li>
                                 </ul>
-                              )}
-                              <a
+                              )} */}
+                              {/* <a
                                 className={`mean-expand ${
                                   mobile && "mean-clicked"
                                 }`}
@@ -185,14 +192,14 @@ function Main() {
                                 style={{ fontSize: 18 }}
                               >
                                 {Events ? "-" : "+"}
-                              </a>
+                              </a> */}
                             </li>
                             <li>
                               <Link to="/about">About Us</Link>
                             </li>
                             <li className="has-sub">
-                              <Link to="/courses">Courses</Link>
-                              {News && (
+                              <Link to="/student/faq">For Students</Link>
+                              {/* {News && (
                                 <ul style={{ display: "block" }}>
                                   <li>
                                     <Link to="/courses">Courses</Link>
@@ -214,9 +221,9 @@ function Main() {
                                     </Link>
                                   </li>
                                 </ul>
-                              )}
+                              )} */}
 
-                              <a
+                              {/* <a
                                 className={`mean-expand ${
                                   mobile && "mean-clicked"
                                 }`}
@@ -227,11 +234,11 @@ function Main() {
                                 style={{ fontSize: 18 }}
                               >
                                 {News ? "-" : "+"}
-                              </a>
+                              </a> */}
                             </li>
                             <li className="has-sub">
-                              <a href="#">Pages</a>
-                              {Services && (
+                              <Link to="/recruiter/faq">For Recruiters</Link>
+                              {/* {Services && (
                                 <ul style={{ display: "block" }}>
                                   <li>
                                     <Link to="/event">Event</Link>
@@ -262,8 +269,8 @@ function Main() {
                                     <Link to="/404-error">404 Error</Link>
                                   </li>
                                 </ul>
-                              )}
-                              <a
+                              )} */}
+                              {/* <a
                                 className={`mean-expand ${
                                   mobile && "mean-clicked"
                                 }`}
@@ -274,11 +281,11 @@ function Main() {
                                 style={{ fontSize: 18 }}
                               >
                                 {Services ? "-" : "+"}
-                              </a>
+                              </a> */}
                             </li>
                             <li className="has-sub">
                               <Link to="/blog">Blog</Link>
-                              {Blog && (
+                              {/* {Blog && (
                                 <ul style={{ display: "block" }}>
                                   <li>
                                     <Link to="/blog">Blog</Link>
@@ -299,10 +306,13 @@ function Main() {
                                 style={{ fontSize: 18 }}
                               >
                                 {Blog ? "-" : "+"}
-                              </a>
+                              </a> */}
+                            </li>
+                            <li className="has-sub">
+                            <Link to='/event'>Events</Link>
                             </li>
                             <li className="mean-last">
-                              <Link to="/contact">Contact</Link>
+                              <Link to="/contact">Contact Us</Link>
                             </li>
                           </ul>
                         </nav>

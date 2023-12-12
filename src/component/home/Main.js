@@ -1,6 +1,6 @@
 import React from "react";
 import About from "../menhome/About";
-import Courses from "../menhome/Courses";
+// import Courses from "../menhome/Courses";
 import Event from "../menhome/Event";
 // import Scholarship from "../menhome/Scholarship";
 // import Shep from "../menhome/Shep";
@@ -20,7 +20,7 @@ function Main() {
     <>
       <Slider />
       <About />
-      <Courses />
+      {/* <Courses /> */}
       {/* <Shep/> */}
       <Event />
       {/* <Scholarship/> */}
