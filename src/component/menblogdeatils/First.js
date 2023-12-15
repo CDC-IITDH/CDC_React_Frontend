@@ -1,7 +1,21 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
-
-function First() {
+import { useParams } from 'react-router-dom'
+function First({blogsData}) {
+    const { id } = useParams();
+    const blogId = parseInt(id, 10);
+    const currentBlogIndex = blogsData.findIndex((blogData) => blogData.id === blogId);
+    const currentBlog = blogsData[currentBlogIndex];
+    const { title, date, image, description ,content} = currentBlog;
+    const findPrevAndNext = (currentDate, allBlogs) => {
+      const sortedBlogs = allBlogs.sort((a, b) => new Date(a.date) - new Date(b.date));  
+      const currentIndex = sortedBlogs.findIndex((blog) => blog.id === currentBlog.id);  
+      const prevBlog = currentIndex > 0 ? sortedBlogs[currentIndex - 1] : null;
+      const nextBlog = currentIndex < sortedBlogs.length - 1 ? sortedBlogs[currentIndex + 1] : null;  
+      return { prevBlog, nextBlog };
+    };
+  
+    const { prevBlog, nextBlog } = findPrevAndNext(currentBlog.date, blogsData);
     return (
         <>
             <section className="inner-blog b-details-p pt-120 pb-120">
@@ -11,53 +25,47 @@ function First() {
                             <div className="blog-details-wrap">
                                 <div className="details__content pb-30">
                                     <h2>
-                                        With our vastly improved notifications system, users have more
-                                        control.
+                                        {title}
                                     </h2>
                                     <div className="meta-info">
                                         <ul>
-                                            <li>
+                                            {/* <li>
                                                 <i className="fal fa-eye" /> 100 Views
-                                            </li>
-                                            <li>
+                                            </li> */}
+                                            {/* <li>
                                                 <i className="fal fa-comments" /> 35 Comments
-                                            </li>
+                                            </li> */}
                                             <li>
-                                                <i className="fal fa-calendar-alt" /> 24th March 2023
+                                                <i className="fal fa-calendar-alt" /> {date}
                                             </li>
                                         </ul>
                                     </div>
+                                    <div className="details__content-img">
+                                        <img src={image} alt="" />
+                                    </div>
                                     <p>
-                                        Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
-                                        eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
-                                        enim ad minim veniam, quis nostrud exercitation ullamco laboris
-                                        nisi ut aliquip ex ea commodo amet set for your cool happiness for
-                                        lyour loyal city.
+                                       {description}
                                     </p>
+                                    {content.map((content) => {
+                                        return(
+                                            <div>
+                                            <h3>
+                                                {content.section}
+                                            </h3>
                                     <p>
-                                        Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
-                                        eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
-                                        enim ad minim veniam, quis nostrud exercitation ullamco laboris
-                                        nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in
-                                        reprehenderit in voluptate velit esse cillum dolore eu fugiat
-                                        nulla pariatur. Excepteur sint occaecat cupidatat non proident,
-                                        sunt in culpa qui officia deser unt mollit anim id est laborum.
-                                        Sed ut perspiciatis unde omnis iste natus error sit voluptatem
-                                        accusant ium doloremque laudantium, totam rem aperiam, eaque ipsa
-                                        quae ab illo inventore veritatis et quasi architecto beatae vitae
-                                        dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit
-                                        asperna tur aut odit aut fugit, sed quia consequuntur magni
-                                        dolores eos qui ratione voluptatem sequi nesciunt. Neque porro
-                                        quisq.
+                                        {content.text}
                                     </p>
-                                    <blockquote>
+                                    </div>
+                                        )
+                                    })}
+                                    {/* <blockquote>
                                         <footer>By Rosalina Pong</footer>
                                         <h3>
                                             Viral dreamcatcher keytar typewriter, aest hetic offal umami.
                                             Aesthetic polaroid pug pitchfork post-ironic.
                                         </h3>
-                                    </blockquote>
-                                    <p>
+                                    </blockquote> */}
+                                    {/* <p>
                                         Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
                                         eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
                                         enim ad minim veniam, quis nostrud exercitation ullamco laboris
@@ -67,11 +75,9 @@ function First() {
                                         sunt in culpa qui officia deser unt mollit anim id est laborum.
                                         Sed ut perspiciatis unde omnis iste natus error sit voluptatem
                                         accusant.
-                                    </p>
-                                    <div className="details__content-img">
-                                        <img src="assets/img/blog/b_details01.jpg" alt="" />
-                                    </div>
-                                    <p>
+                                    </p> */}
+                                   
+                                    {/* <p>
                                         Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
                                         eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
                                         enim ad minim veniam, quis nostrud exercitation ullamco laboris
@@ -90,8 +96,8 @@ function First() {
                                         ut labore et dolore magnam aliquam quaerat voluptatem. Lorem ipsum
                                         dolor sit amet,consectetur adipisicing elit, sed do eiusmod
                                         incididunt.
-                                    </p>
-                                    <figure>
+                                    </p> */}
+                                    {/* <figure>
                                         <img src="assets/img/blog/b_details02.jpg" alt="" />
                                         <p>
                                             Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
@@ -110,10 +116,10 @@ function First() {
                                             nostrud exercitation ullamco laboris nisi ut aliquip ex ea
                                             commodo consequat.
                                         </p>
-                                    </figure>
+                                    </figure> */}
                                     <div className="row">
                                         <div className="col-xl-12 col-md-12">
-                                            <div className="post__tag">
+                                            {/* <div className="post__tag">
                                                 <h5>Releted Tags</h5>
                                                 <ul>
                                                     <li>
@@ -126,11 +132,11 @@ function First() {
                                                         <a href="#">tasty</a>
                                                     </li>
                                                 </ul>
-                                            </div>
+                                            </div> */}
                                         </div>
                                     </div>
                                 </div>
-                                <div className="posts_navigation pt-35 pb-35">
+                                {/* <div className="posts_navigation pt-35 pb-35">
                                     <div className="row align-items-center">
                                         <div className="col-xl-4 col-md-5">
                                             <div className="prev-link">
@@ -154,8 +160,41 @@ function First() {
                                             </div>
                                         </div>
                                     </div>
-                                </div>
-                                <div className="related__post mt-45 mb-85">
+                                </div> */}
+                                <div className="posts_navigation pt-35 ">
+        <div className="row align-items-center">
+          <div className="col-xl-4 col-md-5">
+            {prevBlog && (
+              <div 
+            //   className="prev-link"
+              >
+                <span>Prev Post</span>
+                <h4>
+                  <Link to={`/blog-details/${prevBlog.id}`} >{prevBlog.title}</Link>
+                </h4>
+              </div>
+            )}
+          </div>
+          <div className="col-xl-4 col-md-2 text-left text-md-center">
+            <Link to="/blog" className="blog-filter">
+              <img src="assets/img/icon/c_d01.png" alt="" />
+            </Link>
+          </div>
+          <div className="col-xl-4 col-md-5">
+            {nextBlog && (
+              <div 
+            //   className="next-link text-left text-md-right"
+            >
+                <span>Next Post</span>
+                <h4>
+                  <Link to={`/blog-details/${nextBlog.id}`}>{nextBlog.title}</Link>
+                </h4>
+              </div>
+            )}
+          </div>
+        </div>
+      </div>
+                                {/* <div className="related__post mt-45 mb-85">
                                     <div className="post-title">
                                         <h4>Related Post</h4>
                                     </div>
@@ -197,8 +236,8 @@ function First() {
                                             </div>
                                         </div>
                                     </div>
-                                </div>
-                                <div className="avatar__wrap text-center mb-45">
+                                </div> */}
+                                {/* <div className="avatar__wrap text-center mb-45">
                                     <div className="avatar-img">
                                         <img src="assets/img/blog/comment/avatar.png" alt="" />
                                     </div>
@@ -230,8 +269,8 @@ function First() {
                                             nisi ut aliquip ex ea commodo consequa aute irure dolor.
                                         </p>
                                     </div>
-                                </div>
-                                <div className="comment__wrap pb-45">
+                                </div> */}
+                                {/* <div className="comment__wrap pb-45">
                                     <div className="comment__wrap-title">
                                         <h5>Comments</h5>
                                     </div>
@@ -292,8 +331,8 @@ function First() {
                                             </a>
                                         </div>
                                     </div>
-                                </div>
-                                <div id="comments" className="comments-area  mt-45">
+                                </div> */}
+                                {/* <div id="comments" className="comments-area  mt-45">
                                     <div id="respond" className="comment-respond">
                                         <h3 id="reply-title" className="comment-reply-title">
                                             Leave a Reply{" "}
@@ -334,12 +373,11 @@ function First() {
                                         </form>
                                     </div>
 
-                                </div>
+                                </div> */}
                             </div>
                         </div>
-
-                        <div className="col-sm-12 col-md-12 col-lg-4">
-                            <aside className="sidebar-widget">
+                        {/* <div className="col-sm-12 col-md-12 col-lg-4"> */}
+                            {/* <aside className="sidebar-widget">
                                 <section id="search-3" className="widget widget_search">
                                     <h2 className="widget-title">Search</h2>
                                     <form role="search" method="get" className="search-form" action="http://wordpress.zcube.in/finco/">
@@ -436,11 +474,11 @@ function First() {
                                         </a>
                                     </div>
                                 </section>
-                            </aside>
+                            </aside> */}
                         </div>
 
                     </div>
-                </div>
+                {/* </div> */}
             </section>
         </>
     )

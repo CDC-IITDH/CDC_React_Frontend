@@ -22,7 +22,8 @@ import Contact from "../component/contact/Main";
 import Projectdeatils from "../component/Pages/Projectdeatils/Main";
 import Home from "../component/home/Main";
 import Header from "../component/headerone/Main";
-
+import eventsData from '../data/events.json';
+import blogsData from '../data/blogs.json';
 function Index() {
   const location = useLocation();
   const path = location.pathname;
@@ -37,7 +38,7 @@ function Index() {
         <Route path="/" element={<Home />} />
         <Route path="/about" element={<About />} />
         <Route path="/event" element={<Event />} />
-        <Route path="/single-event" element={<Eventdeatils />} />
+        <Route path="/single-event/:id" element={<Eventdeatils eventsData={eventsData} />} />
         <Route path="/gallery" element={<Gallery />} />
         <Route path="/student/faq" element={<Faq />} />
         <Route path="/recruiter/faq" element={<Faq />} />
@@ -55,7 +56,7 @@ function Index() {
         <Route path="/team-single" element={<Teacherdeatils />} /> */}
 
         <Route path="/blog" element={<Blog />} />
-        <Route path="/blog-details" element={<Blogdeatils />} />
+        <Route path="/blog-details/:id" element={<Blogdeatils blogsData={blogsData} />} />
         <Route path="/contact" element={<Contact />} />
         <Route path="*" element={<Error />} />
       </Routes>

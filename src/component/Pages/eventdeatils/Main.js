@@ -3,12 +3,12 @@ import Bredcom from "../../Bredcom/Main";
 import Brand from "../../menhomethree/Brand";
 import First from "../meneventdeatils/First";
 
-function Main() {
+function Main({eventsData}) {
   return (
     <>
       <Bredcom title="Home" subtitle="Event Details" />
-      <First />
-      <Brand />
+      <First eventsData={eventsData} />
+      {/* <Brand /> */}
     </>
   );
 }
