@@ -1,6 +1,6 @@
 import React from "react";
 import Bredcom from "../../Bredcom/Main";
-import Brand from "../../menhomethree/Brand";
+// import Brand from "../../menhomethree/Brand";
 import First from "../menevent/First";
 
 function Main() {
@@ -8,7 +8,7 @@ function Main() {
     <>
       <Bredcom title="Home" subtitle="Our Event" />
       <First />
-      <Brand />
+      {/* <Brand /> */}
     </>
   );
 }

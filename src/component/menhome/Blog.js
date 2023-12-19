@@ -1,7 +1,14 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
-
+import blogs from '../../data/blogs.json';
 function Blog() {
+    const sortedBlogs = blogs
+    .sort((a, b) => new Date(b.date) - new Date(a.date))
+    .slice(0, 3)
+    .map((blog) => {
+        return blog;
+    });
+
   return (
     <>
         <section id="blog" className="blog-area p-relative fix pt-120 pb-90" style={{ backgroundImage: "url(assets/img/bg/blog_bg.png)", backgroundRepeat: "no-repeat", backgroundPosition: "top" }} >
@@ -17,47 +24,50 @@ function Blog() {
                 </div>
                 </div>
                 <div className="row">
+                {sortedBlogs.map((blog) => {
+                    return(
                 <div className="col-lg-4 col-md-6">
                     <div className="single-post2 hover-zoomin mb-30 wow fadeInUp animated" data-animation="fadeInUp" data-delay=".4s" >
                     <div className="blog-thumb2">
-                        <Link to="/blog-details">
-                            <img src="assets/img/blog/inner_b1.jpg" alt="img" />
+                        <Link to={`/blog-details/${blog.id}`}>
+                            <img src={blog.image} alt="img" />
                         </Link>
                         <div className="date-home">
-                        <i className="fal fa-calendar-alt" /> 24th March 2023
+                        <i className="fal fa-calendar-alt" /> {blog.date}
                         </div>
                     </div>
                     <div className="blog-content2">
                         <div className="b-meta">
                         <div className="meta-info">
                             <ul>
-                            <li>
+                            {/* <li>
                                 <i className="fal fa-user" /> By Admin{" "}
-                            </li>
-                            <li>
+                            </li> */}
+                            {/* <li>
                                 <i className="fal fa-comments" /> 3 Comments
-                            </li>
+                            </li> */}
                             </ul>
                         </div>
                         </div>
                         <h4>
-                        <Link to="/blog-details">
-                            Cras accumsan nulla nec lacus ultricies placerat.
+                        <Link to={`/blog-details/${blog.id}`}>
+                            {blog.title}
                         </Link>
                         </h4>
                         <p>
-                        Curabitur sagittis libero tincidunt tempor finibus. Mauris at
-                        dignissim ligula, nec tristique orci.
+                        {blog.description.split(' ').slice(0, 11).join(' ')}
                         </p>
                         <div className="blog-btn">
-                        <Link to="/blog-details">
+                        <Link to={`/blog-details/${blog.id}`}>
                             Read More <i className="fal fa-long-arrow-right" />
                         </Link>
                         </div>
                     </div>
                     </div>
                 </div>
-                <div className="col-lg-4 col-md-6">
+                    );
+                })}
+                {/* <div className="col-lg-4 col-md-6">
                     <div className="single-post2 mb-30 hover-zoomin wow fadeInUp animated" data-animation="fadeInUp" data-delay=".4s" >
                     <div className="blog-thumb2">
                         <Link to="/blog-details">
@@ -96,8 +106,8 @@ function Blog() {
                         </div>
                     </div>
                     </div>
-                </div>
-                <div className="col-lg-4 col-md-6">
+                </div> */}
+                {/* <div className="col-lg-4 col-md-6">
                     <div className="single-post2 mb-30 hover-zoomin wow fadeInUp animated" data-animation="fadeInUp" data-delay=".4s" >
                     <div className="blog-thumb2">
                         <Link to="/blog-details">
@@ -136,7 +146,7 @@ function Blog() {
                         </div>
                     </div>
                     </div>
-                </div>
+                </div> */}
                 </div>
             </div>
         </section>

@@ -1,0 +1,83 @@
+[
+    {
+      "id": 1,
+      "date": "20 December, 2023",
+      "title": "Basic UI & UX Design for new development",
+      "image": "https://www.iitdh.ac.in/sites/default/files/2023-10/slide-02-new_3.jpg",
+      "description": "Seamlessly visualize quality intellectual capital without superior collaboration and ideate",
+      "time": "3:30 pm - 4:30 pm",
+      "venue":"Academic Block 1",
+      "registrationtimeopen":"Dec 17, 2023 15:37:25",
+      "registrationtimeclose":"Dec 19, 2023 18:37:25"
+    },
+    {
+      "id": 2,
+      "date": "1 January, 2024",
+      "title": "Digital Education Market Briefing: Minnesota 2023",
+      "image": "https://cdc.iitdh.ac.in/images/home/gate.jpg",
+      "description": "Seamlessly visualize quality intellectual capital without superior collaboration and ideate",
+      "time": "3:30 pm - 4:30 pm",
+      "venue":"Walmi Campus",
+      "registrationtimeopen":"Dec 28, 2023 15:37:25",
+      "registrationtimeclose":"Dec 31, 2023 18:37:25"
+    },
+    {
+      "id": 3,
+      "date": "26 January, 2024",
+      "title": "Learning Network Webinars for Music Teachers",
+      "image": "https://www.iitdh.ac.in/sites/default/files/2023-10/slide-04-new.jpg",
+      "description": "Seamlessly visualize quality intellectual capital without superior collaboration and ideate",
+      "time": "3:30 pm - 4:30 pm",
+      "venue":"Room23",
+      "registrationtimeopen":"Jan 24, 2024 15:37:25",
+      "registrationtimeclose":"Jan 25, 2024 18:37:25"
+
+    },
+    {
+      "id": 4,
+      "date": "2 November, 2023",
+      "title": "Next-Gen Higher Education Students Have Arrived?",
+      "image": "https://www.iitdh.ac.in/sites/default/files/2023-10/slide-03-new.jpg",
+      "description": "Seamlessly visualize quality intellectual capital without superior collaboration and ideate",
+      "time": "3:30 pm - 4:30 pm",
+      "venue":"Auditorium",
+      "registrationtimeopen":"Oct 27, 2023 15:37:25",
+      "registrationtimeclose":"Nov 1, 2023 18:37:25"
+    },
+    {
+      "id": 5,
+      "date": "24 November, 2023",
+      "title": "Digital Art & 3D Model – a future for film company",
+      "image": "https://www.iitdh.ac.in/sites/default/files/2023-10/slide-03-new.jpg",
+      "description": "Seamlessly visualize quality intellectual capital without superior collaboration and ideate",
+      "time": "3:30 pm - 4:30 pm",
+      "venue":"Academic Block 2",
+      "registrationtimeopen":"Nov 19, 2023 15:37:25",
+      "registrationtimeclose":"Nov 20, 2023 18:37:25"
+    },
+    {
+      "id": 6,
+      "date": "4 December, 2023",
+      "title": "Conscious Discipline Summer Institute",
+      "image": "https://www.iitdh.ac.in/sites/default/files/2023-10/slide-03-new.jpg",
+      "description": "Seamlessly visualize quality intellectual capital without superior collaboration and ideate",
+      "time": "3:30 pm - 4:30 pm",
+      "venue":"CLT",
+      "registrationtimeopen":"Nov 28, 2023 15:37:25",
+      "registrationtimeclose":"Dec 1, 2023 18:37:25"
+    },
+    {
+      "id": 7,
+      "date": "9 December, 2023",
+      "title": "Conscious Discipline Summer Institute",
+      "image": "https://www.iitdh.ac.in/sites/default/files/2023-10/slide-03-new.jpg",
+      "description": "Seamlessly visualize quality intellectual capital without superior collaboration and ideate",
+      "time": "3:30 pm - 4:30 pm",
+      "venue":"CLT",
+      "registrationtimeopen":"Nov 29, 2023 15:37:25",
+      "registrationtimeclose":"Dec 7, 2023 18:37:25"
+    }
+   
+  ]
+  
+  

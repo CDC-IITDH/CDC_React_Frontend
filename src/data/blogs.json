@@ -1,0 +1,82 @@
+[
+    {
+      "id": 1,
+      "title": "A Journey of Dedication and Success: Meet Prateek Jain",
+      "date": "Jul 30, 2023",
+      "image": "https://cdc.iitdh.ac.in/images/career_voyage/prateek.jpeg",
+      "description": "Prateek, currently pursuing his MS in Computer Science at Columbia University in the City of New York, USA, has skillfully navigated both the academic and corporate landscapes. Publishing 2 research papers at distinguished conferences and noteworthy industry experience at esteemed organisations such as DRDO, Adobe Research, and CRED, Prateek has certainly made the IIT Dharwad community proud. In this blog post, we delve into Prateek's journey from his days at IIT Dharwad to his current pursuits in academia and industry.",
+      "content": [
+        {
+          "section": "Early Days at IIT Dharwad and the Road to Internships",
+          "text": "Prateek's tale begins at IIT Dharwad, where he spent a significant amount of time on academics and participating in events from the very first year. But it was in his second year that he started venturing into the world of internships. His first stepping stone was at the Defence Research and Development Organisation (DRDO) where he got to work on computer vision, a nascent field at the time. This opportunity allowed him to take his first step into the realm of practical applications of computer science. His journey didn't stop there, however. The following year, Prateek interned at Adobe Research, a name that needs no introduction. Here, he got to dive headfirst into cutting-edge research and even secured a patent, a testament to his skill and dedication."
+        },
+        {
+          "section": "Bridging the Gap Between Academia and Industry",
+          "text": "After graduation, Prateek made a shift to industry, spending a year at CRED as a data scientist. He fondly recalls the excitement of working at a big startup, which he preferred over larger tech companies due to the fast-paced environment and the potential for a more substantial impact. But Prateek's heart remained in academia. Today, he is furthering his studies at Columbia University in the City of New York, where he's been impressed by the caliber of the professors and the research opportunities. He's also joined a well-known online real estate company in an applied data science role, where he's making the most of his skills and experiences."
+        },
+        {
+            "section":"Exploration Leads to Knowledge",
+            "text":"Prateek's introduction to computer vision was a serendipitous one. A senior, Ashish Arora, had suggested some machine learning courses at the end of Prateek's first year, which piqued his interest in the field. When the time came to apply for internships, he made sure to equip himself with knowledge of computer vision through a course, which he then utilized during his workInterestingly, Prateek landed his DRDO internship through a series of cold emails to professors at foreign universities, IITs, and various other places. Among the few acceptances he received was an opportunity to connect with a scientist at DRDO through a professor at IIT Dharwad. This goes to show that sometimes, opportunities come from the most unexpected places."
+        },
+        {
+            "section":"The Adobe Story",
+            "text":"Prateek's journey to securing an internship at Adobe Research is an intriguing one. Although he applied to Adobe during his second year, he was late in submitting his application and was informed that all their positions had been filled. However, in his third year, Adobe reached out to him before he had even started his application process. They had found his resume in their files, liked it, and wanted to interview him. By the end of July or August, he had cleared the interview and secured his place at Adobe. This is a testament to the strength of Prateek's resume and his skills."
+            
+        },
+        {
+            "section":"Crafting an Impressive Resume",
+            "text":"Prateek believes that a good resume should spotlight information that's relevant to the industry. While personal achievements may feel significant, they might not hold much weight in the professional sphere. For instance, a school leadership role may not be as impressive to potential employers as the projects you've tackled and your academic performance. Prateek suggests receiving feedback from industry professionals and incorporating that into your resume for maximum effect.Prateek offers valuable advice for those who perform well in coding rounds but get stuck in interviews. His approach towards preparation involves understanding the types of questions that a company typically asks in its interviews. He found it useful to explore platforms like LeetCode to better prepare for his coding interviews at companies like CRED. He also draws attention to the gap between academic study fields like data structures and algorithms and what companies typically ask during interviews, emphasising that candidates should prepare accordingly."
+        }
+        ,
+        {
+            "section":"Competitive Coding - A Necessary Skill?",
+            "text":"Prateek acknowledges that many students prepare for interviews by doing competitive coding. He suggests platforms like LeetCode, Codeforces, and CodeChef for interview preparation and competitive programming, respectively. However, he also points out that while competitive programming holds significance due to its prevalence in interviews, it may not always be directly applicable to day-to-day job responsibilities."
+        },
+        {
+            "section":"Preparation for Prestigious Universities",
+            "text":"When it comes to securing admission into a prestigious university, Prateek lays stress on the significance of maintaining a good academic record. However, he also acknowledges that impactful research, such as publishing papers at renowned conferences or undertaking notable research projects, can compensate for a less-than-stellar GPA.He further emphasises the importance of quality letters of recommendation. According to him, these letters should come from individuals who know you well and can strongly advocate for your abilities. Generic letters may work against you, so make sure to seek recommendations from people who have worked closely with you."
+        },
+        {
+            "section":"Academia vs. Industry - A Personal Experience",
+            "text":"Prateek shares his unique insights into the differences between the professional world and academia. In the industry, every task you undertake is tied to generating revenue. The focus is on achieving measurable outcomes that contribute to the company's financial success.On the other hand, in academia, the emphasis lies on conducting research and exploring new ideas. However, Prateek notes that while academia offers the opportunity to publish research papers, the impact is usually limited to a niche audience. Working in the industry allows you to make a significant impact, with your contributions potentially reaching millions of customers."
+        },
+        {
+            "section":"Recommendations for the Aspiring Impact-Makers",
+            "text":"For those at IIT Dharwad who want to make an impact but don’t know where to start or what skills to develop, Prateek offers some solid advice. He encourages first and second-year students to use their time wisely, to study diligently, and to engage in as many projects as possible related to their major. He also emphasises the importance of having a basic understanding of web development, considering it an essential skill for those planning to start a startup in the futurePrateek urges students to explore various fields during their early years and not limit themselves to a particular field just because it's currently trendy. He believes that while it's good to have knowledge in multiple areas, the industry generally values individuals who have mastered one specific domain"
+        },
+        {
+            "section":"Exploring Different Fields – The How",
+            "text":"When it comes to exploring different fields, Prateek believes in the importance of connecting and engaging with people from different backgrounds. His own experiences in machine learning and cybersecurity came from interactions with a senior and his best friend in collegeMoreover, he credits his second-year Software Systems Lab course, specifically for computer science students, for providing him with web development experience. Prateek emphasises that professors can be an excellent resource to start or delve deeper into a particular field. At IIT, students have access to exceptional professors who can offer valuable insights and a better understanding of how things function in a specific subfield."
+        },
+        {
+             "section":"A Journey of Endless Learning and Growth",
+             "text":"Prateek Jain's journey is a testament to his passion for computer science, his dedication to both academia and industry and his relentless pursuit of knowledge and success. From his early days at IIT Dharwad to his current pursuits at Columbia University and in the corporate world, Prateek's story is filled with valuable insights and advice.His experiences highlight the importance of academics, research, and practical experience in shaping a successful career. He emphasises the importance of exploring different fields, mastering a specific domain, crafting a strong resume, and preparing effectively for interviews. His advice to students and young professionals underscores the significance of hard work, continuous learning, and the pursuit of passion.As we conclude our conversation with Prateek, we are reminded of the profound impact that our alumni have in the world and the powerful role that IIT Dharwad plays in shaping the leaders of tomorrow"
+
+        },
+        {
+          "section": "Join the Conversation",
+          "text": "We hope that Prateek's journey has inspired you, whether you're a student at the start of your academic journey or a seasoned professional. The road to success is paved with hard work, exploration, and continual learning, as Prateek's story so eloquently demonstrates."
+        }
+      ]   
+    },
+    {
+        "id": 2,
+        "title": "Journey to CRED: Mayank Mittal, IIT Dharwad Alumnus",
+        "date": "Aug 6, 2023",
+        "image": "https://cdc.iitdh.ac.in/images/career_voyage/mayank.jpeg",
+        "description": "In this insightful post, Mayank Mittal shares his journey as a backend developer at CRED, emphasizing the significance of exploration, skill alignment, and networking. He details his approach to interview preparation and offers valuable resources for success, including mock interviews, coding books, and online platforms. To learn more about Mayank and his experiences at IIT Dharwad, check out this blog post!",
+        "content": [
+            {
+              "section": "Early Days at IIT Dharwad and the Road to Internships",
+              "text": "Prateek's tale begins at IIT Dharwad, where he spent a significant amount of time on academics and participating in events from the very first year. But it was in his second year that he started venturing into the world of internships. His first stepping stone was at the Defence Research and Development Organisation (DRDO) where he got to work on computer vision, a nascent field at the time. This opportunity allowed him to take his first step into the realm of practical applications of computer science. His journey didn't stop there, however. The following year, Prateek interned at Adobe Research, a name that needs no introduction. Here, he got to dive headfirst into cutting-edge research and even secured a patent, a testament to his skill and dedication."
+            },
+            {
+              "section": "Bridging the Gap Between Academia and Industry",
+              "text": "After graduation, Prateek made a shift to industry, spending a year at CRED as a data scientist. He fondly recalls the excitement of working at a big startup, which he preferred over larger tech companies due to the fast-paced environment and the potential for a more substantial impact. But Prateek's heart remained in academia. Today, he is furthering his studies at Columbia University in the City of New York, where he's been impressed by the caliber of the professors and the research opportunities. He's also joined a well-known online real estate company in an applied data science role, where he's making the most of his skills and experiences."
+            },
+            {
+              "section": "Join the Conversation",
+              "text": "We hope that Prateek's journey has inspired you, whether you're a student at the start of your academic journey or a seasoned professional. The road to success is paved with hard work, exploration, and continual learning, as Prateek's story so eloquently demonstrates."
+            }
+          ]   
+      }]

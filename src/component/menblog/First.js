@@ -1,7 +1,7 @@
 import React, { useState } from 'react'
 import { Link } from 'react-router-dom';
 import Slider from "react-slick";
-
+import blogs from '../../data/blogs.json';
 function SampleNextArrow(props) {
     const { className, style, onClick } = props;
     return (
@@ -19,68 +19,80 @@ function SamplePrevArrow(props) {
 
 
 function First() {
-
     const [video, setVideo] = useState();
-
+    const [currentPage, setCurrentPage] = useState(1);
+    const blogsPerPage = 3; // You can adjust this value based on your preference
+    const indexOfLastBlog = currentPage * blogsPerPage;
+    const indexOfFirstBlog = indexOfLastBlog - blogsPerPage;
+    const sortedBlogs = blogs
+    .sort((a, b) => new Date(b.date) - new Date(a.date))
+    .map((blog) => {
+        return blog;
+    });
+    const currentBlogs = sortedBlogs.slice(indexOfFirstBlog, indexOfLastBlog);
     const settings = {
         dots: false,
         infinite: true,
         arrows: true,
         speed: 1500,
-        slidestoshow: 1,
+        slidesToShow: 1, // Corrected property name
         slidesToScroll: 1,
         fade: true,
         prevArrow: <SamplePrevArrow />,
         nextArrow: <SampleNextArrow />,
-    };
-
+      };
+    const handlePageChange = (pageNumber) => {
+        if (pageNumber >= 1 && pageNumber <= Math.ceil(blogs.length / blogsPerPage)) {
+          setCurrentPage(pageNumber);
+        }
+      };
     return (
         <>
             <section className="inner-blog pt-120 pb-120">
                 <div className="container">
                     <div className="row">
                         <div className="col-lg-8">
+                        {currentBlogs
+  .map((blog) => {
+                            return(
                             <div className="bsingle__post mb-50">
                                 <div className="bsingle__post-thumb">
-                                    <img src="assets/img/blog/inner_b1.jpg" alt="" />
+                                    <img src={blog.image} alt="" />
                                 </div>
                                 <div className="bsingle__content">
                                     <div className="meta-info">
                                         <div className="meta-info">
                                             <ul>
-                                                <li>
+                                                {/* <li>
                                                     <i className="fal fa-eye" /> 100 Views
-                                                </li>
-                                                <li>
+                                                </li> */}
+                                                {/* <li>
                                                     <i className="fal fa-comments" /> 35 Comments
-                                                </li>
+                                                </li> */}
                                                 <li>
-                                                    <i className="fal fa-calendar-alt" /> 24th March 2023
+                                                    <i className="fal fa-calendar-alt" /> {blog.date}
                                                 </li>
                                             </ul>
                                         </div>
                                     </div>
                                     <h2>
-                                        <Link to="/blog-details">
-                                            Lorem ipsum dolor sit amet, consectetur cing elit, sed do
-                                            eiusmod tempor.
+                                        <Link to={`/blog-details/${blog.id}`}>
+                                            {blog.title}
                                         </Link>
                                     </h2>
                                     <p>
-                                        Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
-                                        eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
-                                        enim ad minim veniam, quis nostrud exercitation ullamco laboris
-                                        nisi ut aliquip ex ea commodo consequat.Duis aute irure dolor in
-                                        reprehenderit in voluptate velit esse.
+                                       {blog.description.split(' ').slice(0, 11).join(' ')}
                                     </p>
                                     <div className="blog__btn">
-                                        <Link to="/blog-details" className="btn">
+                                        <Link to={`/blog-details/${blog.id}`} className="btn">
                                             Read More <i className="fal fa-long-arrow-right" />
                                         </Link>
                                     </div>
                                 </div>
                             </div>
-                            <div className="bsingle__post mb-50">
+                            );
+                        })}
+                            {/* <div className="bsingle__post mb-50">
                                 <div className="bsingle__post-thumb video-p">
                                     <img src="assets/img/blog/inner_b2.jpg" alt="" />
                                     <Link to="#" className="video-i popup-video" onClick={() => setVideo(true)} >
@@ -120,8 +132,8 @@ function First() {
                                         </Link>
                                     </div>
                                 </div>
-                            </div>
-                            <div className="bsingle__post mb-50">
+                            </div> */}
+                            {/* <div className="bsingle__post mb-50">
 
                                 <Slider className="bsingle__post-thumb blog-active" {...settings}>
                                     <div className="slide-post">
@@ -168,8 +180,8 @@ function First() {
                                         </Link>
                                     </div>
                                 </div>
-                            </div>
-                            <div className="bsingle__post mb-50">
+                            </div> */}
+                            {/* <div className="bsingle__post mb-50">
                                 <div className="bsingle__post-thumb embed-responsive embed-responsive-16by9">
                                     <iframe height={300} allow="autoplay" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/547295505&color=%23ff5500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true&visual=true" />
                                 </div>
@@ -206,8 +218,8 @@ function First() {
                                         </Link>
                                     </div>
                                 </div>
-                            </div>
-                            <div className="bsingle__post mb-50">
+                            </div> */}
+                            {/* <div className="bsingle__post mb-50">
                                 <div className="bsingle__content">
                                     <div className="meta-info">
                                         <ul>
@@ -241,8 +253,8 @@ function First() {
                                         </Link>
                                     </div>
                                 </div>
-                            </div>
-                            <div className="bsingle__post mb-50">
+                            </div> */}
+                            {/* <div className="bsingle__post mb-50">
                                 <div className="bsingle__content quote-post" style={{ backgroundImage: "url(img/bg/quote_bg.png)" }} >
                                     <div className="meta-info">
                                         <ul>
@@ -266,40 +278,33 @@ function First() {
                                         </Link>
                                     </h2>
                                 </div>
-                            </div>
+                            </div> */}
                             <div className="pagination-wrap">
-                                <nav>
-                                    <ul className="pagination">
-                                        <li className="page-item">
-                                            <a href="#">
-                                                <i className="fas fa-angle-double-left" />
-                                            </a>
-                                        </li>
-                                        <li className="page-item active">
-                                            <a href="#">1</a>
-                                        </li>
-                                        <li className="page-item">
-                                            <a href="#">2</a>
-                                        </li>
-                                        <li className="page-item">
-                                            <a href="#">3</a>
-                                        </li>
-                                        <li className="page-item">
-                                            <a href="#">...</a>
-                                        </li>
-                                        <li className="page-item">
-                                            <a href="#">10</a>
-                                        </li>
-                                        <li className="page-item">
-                                            <a href="#">
-                                                <i className="fas fa-angle-double-right" />
-                                            </a>
-                                        </li>
-                                    </ul>
-                                </nav>
-                            </div>
+        <nav>
+          <ul className="pagination">
+            <li className="page-item">
+              <a href="#" onClick={() => handlePageChange(currentPage - 1)}>
+                <i className="fas fa-angle-double-left" />
+              </a>
+            </li>
+            {Array.from({ length: Math.ceil(blogs.length / blogsPerPage) }, (_, i) => (
+              <li key={i} className={`page-item ${currentPage === i + 1 ? 'active' : ''}`}>
+                <a href="#" onClick={() => handlePageChange(i + 1)}>
+                  {i + 1}
+                </a>
+              </li>
+            ))}
+            <li className="page-item">
+              <a href="#" onClick={() => handlePageChange(currentPage + 1)}>
+                <i className="fas fa-angle-double-right" />
+              </a>
+            </li>
+          </ul>
+        </nav>
+      </div>
+
                         </div>
-                        <div className="col-sm-12 col-md-12 col-lg-4">
+                        {/* <div className="col-sm-12 col-md-12 col-lg-4">
                             <aside className="sidebar-widget">
                                 <section id="search-3" className="widget widget_search">
                                     <h2 className="widget-title">Search</h2>
@@ -398,7 +403,7 @@ function First() {
                                     </div>
                                 </section>
                             </aside>
-                        </div>
+                        </div> */}
                     </div>
                 </div>
             </section>
