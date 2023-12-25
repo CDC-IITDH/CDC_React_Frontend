@@ -5,9 +5,6 @@ function About() {
   return (
     <>
        <section className="about-area about-p pt-120 pb-120 p-relative fix" style={{ background: "#eff7ff" }} >
-            <div className="animations-02">
-                <img src="assets/img/bg/an-img-02.png" alt="contact-bg-an-01" />
-            </div>
 
             <div className="container">
                 <div className="row justify-content-center align-items-center">
@@ -40,7 +37,9 @@ function About() {
                         We are proud to offer top ranige in employment services such and
                         asser payroll and benefits administrato managemen and asistance with
                         global business range ployment employer readings from religious
-                        texts or literature are also commonly inc compliance.
+                        texts or literature are also commonly inc compliance. */}
+                        The institute offers three UG programs – B.Tech. in Computer Science and Engineering, Electrical Engineering and Mechanical Engineering. Ph.D Programs are offered in the areas of Electrical Engineering, Mechanical Engineering, Mathematics, Computer Science, Physics, Humanities and Social Sciences, Biosciences Bioengineering and Chemistry.
+
                     </p>
                     <div className="about-content2">
                         <div className="row">

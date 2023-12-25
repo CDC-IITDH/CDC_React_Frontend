@@ -57,18 +57,6 @@ function Goging() {
   return (
     <>
         <section className="class-area pt-120 pb-120 p-relative fix">
-            <div className="animations-06">
-                <img src="assets/img/bg/an-img-11.png" alt="an-img-01" />
-            </div>
-            <div className="animations-11">
-                <img src="assets/img/bg/an-img-01.png" alt="contact-bg-an-01" />
-            </div>
-            <div className="animations-12">
-                <img src="assets/img/bg/an-img-12.png" alt="contact-bg-an-01" />
-            </div>
-            <div className="animations-13">
-                <img src="assets/img/bg/an-img-13.png" alt="contact-bg-an-01" />
-            </div>
             <div className="container">
                 <div className="row">
                 <div className="col-lg-12 col-md-12">

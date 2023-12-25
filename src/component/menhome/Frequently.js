@@ -35,12 +35,6 @@ function Frequently() {
     return (
         <>
             <section className="faq-area pt-120 pb-120 p-relative fix">
-                <div className="animations-10">
-                    <img src="assets/img/bg/an-img-04.png" alt="an-img-01" />
-                </div>
-                <div className="animations-08">
-                    <img src="assets/img/bg/an-img-05.png" alt="contact-bg-an-01" />
-                </div>
                 <div className="container">
                     <div className="row justify-content-center  align-items-center">
                         <div className="col-lg-7">

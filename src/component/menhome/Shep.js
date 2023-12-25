@@ -26,9 +26,6 @@ function Shep() {
   return (
     <>
       <section className="steps-area p-relative" style={{ backgroundColor: '#032e3f' }}>
-        <div className="animations-10">
-          <img src="assets/img/bg/an-img-10.png" alt="an-img-01" />
-        </div>
         <div className="container">
           <div className="row align-items-center">
             <div className="col-lg-6 col-md-12">

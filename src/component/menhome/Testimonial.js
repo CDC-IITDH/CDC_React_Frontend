@@ -40,12 +40,6 @@ function Testimonial() {
   return (
     <>
        <section className="testimonial-area pt-120 pb-115 p-relative fix">
-            <div className="animations-01">
-                <img src="assets/img/bg/an-img-03.png" alt="an-img-01" />
-            </div>
-            <div className="animations-02">
-                <img src="assets/img/bg/an-img-04.png" alt="contact-bg-an-01" />
-            </div>
             <div className="container">
                 <div className="row">
                     <div className="col-lg-12">

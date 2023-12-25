@@ -109,10 +109,10 @@ function Testimonialthree() {
                       </span>
                     </div>
                     <p className="truncate-text" style={CssData.InfoStyle}>
-                      {testimonial.quote.length > 700
-                        ? `${testimonial.quote.substring(0, 700)}...`
+                      {testimonial.quote.length > 735
+                        ? `${testimonial.quote.substring(0, 735)}...`
                         : testimonial.quote}
-                      {testimonial.quote.length > 700 && (
+                      {testimonial.quote.length > 735 && (
                         <a href="#" style={CssData.readMore}>
                           Read more
                         </a>

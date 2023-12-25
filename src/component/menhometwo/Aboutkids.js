@@ -5,12 +5,6 @@ function Aboutkids() {
   return (
     <>
         <section className="about-area about-p pt-120 pb-120 p-relative fix" style={{ background: "#f7f9ff" }} >
-            <div className="animations-06">
-                <img src="assets/img/bg/an-img-01.png" alt="an-img-01" />
-            </div>
-            <div className="animations-09">
-                <img src="assets/img/bg/slider_shape03.png" alt="contact-bg-an-01" />
-            </div>
             <div className="container">
                 <div className="row justify-content-center align-items-center">
                 <div className="col-lg-6 col-md-12 col-sm-12">
