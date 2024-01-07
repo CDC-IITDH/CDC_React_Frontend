@@ -47,6 +47,7 @@ function First({eventsData}) {
       };
     }, [date]);
     const isCountdownZeroOrNegative = countdown.days <= 0 && countdown.hours <= 0 && countdown.minutes <= 0 && countdown.seconds <= 0;
+    const registrationStatusText = getRegistrationStatusText();
     return (
         <>
             <section className="project-detail">
@@ -189,13 +190,15 @@ function First({eventsData}) {
                                             <span className="icon fal fa-phone" />
                                             <strong>+91 705 2101 786</strong>
                                         </li> */}
+                                        {registrationStatusText !== 'Registration Closed' && (
                                         <li>
                                             <div className="slider-btn">
-                                                <Link to="/contact" className="btn ss-btn smoth-scroll">
-                                                {getRegistrationStatusText()} <i className="fal fa-long-arrow-right" />
-                                                </Link>
-                                            </div>
+                                              <Link to="/contact" className="btn ss-btn smoth-scroll">
+                                                {registrationStatusText} <i className="fal fa-long-arrow-right" />
+                                              </Link>
+                                             </div>
                                         </li>
+                                        )}
                                     </ul>
                                 </div>
                             </div>

@@ -21,7 +21,7 @@ function SamplePrevArrow(props) {
 function First() {
     const [video, setVideo] = useState();
     const [currentPage, setCurrentPage] = useState(1);
-    const blogsPerPage = 3; // You can adjust this value based on your preference
+    const blogsPerPage = 6; // You can adjust this value based on your preference
     const indexOfLastBlog = currentPage * blogsPerPage;
     const indexOfFirstBlog = indexOfLastBlog - blogsPerPage;
     const sortedBlogs = blogs
@@ -51,10 +51,12 @@ function First() {
             <section className="inner-blog pt-120 pb-120">
                 <div className="container">
                     <div className="row">
-                        <div className="col-lg-8">
+                        <div className="col-lg-12">
+                        <div className='row'>
                         {currentBlogs
-  .map((blog) => {
+                        .map((blog) => {
                             return(
+                                <div key={blog.id} className="col-lg-4 mb-4">
                             <div className="bsingle__post mb-50">
                                 <div className="bsingle__post-thumb">
                                     <img src={blog.image} alt="" />
@@ -90,8 +92,10 @@ function First() {
                                     </div>
                                 </div>
                             </div>
+                        </div>
                             );
                         })}
+                        </div>
                             {/* <div className="bsingle__post mb-50">
                                 <div className="bsingle__post-thumb video-p">
                                     <img src="assets/img/blog/inner_b2.jpg" alt="" />

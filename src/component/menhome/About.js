@@ -46,7 +46,7 @@ function About() {
                         The institute offers three UG programs – B.Tech. in Computer Science and Engineering, Electrical Engineering and Mechanical Engineering. Ph.D Programs are offered in the areas of Electrical Engineering, Mechanical Engineering, Mathematics, Computer Science, Physics, Humanities and Social Sciences, Biosciences Bioengineering and Chemistry.
 
                     </p>
-                    <p>
+                    {/* <p>
                     The institute aims to make education an innovative and enriching experience through a unique blend of academic, sports and extra-curricular programs delivered within a student-centric culture to enable the younger generation emerge as future leaders.
                     </p>
                     <p>
@@ -55,7 +55,7 @@ function About() {
                     <p>
                     Apart from academic excellence, the institute lays emphasis on research temperament, entrepreneurship and motivates its students to recognize their true potential without the fear of failure.
 
-                    </p>
+                    </p> */}
                     <div className="about-content2">
                         <div className="row">
                         <div className="col-md-12">
