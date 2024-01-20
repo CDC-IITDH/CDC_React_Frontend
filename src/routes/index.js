@@ -24,7 +24,7 @@ import Home from "../component/home/Main";
 import Header from "../component/headerone/Main";
 import eventsData from '../data/events.json';
 import blogsData from '../data/blogs.json';
-import Testimonial from "../component/Testimonial/Main";
+import Testimonialnew from "../component/Testimonial/Main";
 function Index() {
   const location = useLocation();
   const path = location.pathname;
@@ -59,7 +59,7 @@ function Index() {
         <Route path="/blog" element={<Blog />} />
         <Route path="/blog-details/:id" element={<Blogdeatils blogsData={blogsData} />} />
         <Route path="/contact" element={<Contact />} />
-        <Route path="/Testimonial" element={< Testimonial />} />
+        <Route path="/Testimonial" element={< Testimonialnew />} />
         <Route path="*" element={<Error />} />
       </Routes>
       <Footer />
