@@ -1,5 +1,6 @@
 import React from "react";
 import Slider from "react-slick";
+import { Link } from 'react-router-dom'
 import CssData from "./../../CustomCSS/TestimonialthreeCSS.json";
 
 import directorImg from "./../../assets/img/director/Director.jpeg";
@@ -71,13 +72,13 @@ function Testimonialthree() {
     prevArrow: <SamplePrevArrow />,
     nextArrow: <SampleNextArrow />,
     speed: 1000,
-    slidestoshow: 1,
+    slidesToShow: 1,
     slidesToScroll: 1,
     responsive: [
       {
         breakpoint: 1024,
         settings: {
-          slidestoshow: 1,
+          slidesToShow: 1,
           slidesToScroll: 1,
           infinite: true,
           dots: true,
@@ -86,14 +87,14 @@ function Testimonialthree() {
       {
         breakpoint: 992,
         settings: {
-          slidestoshow: 1,
+          slidesToShow: 1,
           slidesToScroll: 1,
         },
       },
       {
         breakpoint: 767,
         settings: {
-          slidestoshow: 1,
+          slidesToShow: 1,
           slidesToScroll: 1,
         },
       },
@@ -142,9 +143,9 @@ function Testimonialthree() {
                         ? `${testimonial.quote.substring(0, 700)}...`
                         : testimonial.quote}
                       {testimonial.quote.length > 700 && (
-                        <a href="/" style={CssData.readMore}>
+                        <Link to="/Testimonial" style={CssData.readMore}>
                           Read more
-                        </a>
+                        </Link>
                       )}
                     </p>
                     <div className="testi-author">
