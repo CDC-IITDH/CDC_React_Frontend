@@ -110,7 +110,7 @@ const Testimonialnew = () => {
                     </div>
                     <div className="ta-info" style={{ marginLeft: '10px', color: 'black', textAlign: 'center' }}>
                         <h5>{testimonial.authorName}</h5>
-                        <span style={{ color: 'orange' }}>{testimonials[0].authorRole}</span>
+                        <span style={{ color: 'orange' }}>{testimonial.authorRole}</span>
                     </div>
                 </div>
                 <p style={{ fontWeight: '600', fontSize: '18px', letterSpacing: '1px', marginLeft: '40px', textAlign: 'center', marginTop: '20px', maxWidth: '70%' }}>
