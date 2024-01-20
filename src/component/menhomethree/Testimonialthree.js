@@ -6,6 +6,34 @@ import directorImg from "./../../assets/img/director/Director.jpeg";
 import deanApImg from "./../../assets/img/director/dean_ap.jpg";
 import deanRndImg from "./../../assets/img/director/dean_rnd.jpeg";
 
+function SampleNextArrow(props) {
+  const { className, style, onClick } = props;
+  return (
+    <button
+      type="button"
+      className={`slick-next ${className}`}
+      style={{ ...style }}
+      onClick={onClick}
+    >
+      <i className="far fa-angle-right"></i>
+    </button>
+  );
+}
+
+function SamplePrevArrow(props) {
+  const { className, style, onClick } = props;
+  return (
+    <button
+      type="button"
+      className={`slick-prev ${className}`}
+      style={{ ...style }}
+      onClick={onClick}
+    >
+      <i className="far fa-angle-left"></i>
+    </button>
+  );
+}
+
 function Testimonialthree() {
   const testimonials = [
     {
@@ -39,11 +67,9 @@ function Testimonialthree() {
 
   const settings = {
     dots: true,
-    arrows: false,
-    prevArrow:
-      '<button type="button" className="slick-prev"><i className="fas fa-arrow-left"></i></button>',
-    nextArrow:
-      '<button type="button" className="slick-next"><i className="fas fa-arrow-right"></i></button>',
+    arrows: true,
+    prevArrow: <SamplePrevArrow />,
+    nextArrow: <SampleNextArrow />,
     speed: 1000,
     slidestoshow: 1,
     slidesToScroll: 1,
@@ -71,6 +97,9 @@ function Testimonialthree() {
           slidesToScroll: 1,
         },
       },
+    ],
+    responsive: [
+      { breakpoint: 1200, settings: { dots: false, arrows: false } },
     ],
   };
 
@@ -113,7 +142,7 @@ function Testimonialthree() {
                         ? `${testimonial.quote.substring(0, 700)}...`
                         : testimonial.quote}
                       {testimonial.quote.length > 700 && (
-                        <a href="#" style={CssData.readMore}>
+                        <a href="/" style={CssData.readMore}>
                           Read more
                         </a>
                       )}
