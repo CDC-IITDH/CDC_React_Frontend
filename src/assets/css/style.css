@@ -4974,10 +4974,12 @@ display: inline-block;
 
 .testimonial-active2 .slick-arrow {
 	position: absolute;
+    top: inherit;
 left: inherit;
 border: none;
 background: none;
 padding: 0;
+margin-bottom: 100px;
 font-size: 24px;
 color: #fff;
 z-index: 9;
