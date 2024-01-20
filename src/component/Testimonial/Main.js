@@ -77,33 +77,48 @@ const Testimonialnew = () => {
   return (
     <>
         <Bredcom title="Home" subtitle="Testimonials" />
-        <div className="single-testimonial text-center" style={{ paddingTop: '150px', margin: '20px', display: 'flex', flexDirection: 'column', marginBottom: '100px' ,alignItems: 'center', color: 'black' }}>
+        {testimonials.map((testimonial) => (
+            <div
+            className="single-testimonial text-center"
+            style={{
+              paddingTop: '150px',
+              margin: '30px',
+              display: 'flex',
+              flexDirection: 'column',
+              marginBottom: '100px',
+              marginTop: '100px',   
+              alignItems: 'center',
+              color: 'black',
+              backgroundColor: 'rgba(128, 128, 128, 0.2)',
+              borderRadius: '10px',
+              padding: '40px', 
+            }}
+          >
             <div className="qt-img">
                 <img
                     src={require("./../../assets/img/testimonial/qt-icon.png")}
                     alt=""
                 />{" "}
                 <span style={CssData.titleStyle}>
-                    {testimonials[0].title}
+                    {testimonial.title}
                 </span>
             </div>
             <div style={{ display: 'flex', flexDirection: 'row', alignItems: 'center', justifyContent: 'center', marginTop: '20px' }}>
                 <div style={{ display: 'flex', flexDirection: 'column', alignItems: 'center' }}>
                     <div className="testi-author" style={{ marginRight: '10px' }}>
-                        <img src={directorImg} alt="img" style={CssData.imageStyles} />
+                        <img src={testimonial.imgSrc} alt="img" style={CssData.imageStyles} />
                     </div>
                     <div className="ta-info" style={{ marginLeft: '10px', color: 'black', textAlign: 'center' }}>
-                        <h5>{testimonials[0].authorName}</h5>
+                        <h5>{testimonial.authorName}</h5>
                         <span style={{ color: 'orange' }}>{testimonials[0].authorRole}</span>
                     </div>
                 </div>
                 <p style={{ fontWeight: '600', fontSize: '18px', letterSpacing: '1px', marginLeft: '40px', textAlign: 'center', marginTop: '20px', maxWidth: '70%' }}>
-                    {testimonials[0].quote}
+                    {testimonial.quote}
                 </p>
-
-
             </div>
         </div>
+        ))}
 
     </>
   );
