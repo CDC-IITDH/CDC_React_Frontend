@@ -4974,7 +4974,6 @@ display: inline-block;
 
 .testimonial-active2 .slick-arrow {
 	position: absolute;
-top: inherit;
 left: inherit;
 border: none;
 background: none;
@@ -5055,7 +5054,7 @@ color: #141b22;
 .testimonial-active2 .slick-dots {
     text-align: center;
     position: relative;
-    width: 100%;
+    width: 55%;
     margin-top: 25px;
 }
 .testimonial-active2 .slick-dots li button {

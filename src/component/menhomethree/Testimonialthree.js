@@ -102,11 +102,11 @@ function Testimonialthree() {
     responsive: [
       { breakpoint: 1200, settings: { dots: false, arrows: false } },
     ],
-  };
+  };  
 
   return (
     <section
-      className="testimonial-area text-center pt-50 pb-50"
+      className="testimonial-area text-center pt-50 pb-50 slider-area fix p-relative"
       style={{
         background: "#dee0df",
         backgroundSize: "cover",
@@ -117,7 +117,7 @@ function Testimonialthree() {
         <div className="row justify-content-center">
           <div className="col-lg-120">
             <Slider
-              className="testimonial-active2 testimonial-area3 wow fadeInUp  animated"
+              className="slider-active wow fadeInUp  animated testimonial-active2  testimonial-area3"
               data-animation="fadeInUp"
               data-delay=".4s"
               {...settings}
