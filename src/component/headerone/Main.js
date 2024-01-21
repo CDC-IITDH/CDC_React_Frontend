@@ -101,7 +101,7 @@ function Main() {
                               <Link to="/internship">Internship</Link>
                             </li>
                             <li>
-                              <Link to="/internship">Placement</Link>
+                              <Link to="/placement">Placement</Link>
                             </li>
                             <li>
                               <Link to="https://drive.google.com/file/d/1QpP0K4J6AXiFcezI-mBRzrpesci0gsAh/view" target="_blank">Brochure</Link>
@@ -271,7 +271,7 @@ function Main() {
                                     <Link to="/internship">Internship</Link>
                                   </li>
                                   <li>
-                                    <Link to = "/internship">
+                                    <Link to = "/placement">
                                       Placement
                                     </Link>
                                   </li>
