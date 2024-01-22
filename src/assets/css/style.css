@@ -4974,17 +4974,19 @@ display: inline-block;
 
 .testimonial-active2 .slick-arrow {
 	position: absolute;
-top: inherit;
-left: inherit;
-border: none;
-background: none;
-padding: 0;
-font-size: 24px;
-color: #fff;
-z-index: 9;
-cursor: pointer;
-transition: .3s;
-right: -96px;
+    top: inherit;
+    justify-content: center;
+    left: inherit;
+    border: none;
+    background: none;
+    padding: 0;
+    margin-bottom: 150px;
+    font-size: 24px;
+    color: #777;
+    z-index: 9;
+    cursor: pointer;
+    transition: .3s;
+    right: -96px;
     bottom: 0;
 }
 
@@ -4992,7 +4994,10 @@ right: -96px;
     left: inherit;
     right: -165px;
 }
-.testimonial-active2 .slick-arrow:hover {color: #ff7350;}
+.testimonial-active2 .slick-next:hover{
+    color: #000;
+}
+.testimonial-active2 .slick-arrow:hover {color: #fff;}
 .testimonial-avatar.p-relative {
 	min-height: 455px;
 	display: block;
@@ -5000,12 +5005,20 @@ right: -96px;
 }
 .testimonial-active2 .slick-next.slick-arrow i,.testimonial-active2 .slick-arrow i {
 border-radius: 50%;
-  background-color: rgb(80, 82, 171);
+  background-color: #fff;
   box-shadow: 2.5px 4.33px 15px 0px rgba(80, 82, 171, 0.4);
 width: 60px;
   height: 60px;
 line-height: 60px;
 }
+.testimonial-active2 .slick-next.slick-arrow:hover i,.testimonial-active2 .slick-arrow:hover i {
+    border-radius: 50%;
+      background-color: #ff7350;
+      box-shadow: 2.5px 4.33px 15px 0px rgba(80, 82, 171, 0.4);
+    width: 60px;
+      height: 60px;
+    line-height: 60px;
+    }
 
 
 
@@ -5055,7 +5068,7 @@ color: #141b22;
 .testimonial-active2 .slick-dots {
     text-align: center;
     position: relative;
-    width: 100%;
+    width: 55%;
     margin-top: 25px;
 }
 .testimonial-active2 .slick-dots li button {

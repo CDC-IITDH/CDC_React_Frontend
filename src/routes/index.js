@@ -26,6 +26,7 @@ import eventsData from '../data/events.json';
 import blogsData from '../data/blogs.json';
 import Timeline from "../component/Pages/timeline/Main";
 import PlacementTimeline from "../component/Pages/Placementtimeline/Main";
+import DirectorsMessage from "../component/DirectorsMessage/Main";
 function Index() {
   const location = useLocation();
   const path = location.pathname;
@@ -62,6 +63,7 @@ function Index() {
         <Route path="/blog" element={<Blog />} />
         <Route path="/blog-details/:id" element={<Blogdeatils blogsData={blogsData} />} />
         <Route path="/contact" element={<Contact />} />
+        <Route path="/Directors-Message" element={< DirectorsMessage />} />
         <Route path="*" element={<Error />} />
       </Routes>
       <Footer />
