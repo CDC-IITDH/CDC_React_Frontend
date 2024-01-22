@@ -133,7 +133,7 @@ function Main() {
                             <i className="icon fal fa-map-marker-check" />
                             <span style={{ display: 'flex', alignItems: 'center' }}>
                             Indian Institute of Technology Dharwad
-                            Karnataka, India - 580011.
+                            Chikka Malligwad, Karnataka 580007
                             </span>
                             </div>
                             </li>

@@ -17,7 +17,7 @@ function Touch() {
                 </div>
                 <div className="row">
                 <div className="col-lg-4 col-md-4">
-                    <div className="services-box text-center">
+                    <div className="services-box text-center" style = {{ minHeight: "400px" }}>
                     <div className="services-icon">
                         <img src="assets/img/bg/contact-icon01.png" alt="image" />
                     </div>
@@ -30,7 +30,7 @@ function Touch() {
                     </div>
                 </div>
                 <div className="col-lg-4 col-md-4">
-                    <div className="services-box text-center active">
+                    <div className="services-box text-center active" style = {{ minHeight: "400px"}}>
                     <div className="services-icon">
                         <img src="assets/img/bg/contact-icon02.png" alt="image" />
                     </div>
@@ -45,12 +45,12 @@ function Touch() {
                     </div>
                 </div>
                 <div className="col-lg-4 col-md-4">
-                    <div className="services-box text-center">
+                    <div className="services-box text-center" style = {{ minHeight: "400px" }}>
                     <div className="services-icon">
                         <img src="assets/img/bg/contact-icon03.png" alt="image" />
                     </div>
                     <div className="services-content2">
-                        <h6>Indian Institute of Technology Dharwad Karnataka, India - 580011</h6>
+                        <h6>Indian Institute of Technology Dharwad, Chikka Malligwad, Karnataka 580007</h6>
                         <p>Address</p>
                     </div>
                     </div>
