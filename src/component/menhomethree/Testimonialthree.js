@@ -143,7 +143,7 @@ function Testimonialthree() {
                         ? `${testimonial.quote.substring(0, 700)}...`
                         : testimonial.quote}
                       {testimonial.quote.length > 700 && (
-                        <Link to="/Testimonial" style={CssData.readMore}>
+                        <Link to="/Directors-Message" style={CssData.readMore}>
                           Read more
                         </Link>
                       )}

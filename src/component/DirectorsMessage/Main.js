@@ -1,7 +1,7 @@
 import React from 'react';
 import Bredcom from "../Bredcom/Main";
 
-import CssData from "./../../CustomCSS/TestimonialthreeCSS.json";
+import CssData from "../../CustomCSS/TestimonialthreeCSS.json";
 
 import directorImg from "./../../assets/img/director/Director.jpeg";
 import deanApImg from "./../../assets/img/director/dean_ap.jpg";
@@ -76,7 +76,7 @@ const Testimonialnew = () => {
 
   return (
     <>
-        <Bredcom title="Home" subtitle="Testimonials" />
+        <Bredcom title="Home" subtitle="Director's Message" />
         {testimonials.map((testimonial) => (
             <div
             className="single-testimonial text-center"
@@ -113,7 +113,7 @@ const Testimonialnew = () => {
                         <span style={{ color: 'orange' }}>{testimonial.authorRole}</span>
                     </div>
                 </div>
-                <p style={{ fontWeight: '600', fontSize: '18px', letterSpacing: '1px', marginLeft: '40px', textAlign: 'center', marginTop: '20px', maxWidth: '70%' }}>
+                <p style={{ fontSize: '20px', letterSpacing: '1px', marginLeft: '40px', textAlign: 'center', marginTop: '20px', maxWidth: '70%' }}>
                     {testimonial.quote}
                 </p>
             </div>
