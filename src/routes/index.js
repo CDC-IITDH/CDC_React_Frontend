@@ -24,6 +24,8 @@ import Home from "../component/home/Main";
 import Header from "../component/headerone/Main";
 import eventsData from '../data/events.json';
 import blogsData from '../data/blogs.json';
+import Timeline from "../component/Pages/timeline/Main";
+import PlacementTimeline from "../component/Pages/Placementtimeline/Main";
 import DirectorsMessage from "../component/DirectorsMessage/Main";
 function Index() {
   const location = useLocation();
@@ -40,6 +42,8 @@ function Index() {
         <Route path="/about" element={<About />} />
         <Route path="/event" element={<Event />} />
         <Route path="/single-event/:id" element={<Eventdeatils eventsData={eventsData} />} />
+        <Route path="/internship" element={<Timeline />} />
+        <Route path="/placement" element={<PlacementTimeline />} />
         <Route path="/gallery" element={<Gallery />} />
         <Route path="/student/faq" element={<Faq />} />
         <Route path="/recruiter/faq" element={<Faq />} />
