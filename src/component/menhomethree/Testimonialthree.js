@@ -1,10 +1,39 @@
 import React from "react";
 import Slider from "react-slick";
+import { Link } from 'react-router-dom'
 import CssData from "./../../CustomCSS/TestimonialthreeCSS.json";
 
 import directorImg from "./../../assets/img/director/Director.jpeg";
 import deanApImg from "./../../assets/img/director/dean_ap.jpg";
 import deanRndImg from "./../../assets/img/director/dean_rnd.jpeg";
+
+function SampleNextArrow(props) {
+  const { className, style, onClick } = props;
+  return (
+    <button
+      type="button"
+      className={`slick-next ${className}`}
+      style={{ ...style }}
+      onClick={onClick}
+    >
+      <i className="far fa-angle-right"></i>
+    </button>
+  );
+}
+
+function SamplePrevArrow(props) {
+  const { className, style, onClick } = props;
+  return (
+    <button
+      type="button"
+      className={`slick-prev ${className}`}
+      style={{ ...style }}
+      onClick={onClick}
+    >
+      <i className="far fa-angle-left"></i>
+    </button>
+  );
+}
 
 function Testimonialthree() {
   const testimonials = [
@@ -39,19 +68,17 @@ function Testimonialthree() {
 
   const settings = {
     dots: true,
-    arrows: false,
-    prevArrow:
-      '<button type="button" className="slick-prev"><i className="fas fa-arrow-left"></i></button>',
-    nextArrow:
-      '<button type="button" className="slick-next"><i className="fas fa-arrow-right"></i></button>',
+    arrows: true,
+    prevArrow: <SamplePrevArrow />,
+    nextArrow: <SampleNextArrow />,
     speed: 1000,
-    slidestoshow: 1,
+    slidesToShow: 1,
     slidesToScroll: 1,
     responsive: [
       {
         breakpoint: 1024,
         settings: {
-          slidestoshow: 1,
+          slidesToShow: 1,
           slidesToScroll: 1,
           infinite: true,
           dots: true,
@@ -60,23 +87,26 @@ function Testimonialthree() {
       {
         breakpoint: 992,
         settings: {
-          slidestoshow: 1,
+          slidesToShow: 1,
           slidesToScroll: 1,
         },
       },
       {
         breakpoint: 767,
         settings: {
-          slidestoshow: 1,
+          slidesToShow: 1,
           slidesToScroll: 1,
         },
       },
     ],
-  };
+    responsive: [
+      { breakpoint: 1200, settings: { dots: false, arrows: false } },
+    ],
+  };  
 
   return (
     <section
-      className="testimonial-area text-center pt-50 pb-50"
+      className="testimonial-area text-center pt-50 pb-50 slider-area fix p-relative"
       style={{
         background: "#dee0df",
         backgroundSize: "cover",
@@ -87,7 +117,7 @@ function Testimonialthree() {
         <div className="row justify-content-center">
           <div className="col-lg-120">
             <Slider
-              className="testimonial-active2 testimonial-area3 wow fadeInUp  animated"
+              className="slider-active wow fadeInUp  animated testimonial-active2  testimonial-area3"
               data-animation="fadeInUp"
               data-delay=".4s"
               {...settings}
@@ -113,9 +143,9 @@ function Testimonialthree() {
                         ? `${testimonial.quote.substring(0, 700)}...`
                         : testimonial.quote}
                       {testimonial.quote.length > 700 && (
-                        <a href="#" style={CssData.readMore}>
+                        <Link to="/Directors-Message" style={CssData.readMore}>
                           Read more
-                        </a>
+                        </Link>
                       )}
                     </p>
                     <div className="testi-author">
