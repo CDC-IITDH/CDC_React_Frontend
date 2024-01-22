@@ -2,7 +2,7 @@ import React from 'react'
 import { Link } from 'react-router-dom'
 
 import defaultProfileImage from '../../../assets/img/team/default-avatar-profile.jpg'
-import facultyInChargeImage from '../../../assets/img/team/NaveenMB_Image.jpeg';
+import facultyInChargeImage from '../../../assets/img/team/Satya_Priya_Image.jpeg';
 import placementExecutiveImage from '../../../assets/img/team/SAVE_20230606_231008 - Priyanka N.jpg';
 
 import teamMemberImage1 from '../../../assets/img/team/Aryan_Photo_Square - Trimukhe Aryan Dhananjay.jpg';
@@ -12,17 +12,18 @@ import teamMemberImage4 from '../../../assets/img/team/rahul-raj - Rahul Raj.jpg
 
 function First() {
     const facultyInCharge = [
-        { name: "Dr. Naveen M B", role: "Assistant Professor", dept:"Dept. of Electrical Engineering", image: facultyInChargeImage, phone: "+91 88610 21944", mail: "cdcfic@iitdh.ac.in" }
+        { name: "Prof. Satya Priya", role: "Assistant Professor", dept:"Dept. of Mechanical, Materials and Aerospace Engineering", image: facultyInChargeImage, phone: "+91 88268 24591", mail: "cdcfic@iitdh.ac.in" }
     ]
 
-    const placementExecutive = [
-        { name: "Priyanka Naga", role: "", image: placementExecutiveImage, phone: "+91 82178 35130", mail: "priyanka.naga@iitdh.ac.in" ,linkedin: "https://www.linkedin.com/in/priyanka-n-a30813103/", instagram: "https://instagram.com/i_priyankanaga?igshid=MzNlNGNkZWQ4Mg=="}
-    ]
+    const placementExecutive = []
+    {/*const placementExecutive = [
+      {/*  { name: "Priyanka Naga", role: "", image: placementExecutiveImage, phone: "+91 82178 35130", mail: "priyanka.naga@iitdh.ac.in" ,linkedin: "https://www.linkedin.com/in/priyanka-n-a30813103/", instagram: "https://instagram.com/i_priyankanaga?igshid=MzNlNGNkZWQ4Mg=="}
+    ] */}
 
     const facultyAdvisors = [
         { name: "Dr. Vandana Bharti", role: "Assistant Professor", dept: "Dept. of Computer Science and Engineering", image: defaultProfileImage, mail: "vandana@iitdh.ac.in" },
         { name: "Dr. Sairam Boggavarapu", role: "Assistant Professor", dept: "Dept. of EECE", image: defaultProfileImage, mail: "sairam@iitdh.ac.in" },
-        { name: "Dr. Satyapriya Gupta", role: "Assistant Professor", dept: "Dept. of Mechanical, Materials and Aerospace Engineering", image: defaultProfileImage, mail: "satyapriya.gupta@iitdh.ac.in" },
+        { name: "Dr. Naveen MB", role: "Assistant Professor", dept: "Dept. of EECE", image: defaultProfileImage, mail: "naveenmb@iitdh.ac.in" },
         { name: "Dr. Dhriti Sundar Ghosh", role: "Assistant Professor", dept: "Dept. of Physics", image: defaultProfileImage, mail: "dhriti.ghost@iitdh.ac.in" },
         { name: "Dr. Suvamay Jana", role: "Assistant Professor", dept: "Dept. of Chemical Engineering", image: defaultProfileImage, mail: "suvamay@iitdh.ac.in" },
         { name: "Dr. Ramesh Nayaka", role: "Assistant Professor", dept: "Dept. of Civil and Infrastructure Engineering", image: defaultProfileImage, mail: "ramesh.nayaka@iitdh.ac.in" },
@@ -39,12 +40,6 @@ function First() {
     return (
         <>
             <section className="team-area fix p-relative pt-150 pb-80" style={{ background: "#f7f9ff" }}>
-                <div className="animations-06">
-                    <img src="assets/img/bg/an-img-17.png" alt="an-img-01" />
-                </div>
-                <div className="animations-09">
-                    <img src="assets/img/bg/slider_shape03.png" alt="contact-bg-an-01" />
-                </div>
                 <div className="container">
                     <div className='col'>
                         <div className='col'>
@@ -89,58 +84,61 @@ function First() {
                                 ))}
                             </div>
                         </div>
+                        {placementExecutive.length > 0 && (
                         <div className='col'>
-                        <div className='d-flex justify-content-center' style={{ paddingBottom: "30px", paddingTop : "10px"}}>
-                                <h2>Placement Executive</h2>
+                            <div className='d-flex justify-content-center' style={{ paddingBottom: "30px", paddingTop : "10px"}}>
+                            <h2>Placement Executive</h2>
                             </div>
                             <div className="row d-flex justify-content-center">
-                                {placementExecutive.map((member, index) => (
-                                    <div key={index} className="col-xl-3 col-md-6">
-                                        <div className="single-team mb-40">
-                                            <div className="team-thumb">
-                                                <div className="brd">
-                                                    <Link to="#">
-                                                        {" "}
-                                                        <img src={member.image} alt="img" />
-                                                    </Link>
-                                                </div>
-                                            </div>
-                                            <div className="team-info">
-                                                <h4>
-                                                    <Link to="#">{member.name}</Link>
-                                                </h4>
-                                                <p>{member.role}</p>
-                                                <div className="team-social">
-                                                    <ul>
-                                                        <li>
-                                                            <Link to={member.linkedin}>
-                                                                <i className="fab fa-linkedin" />
-                                                            </Link>
-                                                        </li>
-                                                        <li>
-                                                            <Link to={member.instagram}>
-                                                                <i className="fab fa-instagram" />
-                                                            </Link>
-                                                        </li>
-                                                        <li>
-                                                            <Link to={`tel:${member.phone}`}>
-                                                                <i className="fa fa-phone" />
-                                                            </Link>
-                                                        </li>
-                                                        <li>
-                                                            {" "}
-                                                            <Link to={`mailto:${member.mail}`}>
-                                                                <i className="fa fa-envelope" />
-                                                            </Link>
-                                                        </li>
-                                                    </ul>
-                                                </div>
-                                            </div>
-                                        </div>
+                            {placementExecutive.map((member, index) => (
+                                <div key={index} className="col-xl-3 col-md-6">
+                                <div className="single-team mb-40">
+                                    <div className="team-thumb">
+                                    <div className="brd">
+                                        <Link to="#">
+                                        {" "}
+                                        <img src={member.image} alt="img" />
+                                        </Link>
                                     </div>
-                                ))}
+                                    </div>
+                                    <div className="team-info">
+                                    <h4>
+                                        <Link to="#">{member.name}</Link>
+                                    </h4>
+                                    <p>{member.role}</p>
+                                    <div className="team-social">
+                                        <ul>
+                                        <li>
+                                            <Link to={member.linkedin}>
+                                            <i className="fab fa-linkedin" />
+                                            </Link>
+                                        </li>
+                                        <li>
+                                            <Link to={member.instagram}>
+                                            <i className="fab fa-instagram" />
+                                            </Link>
+                                        </li>
+                                        <li>
+                                            <Link to={`tel:${member.phone}`}>
+                                            <i className="fa fa-phone" />
+                                            </Link>
+                                        </li>
+                                        <li>
+                                            {" "}
+                                            <Link to={`mailto:${member.mail}`}>
+                                            <i className="fa fa-envelope" />
+                                            </Link>
+                                        </li>
+                                        </ul>
+                                    </div>
+                                    </div>
+                                </div>
+                                </div>
+                            ))}
                             </div>
                         </div>
+                        )}
+
                         <div className='col'>
                         <div className='d-flex justify-content-center' style={{ paddingBottom: "30px", paddingTop : "10px"}}>
                                 <h2>Faculty Advisors</h2>
@@ -148,7 +146,7 @@ function First() {
                             <div className="row d-flex justify-content-center">
                                 {facultyAdvisors.map((member, index) => (
                                     <div key={index} className="col-xl-3 col-md-6">
-                                        <div className="single-team mb-40">
+                                        <div className="single-team mb-40" style = {{ minHeight: "400px", maxHeight: "400px"}}>
                                             <div className="team-thumb">
                                                 <div className="brd">
                                                     <Link to="#">
@@ -186,7 +184,7 @@ function First() {
                             <div className="row">
                                 {teamMembers.map((member, index) => (
                                     <div key={index} className="col-xl-3 col-md-6">
-                                        <div className="single-team mb-40">
+                                        <div className="single-team mb-40" style = {{ minHeight: "350px", maxHeight: "350px"}}>
                                             <div className="team-thumb">
                                                 <div className="brd">
                                                     <Link to="#">
