@@ -9,7 +9,8 @@
   },
   "InfoStyle": {
     "fontSize": "20px",
-    "color": "#0f0f0f"
+    "color": "#0f0f0f",
+    "textAlign": "justify"
   },
 
   "truncateText": {
