@@ -20,31 +20,34 @@ function Main() {
                     <h2>About Us</h2>
                   </div>
                   <div className="f-contact">
-                    {" "}
-                    {/* about cdc */}
                     <p>
                       CDC is a body of IIT Dharwad that supports students in
                       shaping and managing their careers by building critical
                       ingredients required for a student to be a complete
-                      professional.It is committed to assisting all IIT Dharwad
-                      students in achieving their career goal.
+                      professional. It is committed to assisting all IIT Dharwad
+                      students in achieving their career goals.
                     </p>
                   </div>
                   <div className="footer-social mt-10">
                     <a
                       href="https://www.linkedin.com/company/cdciitdharwad/?originalSubdomain=in"
                       target="_blank"
+                      rel="noopener noreferrer"
                     >
-                      {/* <i className="fab fa-facebook-f" /> */}
                       <i className="fab fa-linkedin" />
                     </a>
                     <a
                       href="https://www.instagram.com/cdc.iitdh/?hl=en"
                       target="_blank"
+                      rel="noopener noreferrer"
                     >
                       <i className="fab fa-instagram" />
                     </a>
-                    <a href="https://twitter.com/cdc_iitdh" target="_blank">
+                    <a
+                      href="https://twitter.com/cdc_iitdh"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                    >
                       <i className="fab fa-twitter" />
                     </a>
                   </div>
@@ -62,18 +65,17 @@ function Main() {
                       </li>
                       <li>
                         <Link to="https://iitdh.ac.in/programs">
-                          {" "}
                           Academic Information
                         </Link>
                       </li>
                       <li>
-                        <Link to="https://iitdh.ac.in/faculty"> Faculty</Link>
+                        <Link to="https://iitdh.ac.in/faculty">Faculty</Link>
                       </li>
                       <li>
                         <Link to="/team">Team</Link>
                       </li>
                       <li>
-                        <Link to="/gallery"> Gallery </Link>
+                        <Link to="/gallery">Gallery</Link>
                       </li>
                     </ul>
                   </div>
@@ -88,32 +90,28 @@ function Main() {
                     <ul>
                       <li>
                         <div className="thum">
-                          {" "}
                           <img
                             src="assets/img/blog/s-blogimg-01.png"
                             alt="img"
                           />
                         </div>
                         <div className="text">
-                          {" "}
                           <Link to="/blog-details">
-                            Nothing impossble to need hard work
+                            Nothing impossible without hard work
                           </Link>
                           <span>7 March, 2020</span>
                         </div>
                       </li>
                       <li>
                         <div className="thum">
-                          {" "}
                           <img
                             src="assets/img/blog/s-blogimg-02.png"
                             alt="img"
                           />
                         </div>
                         <div className="text">
-                          {" "}
                           <Link to="/blog-details">
-                            Nothing impossble to need hard work
+                            Nothing impossible without hard work
                           </Link>
                           <span>7 March, 2020</span>
                         </div>
@@ -133,34 +131,31 @@ function Main() {
                         <div style={{ display: "flex", alignItems: "center" }}>
                           <i className="icon fal fa-phone" />
                           <span>
-                            {/* <Link to="tel:+14440008888">+1 (444) 000-8888</Link>
-                                <br /> */}
-                                <Link style={{  display: 'block' }}   to="tel:+91 88268 24591">+91 88268 24591</Link>
-                            </span>
-                            </div>
-                            </li>
-                            <li>
-                            <div style={{ display: 'flex', alignItems: 'center' }}>
-                            <i className="icon fal fa-envelope" />
-                            <span >
-                            <Link style={{  display: 'block' }} to="mailto:cdc@iitdh.ac.in">
-                            cdc@iitdh.ac.in
-                             </Link>
-                             {/* <br />
-                                <Link to="mailto:help@example.com">help@example.com</Link> */}
-                            </span>
-                            </div>
-                            </li>
-                            <li>
-                            <div  >
-                            <i className="icon fal fa-map-marker-check" />
-                            <span style={{ display: 'flex', alignItems: 'center' }}>
-                            Indian Institute of Technology Dharwad
-                            Chikka Malligwad, Karnataka 580007
-                            </span>
-                            </div>
-                            </li>
-                        </ul>
+                            <Link to="tel:+91 88268 24591">
+                              +91 88268 24591
+                            </Link>
+                          </span>
+                        </div>
+                      </li>
+                      <li>
+                        <div style={{ display: "flex", alignItems: "center" }}>
+                          <i className="icon fal fa-envelope" />
+                          <span>
+                            <Link to="mailto:cdc@iitdh.ac.in">
+                              cdc@iitdh.ac.in
+                            </Link>
+                          </span>
+                        </div>
+                      </li>
+                      <li>
+                        <div>
+                          <i className="icon fal fa-map-marker-check" />
+                          <span
+                            style={{ display: "flex", alignItems: "center" }}
+                          >
+                            Indian Institute of Technology Dharwad Chikka
+                            Malligwad, Karnataka 580007
+                          </span>
                         </div>
                       </li>
                       <li>
@@ -181,23 +176,6 @@ function Main() {
             </div>
           </div>
         </div>
-        {/* <div className="copyright-wrap">
-                <div className="container">
-                <div className="row align-items-center">
-                    <div className="col-lg-4">
-                    <div className="copy-text">
-                        <Link to="/">
-                            <img src="assets/img/logo/f_logo.png" alt="img" />
-                        </Link>
-                    </div>
-                    </div>
-                    <div className="col-lg-4 text-center"></div>
-                    <div className="col-lg-4 text-right text-xl-right">
-                        Copyright © Qeducato 2023 . All rights reserved.
-                    </div>
-                </div>
-                </div>
-            </div> */}
       </footer>
     </>
   );
