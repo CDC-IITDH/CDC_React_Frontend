@@ -10,18 +10,6 @@ function Event() {
     
     <>   
         <section className="event pt-120 pb-90 p-relative fix">
-            <div className="animations-06">
-                <img src="assets/img/bg/an-img-06.png" alt="an-img-01" />
-            </div>
-            <div className="animations-07">
-                <img src="assets/img/bg/an-img-07.png" alt="contact-bg-an-01" />
-            </div>
-            <div className="animations-08">
-                <img src="assets/img/bg/an-img-08.png" alt="contact-bg-an-01" />
-            </div>
-            <div className="animations-09">
-                <img src="assets/img/bg/an-img-09.png" alt="contact-bg-an-01" />
-            </div>
             <div className="container">
                 <div className="row">
                 <div className="col-lg-12 p-relative">

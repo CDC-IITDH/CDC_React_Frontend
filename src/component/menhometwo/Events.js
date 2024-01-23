@@ -5,15 +5,6 @@ function Events() {
   return (
     <>
         <section className="event event02 pt-120 pb-90 p-relative fix">
-            <div className="animations-06">
-                <img src="assets/img/bg/an-img-14.png" alt="an-img-01" />
-            </div>
-            <div className="animations-08">
-                <img src="assets/img/bg/an-img-15.png" alt="contact-bg-an-01" />
-            </div>
-            <div className="animations-09">
-                <img src="assets/img/bg/an-img-16.png" alt="contact-bg-an-01" />
-            </div>
             <div className="container">
                 <div className="row">
                 <div className="col-lg-12 p-relative">

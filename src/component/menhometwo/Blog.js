@@ -29,12 +29,6 @@ function Blog() {
   return (
     <>
       <section id="blog" className="blog-area blog-area3 p-relative fix pt-120 pb-90">
-        <div className="animations-06">
-          <img src="assets/img/bg/an-img-18.png" alt="an-img-01" />
-        </div>
-        <div className="animations-09">
-          <img src="assets/img/bg/an-img-19.png" alt="contact-bg-an-01" />
-        </div>
         <div className="container">
           <div className="row align-items-center">
             <div className="col-lg-12">
