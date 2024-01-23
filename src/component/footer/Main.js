@@ -158,17 +158,6 @@ function Main() {
                           </span>
                         </div>
                       </li>
-                      <li>
-                        <div>
-                          <i className="icon fal fa-map-marker-check" />
-                          <span
-                            style={{ display: "flex", alignItems: "center" }}
-                          >
-                            Indian Institute of Technology Dharwad Karnataka,
-                            India - 580011.
-                          </span>
-                        </div>
-                      </li>
                     </ul>
                   </div>
                 </div>
