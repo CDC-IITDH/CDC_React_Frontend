@@ -112,7 +112,7 @@ function Main() {
                             <span>
                                 {/* <Link to="tel:+14440008888">+1 (444) 000-8888</Link>
                                 <br /> */}
-                                <Link style={{  display: 'block' }}   to="tel:+91 836 2212 839">+91 836 2212 839</Link>
+                                <Link style={{  display: 'block' }}   to="tel:+91 88268 24591">+91 88268 24591</Link>
                             </span>
                             </div>
                             </li>

@@ -23,7 +23,7 @@ function Touch() {
                     </div>
                     <div className="services-content2">
                         <h5>
-                        <a href="tel:+918362212839">+91 836 2212 839</a>
+                        <a href="tel:+918826824591">+91 88268 24591</a>
                         </h5>
                         <p>Phone Support</p>
                     </div>
@@ -36,7 +36,7 @@ function Touch() {
                     </div>
                     <div className="services-content2">
                         <h5>
-                        <a href="mailto:jobs@webtrueexample.com">
+                        <a href="mailto:cdc@iitdh.ac.in">
                             cdc@iitdh.ac.in
                         </a>
                         </h5>
