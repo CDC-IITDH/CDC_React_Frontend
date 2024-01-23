@@ -35,10 +35,7 @@ function Campus() {
         </section>
 
         <section className="steps-area2 p-relative fix" style={{ backgroundColor: "#125875" }} >
-            <div className="container">
-                <div className="animations-08">
-                    <img src="assets/img/bg/an-img-20.png" alt="contact-bg-an-01" />
-                </div>
+            <div className="container">           
                 <div className="row align-items-center">
                 <div className="col-lg-6 col-md-12">
                     <div className="step-img3 wow fadeInLeft animated" data-animation="fadeInLeft" data-delay=".4s" >

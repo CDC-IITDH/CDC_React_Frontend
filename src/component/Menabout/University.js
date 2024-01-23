@@ -4,9 +4,6 @@ function University() {
   return (
     <>
         <section className="about-area about-p pt-120 pb-120 p-relative fix">
-            <div className="animations-02">
-                <img src="assets/img/bg/an-img-02.png" alt="contact-bg-an-01" />
-            </div>
             <div className="container">
                 <div className="row justify-content-center align-items-center">
                 <div className="col-lg-6 col-md-12 col-sm-12">

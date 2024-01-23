@@ -32,7 +32,7 @@ function Main() {
       {/* <Admission/> */}
       <Redslider />
       <Blog />
-      <Subscribe />
+      {/* <Subscribe /> */}
     </>
   );
 }
