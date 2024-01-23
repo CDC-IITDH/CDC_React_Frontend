@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/new/static/css/main.e28c3035.css",
-    "main.js": "/new/static/js/main.daa3717f.js",
+    "main.js": "/new/static/js/main.445996fc.js",
     "static/media/fa-duotone-900.svg": "/new/static/media/fa-duotone-900.e2ad3965c2a9e62098b9.svg",
     "static/media/fa-light-300.svg": "/new/static/media/fa-light-300.9dd7bbb937f23efa25fb.svg",
     "static/media/fa-regular-400.svg": "/new/static/media/fa-regular-400.4e2c87c166dd32bc2485.svg",
@@ -11,6 +11,7 @@
     "static/media/fa-duotone-900.ttf": "/new/static/media/fa-duotone-900.129970d20805c489d192.ttf",
     "static/media/fa-light-300.eot": "/new/static/media/fa-light-300.6618a8258fce3636f1cb.eot",
     "static/media/fa-light-300.ttf": "/new/static/media/fa-light-300.e160c0b9a3710bb40e4f.ttf",
+    "static/media/Satya_Priya_Image.jpeg": "/new/static/media/Satya_Priya_Image.062d9958fbc482ee628c.jpeg",
     "static/media/fa-regular-400.eot": "/new/static/media/fa-regular-400.cd4a83bf70ae5a2350ea.eot",
     "static/media/fa-regular-400.ttf": "/new/static/media/fa-regular-400.7606d9430562a89b8ac6.ttf",
     "static/media/fa-solid-900.eot": "/new/static/media/fa-solid-900.259e7659316cb06e8b14.eot",
@@ -32,7 +33,6 @@
     "static/media/fa-brands-400.woff2": "/new/static/media/fa-brands-400.6e6a4a81a7f71c0ba134.woff2",
     "static/media/thoughtspot.png": "/new/static/media/thoughtspot.fdd8922b8a8f8b6d35fb.png",
     "static/media/scoreplus.png": "/new/static/media/scoreplus.0afe4efc00cf7a3551fb.png",
-    "static/media/NaveenMB_Image.jpeg": "/new/static/media/NaveenMB_Image.80bd82211f5adbea3d36.jpeg",
     "static/media/tcs.jpg": "/new/static/media/tcs.017a99c2bf8913ba5742.jpg",
     "static/media/publicissapient.png": "/new/static/media/publicissapient.c03696a9f1f6c2117bb2.png",
     "static/media/bharat_electronics.png": "/new/static/media/bharat_electronics.70fbd9ccf576eca08073.png",
@@ -71,10 +71,10 @@
     "static/media/mmrfi.jpg": "/new/static/media/mmrfi.62d4ad283ad2ae086a0f.jpg",
     "index.html": "/new/index.html",
     "main.e28c3035.css.map": "/new/static/css/main.e28c3035.css.map",
-    "main.daa3717f.js.map": "/new/static/js/main.daa3717f.js.map"
+    "main.445996fc.js.map": "/new/static/js/main.445996fc.js.map"
   },
   "entrypoints": [
     "static/css/main.e28c3035.css",
-    "static/js/main.daa3717f.js"
+    "static/js/main.445996fc.js"
   ]
 }
