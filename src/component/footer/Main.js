@@ -135,28 +135,32 @@ function Main() {
                           <span>
                             {/* <Link to="tel:+14440008888">+1 (444) 000-8888</Link>
                                 <br /> */}
-                            <Link
-                              style={{ display: "block" }}
-                              to="tel:+91 836 2212 839"
-                            >
-                              +91 836 2212 839
-                            </Link>
-                          </span>
-                        </div>
-                      </li>
-                      <li>
-                        <div style={{ display: "flex", alignItems: "center" }}>
-                          <i className="icon fal fa-envelope" />
-                          <span>
-                            <Link
-                              style={{ display: "block" }}
-                              to="mailto:cdc@iitdh.ac.in"
-                            >
-                              cdc@iitdh.ac.in
-                            </Link>
-                            {/* <br />
+                                <Link style={{  display: 'block' }}   to="tel:+91 88268 24591">+91 88268 24591</Link>
+                            </span>
+                            </div>
+                            </li>
+                            <li>
+                            <div style={{ display: 'flex', alignItems: 'center' }}>
+                            <i className="icon fal fa-envelope" />
+                            <span >
+                            <Link style={{  display: 'block' }} to="mailto:cdc@iitdh.ac.in">
+                            cdc@iitdh.ac.in
+                             </Link>
+                             {/* <br />
                                 <Link to="mailto:help@example.com">help@example.com</Link> */}
-                          </span>
+                            </span>
+                            </div>
+                            </li>
+                            <li>
+                            <div  >
+                            <i className="icon fal fa-map-marker-check" />
+                            <span style={{ display: 'flex', alignItems: 'center' }}>
+                            Indian Institute of Technology Dharwad
+                            Chikka Malligwad, Karnataka 580007
+                            </span>
+                            </div>
+                            </li>
+                        </ul>
                         </div>
                       </li>
                       <li>

@@ -77,21 +77,18 @@ const Testimonialnew = () => {
   return (
     <>
         <Bredcom title="Home" subtitle="Director's Message" />
-        {testimonials.map((testimonial) => (
+        {testimonials.map((testimonial, index) => (
             <div
             className="single-testimonial text-center"
             style={{
-              paddingTop: '150px',
-              margin: '30px',
+              paddingTop: '100px',
               display: 'flex',
               flexDirection: 'column',
-              marginBottom: '100px',
-              marginTop: '100px',   
               alignItems: 'center',
               color: 'black',
-              backgroundColor: 'rgba(128, 128, 128, 0.2)',
-              borderRadius: '10px',
+              backgroundColor: index % 2 === 0 ? 'rgba(128, 128, 128, 0.2)' : 'rgb(3, 46, 63)',
               padding: '40px', 
+              paddingBottom: index == testimonials.length - 1 ? '200px' : '40px',
             }}
           >
             <div className="qt-img">
@@ -99,8 +96,10 @@ const Testimonialnew = () => {
                     src={require("./../../assets/img/testimonial/qt-icon.png")}
                     alt=""
                 />{" "}
-                <span style={CssData.titleStyle}>
-                    {testimonial.title}
+                <span style= {{ color: index % 2 === 0 ? '#000' : '#c3ccdb'}}>
+                  <span style={CssData.titleStyle}>
+                      {testimonial.title}
+                  </span>
                 </span>
             </div>
             <div style={{ display: 'flex', flexDirection: 'row', alignItems: 'center', justifyContent: 'center', marginTop: '20px' }}>
@@ -108,12 +107,12 @@ const Testimonialnew = () => {
                     <div className="testi-author" style={{ marginRight: '10px' }}>
                         <img src={testimonial.imgSrc} alt="img" style={CssData.imageStyles} />
                     </div>
-                    <div className="ta-info" style={{ marginLeft: '10px', color: 'black', textAlign: 'center' }}>
-                        <h5>{testimonial.authorName}</h5>
-                        <span style={{ color: 'orange' }}>{testimonial.authorRole}</span>
+                    <div className="ta-info" style={{ marginLeft: '10px', textAlign: 'center' }}>
+                        <h5 style = {{ color: index % 2 === 0 ? '#000' : '#c3ccdb' }}>{testimonial.authorName}</h5>
+                        <span style={{ color: index % 2 === 0 ? '#000' : '#c3ccdb' }}>{testimonial.authorRole}</span>
                     </div>
                 </div>
-                <p style={{ fontSize: '20px', letterSpacing: '1px', marginLeft: '40px', textAlign: 'center', marginTop: '20px', maxWidth: '70%' }}>
+                <p style={{ fontSize: '20px', textAlign: "center" ,letterSpacing: '1px', marginLeft: '40px', marginTop: '20px', maxWidth: '70%', color: index % 2 === 0 ? '#000' : '#c3ccdb'}}>
                     {testimonial.quote}
                 </p>
             </div>
