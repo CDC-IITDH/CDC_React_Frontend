@@ -34,12 +34,14 @@ import image31 from "../../../assets/img/gallery/Gallery-31.jpg";
 import image32 from "../../../assets/img/gallery/Gallery-32.jpg";
 import image33 from "../../../assets/img/gallery/Gallery-33.jpg";
 import image34 from "../../../assets/img/gallery/Gallery-34.jpg";
+import image35 from "../../../assets/img/gallery/Gallery-35.jpg";
 function First() {
 
     const Data = [
         { img: image31, category: "Marketing" },
         { img: image32, category: "Marketing" },
         { img: image33, category: "Marketing" },
+        { img: image35, category: "Marketing" },        
         { img: image24, category: "Marketing" },
         { img: image28, category: "Marketing" },
         { img: image29, category: "Marketing" },
@@ -119,15 +121,15 @@ function First() {
                 <div className="grid col3 row wow fadeInUp  animated" data-animation="fadeInUp" data-delay=".4s" >
                     {current.map( (item, Index)=> ( 
                         <div className="grid-item financial col-4" key={Index}>
-                            <Link to="/single-projects">
-                                <figure className="gallery-image">
+                            {/* <Link to="/single-projects"> */}
+                                {/* <figure className="gallery-image"> */}
                                     <img style={{
                                         width: '100%',    // Ensure the image takes the full width of its container
                             height: '300px',  // Set a fixed height
                             objectFit: 'cover' // This makes the image cover the area, zooming in/out as needed
                                         }} src={item.img} alt="img" className="img" />
-                                </figure>
-                            </Link>
+                                {/* </figure> */}
+                            {/* </Link> */}
                         </div>
                     ))}
                 </div>

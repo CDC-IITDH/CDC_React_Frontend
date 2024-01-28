@@ -1,6 +1,6 @@
 import React from "react";
-import image31 from "./../../assets/img/gallery/Academic_Page_banner.jpg";
-import image32 from "../../assets/img/gallery/Gallery-32.jpg";
+import image31 from "./../../assets/img/features/Academic_Page_banner.jpg";
+import image32 from "../../assets/img/features/Academic-About.jpg";
 
 function Campus() {
   return (
@@ -24,21 +24,7 @@ function Campus() {
                 <div className="text">
                   <h2>Why IIT Dharwad?</h2>
                   <p>
-                    IIT Dharwad is a premier educational institution, focusing
-                    on the holistic development of each student. Our students
-                    are nurtured to be curious, hardworking, and adaptive, right
-                    from the first semester. In addition to theoretical
-                    knowledge, we also impart hands-on knowledge and
-                    industry-relevant skills to our students, to enable them to
-                    thrive in any setting. Through organizing various events and
-                    participating in our plethora of club activities, our
-                    students are skilled in management, teamwork, and logistics
-                    too. A lot of impetus is given to sports in our college,
-                    from where our students pick up important life skills like
-                    leadership, and team-spirit. Thus, be it research or
-                    management, rest assured that our students will be able to
-                    add value to your organization, in whatever role you may
-                    choose to hire them.
+                  IIT Dharwad is a premier educational institution, focusing on the holistic development of each student. Our students are nurtured to be curious, hardworking and adaptive, right from the first semester. In addition to theoretical knowledge, we also impart hands on knowledge and industry relevant skills to our students, to enable them to thrive in any setting. Through organizing various events and participating in our plethora of club activities, our students are skilled in management, teamwork and logistics too. A lot of impetus is given to sports in our college, from where our students pick up important life skills like leadership, and team-spirit. Thus, be it research or management, rest assured that our students will be able to add value to your organization, in whatever role you may choose to hire them.
                   </p>
                 </div>
               </div>
@@ -52,7 +38,7 @@ function Campus() {
                 <img
                   src={image31}
                   style={{
-                    width: "100%",
+                    width: "800px",
                     objectFit: "cover",
                     objectPosition: "center",
                   }}
@@ -100,7 +86,7 @@ function Campus() {
                     students in achieving their career goals. To achieve the
                     same, it organizes events like pre-placement training
                     programs and various talk series to facilitate the Industry
-                    Institute Interface, to name a few.
+                    Institute Interface, to name a few.The institute aims to make education an innovative It is also responsible for facilitating campus internships and placements for the students of IIT Dharwad. It further helps them explore opportunities for higher education. The CDC has successfully concluded the placement and internship session for the 2020, 2021 and 2022 batches respectively. Among 105 students who are qualified and appeared for the placements (in the class of 2022), 92 received placement offers. The CDC is now actively working on and is committed to having another successful year.
                   </p>
                 </div>
               </div>
