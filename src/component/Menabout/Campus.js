@@ -1,4 +1,6 @@
 import React from 'react'
+import image31 from "./../../assets/img/gallery/Academic_Page_banner.jpg";
+import image32 from "../../assets/img/gallery/Gallery-32.jpg";
 function Campus() {
   return (
     <>
@@ -27,7 +29,10 @@ function Campus() {
                 </div>
                 <div className="col-lg-6 col-md-12">
                     <div className="step-img2 wow fadeInLeft animated" data-animation="fadeInLeft" data-delay=".4s" >
-                        <img src="assets/img/bg/steps-img-2.png" alt="class image" /> {/*added image to block 1*/}
+                        <img src={image31} style={{width: '100%',
+                            objectFit: 'cover',
+                            objectPosition:"center" // This makes the image cover the area, zooming in/out as neede
+                            }} alt="class image" /> {/*added image to block 1*/}
                     </div>
                 </div>
                 </div>
@@ -39,7 +44,11 @@ function Campus() {
                 <div className="row align-items-center">
                 <div className="col-lg-6 col-md-12">
                     <div className="step-img3 wow fadeInLeft animated" data-animation="fadeInLeft" data-delay=".4s" >
-                        <img src="assets/img/bg/steps-img-3.png" alt="class image" /> {/*added image to block 2*/}
+                        <img src={image32} style={{    // Ensure the image takes the full width of its container
+                            
+                            objectFit: 'contain',
+                            objectPosition: 'center', // This makes the image cover the area, zooming in/out as neede
+                            }} alt="class image" /> {/*added image to block 2*/}
                     </div>
                 </div>
                 <div className="col-lg-6 col-md-12">
