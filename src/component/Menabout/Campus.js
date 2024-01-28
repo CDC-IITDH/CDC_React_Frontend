@@ -36,8 +36,21 @@ function Campus() {
                     </div>
                 </div>
                 </div>
+              </div>
             </div>
-        </section>
+            <div className="col-lg-6 col-md-12">
+              <div
+                className="step-img2 wow fadeInLeft animated"
+                data-animation="fadeInLeft"
+                data-delay=".4s"
+              >
+                <img src={image1} alt="class image" />{" "}
+                {/*added image to block 1*/}
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
 
         <section className="steps-area2 p-relative fix" style={{ backgroundColor: "#125875" }} >
             <div className="container">           
@@ -64,17 +77,38 @@ function Campus() {
                         <p>
                         CDC is a body of IIT Dharwad that supports students in shaping and managing their careers by building critical ingredients required for a student to be a complete professional.It is committed to assisting all IIT Dharwad students in achieving their career goals. To achieve the same, it organizes events like pre-placement training programs and various talk series to facilitate the Industry Institute Interface, to name a few.
 
-The institute aims to make education an innovative It is also responsible for facilitating campus internships and placements for the students of IIT Dharwad. It further helps them explore opportunities for higher education. The CDC has successfully concluded the placement and internship session for the 2020, 2021 and 2022 batches respectively. Among 105 students who are qualified and appeared for the placements (in the class of 2022), 92 received placement offers. The CDC is now actively working on and is committed to having another successful year.
-                        </p>
-                    </div>
-                    </div>
+                  {/* </div> */}
                 </div>
+                <div className="text">
+                  <h2>About CDC</h2>
+                  <p>
+                    CDC is a body of IIT Dharwad that supports students in
+                    shaping and managing their careers by building critical
+                    ingredients required for a student to be a complete
+                    professional.It is committed to assisting all IIT Dharwad
+                    students in achieving their career goals. To achieve the
+                    same, it organizes events like pre-placement training
+                    programs and various talk series to facilitate the Industry
+                    Institute Interface, to name a few. The institute aims to
+                    make education an innovative It is also responsible for
+                    facilitating campus internships and placements for the
+                    students of IIT Dharwad. It further helps them explore
+                    opportunities for higher education. The CDC has successfully
+                    concluded the placement and internship session for the 2020,
+                    2021 and 2022 batches respectively. Among 105 students who
+                    are qualified and appeared for the placements (in the class
+                    of 2022), 92 received placement offers. The CDC is now
+                    actively working on and is committed to having another
+                    successful year.
+                  </p>
                 </div>
+              </div>
             </div>
-            
-        </section>
+          </div>
+        </div>
+      </section>
     </>
-  )
+  );
 }
 
-export default Campus
+export default Campus;
