@@ -15,13 +15,25 @@
       "id": 2,
       "date": "19 October, 2023",
       "title": "Study and Research in Germany",
-      "image": "./phdingermany.jpeg",
+      "image": "./iitdh-walmi.jpg",
       "description": "Explore Opportunities in Germany!",
       "time": "2:30 pm - 3:45 pm",
       "venue":"Auditorium",
       "registrationtimeopen":"Dec 17, 2023 15:37:25",
       "registrationtimeclose":"Dec 19, 2023 18:37:25",
       "details": "Join us for an enlightening talk on 'Study and Research in Germany' featuring esteemed guest speakers: Dr. Manjula Mundakana, Senior Advisor, Science Technology and Political AffairsConsulate General of the Federal Republic of Germany, Bengaluru and Dr. R. Madhan Director, Indo-German Science & Technology Centre (IGSTC), New Delhi. Participate in the Q&A session to gain valuable insights and guidance for your academic and research pursuits in Germany. Don't miss this incredible opportunity to learn about pursuing your Masters or PhD in Germany."
+    },
+    {
+      "id": 3,
+      "date": "2nd October, 2023",
+      "title": "Practical Tips to crack Product Management Interviews",
+      "image": "./crackpminterviews.jpeg",
+      "description": "Featuring Arpit Beniwal, the Head of Product at Baazi Games and a former Senior Product Manager at Amazon.",
+      "time": "2.00 pm - 4.00 pm",
+      "venue":"Online",
+      "registrationtimeopen":"Dec 17, 2023 15:37:25",
+      "registrationtimeclose":"Dec 19, 2023 18:37:25",
+      "details": "1. Framework to Crack PM Interviews: Arpit will share his personal insights and proven strategies for successfully navigating PM interviews, drawing from his extensive experience in the field. 2. Mock Interview featuring a Practical Real-World Gaming Case Study: Arpit Beniwal will solve a mock practical gaming case study to provide you with a solid foundation for understanding how to solve PM Design case studies.3. How to Identify Real User Problems: Arpit will use the practical gaming case study to guide you through the process of identifying real user problems, a fundamental skill for any product manager. 4. Learn How to Build Innovative Product Solutions and Design Engaging UI/UX Experiences: Using the same gaming case study, Arpit will show you how to develop innovative product solutions and design captivating UI/UX experiences that resonate with users. This session promises to be a valuable opportunity for aspiring product managers and anyone interested in honing their product thinking skills. Arpit's rich background in product management, coupled with real-world case studies, will provide you with actionable takeaways to excel in your PM career.Whether you're looking to pursue a career in product management or simply want to sharpen your critical thinking and problem-solving skills, this session promises a wealth of knowledge and actionable insights. We look forward to having you join us for this enlightening session.Don't miss this chance to enhance your product management skills and gain insights from a seasoned industry expert. We hope to see you there!"
     }
   ]
   

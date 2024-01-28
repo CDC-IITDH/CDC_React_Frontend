@@ -45,13 +45,13 @@ function First() {
                 data-delay=".4s"
                 key={event.id}
               >
-                <div className="event-item mb-30 hover-zoomin">
+                <div className="event-item mb-30 hover-zoomin" >
                   <div className="thumb">
                     <Link to={`/single-event/${event.id}`}>
-                        <img src={images(event.image)} alt="contact-bg-an-11" style={{minHeight:"233px", maxHeight: "300px"}} />                    
+                        <img src={images(event.image)} alt="contact-bg-an-11" style={{minHeight:"233px", maxHeight: "233px"}} />                    
                     </Link>
                   </div>
-                  <div className="event-content">
+                  <div className="event-content" style = {{minHeight: "250px", maxHeight: "250px"}}>
                     <div className="date" style={{fontSize:"10px"}}>
                     <strong>{day}</strong> {month} {year}
                     </div>
