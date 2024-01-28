@@ -1,83 +1,28 @@
 [
     {
       "id": 1,
-      "date": "20 December, 2023",
-      "title": "Basic UI & UX Design for new development",
-      "image": "https://www.iitdh.ac.in/sites/default/files/2023-10/slide-02-new_3.jpg",
-      "description": "Seamlessly visualize quality intellectual capital without superior collaboration and ideate",
-      "time": "3:30 pm - 4:30 pm",
-      "venue":"Academic Block 1",
+      "date": "12 Feburary, 2023",
+      "title": "The HR Conclave 2023 ",
+      "image": "./HR_Conclave.jpg",
+      "description": "The groundbreaking third edition of HR Conclave 2023 made history at IIT Dharwad on 12th February 2023, marking the first-ever offline event of its kind. Hosted by the esteemed Career Development Council (CDC) of IIT Dharwad, the Conclave captivated audiences through a series of two riveting panel discussions featuring industry stalwarts.",
+      "time": "10 am - 5 pm",
+      "venue":"Auditorium",
       "registrationtimeopen":"Dec 17, 2023 15:37:25",
-      "registrationtimeclose":"Dec 19, 2023 18:37:25"
+      "registrationtimeclose":"Dec 19, 2023 18:37:25",
+      "details": "Moonlighting : the practice of undertaking secondary employment alongside a traditional 9-to-5 job. Downsizing : which involves reducing the size of a company by eliminating employees. This enlightening discussion on various facets of the corporate world, coupled with the panelist's invaluable guidance on transcending the role of mere manpower and becoming skillful individuals, left an indelible impression on the eager students present. The Conclave culminated in a grand felicitation of the esteemed panelists, who had shared their wisdom and experiences, and a resounding vote of thanks, symbolizing the appreciation and gratitude of all attendees."
     },
     {
       "id": 2,
-      "date": "1 January, 2024",
-      "title": "Digital Education Market Briefing: Minnesota 2023",
-      "image": "https://cdc.iitdh.ac.in/images/home/gate.jpg",
-      "description": "Seamlessly visualize quality intellectual capital without superior collaboration and ideate",
-      "time": "3:30 pm - 4:30 pm",
-      "venue":"Walmi Campus",
-      "registrationtimeopen":"Dec 28, 2023 15:37:25",
-      "registrationtimeclose":"Dec 31, 2023 18:37:25"
-    },
-    {
-      "id": 3,
-      "date": "26 January, 2024",
-      "title": "Learning Network Webinars for Music Teachers",
-      "image": "https://www.iitdh.ac.in/sites/default/files/2023-10/slide-04-new.jpg",
-      "description": "Seamlessly visualize quality intellectual capital without superior collaboration and ideate",
-      "time": "3:30 pm - 4:30 pm",
-      "venue":"Room23",
-      "registrationtimeopen":"Jan 24, 2024 15:37:25",
-      "registrationtimeclose":"Jan 25, 2024 18:37:25"
-
-    },
-    {
-      "id": 4,
-      "date": "2 November, 2023",
-      "title": "Next-Gen Higher Education Students Have Arrived?",
-      "image": "https://www.iitdh.ac.in/sites/default/files/2023-10/slide-03-new.jpg",
-      "description": "Seamlessly visualize quality intellectual capital without superior collaboration and ideate",
-      "time": "3:30 pm - 4:30 pm",
+      "date": "19 October, 2023",
+      "title": "Study and Research in Germany",
+      "image": "./phdingermany.jpeg",
+      "description": "Explore Opportunities in Germany!",
+      "time": "2:30 pm - 3:45 pm",
       "venue":"Auditorium",
-      "registrationtimeopen":"Oct 27, 2023 15:37:25",
-      "registrationtimeclose":"Nov 1, 2023 18:37:25"
-    },
-    {
-      "id": 5,
-      "date": "24 November, 2023",
-      "title": "Digital Art & 3D Model – a future for film company",
-      "image": "https://www.iitdh.ac.in/sites/default/files/2023-10/slide-03-new.jpg",
-      "description": "Seamlessly visualize quality intellectual capital without superior collaboration and ideate",
-      "time": "3:30 pm - 4:30 pm",
-      "venue":"Academic Block 2",
-      "registrationtimeopen":"Nov 19, 2023 15:37:25",
-      "registrationtimeclose":"Nov 20, 2023 18:37:25"
-    },
-    {
-      "id": 6,
-      "date": "4 December, 2023",
-      "title": "Conscious Discipline Summer Institute",
-      "image": "https://www.iitdh.ac.in/sites/default/files/2023-10/slide-03-new.jpg",
-      "description": "Seamlessly visualize quality intellectual capital without superior collaboration and ideate",
-      "time": "3:30 pm - 4:30 pm",
-      "venue":"CLT",
-      "registrationtimeopen":"Nov 28, 2023 15:37:25",
-      "registrationtimeclose":"Dec 1, 2023 18:37:25"
-    },
-    {
-      "id": 7,
-      "date": "9 December, 2023",
-      "title": "Conscious Discipline Summer Institute",
-      "image": "https://www.iitdh.ac.in/sites/default/files/2023-10/slide-03-new.jpg",
-      "description": "Seamlessly visualize quality intellectual capital without superior collaboration and ideate",
-      "time": "3:30 pm - 4:30 pm",
-      "venue":"CLT",
-      "registrationtimeopen":"Nov 29, 2023 15:37:25",
-      "registrationtimeclose":"Dec 7, 2023 18:37:25"
+      "registrationtimeopen":"Dec 17, 2023 15:37:25",
+      "registrationtimeclose":"Dec 19, 2023 18:37:25",
+      "details": "Join us for an enlightening talk on 'Study and Research in Germany' featuring esteemed guest speakers: Dr. Manjula Mundakana, Senior Advisor, Science Technology and Political AffairsConsulate General of the Federal Republic of Germany, Bengaluru and Dr. R. Madhan Director, Indo-German Science & Technology Centre (IGSTC), New Delhi. Participate in the Q&A session to gain valuable insights and guidance for your academic and research pursuits in Germany. Don't miss this incredible opportunity to learn about pursuing your Masters or PhD in Germany."
     }
-   
   ]
   
   

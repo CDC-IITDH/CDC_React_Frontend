@@ -6,6 +6,8 @@ function First() {
   const itemsPerPage = 6; // Set the number of items per page
   const [currentPage, setCurrentPage] = useState(1);
 
+  const images = require.context("../../../assets/img/events/", true);
+
   const sortedEvents = events.sort((a, b) => {
     const dateA = new Date(a.date);
     const dateB = new Date(b.date);
@@ -46,7 +48,7 @@ function First() {
                 <div className="event-item mb-30 hover-zoomin">
                   <div className="thumb">
                     <Link to={`/single-event/${event.id}`}>
-                      <img src={event.image} alt="contact-bg-an-01" style={{minHeight:"233px"}} />
+                        <img src={images(event.image)} alt="contact-bg-an-11" style={{minHeight:"233px", maxHeight: "300px"}} />                    
                     </Link>
                   </div>
                   <div className="event-content">
