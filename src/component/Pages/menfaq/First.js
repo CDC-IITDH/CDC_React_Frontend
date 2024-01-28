@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import { Link } from "react-router-dom";
 import faqData from "../../../data/recruiterFAQs.json";
-
+import faqImage from "../../../assets/img/features/Faq-Image.jpg"
 function First() {
   const [video, setVideo] = useState();
 
@@ -22,22 +22,25 @@ function First() {
               data-delay=".4s"
             >
               <div
-                className="s-video-wrap2"
-                style={{ backgroundImage: "url(assets/img/bg/video-img3.png)" }}
+                // className="s-video-wrap2" 
+                style={{display:"flex",alignItems:"flex-start"}}
+                // style={{ backgroundImage: "url(assets/img/bg/video-img3.png)" }}
               >
-                <div className="s-video-content text-center">
-                  <h6>
-                    <Link
+                <div 
+                // className="s-video-content text-center"
+                >
+                  {/* <h6> */}
+                    {/* <Link
                       to="#"
                       className="popup-video mb-50"
                       onClick={() => setVideo(true)}
-                    >
+                    > */}
                       <img
-                        src="assets/img/bg/play-button.png"
+                        src={faqImage}
                         alt="circle_right"
                       />
-                    </Link>
-                  </h6>
+                    {/* </Link> */}
+                  {/* </h6> */}
                 </div>
               </div>
             </div>

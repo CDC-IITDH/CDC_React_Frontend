@@ -74,7 +74,10 @@ const Interninfo = () => {
         <div style={styles.section}>
         <h4 style={styles.sectionTitle}>1. Fill the Internship Notification Form</h4>
         <div style={styles.sub1}>
-        <h5 style={styles.text}>Interested companies will fill out the Job Notification Form.</h5>
+        <h5 style={styles.text}>Different modes of internships that IIT Dharwad offers are explained 
+        <a href="https://drive.google.com/file/d/1a8cRL4i3aeEWcCVRQIRAv-DrFybPl9N0/view" target='_blank' style={{color:"rgb(255, 115, 80)"}}> here</a>.</h5>
+        <h5 style={styles.text}>Interested companies will fill out the 
+        <a href="https://cdc.iitdh.ac.in/portal/inf" target='_blank' style={{color:"rgb(255, 115, 80)"}}> Internship Notification Form</a>.</h5>
         <h5 style={styles.text}>The company has to provide the following mandatory data as per the forms. The key data required are:</h5>
         <h5 style={styles.subText}>a) Stipend.</h5>
         <h5 style={styles.subText}>b) The geographic location where the job is being offered.</h5>

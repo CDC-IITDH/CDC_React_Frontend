@@ -38,34 +38,33 @@ function Main() {
                     </div>
                     </div>
                     <div className="col-xl-2 col-lg-2 col-sm-6">
-                    <div className="footer-widget mb-30">
-                        <div className="f-widget-title">
-                        <h2>Our Links</h2>
-                        </div>
-                        <div className="footer-link">
-                        <ul>
-                            <li>
-                                <Link to="/">Home</Link>
-                            </li>
-                            <li>
-                                <Link to="/about"> Academic Information</Link>
-                            </li>
-                            <li>
-                                <Link to="/courses">Undergraduate</Link>
-                            </li>
-                            <li>
-                                <Link to="/contact"> Faculty</Link>
-                            </li>
-                            <li>
-                                <Link to = "/team">Team</Link>
-                            </li>
-                            <li>
-                                <Link to="/blog">Academic Facilities </Link>
-                            </li>
-                        </ul>
-                        </div>
-                    </div>
-                    </div>
+                <div className="footer-widget mb-30">
+                  <div className="f-widget-title">
+                    <h2>Our Links</h2>
+                  </div>
+                  <div className="footer-link">
+                    <ul>
+                      <li>
+                        <Link to="/">Home</Link>
+                      </li>
+                      <li>
+                        <Link to="https://iitdh.ac.in/programs">
+                          Academic Information
+                        </Link>
+                      </li>
+                      <li>
+                        <Link to="https://iitdh.ac.in/faculty">Faculty</Link>
+                      </li>
+                      <li>
+                        <Link to="/team">Team</Link>
+                      </li>
+                      <li>
+                        <Link to="/gallery">Gallery</Link>
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
                     <div className="col-xl-3 col-lg-3 col-sm-6">
                     <div className="footer-widget mb-30">
                         <div className="f-widget-title">

@@ -1,6 +1,6 @@
 import React from "react";
 import { Link } from "react-router-dom";
-import image1 from "./../../assets/img/features/about_img_02.png";
+import image1 from "../../assets/img/features/About-Home.jpg";
 function About() {
   return (
     <>
@@ -17,7 +17,7 @@ function About() {
                 data-delay=".4s"
               >
                 <img src={image1} alt="img" />
-                <div className="about-text second-about">
+                <div className="about-text second-about" style={{top:"30px",width:"250px",height:"100px",bottom:"-10px",padding:"20px",left:"357px"}}>
                   <span>
                     <sub>Established</sub>
                   </span>

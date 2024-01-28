@@ -136,11 +136,11 @@ const Placementinfo = () => {
       <div>
         <h3 style={styles.text}>Fill the Job Notification Form</h3>
         <h5 style={styles.subText}>
-          Interested companies will fill out the Job Notification Form. 
+          Interested companies will fill out the <a href="https://cdc.iitdh.ac.in/portal/jnf" target='_blank' style={{color:"rgb(255, 115, 80)"}}> Job Notification Form</a>. 
         </h5>
         
         <h5 style={styles.subText}>
-        Before filling the form kindly refer to the placement brochure.
+        Before filling the form kindly refer to the<a href="https://drive.google.com/file/d/1QpP0K4J6AXiFcezI-mBRzrpesci0gsAh/view" target='_blank' style={{color:"rgb(255, 115, 80)"}}> placement brochure</a>.
         </h5>
         <h5 style={styles.subText}>
           The company has to provide the following mandatory data as per the forms. The key data required are:

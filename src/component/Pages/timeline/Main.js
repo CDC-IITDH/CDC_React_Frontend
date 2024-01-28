@@ -56,7 +56,7 @@ class Testimonials extends Component {
      icon={<FaPaste />}
   >
     <h3 className="vertical-timeline-element-title"  style={{color:"white"}}>Fill INF</h3>
-    <h4 className="vertical-timeline-element-subtitle"  style={{color:"white"}}>Interested companies fill out the Job Notification Form (JNF) which is given on the CDC website</h4>
+    <h4 className="vertical-timeline-element-subtitle"  style={{color:"white"}}>Interested companies fill out the Internship Notification Form (INF) which is given on the CDC website</h4>
   </VerticalTimelineElement>
   <VerticalTimelineElement
     className="vertical-timeline-element--education"
