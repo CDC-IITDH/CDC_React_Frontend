@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/new/static/css/main.e28c3035.css",
-    "main.js": "/new/static/js/main.862c2596.js",
+    "main.js": "/new/static/js/main.0c6b5a22.js",
     "static/media/fa-duotone-900.svg": "/new/static/media/fa-duotone-900.e2ad3965c2a9e62098b9.svg",
     "static/media/fa-light-300.svg": "/new/static/media/fa-light-300.9dd7bbb937f23efa25fb.svg",
     "static/media/fa-regular-400.svg": "/new/static/media/fa-regular-400.4e2c87c166dd32bc2485.svg",
@@ -14,6 +14,7 @@
     "static/media/Satya_Priya_Image.jpeg": "/new/static/media/Satya_Priya_Image.062d9958fbc482ee628c.jpeg",
     "static/media/fa-regular-400.eot": "/new/static/media/fa-regular-400.cd4a83bf70ae5a2350ea.eot",
     "static/media/fa-regular-400.ttf": "/new/static/media/fa-regular-400.7606d9430562a89b8ac6.ttf",
+    "static/media/about_img_02.png": "/new/static/media/about_img_02.fa2aa59dbbfab843ca2f.png",
     "static/media/fa-solid-900.eot": "/new/static/media/fa-solid-900.259e7659316cb06e8b14.eot",
     "static/media/fa-solid-900.ttf": "/new/static/media/fa-solid-900.deb100ec94ec63cec6e7.ttf",
     "static/media/fa-duotone-900.woff": "/new/static/media/fa-duotone-900.e4d287fdc7be3fa2c22a.woff",
@@ -31,6 +32,7 @@
     "static/media/entrupy.png": "/new/static/media/entrupy.6ce932f13bd021e40fea.png",
     "static/media/fa-brands-400.woff": "/new/static/media/fa-brands-400.97667d8cd09ef6acdf71.woff",
     "static/media/fa-brands-400.woff2": "/new/static/media/fa-brands-400.6e6a4a81a7f71c0ba134.woff2",
+    "static/media/an-img-10.png": "/new/static/media/an-img-10.858f557c4c07ffb6e34a.png",
     "static/media/thoughtspot.png": "/new/static/media/thoughtspot.fdd8922b8a8f8b6d35fb.png",
     "static/media/scoreplus.png": "/new/static/media/scoreplus.0afe4efc00cf7a3551fb.png",
     "static/media/tcs.jpg": "/new/static/media/tcs.017a99c2bf8913ba5742.jpg",
@@ -71,10 +73,10 @@
     "static/media/mmrfi.jpg": "/new/static/media/mmrfi.62d4ad283ad2ae086a0f.jpg",
     "index.html": "/new/index.html",
     "main.e28c3035.css.map": "/new/static/css/main.e28c3035.css.map",
-    "main.862c2596.js.map": "/new/static/js/main.862c2596.js.map"
+    "main.0c6b5a22.js.map": "/new/static/js/main.0c6b5a22.js.map"
   },
   "entrypoints": [
     "static/css/main.e28c3035.css",
-    "static/js/main.862c2596.js"
+    "static/js/main.0c6b5a22.js"
   ]
 }
