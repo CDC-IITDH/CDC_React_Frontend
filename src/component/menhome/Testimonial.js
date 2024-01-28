@@ -1,12 +1,42 @@
 import React from 'react'
 import Slider from "react-slick";
 
+function SampleNextArrow(props) {
+    const { className, style, onClick } = props;
+    return (
+        <button
+        type="button"
+        className={`slick-next ${className}`}
+        style={{ ...style }}
+        onClick={onClick}
+        >
+        <i className="far fa-angle-right"></i>
+        </button>
+    );
+}
+  
+function SamplePrevArrow(props) {
+const { className, style, onClick } = props;
+return (
+    <button
+    type="button"
+    className={`slick-prev ${className}`}
+    style={{ ...style }}
+    onClick={onClick}
+    >
+    <i className="far fa-angle-left"></i>
+    </button>
+);
+}
+
 function Testimonial() {
 
      let settings = {
         dots: true,
         infinite: true,
-        arrows: false,
+        arrows: true,
+        prevArrow: <SamplePrevArrow />,
+        nextArrow: <SampleNextArrow />,
         speed: 1000,
         slidesToShow: 3,
         slidesToScroll: 2,
@@ -52,7 +82,7 @@ function Testimonial() {
                         </div>
                     </div>
                     <div className="col-lg-12">
-                        <Slider className="testimonial-active wow fadeInUp animated" data-animation="fadeInUp" data-delay=".4s" {...settings}>
+                        <Slider className="slider-active testimonial-active wow fadeInUp animated testimonial-area3" data-animation="fadeInUp" data-delay=".4s" {...settings}>
 
                             <div className="single-testimonial text-center">
                                 <div className="qt-img">
