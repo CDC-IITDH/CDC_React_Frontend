@@ -3,13 +3,15 @@ import { VerticalTimeline, VerticalTimelineElement }  from 'react-vertical-timel
 import 'react-vertical-timeline-component/style.min.css';
 import { SiProbot } from 'react-icons/si';
 import { FaEnvelope, FaPaste, FaFile, FaList, FaUsers, FaFlagCheckered } from 'react-icons/fa';
+import Interninfo from "../Internshipinfo/Main";
 
 class Testimonials extends Component {
   render() {
 
     return (
-      <section id="timeline" style={{paddingTop : '80px', marginLeft : 'auto',backgroundColor:"rgb(239, 247, 255)" }}>
-        <div style={{ textAlign : 'center', color: 'black', fontSize : '40px',fontFamily:"'Jost', sans-serif", marginBottom: '40px'}}>INTERNSHIP</div> 
+      <section id="timeline" style={{paddingTop : '60px', marginLeft : 'auto',backgroundColor:"rgb(239, 247, 255)" }}>
+     
+        <div style={{ textAlign : 'center', color: 'rgb(18, 88, 117)', fontSize : '30px',fontFamily:"'Jost', sans-serif", marginBottom: '40px'}}>INTERNSHIP PROCEDURE</div> 
         <style>
           {`
             .vertical-timeline::before {
@@ -97,7 +99,9 @@ class Testimonials extends Component {
     <h4 className="vertical-timeline-element-subtitle"  style={{color:"white"}}>Companies provides the final list of the selected students and CDC coordinates by signing off the offer letters.</h4>
   </VerticalTimelineElement>
 </VerticalTimeline>
+ <Interninfo/>
 </section>
+
     );
   }
 }
