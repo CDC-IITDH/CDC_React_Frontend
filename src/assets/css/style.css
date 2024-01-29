@@ -704,6 +704,11 @@ color: #b8bfc3;
     top: 40%;
     left: 22%;
 }
+
+.testimonial-active .slick-dots  {
+    left : 0%;
+}
+
 .slider-active .slick-dots li button {
     text-indent: -99999px;
     border: none;
@@ -1403,7 +1408,7 @@ margin-bottom: 15px;
     left: 5%;
     color: #00163b;
     font-size: 26px;
-    line-height: 60px;
+    line-height: 65px;
     border: none;
     text-align: center;
     z-index: 9;
@@ -4805,16 +4810,15 @@ text-align: center;
 .testimonial-active .slick-arrow {
 	position: absolute;
 	bottom: -80px;
-	left: 0;
+	left: 0px;
 	border: none;
 	background: none;
-	padding: 0;
+	padding: 0px;
 	font-size: 24px;
 	color: #fff;
 	z-index: 9;
 	cursor: pointer;
 	transition: .3s;
-	width: 94%;
 }
 .testimonial-active i {
     font-size: 30px;

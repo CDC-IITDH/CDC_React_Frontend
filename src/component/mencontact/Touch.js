@@ -3,7 +3,7 @@ import React from 'react'
 function Touch() {
   return (
     <>
-        <section id="services" className="services-area pt-120 pb-90 fix">
+        <section id="services" className="services-area pt-120 pb-60 fix">
             <div className="container">
                 <div className="row">
                 <div className="col-lg-12">

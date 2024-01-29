@@ -5,7 +5,8 @@ function First({eventsData}) {
     const { id } = useParams();
     const eventId = parseInt(id, 10);
     const eventData = eventsData.find((eventData) => eventData.id === eventId);
-    const { title, date, image, description, time,venue,registrationtimeopen,registrationtimeclose } = eventData;
+    const { title, date, image, description, time,venue,registrationtimeopen,registrationtimeclose, details } = eventData;
+    const images = require.context("../../../assets/img/events/", true);
     const registrationOpenTime = new Date(registrationtimeopen).getTime();
     const registrationCloseTime = new Date(registrationtimeclose).getTime();   
     const [countdown, setCountdown] = useState({
@@ -29,7 +30,6 @@ function First({eventsData}) {
       let x = setInterval(function () {
         let now = new Date().getTime();
         let distance = countDownDate - now;
-  
         let days = Math.floor(distance / (1000 * 60 * 60 * 24));
         let hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
         let minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
@@ -55,7 +55,7 @@ function First({eventsData}) {
                     <div className="upper-box">
                         <div className="single-item-carousel owl-carousel owl-theme">
                             <figure className="image">
-                                <img src={image} alt="" />
+                                <img src={images(image)} alt="" />
                             </figure>
                         </div>
                     </div>
@@ -131,21 +131,16 @@ function First({eventsData}) {
                                         fermentum feugiat velit mauris egestas quam ut erat justo. */}
                                     </p>
                                     <p>
-                                        Fusce eleifend donec sapien sed phase lusa pellentesque
-                                        lacus.Vivamus lorem arcu semper duiac. Cras ornare arcu avamus nda
-                                        leo Etiam ind arcu. Morbi justo mauris tempus pharetra interdum at
-                                        congue semper purus. Lorem ipsum dolor sit.The world of search
-                                        engine optimization is complex and ever-changing, but you can
-                                        easily understand the basics.
-                                        
+                                       {details}
                                     </p>
+                                    {/*
                                     <p>
                                         Lorem ipsum is simply free text used by copytyping refreshing.
                                         Neque porro est qui dolorem ipsum quia quaed inventore veritatis
                                         et quasi architecto beatae vitae dicta sunt explicabo. Aelltes
                                         port lacus quis enim var sed efficitur turpis gilla sed sit amet
                                         finibus eros. Lorem Ipsum is simply dummy text of the printing.
-                                    </p>
+                                      </p> */}
                                     <div className="two-column mt-30">
                                         <div className="row aling-items-center">
                                             <div className="image-column col-xl-6 col-lg-12 col-md-12">
