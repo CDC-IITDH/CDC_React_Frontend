@@ -2,6 +2,7 @@ import React from 'react'
 import { Link } from 'react-router-dom'
 import { useParams } from 'react-router-dom'
 function First({blogsData}) {
+    const images = require.context("../../assets/img/blogs/", true);
     const { id } = useParams();
     const blogId = parseInt(id, 10);
     const currentBlogIndex = blogsData.findIndex((blogData) => blogData.id === blogId);
@@ -41,7 +42,7 @@ function First({blogsData}) {
                                         </ul>
                                     </div>
                                     <div className="details__content-img">
-                                        <img src={image} alt="" />
+                                        <img src={images(image)} alt="" />
                                     </div>
                                     <p>
                                        {description}

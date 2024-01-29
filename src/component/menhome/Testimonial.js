@@ -82,7 +82,7 @@ function Testimonial() {
                         </div>
                     </div>
                     <div className="col-lg-12">
-                        <Slider className="slider-active testimonial-active wow fadeInUp animated testimonial-area3" data-animation="fadeInUp" data-delay=".4s" {...settings}>
+                        <Slider className="slider-active testimonial-active wow fadeInUp animated" data-animation="fadeInUp" data-delay=".4s" {...settings}>
 
                             <div className="single-testimonial text-center">
                                 <div className="qt-img">
