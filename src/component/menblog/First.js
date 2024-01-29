@@ -19,6 +19,7 @@ function SamplePrevArrow(props) {
 
 
 function First() {
+    const images = require.context("../../assets/img/blogs/", true);
     const [video, setVideo] = useState();
     const [currentPage, setCurrentPage] = useState(1);
     const blogsPerPage = 6; // You can adjust this value based on your preference
@@ -59,9 +60,9 @@ function First() {
                                 <div key={blog.id} className="col-lg-4 mb-4">
                             <div className="bsingle__post mb-50">
                                 <div className="bsingle__post-thumb">
-                                    <img src={blog.image} alt="" />
+                                    <img src={images(blog.image)} alt="" />
                                 </div>
-                                <div className="bsingle__content">
+                                <div className="bsingle__content" style = {{ minHeight: "400px", maxHeight : "400px"}}>
                                     <div className="meta-info">
                                         <div className="meta-info">
                                             <ul>

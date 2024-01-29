@@ -3,6 +3,7 @@ import { Link } from 'react-router-dom'
 import { useParams } from 'react-router-dom'
 import { useState, useEffect } from 'react';
 function First({blogsData}) {
+    const images = require.context("../../assets/img/blogs/", true);
     const { id } = useParams();
     const blogId = parseInt(id, 10);
     // State for window width
@@ -67,50 +68,50 @@ function First({blogsData}) {
                               
                                         <div style={{ display: 'flex', flexDirection: 'column', gap: '20px' }}>
                                         <div style={{
-    display: 'flex',
-    gap: '40px',
-    flexDirection: isMobile ? 'column' : 'row',
-    alignItems: 'flex-start',
-    height: isMobile ? 'auto' : '100%',
-    marginBottom: "20px"
-}}>
-    <img src={image} alt="" style={{
-        width: isMobile ? '100%' : '400px',
-        height: isMobile ? 'auto' : '100%',
-        objectFit: 'cover',
-    }} />
-    <div style={{
-        flex: 1,
-        display: 'flex',
-        flexDirection: 'column',
-        justifyContent: 'space-between', // Adjust content spacing
-        height: isMobile ? 'auto' : '100%'  // Match the height with the image
-    }}>
-        <h2 style={{ display: isMobile ? 'none' : 'flex' }}>
-            {title}
-        </h2>
-        <div className="meta-info" style={{ display: isMobile ? 'none' : 'flex', borderTop: "2px solid #ff7350" }}>
-            <ul>
-                <li>
-                    <i className="fal fa-calendar-alt" /> {date}
-                </li>
-            </ul>
-        </div>
-        <h4 style={{
-            marginBottom: "40px", 
-            marginTop: "20px", 
-            color: "black", 
-            textAlign: "justify", 
-            flexGrow: 1, // Allow the description to fill the space
-            display: 'flex',
-            flexDirection: 'column',
-            justifyContent: 'space-between',
-            
-        }}>
-            {description}
-        </h4>
-    </div>
-</div>
+                                            display: 'flex',
+                                            gap: '40px',
+                                            flexDirection: isMobile ? 'column' : 'row',
+                                            alignItems: 'flex-start',
+                                            height: isMobile ? 'auto' : '100%',
+                                            marginBottom: "20px"
+                                        }}>
+                                            <img src={images(image)} alt="" style={{
+                                                width: isMobile ? '100%' : '400px',
+                                                height: isMobile ? 'auto' : '100%',
+                                                objectFit: 'cover',
+                                            }} />
+                                            <div style={{
+                                                flex: 1,
+                                                display: 'flex',
+                                                flexDirection: 'column',
+                                                justifyContent: 'space-between', // Adjust content spacing
+                                                height: isMobile ? 'auto' : '100%'  // Match the height with the image
+                                            }}>
+                                                <h2 style={{ display: isMobile ? 'none' : 'flex' }}>
+                                                    {title}
+                                                </h2>
+                                                <div className="meta-info" style={{ display: isMobile ? 'none' : 'flex', borderTop: "2px solid #ff7350" }}>
+                                                    <ul>
+                                                        <li>
+                                                            <i className="fal fa-calendar-alt" /> {date}
+                                                        </li>
+                                                    </ul>
+                                                </div>
+                                                <h4 style={{
+                                                    marginBottom: "40px", 
+                                                    marginTop: "20px", 
+                                                    color: "black", 
+                                                    textAlign: "justify", 
+                                                    flexGrow: 1, // Allow the description to fill the space
+                                                    display: 'flex',
+                                                    flexDirection: 'column',
+                                                    justifyContent: 'space-between',
+                                                    
+                                                }}>
+                                                    {description}
+                                                </h4>
+                                            </div>
+                                        </div>
 
                                         {content.map((item, index) => (
                                             <div key={index}>

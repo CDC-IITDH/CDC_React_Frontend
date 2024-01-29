@@ -9,6 +9,7 @@ function Event() {
   
   let sortedEvents;
   let isUpcoming = true;
+  const images = require.context("../../assets/img/events/")
   if (upcomingEvents.length > 0) {
     // If there are upcoming events, take the first 3
     sortedEvents = upcomingEvents.slice(0, 3);
@@ -43,14 +44,14 @@ function Event() {
                 {sortedEvents.map(event => {
                     const [day, month, year] = event.date.split(" ");
                 return(
-                <div className="col-lg-4 col-md-6  wow fadeInUp animated" data-animation="fadeInUp" data-delay=".4s" >
+                <div className="col-lg-4 col-md-6  wow fadeInUp animated" data-animation="fadeInUp" data-delay=".4s">
                     <div className="event-item mb-30 hover-zoomin">
                     <div className="thumb">
                         <Link to={`/single-event/${event.id}`}>
-                          <img src={event.image} alt="contact-bg-an-01" style={{minHeight:"233px"}}/>
+                          <img src={images(event.image)} alt="contact-bg-an-01" style={{minHeight:"233px", maxHeight: "233px"}}/>
                         </Link>
                     </div>
-                    <div className="event-content">
+                    <div className="event-content" style={{minHeight:"250px"}}>
                         <div className="date" style={{fontSize:"10px"}}>
                         <strong>{day}</strong> {month} {year}
                         </div>

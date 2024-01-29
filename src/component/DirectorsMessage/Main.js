@@ -40,40 +40,6 @@ const Testimonialnew = () => {
         },
       ];
 
-    let settings = {
-        dots: true,
-        infinite: true,
-        arrows: false,
-        speed: 1000,
-        slidesToShow: 3,
-        slidesToScroll: 2,
-        responsive: [
-            {
-                breakpoint: 1024,
-                settings: {
-                    slidesToShow: 3,
-                    slidesToScroll: 2,
-                    infinite: true,
-                    dots: true
-                }
-            },
-            {
-                breakpoint: 992,
-                settings: {
-                    slidesToShow: 1,
-                    slidesToScroll: 1
-                }
-            },
-            {
-                breakpoint: 767,
-                settings: {
-                    slidesToShow: 1,
-                    slidesToScroll: 1
-                }
-            }
-        ]
-      };
-
   return (
     <>
         <Bredcom title="Home" subtitle="Director's Message" />
@@ -102,7 +68,7 @@ const Testimonialnew = () => {
                   </span>
                 </span>
             </div>
-            <div style={{ display: 'flex', flexDirection: 'row', alignItems: 'center', justifyContent: 'center', marginTop: '20px' }}>
+            <div style={{ display: 'flex', flexDirection: 'column', alignItems: 'center', justifyContent: 'center', marginTop: '20px' }}>
                 <div style={{ display: 'flex', flexDirection: 'column', alignItems: 'center' }}>
                     <div className="testi-author" style={{ marginRight: '10px' }}>
                         <img src={testimonial.imgSrc} alt="img" style={CssData.imageStyles} />
@@ -112,7 +78,16 @@ const Testimonialnew = () => {
                         <span style={{ color: index % 2 === 0 ? '#000' : '#c3ccdb' }}>{testimonial.authorRole}</span>
                     </div>
                 </div>
-                <p style={{ fontSize: '20px', textAlign: "center" ,letterSpacing: '1px', marginLeft: '40px', marginTop: '20px', maxWidth: '70%', color: index % 2 === 0 ? '#000' : '#c3ccdb'}}>
+                <p
+                  className="testi-quote"
+                  style={{
+                    textAlign: 'center',
+                    letterSpacing: '1px',
+                    marginTop: '20px',
+                    maxWidth: '90%',
+                    color: index % 2 === 0 ? '#000' : '#c3ccdb',
+                  }}
+                >
                     {testimonial.quote}
                 </p>
             </div>
