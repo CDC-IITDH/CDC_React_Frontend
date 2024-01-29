@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/new/static/css/main.e28c3035.css",
-    "main.js": "/new/static/js/main.735bfe0c.js",
+    "main.css": "/new/static/css/main.ba194824.css",
+    "main.js": "/new/static/js/main.bbf88343.js",
     "static/media/fa-duotone-900.svg": "/new/static/media/fa-duotone-900.e2ad3965c2a9e62098b9.svg",
     "static/media/fa-light-300.svg": "/new/static/media/fa-light-300.9dd7bbb937f23efa25fb.svg",
     "static/media/fa-regular-400.svg": "/new/static/media/fa-regular-400.4e2c87c166dd32bc2485.svg",
@@ -14,6 +14,7 @@
     "static/media/fa-duotone-900.eot": "/new/static/media/fa-duotone-900.933243d3f4a403d075ab.eot",
     "static/media/fa-duotone-900.ttf": "/new/static/media/fa-duotone-900.129970d20805c489d192.ttf",
     "static/media/Gallery-17.jpg": "/new/static/media/Gallery-17.9f2d868fb23d8c57ed62.jpg",
+    "static/media/huzaif_barkati.png": "/new/static/media/huzaif_barkati.71c8aa94a4efd73c4006.png",
     "static/media/Gallery-15.jpg": "/new/static/media/Gallery-15.9f34c5e0975cd8b502ad.jpg",
     "static/media/fa-light-300.eot": "/new/static/media/fa-light-300.6618a8258fce3636f1cb.eot",
     "static/media/fa-light-300.ttf": "/new/static/media/fa-light-300.e160c0b9a3710bb40e4f.ttf",
@@ -21,6 +22,7 @@
     "static/media/Satya_Priya_Image.jpeg": "/new/static/media/Satya_Priya_Image.062d9958fbc482ee628c.jpeg",
     "static/media/Gallery-18.jpg": "/new/static/media/Gallery-18.701adc33968d391dd4d8.jpg",
     "static/media/Gallery-34.jpg": "/new/static/media/Gallery-34.a4296a3b8f961a7a4dfc.jpg",
+    "static/media/HR_Conclave.jpg": "/new/static/media/HR_Conclave.a4296a3b8f961a7a4dfc.jpg",
     "static/media/fa-regular-400.eot": "/new/static/media/fa-regular-400.cd4a83bf70ae5a2350ea.eot",
     "static/media/fa-regular-400.ttf": "/new/static/media/fa-regular-400.7606d9430562a89b8ac6.ttf",
     "static/media/Gallery-2.jpg": "/new/static/media/Gallery-2.4982c87d849c09e5a773.jpg",
@@ -37,6 +39,7 @@
     "static/media/Faq-Image.jpg": "/new/static/media/Faq-Image.339a2da6b9d573e5b348.jpg",
     "static/media/Academic_Page_banner.jpg": "/new/static/media/Academic_Page_banner.f00da8f34f8f5207714e.jpg",
     "static/media/Gallery-24.jpg": "/new/static/media/Gallery-24.0f45c52686897314f425.jpg",
+    "static/media/iitdh-walmi.jpg": "/new/static/media/iitdh-walmi.b8fe45560bcfca095dee.jpg",
     "static/media/Gallery-5.jpg": "/new/static/media/Gallery-5.f795b72a45613fe7c37c.jpg",
     "static/media/Gallery-25.jpg": "/new/static/media/Gallery-25.910d6cd387939053c6c6.jpg",
     "static/media/Gallery-23.jpg": "/new/static/media/Gallery-23.302a2595138493aba531.jpg",
@@ -67,16 +70,24 @@
     "static/media/fa-brands-400.ttf": "/new/static/media/fa-brands-400.c0f9dccd4ca01dd0217f.ttf",
     "static/media/fa-solid-900.woff2": "/new/static/media/fa-solid-900.d7475e39f70533c40ca5.woff2",
     "static/media/dripicons-v2.svg": "/new/static/media/dripicons-v2.c989021dd3aa96826efd.svg",
+    "static/media/rishit_saiya.jpg": "/new/static/media/rishit_saiya.58778463c455178ab9ed.jpg",
+    "static/media/prateek_jain.jpeg": "/new/static/media/prateek_jain.5eb84ef5025b97da9f73.jpeg",
+    "static/media/mayank_mittal.jpeg": "/new/static/media/mayank_mittal.3ca0aa311dff42d351b0.jpeg",
     "static/media/entrupy.png": "/new/static/media/entrupy.6ce932f13bd021e40fea.png",
     "static/media/fa-brands-400.woff": "/new/static/media/fa-brands-400.97667d8cd09ef6acdf71.woff",
+    "static/media/yogesh.jpg": "/new/static/media/yogesh.cc50d5157d342e56a701.jpg",
     "static/media/fa-brands-400.woff2": "/new/static/media/fa-brands-400.6e6a4a81a7f71c0ba134.woff2",
+    "static/media/gowri-subedar.jpg": "/new/static/media/gowri-subedar.96c425b1c8cb3281dfa8.jpg",
+    "static/media/putti-gowtham.jpg": "/new/static/media/putti-gowtham.fdedb86dbb18635589f1.jpg",
     "static/media/Gallery-31.jpg": "/new/static/media/Gallery-31.858f557c4c07ffb6e34a.jpg",
     "static/media/thoughtspot.png": "/new/static/media/thoughtspot.fdd8922b8a8f8b6d35fb.png",
     "static/media/scoreplus.png": "/new/static/media/scoreplus.0afe4efc00cf7a3551fb.png",
+    "static/media/crackpminterviews.jpeg": "/new/static/media/crackpminterviews.10b308825dc6a6a24260.jpeg",
     "static/media/tcs.jpg": "/new/static/media/tcs.017a99c2bf8913ba5742.jpg",
     "static/media/publicissapient.png": "/new/static/media/publicissapient.c03696a9f1f6c2117bb2.png",
     "static/media/bharat_electronics.png": "/new/static/media/bharat_electronics.70fbd9ccf576eca08073.png",
     "static/media/cerner.png": "/new/static/media/cerner.c801dd7aa1d6e1529ea4.png",
+    "static/media/phdingermany.jpeg": "/new/static/media/phdingermany.3a67a157fcd3cc6d5c23.jpeg",
     "static/media/dripicons-v2.eot": "/new/static/media/dripicons-v2.7f392f1e4787b46b3e8b.eot",
     "static/media/dripicons-v2.ttf": "/new/static/media/dripicons-v2.09c9c870ef8f9cffcc8f.ttf",
     "static/media/dean_ap.jpg": "/new/static/media/dean_ap.64543e88da4eb0791128.jpg",
@@ -111,11 +122,11 @@
     "static/media/icici.png": "/new/static/media/icici.c66f93ccd1e1ab1773e7.png",
     "static/media/mmrfi.jpg": "/new/static/media/mmrfi.62d4ad283ad2ae086a0f.jpg",
     "index.html": "/new/index.html",
-    "main.e28c3035.css.map": "/new/static/css/main.e28c3035.css.map",
-    "main.735bfe0c.js.map": "/new/static/js/main.735bfe0c.js.map"
+    "main.ba194824.css.map": "/new/static/css/main.ba194824.css.map",
+    "main.bbf88343.js.map": "/new/static/js/main.bbf88343.js.map"
   },
   "entrypoints": [
-    "static/css/main.e28c3035.css",
-    "static/js/main.735bfe0c.js"
+    "static/css/main.ba194824.css",
+    "static/js/main.bbf88343.js"
   ]
 }
