@@ -5,32 +5,37 @@ import { useState, useEffect } from 'react';
 function First({blogsData}) {
     const { id } = useParams();
     const blogId = parseInt(id, 10);
-    const currentBlogIndex = blogsData.findIndex((blogData) => blogData.id === blogId);
-    const currentBlog = blogsData[currentBlogIndex];
-    const { title, date, image, description ,content} = currentBlog;
-    const findPrevAndNext = (currentDate, allBlogs) => {
-      const sortedBlogs = allBlogs.sort((a, b) => new Date(a.date) - new Date(b.date));  
-      const currentIndex = sortedBlogs.findIndex((blog) => blog.id === currentBlog.id);  
-      const prevBlog = currentIndex > 0 ? sortedBlogs[currentIndex - 1] : null;
-      const nextBlog = currentIndex < sortedBlogs.length - 1 ? sortedBlogs[currentIndex + 1] : null;  
-      return { prevBlog, nextBlog };
-    };
-  
-    const { prevBlog, nextBlog } = findPrevAndNext(currentBlog.date, blogsData);
+    // State for window width
     const [windowWidth, setWindowWidth] = useState(window.innerWidth);
-
+    // Effect for handling resize
     useEffect(() => {
         const handleResize = () => {
             setWindowWidth(window.innerWidth);
         };
 
         window.addEventListener('resize', handleResize);
-
         return () => {
             window.removeEventListener('resize', handleResize);
         };
     }, []);
-    const isMobile = windowWidth < 980; // Adjust the width as needed for your design
+    // Sort blogs once outside the component or pass already sorted blogs
+    const sortedBlogs = blogsData
+    .sort((a, b) => new Date(b.date) - new Date(a.date))
+    .map((blog) => {
+        return blog;
+    });
+    const currentBlogIndex = sortedBlogs.findIndex((blog) => blog.id === blogId);
+
+    if (currentBlogIndex === -1) {
+        return <div>Blog not found</div>;
+    }
+    const currentBlog = sortedBlogs[currentBlogIndex];
+    const { title, date, image, description, content } = currentBlog;    
+    const prevBlog = currentBlogIndex > 0 ? sortedBlogs[currentBlogIndex - 1] : null;
+    // The next blog (older) is at a higher index
+     const nextBlog = currentBlogIndex < sortedBlogs.length - 1 ? sortedBlogs[currentBlogIndex + 1] : null;
+    const isMobile = windowWidth < 980; // Adjust this threshold as per your design's mobile breakpoint
+
     return (
         <>
             <section className="inner-blog b-details-p pt-120 pb-120" style={{paddingLeft:isMobile?"0%":"10%",paddingRight:isMobile?"0%":"10%"}}>
