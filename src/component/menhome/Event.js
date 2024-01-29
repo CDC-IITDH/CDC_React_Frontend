@@ -2,10 +2,26 @@ import React from 'react'
 import { Link } from 'react-router-dom'
 import events from '../../data/events.json'
 function Event() {
-    const sortedEvents = events
-  .filter(event => new Date(event.date) > new Date()) // Filter out completed events
-  .sort((a, b) => new Date(a.date) - new Date(b.date)) // Sort upcoming events in ascending order
-  .slice(0, 3);
+
+    const upcomingEvents = events
+    .filter(event => new Date(event.date) > new Date())
+    .sort((a, b) => new Date(a.date) - new Date(b.date));
+  
+  let sortedEvents;
+  let isUpcoming = true;
+  if (upcomingEvents.length > 0) {
+    // If there are upcoming events, take the first 3
+    sortedEvents = upcomingEvents.slice(0, 3);
+   
+  } else {
+    // If there are no upcoming events, take the top 3 most recent past events
+    isUpcoming = false;
+    sortedEvents = events
+      .filter(event => new Date(event.date) <= new Date())
+      .sort((a, b) => new Date(b.date) - new Date(a.date)) // Sort in descending order
+      .slice(0, 3);
+      
+  }
   return (
     
     <>   
@@ -19,7 +35,7 @@ function Event() {
                     <h5>
                         <i className="fal fa-graduation-cap" /> Our Events
                     </h5>
-                    <h2>Upcoming Events</h2>
+                    <h2>{isUpcoming ? 'Upcoming Events' : 'Past Events'}</h2>
                     </div>
                 </div>
                 </div>

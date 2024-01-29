@@ -1,6 +1,7 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
 import { useParams } from 'react-router-dom'
+import { useState, useEffect } from 'react';
 function First({blogsData}) {
     const images = require.context("../../assets/img/blogs/", true);
     const { id } = useParams();
@@ -17,48 +18,104 @@ function First({blogsData}) {
     };
   
     const { prevBlog, nextBlog } = findPrevAndNext(currentBlog.date, blogsData);
+    const [windowWidth, setWindowWidth] = useState(window.innerWidth);
+
+    useEffect(() => {
+        const handleResize = () => {
+            setWindowWidth(window.innerWidth);
+        };
+
+        window.addEventListener('resize', handleResize);
+
+        return () => {
+            window.removeEventListener('resize', handleResize);
+        };
+    }, []);
+    const isMobile = windowWidth < 980; // Adjust the width as needed for your design
     return (
         <>
-            <section className="inner-blog b-details-p pt-120 pb-120">
+            <section className="inner-blog b-details-p pt-120 pb-120" style={{paddingLeft:isMobile?"0%":"10%",paddingRight:isMobile?"0%":"10%"}}>
                 <div className="container">
                     <div className="row">
-                        <div className="col-lg-8">
+                        <div 
+                        // className="col-lg-8"
+                        >
                             <div className="blog-details-wrap">
                                 <div className="details__content pb-30">
-                                    <h2>
+                                    <h2 style={{display:isMobile ? 'flex':'none' }}>
                                         {title}
                                     </h2>
                                     <div className="meta-info">
-                                        <ul>
+                                        <ul style={{display:isMobile ? 'flex':'none' }}>
                                             {/* <li>
                                                 <i className="fal fa-eye" /> 100 Views
                                             </li> */}
                                             {/* <li>
                                                 <i className="fal fa-comments" /> 35 Comments
                                             </li> */}
-                                            <li>
+                                            <li >
                                                 <i className="fal fa-calendar-alt" /> {date}
                                             </li>
                                         </ul>
                                     </div>
-                                    <div className="details__content-img">
-                                        <img src={images(image)} alt="" />
+                                    
+                                    
+                              
+                                        <div style={{ display: 'flex', flexDirection: 'column', gap: '20px' }}>
+                                        <div style={{
+                                            display: 'flex',
+                                            gap: '40px',
+                                            flexDirection: isMobile ? 'column' : 'row',
+                                            alignItems: 'flex-start',
+                                            height: isMobile ? 'auto' : '100%',
+                                            marginBottom: "20px"
+                                        }}>
+                                            <img src={images(image)} alt="" style={{
+                                                width: isMobile ? '100%' : '400px',
+                                                height: isMobile ? 'auto' : '100%',
+                                                objectFit: 'cover',
+                                            }} />
+                                            <div style={{
+                                                flex: 1,
+                                                display: 'flex',
+                                                flexDirection: 'column',
+                                                justifyContent: 'space-between', // Adjust content spacing
+                                                height: isMobile ? 'auto' : '100%'  // Match the height with the image
+                                            }}>
+                                                <h2 style={{ display: isMobile ? 'none' : 'flex' }}>
+                                                    {title}
+                                                </h2>
+                                                <div className="meta-info" style={{ display: isMobile ? 'none' : 'flex', borderTop: "2px solid #ff7350" }}>
+                                                    <ul>
+                                                        <li>
+                                                            <i className="fal fa-calendar-alt" /> {date}
+                                                        </li>
+                                                    </ul>
+                                                </div>
+                                                <h4 style={{
+                                                    marginBottom: "40px", 
+                                                    marginTop: "20px", 
+                                                    color: "black", 
+                                                    textAlign: "justify", 
+                                                    flexGrow: 1, // Allow the description to fill the space
+                                                    display: 'flex',
+                                                    flexDirection: 'column',
+                                                    justifyContent: 'space-between',
+                                                    
+                                                }}>
+                                                    {description}
+                                                </h4>
+                                            </div>
+                                        </div>
+
+                                        {content.map((item, index) => (
+                                            <div key={index}>
+                                                <h3 style={{color:"#ff7350"}}>{item.section}</h3>
+                                                <p style={{textAlign:"justify",color:"black"}}>{item.text}</p>
+                                            </div>
+                                        ))}
                                     </div>
-                                    <p>
-                                       {description}
-                                    </p>
-                                    {content.map((content) => {
-                                        return(
-                                            <div>
-                                            <h3>
-                                                {content.section}
-                                            </h3>
-                                    <p>
-                                        {content.text}
-                                    </p>
-                                    </div>
-                                        )
-                                    })}
+
                                     {/* <blockquote>
                                         <footer>By Rosalina Pong</footer>
                                         <h3>
@@ -118,9 +175,9 @@ function First({blogsData}) {
                                             commodo consequat.
                                         </p>
                                     </figure> */}
-                                    <div className="row">
+                                    {/* <div className="row">
                                         <div className="col-xl-12 col-md-12">
-                                            {/* <div className="post__tag">
+                                            <div className="post__tag">
                                                 <h5>Releted Tags</h5>
                                                 <ul>
                                                     <li>
@@ -133,9 +190,9 @@ function First({blogsData}) {
                                                         <a href="#">tasty</a>
                                                     </li>
                                                 </ul>
-                                            </div> */}
+                                            </div>
                                         </div>
-                                    </div>
+                                    </div> */}
                                 </div>
                                 {/* <div className="posts_navigation pt-35 pb-35">
                                     <div className="row align-items-center">

@@ -1,5 +1,5 @@
 import React from 'react'
-
+import aboutImage from "../../assets/img/features/About_Image.jpg"
 function University() {
   return (
     <>
@@ -8,7 +8,7 @@ function University() {
                 <div className="row justify-content-center align-items-center">
                 <div className="col-lg-6 col-md-12 col-sm-12">
                     <div className="s-about-img p-relative  wow fadeInLeft animated" data-animation="fadeInLeft" data-delay=".4s" >
-                    <img src="assets/img/features/about_img_05.png" alt="img" />
+                    <img src={aboutImage} alt="img" />
                     <div className="about-text second-about three-about">
                         <span>
                         <sub>Established</sub>
