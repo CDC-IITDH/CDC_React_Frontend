@@ -8,6 +8,7 @@ function First() {
 
   const images = require.context("../../../assets/img/events/", true);
 
+
   const sortedEvents = events.sort((a, b) => {
     const dateA = new Date(a.date);
     const dateB = new Date(b.date);
@@ -23,10 +24,16 @@ function First() {
     }
   });
 
+  
   const indexOfLastEvent = currentPage * itemsPerPage;
   const indexOfFirstEvent = indexOfLastEvent - itemsPerPage;
-  const currentEvents = sortedEvents.slice(indexOfFirstEvent, indexOfLastEvent);
-  const paginate = (pageNumber) => setCurrentPage(pageNumber);
+  const currentEvents = sortedEvents.slice(indexOfFirstEvent, Math.min(indexOfLastEvent, sortedEvents.length));
+
+  const paginate = (pageNumber) => {
+    if (pageNumber >= 1 && pageNumber <= Math.ceil(sortedEvents.length / itemsPerPage)) {
+      setCurrentPage(pageNumber);
+    }
+  };
   return (
     <>
       <section
@@ -72,33 +79,33 @@ function First() {
           <div className="row">
             <div className="col-12">
             <div className="pagination-wrap mt-20 text-center">
-          <nav>
-            <ul className="pagination">
-              <li className={`page-item ${currentPage === 1 ? 'disabled' : ''}`}>
-                <Link to="#" onClick={() => paginate(currentPage - 1)}>
-                  <i className="fas fa-angle-double-left" />
-                </Link>
-              </li>
-              {Array.from({ length: Math.ceil(sortedEvents.length / itemsPerPage) }).map(
-                (_, index) => (
-                  <li
-                    key={index}
-                    className={`page-item ${currentPage === index + 1 ? 'active' : ''}`}
-                  >
-                    <Link to="#" onClick={() => paginate(index + 1)}>
-                      {index + 1}
-                    </Link>
-                  </li>
-                )
-              )}
-              <li className={`page-item ${currentPage === Math.ceil(sortedEvents.length / itemsPerPage) ? 'disabled' : ''}`}>
-                <Link to="#" onClick={() => paginate(currentPage + 1)}>
-                  <i className="fas fa-angle-double-right" />
-                </Link>
-              </li>
-            </ul>
-          </nav>
-          </div>
+  <nav>
+    <ul className="pagination">
+      <li className={`page-item ${currentPage === 1 ? 'disabled' : ''}`}>
+        <a href="#" onClick={(e) => { e.preventDefault(); paginate(currentPage - 1); }}>
+          <i className="fas fa-angle-double-left" />
+        </a>
+      </li>
+      {Array.from({ length: Math.ceil(sortedEvents.length / itemsPerPage) }).map(
+        (_, index) => (
+          <li
+            key={index}
+            className={`page-item ${currentPage === index + 1 ? 'active' : ''}`}
+          >
+            <a href="#" onClick={(e) => { e.preventDefault(); paginate(index + 1); }}>
+              {index + 1}
+            </a>
+          </li>
+        )
+      )}
+      <li className={`page-item ${currentPage === Math.ceil(sortedEvents.length / itemsPerPage) ? 'disabled' : ''}`}>
+        <a href="#" onClick={(e) => { e.preventDefault(); paginate(currentPage + 1); }}>
+          <i className="fas fa-angle-double-right" />
+        </a>
+      </li>
+    </ul>
+  </nav>
+</div>
 
             </div>
             <div />
