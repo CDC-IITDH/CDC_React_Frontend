@@ -140,9 +140,18 @@ function Sliderone() {
                       <h5 data-animation="fadeInUp" data-delay=".4s">
                         welcome To CDC
                       </h5>
-                      <h2 data-animation="fadeInUp" data-delay=".4s">
-                        Career Development Cell IIT Dharwad
+                      <h2
+                        className="text-white"
+                        data-animation="fadeInUp"
+                        data-delay=".4s"
+                        style={{
+                          whiteSpace: "nowrap",
+                        }}
+                      >
+                        Career Development Cell {isWidthLess ? null : <br />}
+                        IIT Dharwad
                       </h2>
+
                       <p data-animation="fadeInUp" data-delay=".6s">
                         CDC is a body of IIT Dharwad that supports students in
                         shaping and managing their careers by building critical
@@ -181,8 +190,8 @@ function Sliderone() {
       <section className="service-details-two p-relative">
         <div className="container">
           <div className="row">
-            <div className="col-lg-4 col-md-12 col-sm-12">
-              <div className="services-box07">
+            <div className="col-lg-4 col-md-12 col-sm-12 ">
+              <div className="services-box07 homeBlocks">
                 <div className="sr-contner">
                   {/* <div className="icon">
                     <img src="assets/img/icon/sve-icon4.png" alt="icon01" />
@@ -203,7 +212,7 @@ function Sliderone() {
               </div>
             </div>
             <div className="col-lg-4 col-md-12 col-sm-12">
-              <div className="services-box07 active">
+              <div className="services-box07 active homeBlocks">
                 <div className="sr-contner">
                   {/* <div className="icon">
                     <img src="assets/img/icon/sve-icon5.png" alt="icon01" />
@@ -213,8 +222,8 @@ function Sliderone() {
                       <Link to="/about">Connect with us</Link>
                     </h5>
                     <p>
-                      Have oppurtunity for Students of IIT Dharwad? for
-                      Internships here and for Placements here
+                      Have oppurtunity for Students of IIT Dharwad? Refer to
+                      "For Recruiters " section above
                     </p>
                     <Link to="/about">
                       Know More <i className="fal fa-long-arrow-right" />
@@ -224,14 +233,16 @@ function Sliderone() {
               </div>
             </div>
             <div className="col-lg-4 col-md-12 col-sm-12">
-              <div className="services-box07">
+              <div className="services-box07 homeBlocks">
                 <div className="sr-contner">
                   {/* <div className="icon">
                     <img src="assets/img/icon/sve-icon6.png" alt="icon01" />
                   </div> */}
                   <div className="text">
                     <h5>
-                      <Link to="/about">Read our brochure</Link>
+                      <Link to="https://drive.google.com/file/d/1QpP0K4J6AXiFcezI-mBRzrpesci0gsAh/view">
+                        Read our brochure
+                      </Link>
                     </h5>
                     <p>
                       Discover detailed insights through our meticulously
