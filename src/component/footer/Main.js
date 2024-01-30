@@ -1,4 +1,5 @@
 import React from "react";
+import {useState , useEffect} from "react";
 import { Link } from "react-router-dom";
 import blogsData from "../../data/blogs.json";
 function Main() {
@@ -8,6 +9,25 @@ function Main() {
     })
     .slice(0, 2);
   const images = require.context("../../assets/img/blogs/", true);
+  const [isFlex, setIsFlex] = useState(false);
+
+  useEffect(() => {
+    const handleResize = () => {
+      const screenWidth = window.innerWidth;
+      setIsFlex(screenWidth >= 992 && screenWidth <= 1199);
+    };
+
+    // Initial check on mount
+    handleResize();
+
+    // Add event listener for window resize
+    window.addEventListener('resize', handleResize);
+
+    // Remove event listener on component unmount
+    return () => {
+      window.removeEventListener('resize', handleResize);
+    };
+  }, []);
   return (
     <>
       <footer
@@ -178,7 +198,7 @@ function Main() {
                         </div>
                       </li>
                       <li>
-                        <div>
+                        <div style={isFlex ? { display: 'flex' } : {}}>
                           <i className="icon fal fa-map-marker-check" />
                           <span
                             style={{ display: "flex", alignItems: "center" }}
