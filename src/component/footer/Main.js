@@ -5,7 +5,7 @@ function Main() {
     const latestBlogs = blogsData.sort((a, b) => {
         return new Date(b.date) - new Date(a.date);
       }).slice(0, 2);
-   
+    const images = require.context("../../assets/img/blogs/", true);
   return (
     <>
         <footer className="footer-bg footer-p pt-90" style={{ backgroundColor: "#125875", backgroundImage: "url(assets/img/bg/footer-bg.png)" }} >
@@ -78,7 +78,7 @@ function Main() {
                             <li>
                             <div className="thum">
                                 {" "}
-                                <img style={{maxHeight:"80px",maxWidth:"80px"}} src={blog.image} alt="img" />
+                                <img style={{maxHeight:"80px",maxWidth:"80px"}} src={images(blog.image)} alt="img" />
                             </div>
                             <div className="text">
                                 {" "}
