@@ -1,12 +1,13 @@
 {
   "files": {
-    "main.css": "/new/static/css/main.35ec1a6b.css",
-    "main.js": "/new/static/js/main.b8ba19c9.js",
+    "main.css": "/new/static/css/main.5730cecd.css",
+    "main.js": "/new/static/js/main.2caace1a.js",
     "static/media/fa-duotone-900.svg": "/new/static/media/fa-duotone-900.e2ad3965c2a9e62098b9.svg",
     "static/media/fa-light-300.svg": "/new/static/media/fa-light-300.9dd7bbb937f23efa25fb.svg",
     "static/media/fa-regular-400.svg": "/new/static/media/fa-regular-400.4e2c87c166dd32bc2485.svg",
     "static/media/fa-solid-900.svg": "/new/static/media/fa-solid-900.4cc469b44aa813f1716d.svg",
     "static/media/Gallery-35.jpg": "/new/static/media/Gallery-35.1a2dae1bd8073614459c.jpg",
+    "static/media/Suvamay_Jana_Image.jpeg": "/new/static/media/Suvamay_Jana_Image.584e26a2c84fda58410e.jpeg",
     "static/media/fa-brands-400.svg": "/new/static/media/fa-brands-400.bf400661c005d8597892.svg",
     "static/media/Gallery-14.jpg": "/new/static/media/Gallery-14.f9ba861a8ed2a049d072.jpg",
     "static/media/Gallery-11.jpg": "/new/static/media/Gallery-11.7aea706c11e327490c6c.jpg",
@@ -34,6 +35,7 @@
     "static/media/Gallery-9.jpg": "/new/static/media/Gallery-9.998bb9d20d3557c7798a.jpg",
     "static/media/fa-solid-900.eot": "/new/static/media/fa-solid-900.259e7659316cb06e8b14.eot",
     "static/media/fa-solid-900.ttf": "/new/static/media/fa-solid-900.deb100ec94ec63cec6e7.ttf",
+    "static/media/Dhriti_Sundar_Ghosh_Image.jpeg": "/new/static/media/Dhriti_Sundar_Ghosh_Image.e1e9b9192668adb6f52a.jpeg",
     "static/media/Academic-About.jpg": "/new/static/media/Academic-About.e6a203bff9b9d7dd0d81.jpg",
     "static/media/Gallery-32.jpg": "/new/static/media/Gallery-32.e6a203bff9b9d7dd0d81.jpg",
     "static/media/Faq-Image.jpg": "/new/static/media/Faq-Image.339a2da6b9d573e5b348.jpg",
@@ -74,7 +76,9 @@
     "static/media/prateek_jain.jpeg": "/new/static/media/prateek_jain.5eb84ef5025b97da9f73.jpeg",
     "static/media/mayank_mittal.jpeg": "/new/static/media/mayank_mittal.3ca0aa311dff42d351b0.jpeg",
     "static/media/entrupy.png": "/new/static/media/entrupy.6ce932f13bd021e40fea.png",
+    "static/media/Vandana_Bharti_Image.jpeg": "/new/static/media/Vandana_Bharti_Image.7c87d76e8aa47ec1c70c.jpeg",
     "static/media/fa-brands-400.woff": "/new/static/media/fa-brands-400.97667d8cd09ef6acdf71.woff",
+    "static/media/Ramesh_Nayaka_Image.jpeg": "/new/static/media/Ramesh_Nayaka_Image.a6c511064b964f3d5052.jpeg",
     "static/media/yogesh.jpg": "/new/static/media/yogesh.cc50d5157d342e56a701.jpg",
     "static/media/fa-brands-400.woff2": "/new/static/media/fa-brands-400.6e6a4a81a7f71c0ba134.woff2",
     "static/media/gowri-subedar.jpg": "/new/static/media/gowri-subedar.96c425b1c8cb3281dfa8.jpg",
@@ -90,6 +94,7 @@
     "static/media/phdingermany.jpeg": "/new/static/media/phdingermany.3a67a157fcd3cc6d5c23.jpeg",
     "static/media/dripicons-v2.eot": "/new/static/media/dripicons-v2.7f392f1e4787b46b3e8b.eot",
     "static/media/dripicons-v2.ttf": "/new/static/media/dripicons-v2.09c9c870ef8f9cffcc8f.ttf",
+    "static/media/Naveen_MB_Image.jpeg": "/new/static/media/Naveen_MB_Image.37bab2d63dace6965f84.jpeg",
     "static/media/dean_ap.jpg": "/new/static/media/dean_ap.64543e88da4eb0791128.jpg",
     "static/media/sterlite.png": "/new/static/media/sterlite.950750c626322dbe494e.png",
     "static/media/increff.png": "/new/static/media/increff.b27b983800ed5578c1da.png",
@@ -105,6 +110,7 @@
     "static/media/InShot_20220905_215808159 - Pasumarthi Dharani Samsritha.jpg": "/new/static/media/InShot_20220905_215808159 - Pasumarthi Dharani Samsritha.3fa53d9a98c78a639fa9.jpg",
     "static/media/toshiba.png": "/new/static/media/toshiba.07a621204c63869c92f7.png",
     "static/media/l&t.png": "/new/static/media/l&t.70609d6ceac29c5092b0.png",
+    "static/media/Sairam_Boggavarapu_Image.jpeg": "/new/static/media/Sairam_Boggavarapu_Image.1a3edb4e445f30a7b250.jpeg",
     "static/media/081AE1D4-053F-4E3C-A68C-D98450DD9172 - Kamtekar Varad Mahesh -2.jpg": "/new/static/media/081AE1D4-053F-4E3C-A68C-D98450DD9172 - Kamtekar Varad Mahesh -2.b0417e4c1dafd1b2f06b.jpg",
     "static/media/Aryan_Photo_Square - Trimukhe Aryan Dhananjay.jpg": "/new/static/media/Aryan_Photo_Square - Trimukhe Aryan Dhananjay.00225796d06abf0f3e03.jpg",
     "static/media/credit_one.png": "/new/static/media/credit_one.c40f6b54e1929d301afa.png",
@@ -116,17 +122,16 @@
     "static/media/gupshup.jpeg": "/new/static/media/gupshup.db4eb04b3ac088a9d9e1.jpeg",
     "static/media/mcafree.png": "/new/static/media/mcafree.9dd2642d4cb9f23af02c.png",
     "static/media/dean_rnd.jpeg": "/new/static/media/dean_rnd.bfe0639eab07cdfcb6e4.jpeg",
-    "static/media/SAVE_20230606_231008 - Priyanka N.jpg": "/new/static/media/SAVE_20230606_231008 - Priyanka N.1aea91560e3015abcc1c.jpg",
     "static/media/dunzo.png": "/new/static/media/dunzo.ba2d59793aaff0ab79e2.png",
     "static/media/hcl.png": "/new/static/media/hcl.7d68335badecd79b8ca0.png",
     "static/media/icici.png": "/new/static/media/icici.c66f93ccd1e1ab1773e7.png",
     "static/media/mmrfi.jpg": "/new/static/media/mmrfi.62d4ad283ad2ae086a0f.jpg",
     "index.html": "/new/index.html",
-    "main.35ec1a6b.css.map": "/new/static/css/main.35ec1a6b.css.map",
-    "main.b8ba19c9.js.map": "/new/static/js/main.b8ba19c9.js.map"
+    "main.5730cecd.css.map": "/new/static/css/main.5730cecd.css.map",
+    "main.2caace1a.js.map": "/new/static/js/main.2caace1a.js.map"
   },
   "entrypoints": [
-    "static/css/main.35ec1a6b.css",
-    "static/js/main.b8ba19c9.js"
+    "static/css/main.5730cecd.css",
+    "static/js/main.2caace1a.js"
   ]
 }
