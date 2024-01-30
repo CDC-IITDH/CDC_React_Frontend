@@ -66,15 +66,15 @@ function Blog() {
                           </ul>
                         </div>
                       </div>
-                      <h4>
+                      <h4 style={{height: '60px', overflow: 'hidden'}}>
                         <Link to={`/blog-details/${blog.id}`}>
                           {blog.title}
                         </Link>
                       </h4>
-                      <p>
+                      <p style={{height: '70px', overflow: 'hidden'}}>
                         {blog.description.split(" ").slice(0, 11).join(" ")}
                       </p>
-                      <div className="blog-btn">
+                      <div className="blog-btn" style={{position: 'absolute', bottom: '10px'}}>
                         <Link to={`/blog-details/${blog.id}`}>
                           Read More <i className="fal fa-long-arrow-right" />
                         </Link>

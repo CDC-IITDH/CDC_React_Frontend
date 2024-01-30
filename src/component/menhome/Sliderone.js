@@ -57,7 +57,19 @@ function Sliderone() {
       { breakpoint: 1200, settings: { dots: false, arrows: false } },
     ],
   };
+  const [isDesktop, setIsDesktop] = useState(window.innerWidth >= 994);
 
+  useEffect(() => {
+    const handleResize = () => {
+      setIsDesktop(window.innerWidth >= 994);
+    };
+
+    window.addEventListener('resize', handleResize);
+
+    return () => {
+      window.removeEventListener('resize', handleResize);
+    };
+  }, []);
   return (
     <>
       <section id="home" className="slider-area fix p-relative">
@@ -204,7 +216,7 @@ function Sliderone() {
                       IIT Dharwad offers top-notch UG and PG programs, fostering
                       academic excellence and research
                     </p>
-                    <Link to="https://www.iitdh.ac.in/programs">
+                    <Link to="https://www.iitdh.ac.in/programs" style={isDesktop ? {position: 'absolute', bottom: '24px'} : {}}>
                       Know More <i className="fal fa-long-arrow-right" />
                     </Link>
                   </div>
@@ -225,7 +237,7 @@ function Sliderone() {
                       Have oppurtunity for Students of IIT Dharwad? Refer to
                       "For Recruiters " section above
                     </p>
-                    <Link to="/about">
+                    <Link to="/about" style={isDesktop ? {position: 'absolute', bottom: '24px'} : {}}>
                       Know More <i className="fal fa-long-arrow-right" />
                     </Link>
                   </div>
@@ -248,7 +260,7 @@ function Sliderone() {
                       Discover detailed insights through our meticulously
                       crafted informational brochure.
                     </p>
-                    <Link to="https://drive.google.com/file/d/1QpP0K4J6AXiFcezI-mBRzrpesci0gsAh/view">
+                    <Link to="https://drive.google.com/file/d/1QpP0K4J6AXiFcezI-mBRzrpesci0gsAh/view" style={isDesktop ? {position: 'absolute', bottom: '24px'} : {}}>
                       Read More <i className="fal fa-long-arrow-right" />
                     </Link>
                   </div>
