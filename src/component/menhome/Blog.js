@@ -53,7 +53,7 @@ function Blog() {
                         <i className="fal fa-calendar-alt" /> {blog.date}
                       </div>
                     </div>
-                    <div className="blog-content2">
+                    <div className="blog-content2" style={{minHeight:"250px"}}>
                       <div className="b-meta">
                         <div className="meta-info">
                           <ul>
