@@ -47,14 +47,15 @@ const Testimonialnew = () => {
             <div
             className="single-testimonial text-center"
             style={{
-              paddingTop: '100px',
+              
               display: 'flex',
               flexDirection: 'column',
               alignItems: 'center',
               color: 'black',
               backgroundColor: index % 2 === 0 ? 'rgba(128, 128, 128, 0.2)' : 'rgb(3, 46, 63)',
               padding: '40px', 
-              paddingBottom: index == testimonials.length - 1 ? '200px' : '40px',
+              paddingTop: '80px',
+              paddingBottom: index == testimonials.length - 1 ? '100px' : '60px',
             }}
           >
             <div className="qt-img">
@@ -73,7 +74,7 @@ const Testimonialnew = () => {
                     <div className="testi-author" style={{ marginRight: '10px' }}>
                         <img src={testimonial.imgSrc} alt="img" style={CssData.imageStyles} />
                     </div>
-                    <div className="ta-info" style={{ marginLeft: '10px', textAlign: 'center' }}>
+                    <div className="ta-info" style={{ marginLeft: '10px', textAlign: 'center',marginTop:"10px" }}>
                         <h5 style = {{ color: index % 2 === 0 ? '#000' : '#c3ccdb' }}>{testimonial.authorName}</h5>
                         <span style={{ color: index % 2 === 0 ? '#000' : '#c3ccdb' }}>{testimonial.authorRole}</span>
                     </div>
@@ -81,7 +82,7 @@ const Testimonialnew = () => {
                 <p
                   className="testi-quote"
                   style={{
-                    textAlign: 'center',
+                    textAlign: 'justify',
                     letterSpacing: '1px',
                     marginTop: '20px',
                     maxWidth: '90%',

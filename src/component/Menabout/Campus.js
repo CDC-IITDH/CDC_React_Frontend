@@ -23,7 +23,7 @@ function Campus() {
                 <div className="dnumber"></div>
                 <div className="text">
                   <h2>Why IIT Dharwad?</h2>
-                  <p>
+                  <p style={{marginBottom:"30px" ,textAlign:"justify"}}>
                   IIT Dharwad is a premier educational institution, focusing on the holistic development of each student. Our students are nurtured to be curious, hardworking and adaptive, right from the first semester. In addition to theoretical knowledge, we also impart hands on knowledge and industry relevant skills to our students, to enable them to thrive in any setting. Through organizing various events and participating in our plethora of club activities, our students are skilled in management, teamwork and logistics too. A lot of impetus is given to sports in our college, from where our students pick up important life skills like leadership, and team-spirit. Thus, be it research or management, rest assured that our students will be able to add value to your organization, in whatever role you may choose to hire them.
                   </p>
                 </div>
@@ -78,7 +78,7 @@ function Campus() {
                 <div className="dnumber"></div>
                 <div className="text">
                   <h2>About CDC</h2>
-                  <p>
+                  <p >
                     CDC is a body of IIT Dharwad that supports students in
                     shaping and managing their careers by building critical
                     ingredients required for a student to be a complete

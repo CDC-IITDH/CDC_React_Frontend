@@ -82,9 +82,9 @@ function Main() {
                               <Link to ="https://cdc.iitdh.ac.in/portal/index.html" target="_blank">Student Portal</Link>
                             </li>
                             <li>
-                              <Link to="/student/faq">
+                              {/* <Link to="/student/faq">
                                 FAQs
-                              </Link>
+                              </Link> */}
                             </li>
                             {/* <li>
                               {" "}
@@ -236,11 +236,11 @@ function Main() {
                                       Student Portal
                                     </Link>
                                   </li>
-                                  <li>
+                                  {/* <li>
                                     <Link to="/student/faq" >
                                       FAQs
                                     </Link>
-                                  </li>
+                                  </li> */}
                                   {/* <li>
                                     {" "}
                                     <Link to="/single-courses-2">
