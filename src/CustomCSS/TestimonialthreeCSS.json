@@ -32,8 +32,8 @@
     "color": "#777777"
   },
   "imageStyles": {
-    "widht": "70px",
-    "height": "70px",
+    "widht": "100px",
+    "height": "100px",
     "borderRadius": "50%"
   }
 }

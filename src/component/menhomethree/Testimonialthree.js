@@ -1,6 +1,6 @@
 import React from "react";
 import Slider from "react-slick";
-import { Link } from 'react-router-dom'
+import { Link } from "react-router-dom";
 import CssData from "./../../CustomCSS/TestimonialthreeCSS.json";
 
 import directorImg from "./../../assets/img/director/Director.jpeg";
@@ -102,7 +102,7 @@ function Testimonialthree() {
     responsive: [
       { breakpoint: 1200, settings: { dots: false, arrows: false } },
     ],
-  };  
+  };
 
   return (
     <section
