@@ -1,6 +1,7 @@
-import React from "react";
+import React, { useState, useEffect } from "react";
 import { Link } from "react-router-dom";
 import Slider from "react-slick";
+import "./../../CustomCSS/customCss.css";
 
 function SampleNextArrow(props) {
   const { className, style, onClick } = props;
@@ -31,6 +32,19 @@ function SamplePrevArrow(props) {
 }
 
 function Sliderone() {
+  const [isWidthLess, setisWidthLess] = useState(window.innerWidth < 460);
+
+  useEffect(() => {
+    const handleResize = () => {
+      setisWidthLess(window.innerWidth < 460);
+    };
+
+    window.addEventListener("resize", handleResize);
+
+    return () => {
+      window.removeEventListener("resize", handleResize);
+    };
+  }, []);
   const settings = {
     autoplay: true,
     autoplaySpeed: 10000,
@@ -67,11 +81,23 @@ function Sliderone() {
                       <h5 data-animation="fadeInUp" data-delay=".4s">
                         welcome To CDC
                       </h5>
-                      <h2 data-animation="fadeInUp" data-delay=".4s">
-                        Career Development Cell IIT Dharwad
+                      <h2
+                        className="text-white"
+                        data-animation="fadeInUp"
+                        data-delay=".4s"
+                        style={{
+                          whiteSpace: "nowrap",
+                        }}
+                      >
+                        Career Development Cell {isWidthLess ? null : <br />}
+                        IIT Dharwad
                       </h2>
+
                       <p data-animation="fadeInUp" data-delay=".6s">
-                      CDC is a body of IIT Dharwad that supports students in shaping and managing their careers by building critical ingredients required for a student to be a complete professional.
+                        CDC is a body of IIT Dharwad that supports students in
+                        shaping and managing their careers by building critical
+                        ingredients required for a student to be a complete
+                        professional.
                       </p>
                       <div className="slider-btn mt-30">
                         <Link
@@ -85,7 +111,6 @@ function Sliderone() {
                         </Link>
                         <Link
                           to="/contact"
-                          // className="btn ss-btn active"
                           className="btn ss-btn mr-15"
                           data-animation="fadeInLeft"
                           data-delay=".4s"
@@ -104,14 +129,14 @@ function Sliderone() {
             <div
               className="single-slider slider-bg"
               style={{
-                backgroundImage: `linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("https://www.iitdh.ac.in/sites/default/files/2023-10/slide-03-new.jpg")`, // banner image 2 with overlay 
+                backgroundImage: `linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("https://www.iitdh.ac.in/sites/default/files/2023-10/slide-03-new.jpg")`, // banner image 2 with overlay
                 backgroundSize: "cover",
               }}
             >
               <div className="container">
                 <div className="row">
                   <div className="col-lg-7 col-md-7">
-                    <div className="slider-content s-slider-content mt-130" >
+                    <div className="slider-content s-slider-content mt-130">
                       <h5 data-animation="fadeInUp" data-delay=".4s">
                         welcome To CDC
                       </h5>
@@ -119,7 +144,10 @@ function Sliderone() {
                         Career Development Cell IIT Dharwad
                       </h2>
                       <p data-animation="fadeInUp" data-delay=".6s">
-                      CDC is a body of IIT Dharwad that supports students in shaping and managing their careers by building critical ingredients required for a student to be a complete professional.
+                        CDC is a body of IIT Dharwad that supports students in
+                        shaping and managing their careers by building critical
+                        ingredients required for a student to be a complete
+                        professional.
                       </p>
                       <div className="slider-btn mt-30">
                         <Link
@@ -133,7 +161,6 @@ function Sliderone() {
                         </Link>
                         <Link
                           to="/contact"
-                          // className="btn ss-btn active" {/*Change the classname to have an orange background*/}
                           className="btn ss-btn mr-15"
                           data-animation="fadeInLeft"
                           data-delay=".4s"
@@ -157,19 +184,19 @@ function Sliderone() {
             <div className="col-lg-4 col-md-12 col-sm-12">
               <div className="services-box07">
                 <div className="sr-contner">
-                  <div className="icon">
+                  {/* <div className="icon">
                     <img src="assets/img/icon/sve-icon4.png" alt="icon01" />
-                  </div>
+                  </div> */}
                   <div className="text">
                     <h5>
-                      <Link to="/about">Education Services</Link>
+                      <Link to="/about">Academic Programs</Link>
                     </h5>
                     <p>
-                      Seamlessly visualize quality ellectual capital without
-                      superior collaboration and idea sharing listically
+                      IIT Dharwad offers top-notch UG and PG programs, fostering
+                      academic excellence and research
                     </p>
-                    <Link to="/about">
-                      Read More <i className="fal fa-long-arrow-right" />
+                    <Link to="https://www.iitdh.ac.in/programs">
+                      Know More <i className="fal fa-long-arrow-right" />
                     </Link>
                   </div>
                 </div>
@@ -178,19 +205,19 @@ function Sliderone() {
             <div className="col-lg-4 col-md-12 col-sm-12">
               <div className="services-box07 active">
                 <div className="sr-contner">
-                  <div className="icon">
+                  {/* <div className="icon">
                     <img src="assets/img/icon/sve-icon5.png" alt="icon01" />
-                  </div>
+                  </div> */}
                   <div className="text">
                     <h5>
-                      <Link to="/about">International Hubs</Link>
+                      <Link to="/about">Connect with us</Link>
                     </h5>
                     <p>
-                      Seamlessly visualize quality ellectual capital without
-                      superior collaboration and idea sharing listically
+                      Have oppurtunity for Students of IIT Dharwad? for
+                      Internships here and for Placements here
                     </p>
                     <Link to="/about">
-                      Read More <i className="fal fa-long-arrow-right" />
+                      Know More <i className="fal fa-long-arrow-right" />
                     </Link>
                   </div>
                 </div>
@@ -199,18 +226,18 @@ function Sliderone() {
             <div className="col-lg-4 col-md-12 col-sm-12">
               <div className="services-box07">
                 <div className="sr-contner">
-                  <div className="icon">
+                  {/* <div className="icon">
                     <img src="assets/img/icon/sve-icon6.png" alt="icon01" />
-                  </div>
+                  </div> */}
                   <div className="text">
                     <h5>
-                      <Link to="/about">Bachelor’s and Master’s</Link>
+                      <Link to="/about">Read our brochure</Link>
                     </h5>
                     <p>
-                      Seamlessly visualize quality ellectual capital without
-                      superior collaboration and idea sharing listically
+                      Discover detailed insights through our meticulously
+                      crafted informational brochure.
                     </p>
-                    <Link to="/about">
+                    <Link to="https://drive.google.com/file/d/1QpP0K4J6AXiFcezI-mBRzrpesci0gsAh/view">
                       Read More <i className="fal fa-long-arrow-right" />
                     </Link>
                   </div>

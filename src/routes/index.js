@@ -44,7 +44,6 @@ function Index() {
         <Route path="/recruiter/faq" element={<RecruiterFaq />} />
         <Route path="/team" element={<Teacher />} />
 
-
         <Route path="/blog" element={<Blog />} />
         <Route
           path="/blog-details/:id"

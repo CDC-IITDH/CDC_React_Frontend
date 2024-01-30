@@ -23,11 +23,11 @@ function Main() {
       {/* <Courses /> */}
       {/* <Shep/> */}
       <Event />
-      <Scholarship/>
+      <Scholarship />
       {/* <Frequently/> */}
       {/* <Video/> */}
-      <Testimonial />
-      <Testimonialthree />    {/* ------- Director's Message  ---------- */}
+      {/* <Testimonial /> */}
+      <Testimonialthree /> {/* ------- Director's Message  ---------- */}
       {/* <Search/> */}
       {/* <Admission/> */}
       <Redslider />

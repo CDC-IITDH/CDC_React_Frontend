@@ -1,0 +1,5 @@
+@media screen and (max-width: 458px) {
+  .text-white {
+    white-space: wrap !important;
+  }
+}
