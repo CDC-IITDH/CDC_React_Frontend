@@ -3,7 +3,13 @@ import { Link } from "react-router-dom";
 
 import defaultProfileImage from "../../../assets/img/team/default-avatar-profile.jpg";
 import facultyInChargeImage from "../../../assets/img/team/Satya_Priya_Image.jpeg";
-import placementExecutiveImage from "../../../assets/img/team/SAVE_20230606_231008 - Priyanka N.jpg";
+
+import facultyAdvisorsImage1 from "../../../assets/img/team/Vandana_Bharti_Image.jpeg";
+import facultyAdvisorsImage2 from "../../../assets/img/team/Sairam_Boggavarapu_Image.jpeg";
+import facultyAdvisorsImage3 from "../../../assets/img/team/Naveen_MB_Image.jpeg";
+import facultyAdvisorsImage4 from "../../../assets/img/team/Dhriti_Sundar_Ghosh_Image.jpeg";
+import facultyAdvisorsImage5 from "../../../assets/img/team/Suvamay_Jana_Image.jpeg";
+import facultyAdvisorsImage6 from "../../../assets/img/team/Ramesh_Nayaka_Image.jpeg";
 
 import teamMemberImage1 from "../../../assets/img/team/Aryan_Photo_Square - Trimukhe Aryan Dhananjay.jpg";
 import teamMemberImage2 from "../../../assets/img/team/InShot_20220905_215808159 - Pasumarthi Dharani Samsritha.jpg";
@@ -34,42 +40,42 @@ function First() {
       name: "Dr. Vandana Bharti",
       role: "Assistant Professor",
       dept: "Dept. of Computer Science and Engineering",
-      image: defaultProfileImage,
+      image: facultyAdvisorsImage1,
       mail: "vandana@iitdh.ac.in",
     },
     {
       name: "Dr. Sairam Boggavarapu",
       role: "Assistant Professor",
       dept: "Dept. of EECE",
-      image: defaultProfileImage,
+      image: facultyAdvisorsImage2,
       mail: "sairam@iitdh.ac.in",
     },
     {
       name: "Dr. Naveen MB",
       role: "Assistant Professor",
       dept: "Dept. of EECE",
-      image: defaultProfileImage,
+      image: facultyAdvisorsImage3,
       mail: "naveenmb@iitdh.ac.in",
     },
     {
       name: "Dr. Dhriti Sundar Ghosh",
       role: "Assistant Professor",
       dept: "Dept. of Physics",
-      image: defaultProfileImage,
+      image: facultyAdvisorsImage4,
       mail: "dhriti.ghost@iitdh.ac.in",
     },
     {
       name: "Dr. Suvamay Jana",
       role: "Assistant Professor",
       dept: "Dept. of Chemical Engineering",
-      image: defaultProfileImage,
+      image: facultyAdvisorsImage5,
       mail: "suvamay@iitdh.ac.in",
     },
     {
       name: "Dr. Ramesh Nayaka",
       role: "Assistant Professor",
       dept: "Dept. of Civil and Infrastructure Engineering",
-      image: defaultProfileImage,
+      image: facultyAdvisorsImage6,
       mail: "ramesh.nayaka@iitdh.ac.in",
     },
   ];
