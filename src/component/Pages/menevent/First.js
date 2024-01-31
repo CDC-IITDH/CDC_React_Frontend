@@ -62,11 +62,12 @@ function First() {
                     <div className="date" style={{fontSize:"10px"}}>
                     <strong>{day}</strong> {month} {year}
                     </div>
-                    <h3>
+                    <h3 style={{height: '60px', overflow: 'hidden'}}>
                       <Link to={`/single-event/${event.id}`}>{event.title}</Link>
                     </h3>
-                    <p>{event.description.split(' ').slice(0, 11).join(' ')}</p>
-                    <div className="time">
+                    <p style={{height: '72px', overflow: 'hidden'}}>
+                    {event.description.split(' ').slice(0, 11).join(' ')}</p>
+                    <div className="time" style={{position: 'absolute', bottom: '30px'}}>
                       {event.time} <i className="fal fa-long-arrow-right" />{' '}
                       <strong>{event.venue}</strong>
                     </div>

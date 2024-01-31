@@ -78,15 +78,15 @@ function First() {
                                             </ul>
                                         </div>
                                     </div>
-                                    <h2>
+                                    <h2 style={{height: '70px', overflow: 'hidden'}}>
                                         <Link to={`/blog-details/${blog.id}`}>
                                             {blog.title}
                                         </Link>
                                     </h2>
-                                    <p>
+                                    <p style={{height: '70px', overflow: 'hidden'}}>
                                        {blog.description.split(' ').slice(0, 11).join(' ')}
                                     </p>
-                                    <div className="blog__btn">
+                                    <div className="blog__btn" style={{position: 'absolute', bottom: '30px'}}>
                                         <Link to={`/blog-details/${blog.id}`} className="btn">
                                             Read More <i className="fal fa-long-arrow-right" />
                                         </Link>
