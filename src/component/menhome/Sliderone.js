@@ -64,10 +64,10 @@ function Sliderone() {
       setIsDesktop(window.innerWidth >= 994);
     };
 
-    window.addEventListener('resize', handleResize);
+    window.addEventListener("resize", handleResize);
 
     return () => {
-      window.removeEventListener('resize', handleResize);
+      window.removeEventListener("resize", handleResize);
     };
   }, []);
   return (
@@ -216,7 +216,14 @@ function Sliderone() {
                       IIT Dharwad offers top-notch UG and PG programs, fostering
                       academic excellence and research
                     </p>
-                    <Link to="https://www.iitdh.ac.in/programs" style={isDesktop ? {position: 'absolute', bottom: '24px'} : {}}>
+                    <Link
+                      to="https://www.iitdh.ac.in/programs"
+                      style={
+                        isDesktop
+                          ? { position: "absolute", bottom: "24px" }
+                          : {}
+                      }
+                    >
                       Know More <i className="fal fa-long-arrow-right" />
                     </Link>
                   </div>
@@ -231,13 +238,20 @@ function Sliderone() {
                   </div> */}
                   <div className="text">
                     <h5>
-                      <Link to="/about">Connect with us</Link>
+                      <Link to="/placement">Connect with us</Link>
                     </h5>
                     <p>
                       Have oppurtunity for Students of IIT Dharwad? Refer to
                       "For Recruiters " section above
                     </p>
-                    <Link to="/about" style={isDesktop ? {position: 'absolute', bottom: '24px'} : {}}>
+                    <Link
+                      to="/placement"
+                      style={
+                        isDesktop
+                          ? { position: "absolute", bottom: "24px" }
+                          : {}
+                      }
+                    >
                       Know More <i className="fal fa-long-arrow-right" />
                     </Link>
                   </div>
@@ -260,7 +274,14 @@ function Sliderone() {
                       Discover detailed insights through our meticulously
                       crafted informational brochure.
                     </p>
-                    <Link to="https://drive.google.com/file/d/1QpP0K4J6AXiFcezI-mBRzrpesci0gsAh/view" style={isDesktop ? {position: 'absolute', bottom: '24px'} : {}}>
+                    <Link
+                      to="https://drive.google.com/file/d/1QpP0K4J6AXiFcezI-mBRzrpesci0gsAh/view"
+                      style={
+                        isDesktop
+                          ? { position: "absolute", bottom: "24px" }
+                          : {}
+                      }
+                    >
                       Read More <i className="fal fa-long-arrow-right" />
                     </Link>
                   </div>

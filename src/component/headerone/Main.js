@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from "react";
 import { Link } from "react-router-dom";
-import logo from '../../assets/img/Cdc_Logos/cdc_logo.png'
+import logo from "../../assets/img/Cdc_Logos/cdc_logo.png";
 function Main() {
   const [Btnshow, setBtnshow] = useState(false);
   const [mobile, setmobile] = useState(false);
@@ -35,9 +35,11 @@ function Main() {
             <div className="second-menu">
               <div className="row align-items-center">
                 <div className="col-xl-3 col-lg-3">
-                  <div className="logo" style={{width:'140px' }}> {/* Added a logo and adjusted its width */}
+                  <div className="logo" style={{ width: "140px" }}>
+                    {" "}
+                    {/* Added a logo and adjusted its width */}
                     <Link to="/">
-                      <img src={logo}  alt="logo" />
+                      <img src={logo} alt="logo" />
                     </Link>
                   </div>
                 </div>
@@ -45,20 +47,6 @@ function Main() {
                   <div className="main-menu text-right text-xl-right">
                     <nav id="mobile-menu">
                       <ul>
-                        {/* <li className="has-sub">
-                          <Link to="/">Home</Link>
-                          <ul>
-                            <li>
-                              <Link to="/">University</Link>
-                            </li>
-                            <li>
-                              <Link to="/home-two">Kindergarten</Link>
-                            </li>
-                            <li>
-                              <Link to="/home-three">High School</Link>
-                            </li>
-                          </ul>
-                        </li> */}
                         <li className="has-sub">
                           <Link to="/about">About Us</Link>
                         </li>
@@ -66,20 +54,38 @@ function Main() {
                           <Link>For Students</Link>
                           <ul>
                             <li>
-                            <Link to="https://drive.google.com/file/d/1P8z5w-PVAl3w6p2Z8kWgSDOUPukuMx--/view?usp=sharing" target="_blank">
-      Placements - Rules & Regulations
-    </Link>
+                              <Link
+                                to="https://drive.google.com/file/d/1P8z5w-PVAl3w6p2Z8kWgSDOUPukuMx--/view?usp=sharing"
+                                target="_blank"
+                              >
+                                Placements - Rules & Regulations
+                              </Link>
                             </li>
                             <li>
                               {" "}
-                              <Link to ="https://drive.google.com/file/d/1PLHd6BiXP7fAbQaob8o0juXZzRSu8vWa/view" target="_blank">Internships - Rules & Regulations</Link>
+                              <Link
+                                to="https://drive.google.com/file/d/1PLHd6BiXP7fAbQaob8o0juXZzRSu8vWa/view"
+                                target="_blank"
+                              >
+                                Internships - Rules & Regulations
+                              </Link>
                             </li>
                             <li>
                               {" "}
-                              <Link to="https://drive.google.com/file/d/1a8cRL4i3aeEWcCVRQIRAv-DrFybPl9N0/view" target="_blank">Internship Information</Link>
+                              <Link
+                                to="https://drive.google.com/file/d/1a8cRL4i3aeEWcCVRQIRAv-DrFybPl9N0/view"
+                                target="_blank"
+                              >
+                                Internship Information
+                              </Link>
                             </li>
                             <li>
-                              <Link to ="https://cdc.iitdh.ac.in/portal/index.html" target="_blank">Student Portal</Link>
+                              <Link
+                                to="https://cdc.iitdh.ac.in/portal/index.html"
+                                target="_blank"
+                              >
+                                Student Portal
+                              </Link>
                             </li>
                             <li>
                               {/* <Link to="/student/faq">
@@ -104,12 +110,15 @@ function Main() {
                               <Link to="/placement">Placement</Link>
                             </li>
                             <li>
-                              <Link to="https://drive.google.com/file/d/1QpP0K4J6AXiFcezI-mBRzrpesci0gsAh/view" target="_blank">Brochure</Link>
+                              <Link
+                                to="https://drive.google.com/file/d/1QpP0K4J6AXiFcezI-mBRzrpesci0gsAh/view"
+                                target="_blank"
+                              >
+                                Brochure
+                              </Link>
                             </li>
                             <li>
-                              <Link to="/recruiter/faq">
-                                FAQs
-                              </Link>
+                              <Link to="/recruiter/faq">FAQs</Link>
                             </li>
                             {/* <li>
                               <Link to="/pricing">Pricing</Link>
@@ -140,12 +149,9 @@ function Main() {
                           </ul> */}
                         </li>
                         <li className="has-sub">
-                        <Link to='/event'>
-                        Events
-                        </Link>
-
+                          <Link to="/event">Events</Link>
                         </li>
-                        <li className="has-sub"> 
+                        <li className="has-sub">
                           <Link to="/contact">Contact Us</Link>
                         </li>
                       </ul>
@@ -156,7 +162,7 @@ function Main() {
                   <div className="mobile-menu mean-container">
                     <div className="mean-bar">
                       <a
-                        href="#nav"
+                        href="#"
                         onClick={() => setmobile(!mobile)}
                         className={`meanmenu-reveal ${mobile && "meanclose"}`}
                         style={{
@@ -183,7 +189,7 @@ function Main() {
                           <ul style={{ display: "block" }}>
                             {/* <li className="has-sub">
                               <Link to="/">Home</Link> */}
-                              {/* {Events && (
+                            {/* {Events && (
                                 <ul style={{ display: "block" }}>
                                   <li>
                                     <Link to="/">University</Link>
@@ -196,7 +202,7 @@ function Main() {
                                   </li>
                                 </ul>
                               )} */}
-                              {/* <a
+                            {/* <a
                                 className={`mean-expand ${
                                   mobile && "mean-clicked"
                                 }`}
@@ -209,30 +215,44 @@ function Main() {
                                 {Events ? "-" : "+"}
                               </a> */}
                             {/* </li> */}
-                            <li>
+                            <li onClick={() => setmobile(!mobile)}>
                               <Link to="/about">About Us</Link>
                             </li>
                             <li className="has-sub">
                               <Link>For Students</Link>
                               {News && (
                                 <ul style={{ display: "block" }}>
-                                  <li>
-                                  <Link to="https://drive.google.com/file/d/1P8z5w-PVAl3w6p2Z8kWgSDOUPukuMx--/view?usp=sharing" target="_blank">
-      Placements - Rules & Regulations
-    </Link>
-                                  </li>
-                                  <li>
-                                    {" "}
-                                    <Link to = "https://drive.google.com/file/d/1PLHd6BiXP7fAbQaob8o0juXZzRSu8vWa/view" target="_blank">Internships - Rules & Regulations</Link>
-                                  </li>
-                                  <li>
-                                    {" "}
-                                    <Link to ="https://drive.google.com/file/d/1a8cRL4i3aeEWcCVRQIRAv-DrFybPl9N0/view" target="_blank">
-                                    Internship Information
+                                  <li onClick={() => setmobile(!mobile)}>
+                                    <Link
+                                      to="https://drive.google.com/file/d/1P8z5w-PVAl3w6p2Z8kWgSDOUPukuMx--/view?usp=sharing"
+                                      target="_blank"
+                                    >
+                                      Placements - Rules & Regulations
                                     </Link>
                                   </li>
-                                  <li>
-                                    <Link to ="https://cdc.iitdh.ac.in/portal/index.html" target="_blank">
+                                  <li onClick={() => setmobile(!mobile)}>
+                                    {" "}
+                                    <Link
+                                      to="https://drive.google.com/file/d/1PLHd6BiXP7fAbQaob8o0juXZzRSu8vWa/view"
+                                      target="_blank"
+                                    >
+                                      Internships - Rules & Regulations
+                                    </Link>
+                                  </li>
+                                  <li onClick={() => setmobile(!mobile)}>
+                                    {" "}
+                                    <Link
+                                      to="https://drive.google.com/file/d/1a8cRL4i3aeEWcCVRQIRAv-DrFybPl9N0/view"
+                                      target="_blank"
+                                    >
+                                      Internship Information
+                                    </Link>
+                                  </li>
+                                  <li onClick={() => setmobile(!mobile)}>
+                                    <Link
+                                      to="https://cdc.iitdh.ac.in/portal/index.html"
+                                      target="_blank"
+                                    >
                                       Student Portal
                                     </Link>
                                   </li>
@@ -267,21 +287,22 @@ function Main() {
                               <Link>For Recruiters</Link>
                               {Services && (
                                 <ul style={{ display: "block" }}>
-                                  <li>
+                                  <li onClick={() => setmobile(!mobile)}>
                                     <Link to="/internship">Internship</Link>
                                   </li>
-                                  <li>
-                                    <Link to = "/placement">
-                                      Placement
+                                  <li onClick={() => setmobile(!mobile)}>
+                                    <Link to="/placement">Placement</Link>
+                                  </li>
+                                  <li onClick={() => setmobile(!mobile)}>
+                                    <Link
+                                      to="https://drive.google.com/file/d/1QpP0K4J6AXiFcezI-mBRzrpesci0gsAh/view"
+                                      target="_blank"
+                                    >
+                                      Brochure
                                     </Link>
                                   </li>
-                                  <li>
-                                    <Link to="https://drive.google.com/file/d/1QpP0K4J6AXiFcezI-mBRzrpesci0gsAh/view" target="_blank">Brochure</Link>
-                                  </li>
-                                  <li>
-                                    <Link to="/recruiter/faq">
-                                      FAQs
-                                    </Link>
+                                  <li onClick={() => setmobile(!mobile)}>
+                                    <Link to="/recruiter/faq">FAQs</Link>
                                   </li>
                                   {/* <li>
                                     <Link to="/pricing">Pricing</Link>
@@ -315,7 +336,10 @@ function Main() {
                                 {Services ? "-" : "+"}
                               </a>
                             </li>
-                            <li className="has-sub">
+                            <li
+                              className="has-sub"
+                              onClick={() => setmobile(!mobile)}
+                            >
                               <Link to="/blog">Blog</Link>
                               {/* {Blog && (
                                 <ul style={{ display: "block" }}>
@@ -340,10 +364,16 @@ function Main() {
                                 {Blog ? "-" : "+"}
                               </a> */}
                             </li>
-                            <li className="has-sub">
-                            <Link to='/event'>Events</Link>
+                            <li
+                              className="has-sub"
+                              onClick={() => setmobile(!mobile)}
+                            >
+                              <Link to="/event">Events</Link>
                             </li>
-                            <li className="mean-last">
+                            <li
+                              className="mean-last"
+                              onClick={() => setmobile(!mobile)}
+                            >
                               <Link to="/contact">Contact Us</Link>
                             </li>
                           </ul>

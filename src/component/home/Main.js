@@ -22,12 +22,12 @@ function Main() {
       <About />
       {/* <Courses /> */}
       {/* <Shep/> */}
+      <Scholarship /> {/* ------- Why IIT Dharwad ? ---------- */}
+      <Testimonialthree /> {/* ------- Director's Message  ---------- */}
       <Event />
-      <Scholarship />
       {/* <Frequently/> */}
       {/* <Video/> */}
       {/* <Testimonial /> */}
-      <Testimonialthree /> {/* ------- Director's Message  ---------- */}
       {/* <Search/> */}
       {/* <Admission/> */}
       <Redslider />
