@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/new/static/css/main.5730cecd.css",
-    "main.js": "/new/static/js/main.347e57e4.js",
+    "main.js": "/new/static/js/main.c9814b7e.js",
     "static/media/fa-duotone-900.svg": "/new/static/media/fa-duotone-900.e2ad3965c2a9e62098b9.svg",
     "static/media/fa-light-300.svg": "/new/static/media/fa-light-300.9dd7bbb937f23efa25fb.svg",
     "static/media/fa-regular-400.svg": "/new/static/media/fa-regular-400.4e2c87c166dd32bc2485.svg",
@@ -68,6 +68,7 @@
     "static/media/Gallery-12.jpg": "/new/static/media/Gallery-12.d0424047aff0b510fdc6.jpg",
     "static/media/Gallery-30.jpg": "/new/static/media/Gallery-30.d0424047aff0b510fdc6.jpg",
     "static/media/fa-regular-400.woff2": "/new/static/media/fa-regular-400.6f182a403c97e0e79648.woff2",
+    "static/media/Event-Background.jpg": "/new/static/media/Event-Background.e8ee83fee185f4c4d897.jpg",
     "static/media/fa-brands-400.eot": "/new/static/media/fa-brands-400.59b4d0d406e282f4231f.eot",
     "static/media/fa-brands-400.ttf": "/new/static/media/fa-brands-400.c0f9dccd4ca01dd0217f.ttf",
     "static/media/fa-solid-900.woff2": "/new/static/media/fa-solid-900.d7475e39f70533c40ca5.woff2",
@@ -114,7 +115,6 @@
     "static/media/081AE1D4-053F-4E3C-A68C-D98450DD9172 - Kamtekar Varad Mahesh -2.jpg": "/new/static/media/081AE1D4-053F-4E3C-A68C-D98450DD9172 - Kamtekar Varad Mahesh -2.b0417e4c1dafd1b2f06b.jpg",
     "static/media/Aryan_Photo_Square - Trimukhe Aryan Dhananjay.jpg": "/new/static/media/Aryan_Photo_Square - Trimukhe Aryan Dhananjay.00225796d06abf0f3e03.jpg",
     "static/media/credit_one.png": "/new/static/media/credit_one.c40f6b54e1929d301afa.png",
-    "static/media/Event-Background.jpg": "/new/static/media/Event-Background.c90ae55f383bf296fcc8.jpg",
     "static/media/cred.png": "/new/static/media/cred.bb540444f04a661803ee.png",
     "static/media/aptean.png": "/new/static/media/aptean.c2aecae174bcfb325c6c.png",
     "static/media/1200px-ITI_Limited_logo.svg-min.png": "/new/static/media/1200px-ITI_Limited_logo.svg-min.46108ff6b9ae909a77d3.png",
@@ -128,10 +128,10 @@
     "static/media/mmrfi.jpg": "/new/static/media/mmrfi.62d4ad283ad2ae086a0f.jpg",
     "index.html": "/new/index.html",
     "main.5730cecd.css.map": "/new/static/css/main.5730cecd.css.map",
-    "main.347e57e4.js.map": "/new/static/js/main.347e57e4.js.map"
+    "main.c9814b7e.js.map": "/new/static/js/main.c9814b7e.js.map"
   },
   "entrypoints": [
     "static/css/main.5730cecd.css",
-    "static/js/main.347e57e4.js"
+    "static/js/main.c9814b7e.js"
   ]
 }
