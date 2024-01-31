@@ -33,11 +33,9 @@ function Main() {
         >
           <div className="container">
             <div className="second-menu">
-              <div className="row align-items-center">
+              <div className="row align-items-center p-2">
                 <div className="col-xl-3 col-lg-3">
-                  <div className="logo" style={{ width: "140px" }}>
-                    {" "}
-                    {/* Added a logo and adjusted its width */}
+                  <div className="logo" style={{width:'200px' }}> {/* Added a logo and adjusted its width */}
                     <Link to="/">
                       <img src={logo} alt="logo" />
                     </Link>
