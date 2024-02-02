@@ -41,7 +41,7 @@ function Main() {
                     </Link>
                   </div>
                 </div>
-                <div className="col-xl-7 col-lg-7">
+                <div className="col-xl-8 col-lg-8">
                   <div className="main-menu text-right text-xl-right">
                     <nav id="mobile-menu">
                       <ul>
@@ -101,11 +101,12 @@ function Main() {
                         <li className="has-sub">
                           <Link>For Recruiters</Link>
                           <ul>
-                            <li>
-                              <Link to="/internship">Internship</Link>
-                            </li>
+     
                             <li>
                               <Link to="/placement">Placement</Link>
+                            </li>
+                            <li>
+                              <Link to="/internship">Internship</Link>
                             </li>
                             <li>
                               <Link
@@ -285,11 +286,12 @@ function Main() {
                               <Link>For Recruiters</Link>
                               {Services && (
                                 <ul style={{ display: "block" }}>
-                                  <li onClick={() => setmobile(!mobile)}>
-                                    <Link to="/internship">Internship</Link>
-                                  </li>
+                       
                                   <li onClick={() => setmobile(!mobile)}>
                                     <Link to="/placement">Placement</Link>
+                                  </li>
+                                  <li onClick={() => setmobile(!mobile)}>
+                                    <Link to="/internship">Internship</Link>
                                   </li>
                                   <li onClick={() => setmobile(!mobile)}>
                                     <Link
