@@ -1,6 +1,7 @@
 import React from "react";
 import { Link } from "react-router-dom";
 import blogs from "../../data/blogs.json";
+import TwitterTimeline from "../TwitterTimeline/Main";
 function Blog() {
   const images = require.context("./../../assets/img/blogs/", true);
   const sortedBlogs = blogs
@@ -165,10 +166,13 @@ function Blog() {
                     </div>
                 </div> */}
           </div>
+          <TwitterTimeline/>
         </div>
+       
       </section>
     </>
   );
 }
-
 export default Blog;
+
+

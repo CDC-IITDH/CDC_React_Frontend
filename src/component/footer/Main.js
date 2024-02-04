@@ -49,7 +49,7 @@ function Main() {
                     {" "}
                     {/* about cdc */}
                     <p>
-                      CDC is a body of IIT Dharwad that supports students in
+                      CDC is a student-driven body of IIT Dharwad that supports students in
                       shaping and managing their careers by building critical
                       ingredients required for a student to be a complete
                       professional.It is committed to assisting all IIT Dharwad
@@ -100,10 +100,22 @@ function Main() {
                       <li>
                         <Link to="/gallery">Gallery</Link>
                       </li>
+                      <li>
+                      <a
+                      href="https://cdc.iitdh.ac.in/portal/inf" target="_blank"
+                      >
+                      INF
+                      </a>
+                      </li>
+                      <li>
+                      <a href="https://cdc.iitdh.ac.in/portal/jnf" target="_blank"
+                      >
+                      JNF 
+                      </a></li>
                     </ul>
                   </div>
                 </div>
-              </div>
+              </div>              
               <div className="col-xl-3 col-lg-3 col-sm-6">
                 <div className="footer-widget mb-30">
                   <div className="f-widget-title">

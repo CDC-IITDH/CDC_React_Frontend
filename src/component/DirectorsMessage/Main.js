@@ -31,7 +31,7 @@ const Testimonialnew = () => {
         },
         {
           id: 3,
-          title: " Deans's Message",
+          title: " Dean's Message",
           quote:
             "IIT Dharwad's Research and Development (R&D) division is actively cultivating a vibrant culture of innovation and exploration. Our efforts span various initiatives, including collaborating with funding agencies to secure sponsored projects, facilitating consultancy projects, and providing specialized courses tailored for industry professionals. To fortify the relationship between industry and academia, we organize Development of Industry and Academia Linkage (DIAL) days, fostering crucial connections. Despite a short duration, our dynamic faculty members have remarkably obtained numerous funded projects amounting to 6 crores, demonstrating our commitment to pioneering research. Moreover, our R&D unit actively engages in collaborations with esteemed universities and industries, both nationally and internationally, forging partnerships through signed MoUs that have already initiated collaborative ventures, marking the onset of fruitful collaborations.",
           authorName: "Prof. Rajesh Hegde",

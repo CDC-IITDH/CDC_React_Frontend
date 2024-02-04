@@ -45,22 +45,23 @@ function Scholarship() {
 
             {/* </div> */}
           </div>
-          <Link
+          <a  href="https://cdc.iitdh.ac.in/portal/jnf" target="_blank"
             className="btn ss-btn mr-15"
             style={{ marginBottom: "20px" }}
             data-animation="fadeInLeft"
             data-delay=".4s"
           >
             Register For Placements
-          </Link>
-          <Link
+          </a>
+          <a href="https://cdc.iitdh.ac.in/portal/inf" target="_blank"
+
             className="btn ss-btn mr-15"
             style={{ marginBottom: "20px" }}
             data-animation="fadeInLeft"
             data-delay=".4s"
           >
             Register For Internships
-          </Link>
+          </a>
         </div>
         {/* </div> */}
       </section>
