@@ -83,7 +83,7 @@ function Sliderone() {
       window.removeEventListener("resize", handleResize);
     };
   }, []);
-  
+
   return (
     <>
       <section id="home" className="slider-area fix p-relative">
@@ -120,17 +120,17 @@ function Sliderone() {
                       </h2>
 
                       <p data-animation="fadeInUp" data-delay=".6s">
-                        CDC is a student-driven body of IIT Dharwad that supports students in
-                        shaping and managing their careers by building critical
-                        ingredients required for a student to be a complete
-                        professional.
+                        CDC is a student-driven body of IIT Dharwad that
+                        supports the student community in shaping and managing
+                        their careers by building critical ingredients required
+                        for a student to be a complete professional.
                       </p>
                       <div className="slider-btn mt-30">
                         <Link
                           to="/about"
                           className="btn ss-btn mr-15"
                           data-animation="fadeInLeft"
-                          data-delay=".4s"                          
+                          data-delay=".4s"
                         >
                           Discover More{" "}
                           <i className="fal fa-long-arrow-right" />
@@ -143,35 +143,34 @@ function Sliderone() {
                         >
                           Contact Us <i className="fal fa-long-arrow-right" />
                         </Link>
-                         <a href="https://cdc.iitdh.ac.in/portal/jnf" target="_blank"
-
-                                className="btn ss-btn mr-15"
-                                data-animation="fadeInLeft"
-                                data-delay=".4s"
-                                style={
-                                isBottom
-                                ? {marginTop: "10px",width:"150px"}
-                                : {width:"150px"}
-                                }
-                                >
-                                JNF <i className="fal fa-long-arrow-right" />
-                                </a>
                         <a
-                         href="https://cdc.iitdh.ac.in/portal/inf" target="_blank"
+                          href="https://cdc.iitdh.ac.in/portal/jnf"
+                          target="_blank"
                           className="btn ss-btn mr-15"
                           data-animation="fadeInLeft"
                           data-delay=".4s"
                           style={
-                        isBottom
-                          ? {marginTop: "10px",width:"129.5px"}
-                          : {width:"150px"}
-                      }
+                            isBottom
+                              ? { marginTop: "10px", width: "150px" }
+                              : { width: "150px" }
+                          }
+                        >
+                          JNF <i className="fal fa-long-arrow-right" />
+                        </a>
+                        <a
+                          href="https://cdc.iitdh.ac.in/portal/inf"
+                          target="_blank"
+                          className="btn ss-btn mr-15"
+                          data-animation="fadeInLeft"
+                          data-delay=".4s"
+                          style={
+                            isBottom
+                              ? { marginTop: "10px", width: "129.5px" }
+                              : { width: "150px" }
+                          }
                         >
                           INF <i className="fal fa-long-arrow-right" />
                         </a>
-
-
-
                       </div>
                     </div>
                   </div>
@@ -180,7 +179,10 @@ function Sliderone() {
               </div>
             </div>
           </div>
-          <div>
+
+          {/* this is for second image in slider */}
+
+          {/* <div>
             <div
               className="single-slider slider-bg"
               style={{
@@ -208,7 +210,7 @@ function Sliderone() {
                       </h2>
 
                       <p data-animation="fadeInUp" data-delay=".6s">
-                        CDC is a body of IIT Dharwad that supports students in
+                        CDC is a student-driven body of IIT Dharwad that supports the student community in
                         shaping and managing their careers by building critical
                         ingredients required for a student to be a complete
                         professional.
@@ -264,7 +266,7 @@ function Sliderone() {
                 </div>
               </div>
             </div>
-          </div>
+          </div> */}
         </Slider>
       </section>
 

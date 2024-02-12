@@ -123,7 +123,7 @@ function Main() {
                               <Link to="/pricing">Pricing</Link>
                             </li>
                             <li>
-                              <Link to="/faq">Faq</Link>
+                              <Link to="/faq">Faqs</Link>
                             </li>
                             <li>
                               <Link to="/team">Teacher</Link>
@@ -308,7 +308,7 @@ function Main() {
                                     <Link to="/pricing">Pricing</Link>
                                   </li>
                                   <li>
-                                    <Link to="/faq">Faq</Link>
+                                    <Link to="/faq">Faqs</Link>
                                   </li>
                                   <li>
                                     <Link to="/team">Teacher</Link>

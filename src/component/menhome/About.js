@@ -17,7 +17,17 @@ function About() {
                 data-delay=".4s"
               >
                 <img src={image1} alt="img" />
-                <div className="about-text second-about" style={{top:"30px",width:"250px",height:"100px",bottom:"-10px",padding:"20px",left:"357px"}}>
+                <div
+                  className="about-text second-about"
+                  style={{
+                    top: "30px",
+                    width: "250px",
+                    height: "100px",
+                    bottom: "-10px",
+                    padding: "20px",
+                    left: "357px",
+                  }}
+                >
                   <span>
                     <sub>Established</sub>
                   </span>
@@ -43,9 +53,9 @@ function About() {
                         premier colleges, we are making learning more relevant and
                         transformational. */}
                   Established in 2016 as an autonomous institute of national
-                  importance by the Ministry of Human Resource Development,GoI,
-                  Indian Institute of Technology Dharwad (IIT Dharwad) aims at
-                  producing world class engineers who are capable of
+                  importance by the Ministry of Human Resource Development
+                  (MHRD), Indian Institute of Technology Dharwad (IIT Dharwad)
+                  aims at producing world class engineers who are capable of
                   establishing themselves in the higher echelons of any field
                   they venture into.
                 </p>
