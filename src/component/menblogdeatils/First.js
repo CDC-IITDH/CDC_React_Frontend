@@ -36,9 +36,27 @@ function First({blogsData}) {
     // The next blog (older) is at a higher index
      const nextBlog = currentBlogIndex < sortedBlogs.length - 1 ? sortedBlogs[currentBlogIndex + 1] : null;
     const isMobile = windowWidth < 980; // Adjust this threshold as per your design's mobile breakpoint
-
+    
     return (
         <>
+        <style>
+        {`
+          .customList {
+            list-style-type: none; 
+          }
+          .customList li {
+            position: relative;
+            padding-left: 20px; /* Space for custom bullet */
+          }
+          .customList li::before {
+            content: '•'; /* Custom bullet */
+            color: black; /* Bullet color */
+            position: absolute;
+            left: 0; /* Align bullet */
+            top: 0; /* Adjust based on your line-height */
+          }
+        `}
+      </style>
             <section className="inner-blog b-details-p pt-120 pb-120" style={{paddingLeft:isMobile?"0%":"10%",paddingRight:isMobile?"0%":"10%"}}>
                 <div className="container">
                     <div className="row">
@@ -114,11 +132,21 @@ function First({blogsData}) {
                                         </div>
 
                                         {content.map((item, index) => (
-                                            <div key={index}>
-                                                <h3 style={{color:"#ff7350"}}>{item.section}</h3>
-                                                <p style={{textAlign:"justify",color:"black"}}>{item.text}</p>
-                                            </div>
+                                        <div key={index}>
+                                            <h3 style={{color:"#ff7350"}}>{item.section}</h3>
+                                            {item.ispointwise === "true" ? (
+                                            <ul className='customList' style={{textAlign:"justify",color:"black"}}>
+                                                {item.text.split(". ").map((point, pointIndex) => (
+                                                // Ensure the point is not empty before rendering
+                                                point.trim() !== "" ? <li style={{textAlign:"justify"}} key={pointIndex}>{point.endsWith('.') ? point : `${point}.`}</li> : null
+                                                ))}
+                                            </ul>
+                                            ) : (
+                                            <p style={{textAlign:"justify",color:"black"}}>{item.text}</p>
+                                            )}
+                                        </div>
                                         ))}
+
                                     </div>
 
                                     {/* <blockquote>
