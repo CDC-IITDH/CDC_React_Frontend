@@ -97,7 +97,8 @@ function First() {
       phone: "+91 70367 30747",
       mail: "200030039@iitdh.ac.in",
       linkedin: "https://www.linkedin.com/in/dharani-samsritha/",
-      instagram: "https://www.instagram.com/varad_mk",
+      instagram:
+        "https://www.instagram.com/dharani_samsritha?igsh=MXZyNDdvMmgwdDE3eA==",
     },
     {
       name: "Varad Kamtekar",
@@ -106,7 +107,7 @@ function First() {
       phone: "+91 91674 71212",
       mail: "200030025@iitdh.ac.in",
       linkedin: "https://www.linkedin.com/in/varad-kamtekar-7821a8202/",
-      instagram: "",
+      instagram: "https://www.instagram.com/varad_mk",
     },
     {
       name: "Rahul Raj",
