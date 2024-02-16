@@ -41,7 +41,7 @@ function Main() {
                     </Link>
                   </div>
                 </div>
-                <div className="col-xl-8 col-lg-8">
+                <div className="col-xl-7 col-lg-7" style={{marginLeft:"100px"}}>
                   <div className="main-menu text-right text-xl-right">
                     <nav id="mobile-menu">
                       <ul>

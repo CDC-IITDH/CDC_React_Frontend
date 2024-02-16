@@ -57,11 +57,11 @@ function Sliderone() {
       { breakpoint: 1200, settings: { dots: false, arrows: false } },
     ],
   };
-  const [isDesktop, setIsDesktop] = useState(window.innerWidth >= 994);
+  const [isDesktop, setIsDesktop] = useState(window.innerWidth >= 768);
 
   useEffect(() => {
     const handleResize = () => {
-      setIsDesktop(window.innerWidth >= 994);
+      setIsDesktop(window.innerWidth >= 768);
     };
 
     window.addEventListener("resize", handleResize);
@@ -70,11 +70,11 @@ function Sliderone() {
       window.removeEventListener("resize", handleResize);
     };
   }, []);
-  const [isBottom, setIsBottom] = useState(window.innerWidth <= 1400);
+  const [isBottom, setIsBottom] = useState(window.innerWidth <= 768);
 
   useEffect(() => {
     const handleResize = () => {
-      setIsBottom(window.innerWidth <= 1400);
+      setIsBottom(window.innerWidth <= 768);
     };
 
     window.addEventListener("resize", handleResize);
@@ -125,7 +125,7 @@ function Sliderone() {
                         their careers by building critical ingredients required
                         for a student to be a complete professional.
                       </p>
-                      <div className="slider-btn mt-30">
+                      <div className="slider-btn mt-30" style={isDesktop?{width:"1100px"}:{}}>
                         <Link
                           to="/about"
                           className="btn ss-btn mr-15"
