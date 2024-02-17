@@ -16,7 +16,29 @@ import {
 
 import Placementinfo from "../Placementinfo/Main";
 class Testimonials extends Component {
+  constructor(props) {
+    super(props);
+    // Initial state
+    this.state = {
+      isHovered: false,
+    };
+  }
+
+  // Method to handle mouse enter
+  handleMouseEnter = () => {
+    this.setState({ isHovered: true });
+  };
+
+  // Method to handle mouse leave
+  handleMouseLeave = () => {
+    this.setState({ isHovered: false });
+  };
   render() {
+    const linkStyle = {
+      color: this.state.isHovered ? '#125875' : 'white', // Change color on hover
+      marginBottom: '15px',
+      textDecoration: 'none', // Optional: Removes underline from links
+    };
     return (
       <>
         <section
@@ -101,8 +123,16 @@ class Testimonials extends Component {
               <h3
                 className="vertical-timeline-element-title"
                 style={{ color: "white", marginBottom: "15px" }}
-              >
-                Fill JNF
+              ><a
+                          href="https://cdc.iitdh.ac.in/portal/jnf"
+                          target="_blank"      
+                          style={linkStyle}
+          onMouseEnter={this.handleMouseEnter} // Handle mouse enter
+          onMouseLeave={this.handleMouseLeave}                  
+                        >
+                         Fill JNF
+                        </a>
+               
               </h3>
               <h4
                 className="vertical-timeline-element-subtitle"

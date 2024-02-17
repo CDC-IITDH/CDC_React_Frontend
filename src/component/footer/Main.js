@@ -97,9 +97,9 @@ function Main() {
                       <li>
                         <Link to="/team">Team</Link>
                       </li>
-                      <li>
+                      {/* <li>
                         <Link to="/gallery">Gallery</Link>
-                      </li>
+                      </li> */}
                       <li>
                         <a
                           href="https://cdc.iitdh.ac.in/portal/inf"
