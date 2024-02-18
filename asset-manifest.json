@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/new/static/css/main.5730cecd.css",
-    "main.js": "/new/static/js/main.51f8d316.js",
+    "main.js": "/new/static/js/main.a2643ede.js",
     "static/media/fa-duotone-900.svg": "/new/static/media/fa-duotone-900.e2ad3965c2a9e62098b9.svg",
     "static/media/fa-light-300.svg": "/new/static/media/fa-light-300.9dd7bbb937f23efa25fb.svg",
     "static/media/fa-regular-400.svg": "/new/static/media/fa-regular-400.4e2c87c166dd32bc2485.svg",
@@ -64,10 +64,10 @@
     "static/media/fa-light-300.woff2": "/new/static/media/fa-light-300.9edbabc6bdccca123a05.woff2",
     "static/media/fa-solid-900.woff": "/new/static/media/fa-solid-900.0cc237d5f02e14d3a916.woff",
     "static/media/fa-duotone-900.woff2": "/new/static/media/fa-duotone-900.d3ae0e9030731f16a221.woff2",
-    "static/media/About-Home.jpg": "/new/static/media/About-Home.62968c6d35476892458a.jpg",
     "static/media/Gallery-12.jpg": "/new/static/media/Gallery-12.d0424047aff0b510fdc6.jpg",
     "static/media/Gallery-30.jpg": "/new/static/media/Gallery-30.d0424047aff0b510fdc6.jpg",
     "static/media/fa-regular-400.woff2": "/new/static/media/fa-regular-400.6f182a403c97e0e79648.woff2",
+    "static/media/About-Home.jpg": "/new/static/media/About-Home.6e7dd1db6bd93dd022d5.jpg",
     "static/media/Event-Background.jpg": "/new/static/media/Event-Background.e8ee83fee185f4c4d897.jpg",
     "static/media/fa-brands-400.eot": "/new/static/media/fa-brands-400.59b4d0d406e282f4231f.eot",
     "static/media/fa-brands-400.ttf": "/new/static/media/fa-brands-400.c0f9dccd4ca01dd0217f.ttf",
@@ -128,10 +128,10 @@
     "static/media/mmrfi.jpg": "/new/static/media/mmrfi.62d4ad283ad2ae086a0f.jpg",
     "index.html": "/new/index.html",
     "main.5730cecd.css.map": "/new/static/css/main.5730cecd.css.map",
-    "main.51f8d316.js.map": "/new/static/js/main.51f8d316.js.map"
+    "main.a2643ede.js.map": "/new/static/js/main.a2643ede.js.map"
   },
   "entrypoints": [
     "static/css/main.5730cecd.css",
-    "static/js/main.51f8d316.js"
+    "static/js/main.a2643ede.js"
   ]
 }
