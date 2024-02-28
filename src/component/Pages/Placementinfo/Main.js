@@ -169,7 +169,7 @@ const Placementinfo = () => {
           <div style={styles.subText2}>
             <h5>a) The CTC & Gross pay offered.</h5>
             <h5>
-              b) The geographic location where the job/ Replace by Intenship is
+              b) The geographic location where the Job is
               being offered
             </h5>
             <h5>

@@ -110,8 +110,7 @@ const Interninfo = () => {
             </h5>
             <h5 style={styles.subText}>a) Stipend.</h5>
             <h5 style={styles.subText}>
-              b) The geographic location where the job/ Replace by Intenship is
-              being offered
+              b) The geographic location where the Intenship is being offered
             </h5>
             <h5 style={styles.subText}>
               c) A brief description of the job and responsibilities, required
