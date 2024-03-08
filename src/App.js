@@ -15,7 +15,7 @@ import './assets/css/responsive.css'
 function App() {
   return (
     <>
-      <Router basename="new">
+      <Router>
         <Routing />
       </Router>
     </>
