@@ -287,7 +287,7 @@ function First() {
                   <div key={index} className="col-xl-3 col-md-6">
                     <div
                       className="single-team mb-40"
-                      style={{ minHeight: "350px", maxHeight: "350px" }}
+                      style={{ minHeight: "350px" }}
                     >
                       <div className="team-thumb">
                         <div className="brd">
@@ -345,7 +345,7 @@ function First() {
                   <div key={index} className="col-xl-3 col-md-6">
                     <div
                       className="single-team mb-40"
-                      style={{ minHeight: "400px", maxHeight: "400px" }}
+                      style={{ minHeight: "420px" }}
                     >
                       <div className="team-thumb">
                         <div className="brd">
