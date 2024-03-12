@@ -275,50 +275,6 @@ function First() {
                 </div>
               </div>
             )}
-
-            <div className="col">
-              <div
-                className="d-flex justify-content-center"
-                style={{ paddingBottom: "30px", paddingTop: "10px" }}
-              >
-                <h2>Faculty Advisors</h2>
-              </div>
-              <div className="row d-flex justify-content-center">
-                {facultyAdvisors.map((member, index) => (
-                  <div key={index} className="col-xl-3 col-md-6">
-                    <div
-                      className="single-team mb-40"
-                      style={{ minHeight: "400px", maxHeight: "400px" }}
-                    >
-                      <div className="team-thumb">
-                        <div className="brd">
-                          <Link to="#">
-                            {" "}
-                            <img src={member.image} alt="img" />
-                          </Link>
-                        </div>
-                      </div>
-                      <div className="team-info">
-                        <h4>
-                          <Link to="#">{member.name}</Link>
-                        </h4>
-                        <p>{member.role}</p>
-                        <p>{member.dept}</p>
-                        <div className="team-social">
-                          <ul>
-                            <li>
-                              <Link to={`mailto:${member.mail}`}>
-                                <i className="fa fa-envelope" />
-                              </Link>
-                            </li>
-                          </ul>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                ))}
-              </div>
-            </div>
             <div className="col">
               <div
                 className="d-flex justify-content-center"
@@ -365,6 +321,49 @@ function First() {
                             </li>
                             <li>
                               {" "}
+                              <Link to={`mailto:${member.mail}`}>
+                                <i className="fa fa-envelope" />
+                              </Link>
+                            </li>
+                          </ul>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                ))}
+              </div>
+            </div>
+            <div className="col">
+              <div
+                className="d-flex justify-content-center"
+                style={{ paddingBottom: "30px", paddingTop: "10px" }}
+              >
+                <h2>Faculty Advisors</h2>
+              </div>
+              <div className="row d-flex justify-content-center">
+                {facultyAdvisors.map((member, index) => (
+                  <div key={index} className="col-xl-3 col-md-6">
+                    <div
+                      className="single-team mb-40"
+                      style={{ minHeight: "400px", maxHeight: "400px" }}
+                    >
+                      <div className="team-thumb">
+                        <div className="brd">
+                          <Link to="#">
+                            {" "}
+                            <img src={member.image} alt="img" />
+                          </Link>
+                        </div>
+                      </div>
+                      <div className="team-info">
+                        <h4>
+                          <Link to="#">{member.name}</Link>
+                        </h4>
+                        <p>{member.role}</p>
+                        <p>{member.dept}</p>
+                        <div className="team-social">
+                          <ul>
+                            <li>
                               <Link to={`mailto:${member.mail}`}>
                                 <i className="fa fa-envelope" />
                               </Link>
