@@ -120,6 +120,51 @@ function First() {
     },
   ];
 
+  const teams = [
+    [
+      "Sahitya Chinta",
+      "Sankalp Nagaonkar",
+      "Kavali Satyavani",
+      "Rayi Prasanth Kumar",
+      "Suhas Reddy",
+      "Nandini D",
+      "Siddhant Kumar",
+      "Priyanshu Mishra",
+      "Rahul A",
+      "Aditya",
+    ],
+    [
+      "Murakonda Venkata Karthik",
+      "SriRam Mudragada",
+      "Kavali Satyavani",
+      "Prajwal Biradar",
+      "Jaya Surya Putti",
+      "R Eshwar",
+      "Karthik K",
+      "Nitin Vangipuram",
+    ],
+    [
+      "Agrim Jain",
+      "Pratham More",
+      "Varun Limaye",
+      "Srihari K G",
+      "Sunay Patil",
+      "Shreya Sharma",
+      "Jatin Lather",
+      "Abhiram K",
+      "Aditya Kumar Singh",
+      "Ansh Vivek",
+      "Aryan Gulhane",
+      "Kushal Mohta",
+      "Shubh Agarwal",
+      "Swapnesh Sinha",
+      "Tejal Ladage",
+      "Vivek Pillai",
+    ],
+  ];
+
+  const teamNames = ["Outreach Team", "Technical Team", "Core Team"];
+
   return (
     <>
       <section
@@ -330,6 +375,57 @@ function First() {
                     </div>
                   </div>
                 ))}
+              </div>
+            </div>
+          </div>
+          {/* team members  */}
+          <div className="container">
+            <div className="row">
+              <div className="col">
+                <div
+                  className="d-flex justify-content-center"
+                  style={{ paddingBottom: "30px", paddingTop: "10px" }}
+                >
+                  <h2>CDC Student Members</h2>
+                </div>
+                <div className="row">
+                  {teams.map((team, teamIndex) => (
+                    <div className="col-xl-6 col-md-12 mb-4" key={teamIndex}>
+                      <div
+                        className="single-team d-flex flex-column justify-content-between"
+                        style={{
+                          height: "100%",
+
+                          padding: "30px",
+                        }}
+                      >
+                        <div
+                          className="d-flex justify-content-center align-items-center"
+                          style={{ marginBottom: "10px" }}
+                        >
+                          <h3>{teamNames[teamIndex]}</h3>
+                        </div>
+                        <ul
+                          className="d-flex flex-column justify-content-center align-items-center"
+                          style={{ flex: "1", margin: 0 }}
+                        >
+                          {team.map((member, index) => (
+                            <li
+                              key={index}
+                              style={{
+                                fontWeight: "bold",
+                                fontSize: "16px",
+                                marginBottom: "5px",
+                              }}
+                            >
+                              {member}
+                            </li>
+                          ))}
+                        </ul>
+                      </div>
+                    </div>
+                  ))}
+                </div>
               </div>
             </div>
           </div>
