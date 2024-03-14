@@ -20,7 +20,7 @@ function Touch() {
             </div>
           </div>
           <div className="row">
-            <div className="col-lg-4 col-md-4">
+            {/* <div className="col-lg-4 col-md-4">
               <div
                 className="services-box text-center"
                 style={{ minHeight: "400px" }}
@@ -35,8 +35,8 @@ function Touch() {
                   <p>Phone Support</p>
                 </div>
               </div>
-            </div>
-            <div className="col-lg-4 col-md-4">
+            </div> */}
+            <div className="col-lg-6 col-md-4">
               <div
                 className="services-box text-center active"
                 style={{ minHeight: "400px" }}
@@ -52,7 +52,7 @@ function Touch() {
                 </div>
               </div>
             </div>
-            <div className="col-lg-4 col-md-4">
+            <div className="col-lg-6 col-md-4">
               <div
                 className="services-box text-center"
                 style={{ minHeight: "400px" }}
