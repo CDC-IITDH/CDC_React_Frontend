@@ -28,12 +28,9 @@ function First() {
     },
   ];
 
-  const placementExecutive = [];
-  {
-    /*const placementExecutive = [
-      {/*  { name: "Priyanka Naga", role: "", image: placementExecutiveImage, phone: "+91 82178 35130", mail: "priyanka.naga@iitdh.ac.in" ,linkedin: "https://www.linkedin.com/in/priyanka-n-a30813103/", instagram: "https://instagram.com/i_priyankanaga?igshid=MzNlNGNkZWQ4Mg=="}
-    ] */
-  }
+  const placementExecutive = [
+      { name: "Sameer Joshi", role: "", image: defaultProfileImage, phone: "+91 85533 16439"},
+    ];
 
   const facultyAdvisors = [
     {
@@ -245,7 +242,7 @@ function First() {
                           <p>{member.role}</p>
                           <div className="team-social">
                             <ul>
-                              <li>
+                              {/* <li>
                                 <Link to={member.linkedin}>
                                   <i className="fab fa-linkedin" />
                                 </Link>
@@ -256,14 +253,14 @@ function First() {
                                 </Link>
                               </li>
                               <li>
-                                <Link to={`tel:${member.phone}`}>
-                                  <i className="fa fa-phone" />
-                                </Link>
-                              </li>
-                              <li>
                                 {" "}
                                 <Link to={`mailto:${member.mail}`}>
                                   <i className="fa fa-envelope" />
+                                </Link>
+                              </li> */}
+                              <li>
+                                <Link to={`tel:${member.phone}`}>
+                                  <i className="fa fa-phone" />
                                 </Link>
                               </li>
                             </ul>
