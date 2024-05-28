@@ -258,13 +258,13 @@ function First() {
                                 <Link to={member.instagram}>
                                   <i className="fab fa-instagram" />
                                 </Link>
-                              </li>
+                              </li>*/}
                               <li>
                                 {" "}
                                 <Link to={`mailto:${member.mail}`}>
                                   <i className="fa fa-envelope" />
                                 </Link>
-                              </li> */}
+                              </li>
                               <li>
                                 <Link to={`tel:${member.phone}`}>
                                   <i className="fa fa-phone" />
