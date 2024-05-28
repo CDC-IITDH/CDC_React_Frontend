@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.30249509.css",
-    "main.js": "/static/js/main.f306fc1c.js",
+    "main.js": "/static/js/main.ba2dda85.js",
     "static/media/fa-duotone-900.svg": "/static/media/fa-duotone-900.e2ad3965c2a9e62098b9.svg",
     "static/media/fa-light-300.svg": "/static/media/fa-light-300.9dd7bbb937f23efa25fb.svg",
     "static/media/fa-regular-400.svg": "/static/media/fa-regular-400.4e2c87c166dd32bc2485.svg",
@@ -72,6 +72,7 @@
     "static/media/fa-brands-400.eot": "/static/media/fa-brands-400.59b4d0d406e282f4231f.eot",
     "static/media/fa-brands-400.ttf": "/static/media/fa-brands-400.c0f9dccd4ca01dd0217f.ttf",
     "static/media/fa-solid-900.woff2": "/static/media/fa-solid-900.d7475e39f70533c40ca5.woff2",
+    "static/media/srihari.jpeg": "/static/media/srihari.126dfefa86d356e05755.jpeg",
     "static/media/dripicons-v2.svg": "/static/media/dripicons-v2.c989021dd3aa96826efd.svg",
     "static/media/rishit_saiya.jpg": "/static/media/rishit_saiya.58778463c455178ab9ed.jpg",
     "static/media/prateek_jain.jpeg": "/static/media/prateek_jain.5eb84ef5025b97da9f73.jpeg",
@@ -92,6 +93,7 @@
     "static/media/publicissapient.png": "/static/media/publicissapient.c03696a9f1f6c2117bb2.png",
     "static/media/bharat_electronics.png": "/static/media/bharat_electronics.70fbd9ccf576eca08073.png",
     "static/media/cerner.png": "/static/media/cerner.c801dd7aa1d6e1529ea4.png",
+    "static/media/agrim.jpeg": "/static/media/agrim.a0e702f4574844777ab1.jpeg",
     "static/media/phdingermany.jpeg": "/static/media/phdingermany.3a67a157fcd3cc6d5c23.jpeg",
     "static/media/dripicons-v2.eot": "/static/media/dripicons-v2.7f392f1e4787b46b3e8b.eot",
     "static/media/dripicons-v2.ttf": "/static/media/dripicons-v2.09c9c870ef8f9cffcc8f.ttf",
@@ -108,15 +110,13 @@
     "static/media/dean_ap.jpg": "/static/media/dean_ap.41cc454d8d3959a8c08f.jpg",
     "static/media/arista.png": "/static/media/arista.9c1b206d594d978a8130.png",
     "static/media/avanti.png": "/static/media/avanti.2e4182a2ebec7dea9ba1.png",
-    "static/media/InShot_20220905_215808159 - Pasumarthi Dharani Samsritha.jpg": "/static/media/InShot_20220905_215808159 - Pasumarthi Dharani Samsritha.3fa53d9a98c78a639fa9.jpg",
     "static/media/toshiba.png": "/static/media/toshiba.07a621204c63869c92f7.png",
     "static/media/l&t.png": "/static/media/l&t.70609d6ceac29c5092b0.png",
     "static/media/Sairam_Boggavarapu_Image.jpeg": "/static/media/Sairam_Boggavarapu_Image.1a3edb4e445f30a7b250.jpeg",
-    "static/media/081AE1D4-053F-4E3C-A68C-D98450DD9172 - Kamtekar Varad Mahesh -2.jpg": "/static/media/081AE1D4-053F-4E3C-A68C-D98450DD9172 - Kamtekar Varad Mahesh -2.b0417e4c1dafd1b2f06b.jpg",
-    "static/media/Aryan_Photo_Square - Trimukhe Aryan Dhananjay.jpg": "/static/media/Aryan_Photo_Square - Trimukhe Aryan Dhananjay.00225796d06abf0f3e03.jpg",
     "static/media/credit_one.png": "/static/media/credit_one.c40f6b54e1929d301afa.png",
     "static/media/cred.png": "/static/media/cred.bb540444f04a661803ee.png",
     "static/media/aptean.png": "/static/media/aptean.c2aecae174bcfb325c6c.png",
+    "static/media/saksham.jpeg": "/static/media/saksham.e0dae4ae56db7c06462d.jpeg",
     "static/media/1200px-ITI_Limited_logo.svg-min.png": "/static/media/1200px-ITI_Limited_logo.svg-min.46108ff6b9ae909a77d3.png",
     "static/media/maq_software.png": "/static/media/maq_software.b98284983ab6e6ef4a42.png",
     "static/media/gupshup.jpeg": "/static/media/gupshup.db4eb04b3ac088a9d9e1.jpeg",
@@ -128,10 +128,10 @@
     "static/media/mmrfi.jpg": "/static/media/mmrfi.62d4ad283ad2ae086a0f.jpg",
     "index.html": "/index.html",
     "main.30249509.css.map": "/static/css/main.30249509.css.map",
-    "main.f306fc1c.js.map": "/static/js/main.f306fc1c.js.map"
+    "main.ba2dda85.js.map": "/static/js/main.ba2dda85.js.map"
   },
   "entrypoints": [
     "static/css/main.30249509.css",
-    "static/js/main.f306fc1c.js"
+    "static/js/main.ba2dda85.js"
   ]
 }
