@@ -33,6 +33,7 @@ function First() {
       role: "",
       image: defaultProfileImage,
       phone: "+91 85533 16439",
+      mail: "sameerjoshi@iitdh.ac.in",
     },
   ];
 
@@ -83,17 +84,8 @@ function First() {
 
   const teamMembers = [
     {
-      name: "Srihari K G",
-      role: "PR Team Head",
-      image: teamMemberImage1,
-      phone: "+91 99022 60373",
-      mail: "210030035@iitdh.ac.in",
-      linkedin: "https://www.linkedin.com/in/srihari-k-g-91931a1ab/",
-      instagram: "https://www.instagram.com/srihari_k_g_2003/",
-    },
-    {
       name: "Agrim Jain",
-      role: "EO Team Head",
+      role: "",
       image: teamMemberImage2,
       phone: "+91 95288 76421",
       mail: "210010003@iitdh.ac.in",
@@ -102,12 +94,21 @@ function First() {
     },
     {
       name: "Saksham Chhimwal",
-      role: "Outreach Team Head",
+      role: "",
       image: teamMemberImage3,
       phone: "+91 82795 69911",
       mail: "210010046@iitdh.ac.in",
       linkedin: "https://www.linkedin.com/in/saksham-chhimwal-838baa25a/",
       instagram: "https://www.instagram.com/sakshamchhimwal/",
+    },
+    {
+      name: "Srihari K G",
+      role: "",
+      image: teamMemberImage1,
+      phone: "+91 99022 60373",
+      mail: "210030035@iitdh.ac.in",
+      linkedin: "https://www.linkedin.com/in/srihari-k-g-91931a1ab/",
+      instagram: "https://www.instagram.com/srihari_k_g_2003/",
     },
   ];
 
