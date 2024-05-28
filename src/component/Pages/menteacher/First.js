@@ -11,10 +11,9 @@ import facultyAdvisorsImage4 from "../../../assets/img/team/Dhriti_Sundar_Ghosh_
 import facultyAdvisorsImage5 from "../../../assets/img/team/Suvamay_Jana_Image.jpeg";
 import facultyAdvisorsImage6 from "../../../assets/img/team/Ramesh_Nayaka_Image.jpeg";
 
-import teamMemberImage1 from "../../../assets/img/team/Aryan_Photo_Square - Trimukhe Aryan Dhananjay.jpg";
-import teamMemberImage2 from "../../../assets/img/team/InShot_20220905_215808159 - Pasumarthi Dharani Samsritha.jpg";
-import teamMemberImage3 from "../../../assets/img/team/081AE1D4-053F-4E3C-A68C-D98450DD9172 - Kamtekar Varad Mahesh -2.jpg";
-import teamMemberImage4 from "../../../assets/img/team/rahul-raj - Rahul Raj.jpg";
+import teamMemberImage1 from "../../../assets/img/team/srihari.jpeg";
+import teamMemberImage2 from "../../../assets/img/team/agrim.jpeg";
+import teamMemberImage3 from "../../../assets/img/team/saksham.jpeg";
 
 function First() {
   const facultyInCharge = [
@@ -29,8 +28,13 @@ function First() {
   ];
 
   const placementExecutive = [
-      { name: "Sameer Joshi", role: "", image: defaultProfileImage, phone: "+91 85533 16439"},
-    ];
+    {
+      name: "Sameer Joshi",
+      role: "",
+      image: defaultProfileImage,
+      phone: "+91 85533 16439",
+    },
+  ];
 
   const facultyAdvisors = [
     {
@@ -79,88 +83,87 @@ function First() {
 
   const teamMembers = [
     {
-      name: "Aryan Trimukhe",
-      role: "",
+      name: "Srihari K G",
+      role: "PR Team Head",
       image: teamMemberImage1,
-      phone: "+91 78754 66103",
-      mail: "200010053@iitdh.ac.in",
-      linkedin: "https://www.linkedin.com/in/aryan-trimukhe-397436200/",
-      instagram: "https://www.instagram.com/aryan_trep",
+      phone: "+91 99022 60373",
+      mail: "210030035@iitdh.ac.in",
+      linkedin: "https://www.linkedin.com/in/srihari-k-g-91931a1ab/",
+      instagram: "https://www.instagram.com/srihari_k_g_2003/",
     },
     {
-      name: "Dharani Samsritha",
-      role: "",
+      name: "Agrim Jain",
+      role: "EO Team Head",
       image: teamMemberImage2,
-      phone: "+91 70367 30747",
-      mail: "200030039@iitdh.ac.in",
-      linkedin: "https://www.linkedin.com/in/dharani-samsritha/",
-      instagram:
-        "https://www.instagram.com/dharani_samsritha?igsh=MXZyNDdvMmgwdDE3eA==",
+      phone: "+91 95288 76421",
+      mail: "210010003@iitdh.ac.in",
+      linkedin: "https://www.linkedin.com/in/agrim-jain-6b9356234/",
+      instagram: "https://www.instagram.com/agrimjain_26/",
     },
     {
-      name: "Varad Kamtekar",
-      role: "",
+      name: "Saksham Chhimwal",
+      role: "Outreach Team Head",
       image: teamMemberImage3,
-      phone: "+91 91674 71212",
-      mail: "200030025@iitdh.ac.in",
-      linkedin: "https://www.linkedin.com/in/varad-kamtekar-7821a8202/",
-      instagram: "https://www.instagram.com/varad_mk",
-    },
-    {
-      name: "Rahul Raj",
-      role: "",
-      image: teamMemberImage4,
-      phone: "+91 89059 36141",
-      mail: "200010044@iitdh.ac.in",
-      linkedin: "https://www.linkedin.com/in/rahul-raj-a97a7a1bb/",
-      instagram: "https://www.instagram.com/raraj9042/",
+      phone: "+91 82795 69911",
+      mail: "210010046@iitdh.ac.in",
+      linkedin: "https://www.linkedin.com/in/saksham-chhimwal-838baa25a/",
+      instagram: "https://www.instagram.com/sakshamchhimwal/",
     },
   ];
 
   const teams = [
     [
-      "Sahitya Chinta",
-      "Sankalp Nagaonkar",
-      "Kavali Satyavani",
-      "Rayi Prasanth Kumar",
-      "Suhas Reddy",
-      "Nandini D",
-      "Siddhant Kumar",
+      "Aayush Vats",
+      "Aditi Soukar",
+      "Ameya Langer",
+      "Anvay Jaykar",
+      "Arpan Sahu",
+      "Atharva Tijare",
+      "Bidipta Saha",
+      "Gurjaipal Singh",
+      "Ishaan Janjuha",
+      "Jai Sharma",
+      "Kavichelvan",
+      "Krunal Patel",
+      "Krutay Upadhyay",
+      "Lavanya Shende",
+      "Md Inzamamul Haque",
+      "Meghana Bhat",
+      "Nandini G",
+      "Nihar Sagar G",
+      "Nipun Gupta",
+      "Nishant Shailesh Mehta",
+      "Omkar Kulkarni",
+      "Prajwal N Prasad",
+      "Prashant Veer",
       "Priyanshu Mishra",
-      "Rahul A",
-      "Aditya",
+      "Rishita Seepana",
+      "Sai Sreeharsha Bolloju",
+      "Shubham Raj",
+      "Shubhranil Kundu",
+      "Siddharth Kumar Nishad",
+      "Sujay C",
+      "Surya Narayan Upadhyay",
+      "Utkarsh Gupta",
+      "Vatista Kachroo",
+      "Vedansh Chaudhary",
+      "Vedant Kannur",
+      "Velivela Mohith Naga Sai",
+      "Vidhi Kadam",
+      "Vidit Parikh",
+      "Yash Halbhavi",
     ],
     [
-      "Murakonda Venkata Karthik",
-      "SriRam Mudragada",
-      "Kavali Satyavani",
-      "Prajwal Biradar",
-      "Jaya Surya Putti",
-      "R Eshwar",
-      "Karthik K",
+      "Jaya Surya",
       "Nitin Vangipuram",
-    ],
-    [
-      "Agrim Jain",
-      "Pratham More",
-      "Varun Limaye",
-      "Srihari K G",
-      "Sunay Patil",
-      "Shreya Sharma",
-      "Jatin Lather",
-      "Abhiram K",
-      "Aditya Kumar Singh",
-      "Ansh Vivek",
-      "Aryan Gulhane",
-      "Kushal Mohta",
-      "Shubh Agarwal",
-      "Swapnesh Sinha",
-      "Tejal Ladage",
-      "Vivek Pillai",
+      "R Eshwar",
+      "R Amogh",
+      "Akella Vyaghra Satya Sreenivasu",
+      "Parikshit Gehlaut",
     ],
   ];
 
-  const teamNames = ["Outreach Team", "Technical Team", "Core Team"];
+  const teamNames = ["CDC Team", "Technical Team"];
 
   return (
     <>
@@ -173,7 +176,10 @@ function First() {
             <div className="col">
               <div
                 className="d-flex justify-content-center"
-                style={{ paddingBottom: "30px", paddingTop: "10px" }}
+                style={{
+                  paddingBottom: "30px",
+                  paddingTop: "10px",
+                }}
               >
                 <h2>Faculty In Charge</h2>
               </div>
@@ -281,7 +287,7 @@ function First() {
               </div>
               <div className="row">
                 {teamMembers.map((member, index) => (
-                  <div key={index} className="col-xl-3 col-md-6">
+                  <div key={index} className="col-xl-4 col-md-6">
                     <div
                       className="single-team mb-40"
                       style={{ minHeight: "350px" }}
