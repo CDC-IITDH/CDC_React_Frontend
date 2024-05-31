@@ -22,15 +22,17 @@ function Main() {
       image: facultyInChargeImage,
       phone: "+91 88268 24591",
       mail: "cdcfic@iitdh.ac.in",
+      position: "Faculty In Charge",
     },
 
     {
       name: "Sameer Joshi",
-      role: "",
+      role: "Placement Executive",
       dept: "",
       image: defaultProfileImage,
       phone: "+91 85533 16439",
       mail: "sameerjoshi@iitdh.ac.in",
+      position: "Placement Executive",
     },
   ];
 
@@ -76,6 +78,11 @@ function Main() {
                   className="single-team mb-40"
                   style={{ minHeight: "350px" }}
                 >
+                  <div>
+                    <h3 className="text-center">
+                      <b>{member.position}</b>
+                    </h3>
+                  </div>
                   <div className="team-thumb">
                     <div className="brd">
                       <Link to="#">
