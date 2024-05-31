@@ -6,6 +6,7 @@ import CssData from "./../../CustomCSS/TestimonialthreeCSS.json";
 import directorImg from "./../../assets/img/director/Director.jpeg";
 import deanApImg from "./../../assets/img/director/dean_ap.jpg";
 import deanRndImg from "./../../assets/img/director/dean_rnd.jpeg";
+import FICImg from "./../../assets/img/director/Satya_Priya_Image.jpeg";
 
 function SampleNextArrow(props) {
   const { className, style, onClick } = props;
@@ -57,12 +58,12 @@ function Testimonialthree() {
     },
     {
       id: 3,
-      title: " Deans's Message",
+      title: "Faculty In Charge's Message",
       quote:
-        "IIT Dharwad's Research and Development (R&D) division is actively cultivating a vibrant culture of innovation and exploration. Our efforts span various initiatives, including collaborating with funding agencies to secure sponsored projects, facilitating consultancy projects, and providing specialized courses tailored for industry professionals. To fortify the relationship between industry and academia, we organize Development of Industry and Academia Linkage (DIAL) days, fostering crucial connections. Despite a short duration, our dynamic faculty members have remarkably obtained numerous funded projects amounting to 6 crores, demonstrating our commitment to pioneering research. Moreover, our R&D unit actively engages in collaborations with esteemed universities and industries, both nationally and internationally, forging partnerships through signed MoUs that have already initiated collaborative ventures, marking the onset of fruitful collaborations.",
-      authorName: "Prof. Rajesh Hegde",
-      authorRole: "Dean of Research & Development, IIT Dharwad",
-      imgSrc: deanRndImg,
+        "It gives me great pleasure to invite you to visit Indian Institute of Technology, dhArwAD for the placement and internship season 2024-2025. We are confident that our students will deliver the things in real time environments and surpass all expectations when it comes to fulfilling organizational objectives. I look forward to continuing a fruitful relationship.",
+      authorName: "Prof. Satyapriya Gupta",
+      authorRole: "Dept. of Mechanical, Materials and Aerospace Engineering",
+      imgSrc: FICImg,
     },
   ];
 

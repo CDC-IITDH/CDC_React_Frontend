@@ -112,6 +112,29 @@ function First() {
     },
   ];
 
+  const seniorCoordinators = [
+    {
+      name: "Abhiram",
+      mail: "210150001@iitdh.ac.in",
+    },
+    {
+      name: "Vivek",
+      mail: "210010058@iitdh.ac.in",
+    },
+    {
+      name: "Karthik Hedge",
+      mail: "210010022@iitdh.ac.in",
+    },
+    {
+      name: "Pulkit Kathuria",
+      mail: "210020039@iitdh.ac.in",
+    },
+    {
+      name: "Eluri Harshita",
+      mail: "210030011@iitdh.ac.in",
+    },
+  ];
+
   const teams = [
     [
       "Aayush Vats",
@@ -127,6 +150,9 @@ function First() {
       "Kavichelvan",
       "Krunal Patel",
       "Krutay Upadhyay",
+    ],
+
+    [
       "Lavanya Shende",
       "Md Inzamamul Haque",
       "Meghana Bhat",
@@ -140,6 +166,8 @@ function First() {
       "Priyanshu Mishra",
       "Rishita Seepana",
       "Sai Sreeharsha Bolloju",
+    ],
+    [
       "Shubham Raj",
       "Shubhranil Kundu",
       "Siddharth Kumar Nishad",
@@ -164,7 +192,7 @@ function First() {
     ],
   ];
 
-  const teamNames = ["CDC Team", "Technical Team"];
+  const teamNames = ["CDC Team", "CDC Team", "CDC Team", "Technical Team"];
 
   return (
     <>
@@ -279,6 +307,7 @@ function First() {
                 </div>
               </div>
             )}
+            {/* CDC Student Heads */}
             <div className="col">
               <div
                 className="d-flex justify-content-center"
@@ -337,6 +366,7 @@ function First() {
                 ))}
               </div>
             </div>
+
             <div className="col">
               <div
                 className="d-flex justify-content-center"
@@ -380,6 +410,49 @@ function First() {
                 ))}
               </div>
             </div>
+            {/* Senior Coordinators */}
+            <div className="col">
+              <div
+                className="d-flex justify-content-center"
+                style={{ paddingBottom: "30px", paddingTop: "10px" }}
+              >
+                <h2>CDC Senior Coordinators</h2>
+              </div>
+              <div className="row">
+                {seniorCoordinators.map((member, index) => (
+                  <div key={index} className="col-xl-4 col-md-6">
+                    <div
+                      className="single-team mb-40"
+                      style={{ minHeight: "150px" }}
+                    >
+                      {/* <div className="team-thumb">
+                        <div className="brd">
+                          <Link to="#">
+                            {" "}
+                            <img src={member.image} alt="img" />
+                          </Link>
+                        </div>
+                      </div> */}
+                      <div className="team-info">
+                        <h4>
+                          <Link to="#">{member.name}</Link>
+                        </h4>
+                        <div className="team-social">
+                          <ul>
+                            <li>
+                              {" "}
+                              <Link to={`mailto:${member.mail}`}>
+                                <i className="fa fa-envelope" />
+                              </Link>
+                            </li>
+                          </ul>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                ))}
+              </div>
+            </div>
           </div>
           {/* team members  */}
           <div className="container">
@@ -393,12 +466,14 @@ function First() {
                 </div>
                 <div className="row">
                   {teams.map((team, teamIndex) => (
-                    <div className="col-xl-6 col-md-12 mb-4" key={teamIndex}>
+                    <div
+                      className="col-xl-3 col-md-6 col-sm-12 mb-4"
+                      key={teamIndex}
+                    >
                       <div
                         className="single-team d-flex flex-column justify-content-between"
                         style={{
                           height: "100%",
-
                           padding: "30px",
                         }}
                       >

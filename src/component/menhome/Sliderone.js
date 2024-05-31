@@ -125,7 +125,10 @@ function Sliderone() {
                         their careers by building critical ingredients required
                         for a student to be a complete professional.
                       </p>
-                      <div className="slider-btn mt-30" style={isDesktop?{width:"1100px"}:{}}>
+                      <div
+                        className="slider-btn mt-30"
+                        style={isDesktop ? { width: "1100px" } : {}}
+                      >
                         <Link
                           to="/about"
                           className="btn ss-btn mr-15"
@@ -151,11 +154,12 @@ function Sliderone() {
                           data-delay=".4s"
                           style={
                             isBottom
-                              ? { marginTop: "10px", width: "150px" }
-                              : { width: "150px" }
+                              ? { marginTop: "10px", width: "188px" }
+                              : { width: "230px" }
                           }
                         >
-                          JNF <i className="fal fa-long-arrow-right" />
+                          Job Notification Form{" "}
+                          <i className="fal fa-long-arrow-right" />
                         </a>
                         <a
                           href="https://cdc.iitdh.ac.in/portal/inf"
@@ -165,11 +169,12 @@ function Sliderone() {
                           data-delay=".4s"
                           style={
                             isBottom
-                              ? { marginTop: "10px", width: "129.5px" }
-                              : { width: "150px" }
+                              ? { marginTop: "10px", width: "228.5px" }
+                              : { width: "272px" }
                           }
                         >
-                          INF <i className="fal fa-long-arrow-right" />
+                          Internship Notification Form{" "}
+                          <i className="fal fa-long-arrow-right" />
                         </a>
                       </div>
                     </div>
