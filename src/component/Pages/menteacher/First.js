@@ -417,8 +417,15 @@ function First() {
               </div>
             </div>
             {/* Senior Coordinators */}
-            <div className="col-12">
-              <div className="card">
+            <div
+              className="col-12"
+              style={{
+                display: "flex",
+                alignContent: "center",
+                justifyContent: " center",
+              }}
+            >
+              <div className="card col-md-6">
                 <div className="card-body">
                   <h3 className="text-center">Senior Coordinators</h3>
                   <div className="row">
