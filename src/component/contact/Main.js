@@ -12,6 +12,7 @@ import facultyInChargeImage from "../../assets/img/team/Satya_Priya_Image.jpeg";
 import teamMemberImage1 from "../../assets/img/team/srihari.jpeg";
 import teamMemberImage2 from "../../assets/img/team/agrim.jpeg";
 import teamMemberImage3 from "../../assets/img/team/saksham.jpeg";
+import placementExecutiveImage from "../../assets/img/team/Sameer_Joshi_Image.jpg";
 
 function Main() {
   const facultyMembers = [
@@ -29,7 +30,7 @@ function Main() {
       name: "Sameer Joshi",
       role: "Placement Executive",
       dept: "",
-      image: defaultProfileImage,
+      image: placementExecutiveImage,
       phone: "+91 85533 16439",
       mail: "sameerjoshi@iitdh.ac.in",
       position: "Placement Executive",
