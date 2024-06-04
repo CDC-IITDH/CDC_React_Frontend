@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.30249509.css",
-    "main.js": "/static/js/main.1dfea871.js",
+    "main.js": "/static/js/main.864439a2.js",
     "static/media/fa-duotone-900.svg": "/static/media/fa-duotone-900.e2ad3965c2a9e62098b9.svg",
     "static/media/fa-light-300.svg": "/static/media/fa-light-300.9dd7bbb937f23efa25fb.svg",
     "static/media/fa-regular-400.svg": "/static/media/fa-regular-400.4e2c87c166dd32bc2485.svg",
@@ -116,6 +116,7 @@
     "static/media/credit_one.png": "/static/media/credit_one.c40f6b54e1929d301afa.png",
     "static/media/cred.png": "/static/media/cred.bb540444f04a661803ee.png",
     "static/media/aptean.png": "/static/media/aptean.c2aecae174bcfb325c6c.png",
+    "static/media/Sameer_Joshi_Image.jpg": "/static/media/Sameer_Joshi_Image.93dc3a15bf87e22c0dbc.jpg",
     "static/media/saksham.jpeg": "/static/media/saksham.e0dae4ae56db7c06462d.jpeg",
     "static/media/1200px-ITI_Limited_logo.svg-min.png": "/static/media/1200px-ITI_Limited_logo.svg-min.46108ff6b9ae909a77d3.png",
     "static/media/maq_software.png": "/static/media/maq_software.b98284983ab6e6ef4a42.png",
@@ -128,10 +129,10 @@
     "static/media/mmrfi.jpg": "/static/media/mmrfi.62d4ad283ad2ae086a0f.jpg",
     "index.html": "/index.html",
     "main.30249509.css.map": "/static/css/main.30249509.css.map",
-    "main.1dfea871.js.map": "/static/js/main.1dfea871.js.map"
+    "main.864439a2.js.map": "/static/js/main.864439a2.js.map"
   },
   "entrypoints": [
     "static/css/main.30249509.css",
-    "static/js/main.1dfea871.js"
+    "static/js/main.864439a2.js"
   ]
 }
