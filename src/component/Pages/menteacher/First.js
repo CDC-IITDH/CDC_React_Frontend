@@ -14,6 +14,7 @@ import facultyAdvisorsImage6 from "../../../assets/img/team/Ramesh_Nayaka_Image.
 import teamMemberImage1 from "../../../assets/img/team/srihari.jpeg";
 import teamMemberImage2 from "../../../assets/img/team/agrim.jpeg";
 import teamMemberImage3 from "../../../assets/img/team/saksham.jpeg";
+import placementExecutiveImage from "../../../assets/img/team/Sameer_Joshi_Image.jpg";
 
 function First() {
   const facultyInCharge = [
@@ -31,7 +32,7 @@ function First() {
     {
       name: "Sameer Joshi",
       role: "",
-      image: defaultProfileImage,
+      image: placementExecutiveImage,
       phone: "+91 85533 16439",
       mail: "sameerjoshi@iitdh.ac.in",
     },
@@ -112,7 +113,35 @@ function First() {
     },
   ];
 
-  const teams = [
+  const seniorCoordinators = [
+    {
+      name: "Abhiram",
+      mail: "210150001@iitdh.ac.in",
+      phone: "",
+    },
+    {
+      name: "Vivek",
+      mail: "210010058@iitdh.ac.in",
+      phone: "",
+    },
+    {
+      name: "Karthik Hedge",
+      mail: "210010022@iitdh.ac.in",
+      phone: "",
+    },
+    {
+      name: "Pulkit Kathuria",
+      mail: "210020039@iitdh.ac.in",
+      phone: "",
+    },
+    {
+      name: "Eluri Harshita",
+      mail: "210030011@iitdh.ac.in",
+      phone: "",
+    },
+  ];
+
+  const cdcTeam = [
     [
       "Aayush Vats",
       "Aditi Soukar",
@@ -127,6 +156,9 @@ function First() {
       "Kavichelvan",
       "Krunal Patel",
       "Krutay Upadhyay",
+    ],
+
+    [
       "Lavanya Shende",
       "Md Inzamamul Haque",
       "Meghana Bhat",
@@ -140,6 +172,8 @@ function First() {
       "Priyanshu Mishra",
       "Rishita Seepana",
       "Sai Sreeharsha Bolloju",
+    ],
+    [
       "Shubham Raj",
       "Shubhranil Kundu",
       "Siddharth Kumar Nishad",
@@ -154,6 +188,9 @@ function First() {
       "Vidit Parikh",
       "Yash Halbhavi",
     ],
+  ];
+
+  const cdcTechTeam = [
     [
       "Jaya Surya",
       "Nitin Vangipuram",
@@ -163,8 +200,6 @@ function First() {
       "Parikshit Gehlaut",
     ],
   ];
-
-  const teamNames = ["CDC Team", "Technical Team"];
 
   return (
     <>
@@ -279,6 +314,7 @@ function First() {
                 </div>
               </div>
             )}
+            {/* CDC Student Heads */}
             <div className="col">
               <div
                 className="d-flex justify-content-center"
@@ -337,6 +373,7 @@ function First() {
                 ))}
               </div>
             </div>
+
             <div className="col">
               <div
                 className="d-flex justify-content-center"
@@ -380,54 +417,109 @@ function First() {
                 ))}
               </div>
             </div>
+            {/* Senior Coordinators */}
+            <div
+              className="col-12"
+              style={{
+                display: "flex",
+                alignContent: "center",
+                justifyContent: " center",
+              }}
+            >
+              <div className="card col-md-6">
+                <div className="card-body">
+                  <h3 className="text-center">Senior Coordinators</h3>
+                  <div className="row">
+                    {seniorCoordinators.map((member, index) => (
+                      <div key={index} className="row">
+                        <div className="single-team">
+                          <div
+                            className="team-info"
+                            style={{
+                              display: "flex",
+                              alignContent: "center",
+                              justifyContent: " center",
+                            }}
+                          >
+                            <h4 style={{ flex: 1 }}>
+                              <Link to="#">{member.name}</Link>
+                            </h4>
+                            <div className="team-social" style={{ flex: 1 }}>
+                              <ul>
+                                <li>
+                                  <Link to={`mailto:${member.mail}`}>
+                                    <i className="fa fa-envelope" />
+                                  </Link>
+                                </li>
+                                <li>
+                                  <Link to={`tel:${member.phone}`}>
+                                    <i className="fa fa-phone" />
+                                  </Link>
+                                </li>
+                              </ul>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    ))}
+                  </div>
+                </div>
+              </div>
+            </div>
           </div>
           {/* team members  */}
-          <div className="container">
+          <div className="container mt-4">
             <div className="row">
-              <div className="col">
-                <div
-                  className="d-flex justify-content-center"
-                  style={{ paddingBottom: "30px", paddingTop: "10px" }}
-                >
-                  <h2>CDC Student Members</h2>
-                </div>
-                <div className="row">
-                  {teams.map((team, teamIndex) => (
-                    <div className="col-xl-6 col-md-12 mb-4" key={teamIndex}>
-                      <div
-                        className="single-team d-flex flex-column justify-content-between"
-                        style={{
-                          height: "100%",
-
-                          padding: "30px",
-                        }}
-                      >
-                        <div
-                          className="d-flex justify-content-center align-items-center"
-                          style={{ marginBottom: "10px" }}
-                        >
-                          <h3>{teamNames[teamIndex]}</h3>
+              <div
+                className="d-flex justify-content-center"
+                style={{ paddingBottom: "30px", paddingTop: "10px" }}
+              >
+                <h2>CDC Student Members</h2>
+              </div>
+              <div className="col-12 col-md-9 ">
+                <div className="card">
+                  <div className="card-body">
+                    <h3 className="text-center">CDC Team</h3>
+                    <div className="row">
+                      {cdcTeam.map((team, index) => (
+                        <div key={index} className="col-md-4 col-sm-12 ">
+                          <ul className="list-group">
+                            {team.map((member, memberIndex) => (
+                              <li
+                                key={memberIndex}
+                                className="list-group-item border-0"
+                              >
+                                {member}
+                              </li>
+                            ))}
+                          </ul>
                         </div>
-                        <ul
-                          className="d-flex flex-column justify-content-center align-items-center"
-                          style={{ flex: "1", margin: 0 }}
-                        >
-                          {team.map((member, index) => (
-                            <li
-                              key={index}
-                              style={{
-                                fontWeight: "bold",
-                                fontSize: "16px",
-                                marginBottom: "5px",
-                              }}
-                            >
-                              {member}
-                            </li>
-                          ))}
-                        </ul>
-                      </div>
+                      ))}
                     </div>
-                  ))}
+                  </div>
+                </div>
+              </div>
+              <div className="col-12 col-md-3 ">
+                <div className="card">
+                  <div className="card-body">
+                    <h3 className="text-center">Technical Team</h3>
+                    <div className="row">
+                      {cdcTechTeam.map((team, index) => (
+                        <div key={index} className="col-md-12 col-sm-12 ">
+                          <ul className="list-group">
+                            {team.map((member, memberIndex) => (
+                              <li
+                                key={memberIndex}
+                                className="list-group-item border-0"
+                              >
+                                {member}
+                              </li>
+                            ))}
+                          </ul>
+                        </div>
+                      ))}
+                    </div>
+                  </div>
                 </div>
               </div>
             </div>
