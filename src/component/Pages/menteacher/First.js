@@ -31,7 +31,7 @@ function First() {
   const placementExecutive = [
     {
       name: "Sameer Joshi",
-      role: "",
+      role: "Placement Executive",
       image: placementExecutiveImage,
       phone: "+91 85533 16439",
       mail: "sameerjoshi@iitdh.ac.in",
@@ -427,12 +427,12 @@ function First() {
               }}
             >
               <div className="card col-md-6">
-                <div className="card-body">
+                <div className="card-body" style={{ height: "80vh" }}>
                   <h3 className="text-center">Senior Coordinators</h3>
                   <div className="row">
                     {seniorCoordinators.map((member, index) => (
-                      <div key={index} className="row">
-                        <div className="single-team">
+                      <div key={index}>
+                        <div className="single-team" style={{ height: "12vh" }}>
                           <div
                             className="team-info"
                             style={{
@@ -441,7 +441,14 @@ function First() {
                               justifyContent: " center",
                             }}
                           >
-                            <h4 style={{ flex: 1 }}>
+                            <h4
+                              style={{
+                                flex: 1,
+                                display: "flex",
+                                justifyContent: "center",
+                                alignItems: "center",
+                              }}
+                            >
                               <Link to="#">{member.name}</Link>
                             </h4>
                             <div className="team-social" style={{ flex: 1 }}>
