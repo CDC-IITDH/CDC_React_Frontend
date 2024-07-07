@@ -2,7 +2,8 @@ import React from "react";
 import { Link } from "react-router-dom";
 
 import defaultProfileImage from "../../../assets/img/team/default-avatar-profile.jpg";
-import facultyInChargeImage from "../../../assets/img/team/Satya_Priya_Image.jpeg";
+import facultyInChargeImage1 from "../../../assets/img/team/Satya_Priya_Image.jpeg";
+import facultyInChargeImage2 from "../../../assets/img/team/ankit_v_k.JPG";
 
 import facultyAdvisorsImage1 from "../../../assets/img/team/Vandana_Bharti_Image.jpeg";
 import facultyAdvisorsImage2 from "../../../assets/img/team/Sairam_Boggavarapu_Image.jpeg";
@@ -22,9 +23,17 @@ function First() {
       name: "Prof. Satyapriya Gupta",
       role: "Assistant Professor",
       dept: "Dept. of Mechanical, Materials and Aerospace Engineering",
-      image: facultyInChargeImage,
+      image: facultyInChargeImage1,
       phone: "+91 88268 24591",
       mail: "cdcfic@iitdh.ac.in",
+    },
+    {
+      name: "Prof. Aniket Vasantrao Kataware",
+      role: "Assistant Professor",
+      dept: "Dept. of Civil & Infrastructure Engineering",
+      image: facultyInChargeImage2,
+      phone: "",
+      mail: "aniket.kataware@iitdh.ac.in",
     },
   ];
 

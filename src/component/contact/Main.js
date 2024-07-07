@@ -7,7 +7,8 @@ import Form from "../mencontact/Form";
 import { Link } from "react-router-dom";
 
 import defaultProfileImage from "../../assets/img/team/default-avatar-profile.jpg";
-import facultyInChargeImage from "../../assets/img/team/Satya_Priya_Image.jpeg";
+import facultyInChargeImage1 from "../../assets/img/team/Satya_Priya_Image.jpeg";
+import facultyInChargeImage2 from "../../assets/img/team/ankit_v_k.JPG";
 
 import teamMemberImage1 from "../../assets/img/team/srihari.jpeg";
 import teamMemberImage2 from "../../assets/img/team/agrim.jpeg";
@@ -20,9 +21,18 @@ function Main() {
       name: "Prof. Satyapriya Gupta",
       role: "Assistant Professor",
       dept: "Dept. of Mechanical, Materials and Aerospace Engineering",
-      image: facultyInChargeImage,
+      image: facultyInChargeImage1,
       phone: "+91 88268 24591",
       mail: "cdcfic@iitdh.ac.in",
+      position: "Faculty In Charge",
+    },
+    {
+      name: "Prof. Aniket Vasantrao Kataware",
+      role: "Assistant Professor",
+      dept: "Dept. of Civil & Infrastructure Engineering",
+      image: facultyInChargeImage2,
+      phone: "",
+      mail: "aniket.kataware@iitdh.ac.in",
       position: "Faculty In Charge",
     },
 
@@ -74,7 +84,7 @@ function Main() {
         <div className="col">
           <div className="row">
             {facultyMembers.map((member, index) => (
-              <div key={index} className="col-md-6 col-12">
+              <div key={index} className="col-md-4 col-12">
                 <div
                   className="single-team mb-40"
                   style={{ minHeight: "350px" }}
