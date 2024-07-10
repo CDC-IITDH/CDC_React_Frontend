@@ -1,11 +1,11 @@
-import React, { useEffect } from 'react';
+import React, { useEffect } from "react";
 
 const TwitterTimeline = () => {
   useEffect(() => {
-    const script = document.createElement('script');
-    script.src = 'https://platform.twitter.com/widgets.js';
+    const script = document.createElement("script");
+    script.src = "https://platform.twitter.com/widgets.js";
     script.async = true;
-    script.charset = 'utf-8';
+    script.charset = "utf-8";
 
     // Append the script to the body to load it
     document.body.appendChild(script);
@@ -17,12 +17,14 @@ const TwitterTimeline = () => {
   }, []);
 
   return (
-    <a
-      className="twitter-timeline"
-      href="https://twitter.com/cdc_iitdh?ref_src=twsrc%5Etfw"
-    >
-      Tweets by cdc_iitdh
-    </a>
+    <>
+      <a
+        className="twitter-timeline"
+        href="https://twitter.com/cdc_iitdh?ref_src=twsrc%5Etfw"
+      >
+        Tweets by cdc_iitdh
+      </a>
+    </>
   );
 };
 

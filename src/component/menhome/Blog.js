@@ -2,6 +2,7 @@ import React from "react";
 import { Link } from "react-router-dom";
 import blogs from "../../data/blogs.json";
 import TwitterTimeline from "../TwitterTimeline/Main";
+import TPO_ad from "../../assets/img/TPO/Advertisement_TPO_page-0001.jpg";
 function Blog() {
   const images = require.context("./../../assets/img/blogs/", true);
   const sortedBlogs = blogs
@@ -54,7 +55,10 @@ function Blog() {
                         <i className="fal fa-calendar-alt" /> {blog.date}
                       </div>
                     </div>
-                    <div className="blog-content2" style={{minHeight:"250px"}}>
+                    <div
+                      className="blog-content2"
+                      style={{ minHeight: "250px" }}
+                    >
                       <div className="b-meta">
                         <div className="meta-info">
                           <ul>
@@ -67,15 +71,18 @@ function Blog() {
                           </ul>
                         </div>
                       </div>
-                      <h4 style={{height: '60px', overflow: 'hidden'}}>
+                      <h4 style={{ height: "60px", overflow: "hidden" }}>
                         <Link to={`/blog-details/${blog.id}`}>
                           {blog.title}
                         </Link>
                       </h4>
-                      <p style={{height: '70px', overflow: 'hidden'}}>
+                      <p style={{ height: "70px", overflow: "hidden" }}>
                         {blog.description.split(" ").slice(0, 11).join(" ")}
                       </p>
-                      <div className="blog-btn" style={{position: 'absolute', bottom: '10px'}}>
+                      <div
+                        className="blog-btn"
+                        style={{ position: "absolute", bottom: "10px" }}
+                      >
                         <Link to={`/blog-details/${blog.id}`}>
                           Read More <i className="fal fa-long-arrow-right" />
                         </Link>
@@ -166,13 +173,13 @@ function Blog() {
                     </div>
                 </div> */}
           </div>
-          <TwitterTimeline/>
+          <TwitterTimeline />
+          <div className="container mt-40">
+            <img src={TPO_ad} alt="" />
+          </div>
         </div>
-       
       </section>
     </>
   );
 }
 export default Blog;
-
-

@@ -2,7 +2,8 @@ import React from "react";
 import { Link } from "react-router-dom";
 
 import defaultProfileImage from "../../../assets/img/team/default-avatar-profile.jpg";
-import facultyInChargeImage from "../../../assets/img/team/Satya_Priya_Image.jpeg";
+import facultyInChargeImage1 from "../../../assets/img/team/Satya_Priya_Image.jpeg";
+import facultyInChargeImage2 from "../../../assets/img/team/ankit_v_k.JPG";
 
 import facultyAdvisorsImage1 from "../../../assets/img/team/Vandana_Bharti_Image.jpeg";
 import facultyAdvisorsImage2 from "../../../assets/img/team/Sairam_Boggavarapu_Image.jpeg";
@@ -22,16 +23,24 @@ function First() {
       name: "Prof. Satyapriya Gupta",
       role: "Assistant Professor",
       dept: "Dept. of Mechanical, Materials and Aerospace Engineering",
-      image: facultyInChargeImage,
+      image: facultyInChargeImage1,
       phone: "+91 88268 24591",
       mail: "cdcfic@iitdh.ac.in",
+    },
+    {
+      name: "Prof. Aniket Vasantrao Kataware",
+      role: "Assistant Professor",
+      dept: "Dept. of Civil & Infrastructure Engineering",
+      image: facultyInChargeImage2,
+      phone: "",
+      mail: "aniket.kataware@iitdh.ac.in",
     },
   ];
 
   const placementExecutive = [
     {
       name: "Sameer Joshi",
-      role: "",
+      role: "Placement Executive",
       image: placementExecutiveImage,
       phone: "+91 85533 16439",
       mail: "sameerjoshi@iitdh.ac.in",
@@ -427,12 +436,12 @@ function First() {
               }}
             >
               <div className="card col-md-6">
-                <div className="card-body">
+                <div className="card-body" style={{ height: "80vh" }}>
                   <h3 className="text-center">Senior Coordinators</h3>
                   <div className="row">
                     {seniorCoordinators.map((member, index) => (
-                      <div key={index} className="row">
-                        <div className="single-team">
+                      <div key={index}>
+                        <div className="single-team" style={{ height: "12vh" }}>
                           <div
                             className="team-info"
                             style={{
@@ -441,7 +450,14 @@ function First() {
                               justifyContent: " center",
                             }}
                           >
-                            <h4 style={{ flex: 1 }}>
+                            <h4
+                              style={{
+                                flex: 1,
+                                display: "flex",
+                                justifyContent: "center",
+                                alignItems: "center",
+                              }}
+                            >
                               <Link to="#">{member.name}</Link>
                             </h4>
                             <div className="team-social" style={{ flex: 1 }}>
