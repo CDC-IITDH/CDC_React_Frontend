@@ -204,7 +204,6 @@ function First() {
       "Jaya Surya",
       "Nitin Vangipuram",
       "R Eshwar",
-      "R Amogh",
       "Akella Vyaghra Satya Sreenivasu",
       "Parikshit Gehlaut",
     ],

@@ -2,7 +2,7 @@ import React from "react";
 import { Link } from "react-router-dom";
 import blogs from "../../data/blogs.json";
 import TwitterTimeline from "../TwitterTimeline/Main";
-import TPO_ad from "../../assets/img/TPO/Advertisement_TPO_page-0001.jpg";
+
 function Blog() {
   const images = require.context("./../../assets/img/blogs/", true);
   const sortedBlogs = blogs
@@ -174,9 +174,6 @@ function Blog() {
                 </div> */}
           </div>
           <TwitterTimeline />
-          <div className="container mt-40">
-            <img src={TPO_ad} alt="" />
-          </div>
         </div>
       </section>
     </>
