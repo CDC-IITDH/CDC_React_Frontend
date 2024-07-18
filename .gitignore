@@ -10,6 +10,7 @@
 
 # production
 /build
+/CDC_React_Frontend
 
 # misc
 .DS_Store

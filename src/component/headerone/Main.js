@@ -35,13 +35,18 @@ function Main() {
             <div className="second-menu">
               <div className="row align-items-center p-2">
                 <div className="col-xl-3 col-lg-3">
-                  <div className="logo" style={{width:'200px' }}> {/* Added a logo and adjusted its width */}
+                  <div className="logo" style={{ width: "200px" }}>
+                    {" "}
+                    {/* Added a logo and adjusted its width */}
                     <Link to="/">
                       <img src={logo} alt="logo" />
                     </Link>
                   </div>
                 </div>
-                <div className="col-xl-7 col-lg-7" style={{marginLeft:"100px"}}>
+                <div
+                  className="col-xl-7 col-lg-7"
+                  style={{ marginLeft: "100px" }}
+                >
                   <div className="main-menu text-right text-xl-right">
                     <nav id="mobile-menu">
                       <ul>
@@ -101,7 +106,6 @@ function Main() {
                         <li className="has-sub">
                           <Link>For Recruiters</Link>
                           <ul>
-     
                             <li>
                               <Link to="/placement">Placement</Link>
                             </li>
@@ -110,7 +114,7 @@ function Main() {
                             </li>
                             <li>
                               <Link
-                                to="https://drive.google.com/file/d/1QpP0K4J6AXiFcezI-mBRzrpesci0gsAh/view"
+                                to="https://drive.google.com/file/d/1N3gjPwgOSC2XvUOwhdcfDpJ74VrTUHUt/view"
                                 target="_blank"
                               >
                                 Brochure
@@ -286,7 +290,6 @@ function Main() {
                               <Link>For Recruiters</Link>
                               {Services && (
                                 <ul style={{ display: "block" }}>
-                       
                                   <li onClick={() => setmobile(!mobile)}>
                                     <Link to="/placement">Placement</Link>
                                   </li>
@@ -295,7 +298,7 @@ function Main() {
                                   </li>
                                   <li onClick={() => setmobile(!mobile)}>
                                     <Link
-                                      to="https://drive.google.com/file/d/1QpP0K4J6AXiFcezI-mBRzrpesci0gsAh/view"
+                                      to="https://drive.google.com/file/d/1N3gjPwgOSC2XvUOwhdcfDpJ74VrTUHUt/view"
                                       target="_blank"
                                     >
                                       Brochure
