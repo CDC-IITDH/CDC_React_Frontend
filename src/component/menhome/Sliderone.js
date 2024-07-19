@@ -342,7 +342,7 @@ function Sliderone() {
                   </div> */}
                   <div className="text">
                     <h5>
-                      <Link to="https://drive.google.com/file/d/1QpP0K4J6AXiFcezI-mBRzrpesci0gsAh/view">
+                      <Link to="https://drive.google.com/file/d/12pAxMUUjzrhTeVq0xXWOv84mGW_dbEvO/view">
                         Read our brochure
                       </Link>
                     </h5>
