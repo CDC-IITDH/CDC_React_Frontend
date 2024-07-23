@@ -50,7 +50,7 @@ function Testimonialthree() {
     },
     {
       id: 2,
-      title: "Faculty In Charge - Placements' Message",
+      title: "Faculty In Charge's Message",
       quote:
         "It gives me great pleasure to invite you to visit Indian Institute of Technology, dhArwAD for the placement and internship season 2024-2025. We are confident that our students will deliver the things in real time environments and surpass all expectations when it comes to fulfilling organizational objectives. I look forward to continuing a fruitful relationship.",
       authorName: "Prof. Satyapriya Gupta",
@@ -59,7 +59,7 @@ function Testimonialthree() {
     },
     {
       id: 3,
-      title: "Faculty In Charge - Internships' Message",
+      title: "Faculty In Charge's Message",
       quote:
         "Dear Esteemed Guests, it brings me immense pleasure to extend a heartfelt invitation on behalf of the entire IIT Dharwad community. We eagerly anticipate your involvement in hiring interns from pre-final year students. We believe your visit will mark the beginning of a promising and enduring relationship between our esteemed Institute and your organization.",
       authorName: "Prof. Aniket Kataware",
