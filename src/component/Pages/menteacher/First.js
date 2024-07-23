@@ -139,11 +139,6 @@ function First() {
       phone: "",
     },
     {
-      name: "Pulkit Kathuria",
-      mail: "210020039@iitdh.ac.in",
-      phone: "",
-    },
-    {
       name: "Eluri Harshita",
       mail: "210030011@iitdh.ac.in",
       phone: "",
@@ -435,7 +430,7 @@ function First() {
               }}
             >
               <div className="card col-md-6">
-                <div className="card-body" style={{ height: "80vh" }}>
+                <div className="card-body" style={{ height: "76vh" }}>
                   <h3 className="text-center">Senior Coordinators</h3>
                   <div className="row">
                     {seniorCoordinators.map((member, index) => (
