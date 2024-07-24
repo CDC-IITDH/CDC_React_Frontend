@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.30249509.css",
-    "main.js": "/static/js/main.01135c4f.js",
+    "main.js": "/static/js/main.12562bd3.js",
     "static/media/fa-duotone-900.svg": "/static/media/fa-duotone-900.e2ad3965c2a9e62098b9.svg",
     "static/media/fa-light-300.svg": "/static/media/fa-light-300.9dd7bbb937f23efa25fb.svg",
     "static/media/fa-regular-400.svg": "/static/media/fa-regular-400.4e2c87c166dd32bc2485.svg",
@@ -124,17 +124,16 @@
     "static/media/maq_software.png": "/static/media/maq_software.b98284983ab6e6ef4a42.png",
     "static/media/gupshup.jpeg": "/static/media/gupshup.db4eb04b3ac088a9d9e1.jpeg",
     "static/media/mcafree.png": "/static/media/mcafree.9dd2642d4cb9f23af02c.png",
-    "static/media/dean_rnd.jpeg": "/static/media/dean_rnd.bfe0639eab07cdfcb6e4.jpeg",
     "static/media/dunzo.png": "/static/media/dunzo.ba2d59793aaff0ab79e2.png",
     "static/media/hcl.png": "/static/media/hcl.7d68335badecd79b8ca0.png",
     "static/media/icici.png": "/static/media/icici.c66f93ccd1e1ab1773e7.png",
     "static/media/mmrfi.jpg": "/static/media/mmrfi.62d4ad283ad2ae086a0f.jpg",
     "index.html": "/index.html",
     "main.30249509.css.map": "/static/css/main.30249509.css.map",
-    "main.01135c4f.js.map": "/static/js/main.01135c4f.js.map"
+    "main.12562bd3.js.map": "/static/js/main.12562bd3.js.map"
   },
   "entrypoints": [
     "static/css/main.30249509.css",
-    "static/js/main.01135c4f.js"
+    "static/js/main.12562bd3.js"
   ]
 }
