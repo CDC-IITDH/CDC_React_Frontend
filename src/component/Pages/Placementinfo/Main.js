@@ -130,8 +130,10 @@ const Placementinfo = () => {
       <div>
         <h3 style={styles.titleH3}>
           Placements at IIT Dharwad are being facilitated by CDC through a
-          tier-based system determined based on the Gross Pay offered by the
-          company as shown in the table below.
+          system of "One Regular Job - One Dream Job". In this system, a Dream
+          Job is defined as a job offer with a CTC (Cost to Company) that is 1.5
+          times that of a Regular Job. Students are allowed to participate in
+          only one Dream Job process based on their preference.
         </h3>
       </div>
       <div style={isDesktop ? styles.desktop : styles.mobile}>
@@ -153,7 +155,7 @@ const Placementinfo = () => {
           <h5 style={styles.subText}>
             Before filling the form kindly refer to the
             <a
-              href="https://drive.google.com/file/d/1QpP0K4J6AXiFcezI-mBRzrpesci0gsAh/view"
+              href="https://drive.google.com/file/d/1N3gjPwgOSC2XvUOwhdcfDpJ74VrTUHUt/view"
               target="_blank"
               style={{ color: "rgb(255, 115, 80)" }}
             >
@@ -168,52 +170,13 @@ const Placementinfo = () => {
           </h5>
           <div style={styles.subText2}>
             <h5>a) The CTC & Gross pay offered.</h5>
-            <h5>
-              b) The geographic location where the Job is
-              being offered
-            </h5>
+            <h5>b) The geographic location where the Job is being offered</h5>
             <h5>
               c) A brief description of the job and responsibilities, required
               skill set and selection process.
             </h5>
           </div>
         </div>
-
-        <table style={styles.tableFill}>
-          <thead>
-            <tr>
-              <th style={{ ...styles.th, ...styles.textCenter }}>TIER</th>
-              <th style={{ ...styles.th, ...styles.textCenter }}>GROSS PAY</th>
-            </tr>
-          </thead>
-          <tbody>
-            <tr style={{ ...styles.tr, ...styles.trHover }}>
-              <td style={styles.td}>Tier-1</td>
-              <td style={styles.td}>≥18 LPA</td>
-            </tr>
-            <tr style={{ ...styles.tr, ...styles.trHover }}>
-              <td style={styles.td}>Tier-2</td>
-              <td style={styles.td}>≥15 LPA but &lt; 18 LPA</td>
-            </tr>
-            <tr style={{ ...styles.tr, ...styles.trHover }}>
-              <td style={styles.td}>Tier-3</td>
-              <td style={styles.td}>≥12 LPA but &lt; 15 LPA</td>
-            </tr>
-            <tr style={{ ...styles.tr, ...styles.trHover }}>
-              <td style={styles.td}>Tier-4</td>
-              <td style={styles.td}>≥9 LPA but &lt; 12 LPA</td>
-            </tr>
-            <tr style={{ ...styles.tr, ...styles.trHover }}>
-              <td style={styles.td}>Tier-5</td>
-              <td style={styles.td}>≥6 LPA but &lt; 9 LPA</td>
-            </tr>
-            <tr style={{ ...styles.tr, ...styles.trHover }}>
-              <td style={styles.td}>Tier-6</td>
-              <td style={styles.td}>≥4 LPA but &lt; 6 LPA</td>
-            </tr>
-            {/* ... add more rows as needed */}
-          </tbody>
-        </table>
       </div>
     </div>
   );

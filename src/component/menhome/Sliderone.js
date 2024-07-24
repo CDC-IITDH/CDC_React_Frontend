@@ -351,7 +351,7 @@ function Sliderone() {
                       crafted informational brochure.
                     </p>
                     <Link
-                      to="https://drive.google.com/file/d/1QpP0K4J6AXiFcezI-mBRzrpesci0gsAh/view"
+                      to="https://drive.google.com/file/d/1N3gjPwgOSC2XvUOwhdcfDpJ74VrTUHUt/view"
                       style={
                         isDesktop
                           ? { position: "absolute", bottom: "24px" }
