@@ -1,319 +1,316 @@
 [
-    {
-      "id": 1,
-      "title": "A Journey of Dedication and Success: Meet Prateek Jain",
-      "date": "Jul 30, 2023",
-      "image": "./prateek_jain.jpeg",
-      "description": "Prateek, currently pursuing his MS in Computer Science at Columbia University in the City of New York, USA, has skillfully navigated both the academic and corporate landscapes. Publishing 2 research papers at distinguished conferences and noteworthy industry experience at esteemed organizations such as DRDO, Adobe Research, and CRED, Prateek has certainly made the IIT Dharwad community proud. In this blog post, we delve into Prateek's journey from his days at IIT Dharwad to his current pursuits in academia and industry.",
-      "content": [
-        {
-          "section": "Early Days at IIT Dharwad and the Road to Internships",
-          "text": "Prateek's tale begins at IIT Dharwad, where he spent a significant amount of time on academics and participating in events from the very first year. But it was in his second year that he started venturing into the world of internships. His first stepping stone was at the Defence Research and Development Organisation (DRDO) where he got to work on computer vision, a nascent field at the time. This opportunity allowed him to take his first step into the realm of practical applications of computer science. His journey didn't stop there, however. The following year, Prateek interned at Adobe Research, a name that needs no introduction. Here, he got to dive headfirst into cutting-edge research and even secured a patent, a testament to his skill and dedication."
-        },
-        {
-          "section": "Bridging the Gap Between Academia and Industry",
-          "text": "After graduation, Prateek made a shift to industry, spending a year at CRED as a data scientist. He fondly recalls the excitement of working at a big startup, which he preferred over larger tech companies due to the fast-paced environment and the potential for a more substantial impact. But Prateek's heart remained in academia. Today, he is furthering his studies at Columbia University in the City of New York, where he's been impressed by the caliber of the professors and the research opportunities. He's also joined a well-known online real estate company in an applied data science role, where he's making the most of his skills and experiences."
-        },
-        {
-            "section":"Exploration Leads to Knowledge",
-            "text":"Prateek's introduction to computer vision was a serendipitous one. A senior, Ashish Arora, had suggested some machine learning courses at the end of Prateek's first year, which piqued his interest in the field. When the time came to apply for internships, he made sure to equip himself with knowledge of computer vision through a course, which he then utilized during his work interestingly , Prateek landed his DRDO internship through a series of cold emails to professors at foreign universities, IITs, and various other places. Among the few acceptances he received was an opportunity to connect with a scientist at DRDO through a professor at IIT Dharwad. This goes to show that sometimes, opportunities come from the most unexpected places."
-        },
-        {
-            "section":"The Adobe Story",
-            "text":"Prateek's journey to securing an internship at Adobe Research is an intriguing one. Although he applied to Adobe during his second year, he was late in submitting his application and was informed that all their positions had been filled. However, in his third year, Adobe reached out to him before he had even started his application process. They had found his resume in their files, liked it, and wanted to interview him. By the end of July or August, he had cleared the interview and secured his place at Adobe. This is a testament to the strength of Prateek's resume and his skills."
-            
-        },
-        {
-            "section":"Crafting an Impressive Resume",
-            "text":"Prateek believes that a good resume should spotlight information that's relevant to the industry. While personal achievements may feel significant, they might not hold much weight in the professional sphere. For instance, a school leadership role may not be as impressive to potential employers as the projects you've tackled and your academic performance. Prateek suggests receiving feedback from industry professionals and incorporating that into your resume for maximum effect. Prateek offers valuable advice for those who perform well in coding rounds but get stuck in interviews. His approach towards preparation involves understanding the types of questions that a company typically asks in its interviews. He found it useful to explore platforms like LeetCode to better prepare for his coding interviews at companies like CRED. He also draws attention to the gap between academic study fields like data structures and algorithms and what companies typically ask during interviews, emphasizing that candidates should prepare accordingly."
-        }
-        ,
-        {
-            "section":"Competitive Coding - A Necessary Skill?",
-            "text":"Prateek acknowledges that many students prepare for interviews by doing competitive coding. He suggests platforms like LeetCode, Codeforces, and CodeChef for interview preparation and competitive programming, respectively. However, he also points out that while competitive programming holds significance due to its prevalence in interviews, it may not always be directly applicable to day-to-day job responsibilities."
-        },
-        {
-            "section":"Preparation for Prestigious Universities",
-            "text":"When it comes to securing admission into a prestigious university, Prateek lays stress on the significance of maintaining a good academic record. However, he also acknowledges that impactful research, such as publishing papers at renowned conferences or undertaking notable research projects, can compensate for a less-than-stellar GPA. He further emphasizing the importance of quality letters of recommendation. According to him, these letters should come from individuals who know you well and can strongly advocate for your abilities. Generic letters may work against you, so make sure to seek recommendations from people who have worked closely with you."
-        },
-        {
-            "section":"Academia vs. Industry - A Personal Experience",
-            "text":"Prateek shares his unique insights into the differences between the professional world and academia. In the industry, every task you undertake is tied to generating revenue. The focus is on achieving measurable outcomes that contribute to the company's financial success. On the other hand, in academia, the emphasis lies on conducting research and exploring new ideas. However, Prateek notes that while academia offers the opportunity to publish research papers, the impact is usually limited to a niche audience. Working in the industry allows you to make a significant impact, with your contributions potentially reaching millions of customers."
-        },
-        {
-            "section":"Recommendations for the Aspiring Impact-Makers",
-            "text":"For those at IIT Dharwad who want to make an impact but don’t know where to start or what skills to develop, Prateek offers some solid advice. He encourages first and second-year students to use their time wisely, to study diligently, and to engage in as many projects as possible related to their major. He also emphasizes the importance of having a basic understanding of web development, considering it an essential skill for those planning to start a startup in the futurePrateek urges students to explore various fields during their early years and not limit themselves to a particular field just because it's currently trendy. He believes that while it's good to have knowledge in multiple areas, the industry generally values individuals who have mastered one specific domain"
-        },
-        {
-            "section":"Exploring Different Fields – The How",
-            "text":"When it comes to exploring different fields, Prateek believes in the importance of connecting and engaging with people from different backgrounds. His own experiences in machine learning and cybersecurity came from interactions with a senior and his best friend in college moreover, he credits his second-year Software Systems Lab course, specifically for computer science students, for providing him with web development experience. Prateek emphasizes that professors can be an excellent resource to start or delve deeper into a particular field. At IIT, students have access to exceptional professors who can offer valuable insights and a better understanding of how things function in a specific subfield."
-        },
-        {
-             "section":"A Journey of Endless Learning and Growth",
-             "text":"Prateek Jain's journey is a testament to his passion for computer science, his dedication to both academia and industry and his relentless pursuit of knowledge and success. From his early days at IIT Dharwad to his current pursuits at Columbia University and in the corporate world, Prateek's story is filled with valuable insights and advice. His experiences highlight the importance of academics, research, and practical experience in shaping a successful career. He emphasizes the importance of exploring different fields, mastering a specific domain, crafting a strong resume, and preparing effectively for interviews. His advice to students and young professionals underscores the significance of hard work, continuous learning, and the pursuit of passion. As we conclude our conversation with Prateek, we are reminded of the profound impact that our alumni have in the world and the powerful role that IIT Dharwad plays in shaping the leaders of tomorrow."
-
-        },
-        {
-          "section": "Join the Conversation",
-          "text": "We hope that Prateek's journey has inspired you, whether you're a student at the start of your academic journey or a seasoned professional. The road to success is paved with hard work, exploration, and continual learning, as Prateek's story so eloquently demonstrates."
-        }
-      ]   
-    },
-    {
-        "id": 2,
-        "title": "Journey to IIM Ahmedabad: Huzaif Barkati",
-        "date": "Aug 25, 2023",
-        "image": "./huzaif_barkati.png",
-        "description": "Huzaif Barkati discusses his journey in choosing a management career, preparing for CAT exams, and securing admission to IIM Ahmedabad in this informative post. He shares insights on CAT preparation strategies, resources used, and the significance of case studies and internships. Moreover, he offers advice on balancing academics and preparation, along with valuable tips for exam success. The post also delves into the decision to defer admission and the author's rewarding experience in a startup. The advice to juniors centers around exploration, genuine interests, and making well-informed career choices.",
-        "content": [
-            {
-              "section": "What made you decide to choose management as a career path, and why IIM?",
-              "text": "During the second year of lockdown, I got quite involved in my father’s business. Moreover, I and a couple of students from my batch formed a group and started participating in competitions and case studies, eventually even taking up internships. This made me go for management as a career option. Pursuing an MBA seemed like an obvious path for this, and IIMs are renowned for having great management programmes. I attempted CAT and ended up getting into IIM Ahmedabad. "
-            },
-            {
-              "section": "How hard did you find CAT to be? How much preparation does a student require to crack it?",
-              "text": "The exam should be easier for a student from IIT as the mathematics involved in sections like quant, and data analytics are much less complex than, say, mathematics questions in the JEE exam. I feel like you can start preparing for CAT during the summer vacation for the 3rd or 4th year. For example, if the exam is in November, you should ideally have started at least in March. This will give you ample time to prepare for the exam. Speaking about the amount of preparation, I don’t feel like you have to go to a specific coaching. The key is to practice and solve mock question papers. Identify your strengths and weaknesses, and commit at least some hours to solving a test series online each week. "
-            },
-            {
-              "section": "Did your case studies or internships help in your admission process?",
-              "text": "I wouldn’t say it had a significant impact on my admission. I don’t think case studies matter at all because if you are a fresh graduate, it automatically means you have no professional work experience, and they do not expect you to have such experiences before joining. However, I feel it is good to try your hand at case study competitions and go for internships to understand where your interests lie. Do not try to go for something merely because of the monetary value it offers. "
-            },
-            {
-              "section": "How did you manage to balance your academic workload and your CAT preparation together?",
-              "text": "Honestly, I didn't find it particularly difficult. The academic workload in our 7th and 8th semesters was fairly light, and unless one is enrolled in coaching, it's relatively easy to manage. For instance, I used to tackle 3 or 4 mock exams per week, totalling a maximum of 8 hours. "
-            },
-            {
-              "section": "What resources did you use for your preparation?",
-              "text": "I had a friend who attended coaching classes earlier, and got the books from him for reference. Additionally, I bought the T.I.M.E and IMS test series and attempted them. Apart from this, I think it might be a good idea to practice your English skills by reading books, but I did not do this. People tend to read books in two distinct ways - skimming through without much thought or thoroughly understanding and reading between the lines. To enhance your skills, you should strive for the latter approach. Comprehending the underlying meaning will prove more beneficial than mere reading. There's a common misconception that extraordinary verbal skills are required to score well in this section. However, I believe consistent practice can help achieve good scores"
-            },
-            {
-              "section": "What kind of exam strategy did you follow for CAT?",
-              "text": "I’ll give an example of a strategy that you could follow. In CAT, the paper is of 198 marks. If you score 50%, which is around 99 marks, you would cross 99.7 percentile. This means that you would get a call from all the IIMs. So you have to just score around 50% of the marks. This is why you must figure out what your strengths and weaknesses are in the first two months of preparation, as I mentioned before. So let’s take the example of the quant section- there are 22 questions. If you attempt 16 questions and you can be sure that 14 or 15 of them are definitely correct, you’re good. For example, there were certain areas that I had issues with, and I would keep them for later while solving all the questions from areas that I’m strong in. This maximizes your marks. The test is time-bound, so it is a bad idea to spend too much time on a question that you don’t understand. Spend more time on your strengths, and try not to attempt questions that you are not too confident about. This is how a general CAT strategy would work. "
-            },
-            {
-              "section": "Why did you choose IIM Ahmedabad as your university? Did you think of joining any foreign university for an MBA?",
-              "text": "All major IIMs are actually pretty acclaimed internationally for their programmes, and I didn’t feel like there was a need to go to a foreign university for an MBA. Moreover, a lot of foreign universities require work experience, so it wasn’t suitable for me. I chose IIM-A for its reputation and the flexibility it offers. They provide you a chance to defer your admission if your work experience is under 2 years, provided that you have a job offer in hand before a stipulated date. I wanted to experience the industry and explore a bit apart from academics, and therefore I deferred my admission by a year. Moreover, I won't deny that I desired a short break before embarking on another academic journey. After years dedicated to JEE and IIT preparation, I felt a brief hiatus was justified."
-            },
-            {
-              "section": "Could you tell us a bit about how your career is going after deferring the admission?",
-              "text": "Thanks for asking. I got a job in a B2C startup called Kaagaz. I was always interested in things such as strategy and product development, so I embraced the role. We have a lot of customers, and I feel amazing to have the opportunity to work somewhere that I can make a tangible impact. The role aligns with my interests, the working hours are reasonable, and the work culture is great. I work under the CEO, who is highly accomplished, making it a rich learning experience for me. Simply put, I love what I do."
-            },
-            {
-              "section": "What advice would you like to impart to your juniors, in general?",
-              "text": "One of my primary regrets is my lack of involvement during my first two years. Active participation in college clubs significantly contributes to personal development. Utilize your initial years to explore and identify your genuine interests. Determine which topics capture your curiosity and which do not. This approach leaves ample time during your final two years, especially the fourth year with its lighter academic load, to develop these interests. From an MBA or higher studies perspective, I’d say not to listen blindly to anyone who says a field is good. It is better if you explore yourself and find a field that you love and is viable at the same time. I wish you a successful and fulfilling journey in life!"
-            }
-          ]   
+  {
+    "id": 1,
+    "title": "A Journey of Dedication and Success: Meet Prateek Jain",
+    "date": "Jul 30, 2023",
+    "image": "./prateek_jain.jpeg",
+    "description": "Prateek, currently pursuing his MS in Computer Science at Columbia University in the City of New York, USA, has skillfully navigated both the academic and corporate landscapes. Publishing 2 research papers at distinguished conferences and noteworthy industry experience at esteemed organizations such as DRDO, Adobe Research, and CRED, Prateek has certainly made the IIT Dharwad community proud. In this blog post, we delve into Prateek's journey from his days at IIT Dharwad to his current pursuits in academia and industry.",
+    "content": [
+      {
+        "section": "Early Days at IIT Dharwad and the Road to Internships",
+        "text": "Prateek's tale begins at IIT Dharwad, where he spent a significant amount of time on academics and participating in events from the very first year. But it was in his second year that he started venturing into the world of internships. His first stepping stone was at the Defence Research and Development Organisation (DRDO) where he got to work on computer vision, a nascent field at the time. This opportunity allowed him to take his first step into the realm of practical applications of computer science. His journey didn't stop there, however. The following year, Prateek interned at Adobe Research, a name that needs no introduction. Here, he got to dive headfirst into cutting-edge research and even secured a patent, a testament to his skill and dedication."
       },
       {
-        "id": 3,
-        "title": "Journey to CRED: Mayank Mittal, IIT Dharwad Alumnus",
-        "date": "Aug 6, 2023",
-        "image": "./mayank_mittal.jpeg",
-        "description": "In this insightful post, Mayank Mittal shares his journey as a backend developer at CRED, emphasizing the significance of exploration, skill alignment, and networking. He details his approach to interview preparation and offers valuable resources for success, including mock interviews, coding books, and online platforms. To learn more about Mayank and his experiences at IIT Dharwad, check out this blog post!",
-        "content": [
-            {
-              "section": "A brief introduction",
-              "text": "Mayank Mittal has been placed at CRED as a backend developer, focused on enhancing the system's reliability and user-friendliness. The company's culture revolves around growth, customer value, and user engagement, strongly emphasizing productivity and continuous improvement. His role involves making the product better and more efficient to meet user needs effectively."
-            },
-            {
-              "section": "College experience",
-              "text": "His experience was excellent. Initially, in his first year, everything was offline. Unfortunately, COVID-19 struck, forcing him and his batchmates to return. However, the learning journey persisted. They continuously acquire new knowledge, evolving and improving themselves. The college offered abundant opportunities that helped them become better students, developers, and engineers from all perspectives."
-            },
-            {
-              "section": "Exploring different fields",
-              "text": "According to Mayank, there is no definitive answer to the question, ‘How will I come to know what I’m interested in?‘‘as it depends on the exposure you receive.              He said that if you explore four or five different areas, you might discover an interest even in something you initially didn't want to pursue. These experiences have helped him improve in areas that didn't initially appeal to him. Sometimes you may not enjoy specific tasks in your career, but if you have a passion for something and believe in your abilities, you can work on it and find fulfillment."
-            },
-            {
-              "section": "What were the key factors or qualities that you believe contributed to your success in securing the job?",
-              "text": "Confidence in your preparation and accomplishments is crucial. When presenting your resume, believe in your work and be ready to answer any questions, even from top-level professionals like the CTO. Consistency is also essential for future success. Whether you aim to be a developer or have other aspirations, staying dedicated and continuously learning will keep you updated with industry advancements. Additionally, the environment you surround yourself with and the connections you build play a vital role in understanding and excelling in your chosen field. These attributes have a significant impact during job and internship searches."
-            },
-            {
-              "section": "Was there any particular soft skill that the company majorly focused on during? Your selection process.",
-              "text": "There are a few critical points that the company particularly emphasized. Firstly, truth-seeking is vital, which involves knowing in-depth about your work and being prepared to address any questions or concerns about it. Secondly, a culture of sharing knowledge is encouraged. You may need to present your work to other teams, even those unfamiliar with your area, so confidence in conveying your expertise is essential. Lastly, having a solid grasp of the knowledge and skills listed in your resume and job description is crucial. While the company doesn't expect you to know beyond those, being well-versed in what you've mentioned is significant."
-            },
-            {
-              "section": "So tracing back to your coding journey, actually what were the things that kept you motivated all the time? ",
-              "text": "During the first and second years, the focus lies on exploration, where you get exposed to various fields such as game development, entrepreneurship, and set aims. However, I found my true passion in action, where creating new things and continuous learning motivated me immensely. Consistency played a vital role in becoming a better developer. Whether seeking guidance from seniors or being part of a development group, passion remains the driving force. Ultimately, one must assess their dedication and capability to put forth the required effort. Hence, it all boils down to love and consistency."
-            },
-            {
-              "section": "Like you, while answering, you mentioned connections. So like, how did you approach networking during your job search? Do you have any connection referrals, or did CDC? ",
-              "text": "In internships and job searches, platforms like LinkedIn play a significant role in connecting individuals with opportunities. However, numerous other platforms, such as Reddit and GitHub, facilitate job hunting and foster continuous learning and development. By joining relevant subreddits or communities of developers, one can stay updated with new trends, learn from others' code, and gain insights into documentation practices. Surrounding yourself with like-minded communities that align with your interests and eagerness to know can be highly beneficial. Therefore, continuously exploring various platforms beyond LinkedIn is crucial to fostering personal and professional growth."
-            },
-            {
-              "section": "Most of us use LinkedIn only. So how did you leverage your LinkedIn profile During your job search?",
-              "text": "In utilizing LinkedIn effectively, connecting with individuals who share similar interests or possess expertise that exceeds your own is important. Continuously observe their profile updates and improvements to gain insights. Ensure your profile aligns with common points in relevant job descriptions to increase visibility in employer searches. Keeping track of such updates is straightforward due to LinkedIn's continuous connection updates. By checking and  analyzing profiles, you can identify attractive elements and maintain a perspective that aligns with potential employers' preferences. Remember to incorporate critical points from job descriptions into your profile to enhance the chances of matching with desired job opportunities."
-            },
-            {
-              "section": "What were the internship opportunities you got, and how did you implement them in securing the job?",
-              "text": "During my six-month internship at CDC, I focused on connecting with seniors, seeking help when needed, and documenting my work. This approach allowed me to prove myself and improve my skills effectively. Additionally, I learned to consider both the problem and solution perspective to develop better solutions. This experience was invaluable as it taught me essential aspects of the corporate world. I now understand the importance of aligning myself with the company's requirements and leveraging opportunities for growth. By documenting my tasks and understanding their significance, I can better articulate my learnings during job interviews. Being specific and well-prepared while seeking help from colleagues demonstrates professionalism and respect for their time. These qualities are highly valued in the cooperative work environment and should be kept in mind during internships, job searches, and project collaborations."
-            },
-            {
-              "section": "How did you start researching the internship? Was it that time when you were building the projects?",
-              "text": "In my case, I aligned my project with my coding skills, and I researched how to present it effectively on my resume and LinkedIn. This approach led to selection for several off-campus opportunities, although I faced rejections in the final rounds. Aligning projects with current market needs is crucial for internships and jobs. Searching for relevant projects and seeking advice from seniors can be valuable. Fresh and useful projects showcasing your coding skills are essential when applying for internships. Connecting with others and asking for feedback can help improve projects and algorithmic knowledge. Focus on building projects that align with your chosen career path and enhance your coding skills."
-            },
-            {
-              "section": "What were the challenges you faced during your interview process, and how you handled them?",
-              "text": "Fortunately, I was selected for my first placement without many issues. However, I struggled with presenting my work effectively during interviews, both technical and HR rounds. To improve, I participated in mock interviews on specific websites and practiced presenting my technical and non-tech-related work. As the complexity of technical interviews increased, I focused on staying updated and reading about computer programming, operating systems, databases, and networking. Time management was a significant challenge as I had an internship during weekdays. I tackled this by dedicating weekends to study and preparation. I also strategically selected companies to apply for, considering the specific skills they would likely assess. This filtering process allowed me to focus and allocate more time to prepare for the interviews effectively."
-            },
-            {
-              "section": "Before accepting the offer, like did you sell research about the company values, mission or the environment you're going to work with?",
-              "text": "Researching a company's values and aligning them with your own before applying is crucial. During interviews, they often inquire about your alignment with their values, making this preparation essential for success. Searching on LinkedIn, Glassdoor reviews, and the company's career site can provide valuable insights into their requirements and expectations for the developer position or the role you are seeking. Presenting your alignment with their values during the interview increases your chances of getting selected. Be proactive in gathering this information to enhance your preparation and make a positive impression on potential employers."
-            },
-            {
-              "section": "Any resources such as books, websites, or any courses you did and found very helpful during your interview. Would you like to recommend some? ",
-              "text": "Mock interview sites like InterviewBit can be incredibly helpful for interview preparation. Additionally, books like \"Cracking the Coding Interview\" and \"Clean Code\" have been instrumental in structuring my responses during interviews. \"Cracking the Coding Interview\" assisted in answering questions about projects, internships, and personal experiences, while \"Clean Code\" provided theoretical knowledge relevant to both entry-level and senior-level developers. These resources are valuable for interview preparation and enhancing one's presentation and technical skills."
-            },
-            {
-              "section": "How did you prepare for the interviews? Did you give active mock interviews or any interrelated documents and all? ",
-              "text": "Apart from mock interview sites like InterviewBit, two books that have been helpful in interview preparation are \"Clean Code\" and \"Cracking the Coding Interview.\" Additionally, there are valuable resources available on the internet, such as spreadsheets and documents, containing top questions for different programming topics like Dynamic Programming (DP) and computer-related subjects like networking, databases, and operating systems. Searching on websites like GeekforGeeks, Glassdoor, and LeetCode provides valuable insights into common interview questions and experiences shared by others. For example, LeetCode's machine coding round can be prepared using a repository created by someone to understand how to approach and solve the given problems effectively. Researching the company's interview style and preparing accordingly is essential to stay up-to-date with the current market trends and increasing the chances of success"
-            },
-            {
-              "section": "Looking back, is there any wish during the second or third years of engineering that you can better prepare for an internship? Any advice or lessons for this?",
-              "text": "The coding culture and community in our college could be improved to match the strength and problem-solving abilities seen in other colleges and among professionals. As a third-year student, I believe we can take the initiative to enhance the coding culture for ourselves and our juniors. Looking back, I have some regrets about missed opportunities in this regard. I encourage all juniors to make the most of their college time. Enjoy every moment, embrace joy, and continuously work on self-improvement during this phase. Avoid future regrets by taking this opportunity to grow and learn. You won't have to rely on seniors for guidance if you focus on personal development now. Embrace whatever comes your way and enjoy the best experiences that life offers. Embrace student life to the fullest."
-            },
-            {
-              "section": "Join the Conversation" ,
-              "text": "We hope that Mayank's journey has inspired you. As Mayank's story eloquently demonstrates, the road to success is paved with hard work, exploration, and continual learning. Did Mayank's journey resonate with you? Do you have any experiences or insights to share? We invite you to join the conversation in the comments section below. Don't forget to subscribe to our blog to stay updated with more inspiring stories from our distinguished alumni. Together, we can learn, grow, and continue to make a significant impact."            
-            }
-          ]   
+        "section": "Bridging the Gap Between Academia and Industry",
+        "text": "After graduation, Prateek made a shift to industry, spending a year at CRED as a data scientist. He fondly recalls the excitement of working at a big startup, which he preferred over larger tech companies due to the fast-paced environment and the potential for a more substantial impact. But Prateek's heart remained in academia. Today, he is furthering his studies at Columbia University in the City of New York, where he's been impressed by the caliber of the professors and the research opportunities. He's also joined a well-known online real estate company in an applied data science role, where he's making the most of his skills and experiences."
       },
       {
-        "id": 4,
-        "title": "Journey to Stanford: Gowri Subedar",
-        "date": "Nov 2024",
-        "image": "./gowri-subedar.jpg",
-        "description": "Gowri Subedar, an accomplished alumnus and currently pursuing PhD in mechanical engineering in Stanford University.",
-        "content": [
-          {
-            "section": "First year at Dharwad",
-            "text": "My first year at IIT Dharwad was a significant learning experience, extending well beyond the classroom and coursework. It marked my first exposure to people from incredibly diverse backgrounds, offering a valuable opportunity for interaction and learning from their varied perspectives. This experience highlighted the importance of more than just textbook knowledge. Some of my most insightful learning moments occurred during late-night walks and discussions with friends."
-          },
-          {
-            "section": "First year at Stanford",
-            "text": "Completing my first year at Stanford University, I transitioned from a master's program to a Ph.D. during the summer. Research has been the focal point of this journey, specifically in the field of computational biology with my advisor Michaelle Mayalu. Stanford's extensive and diverse academic landscape has encouraged me to explore beyond research. I've delved into various activities, from playing sports to enrolling in a range of classes, even those outside my technical field. The interdisciplinary nature of Stanford has enriched my academic experience."
-          },
-          {
-            "section": "Advises for Pursuing Higher Studies",
-            "text": "There are countless opportunities available globally, and it's crucial to consider various factors such as location, adaptability, personal growth, and the challenges that come with moving away from home. The takeaway here is to be well-prepared and informed. It's perfectly okay if you're still in the process of figuring things out, but during this phase, make the most of your time by conducting thorough research."
-          },
-          {
-            "section": "Preparation Resources",
-            "text": "I took the GRE a bit earlier than my application process, typically at the end of my semester. For GRE preparation, I primarily relied on ETS (Educational Testing Service) materials. ETS offers books with essential information, examples, and practice questions that are quite useful. Additionally, a senior shared Princeton Review books with me, and I found them helpful for GRE preparation. As for TOEFL, I mostly used ETS materials. To prepare for the speaking section, I watched some YouTube videos, which provided prompts and helped me practice timing my responses. If you're looking to expand your vocabulary, I recommend an app GRE Edge. This app offers over 1600 words for free, and it's a valuable resource for improving your vocabulary, which can be beneficial for both GRE and TOEFL scores. It's more than sufficient for achieving a respectable score in these exams."
-          },
-          {
-            "section": "Application Process & Prep for Entrance Exams",
-            "text": "The graduate school application process is comprehensive and quite time-consuming. The main components include your CV or resume, GRE scores (though some universities don't require them anymore), your Statement of Purpose (SOP), and Letters of Recommendation (LoRs). Some institutions may have additional requirements like a personal statement or diversity statement. Starting the process early is crucial. GRE scores are valid for five years, and TOEFL scores are valid for two years. Taking these tests as soon as possible is advisable. Then, focus on your LoRs. It's essential to approach professors or professionals who can write strong, detailed letters that go beyond generic praise. Specific anecdotes highlighting your skills, accomplishments, and growth can make a significant difference. Your CV or resume should showcase relevant experiences, such as research internships and elective courses related to your field of interest. While co-curricular activities are important, they shouldn't overshadow academic achievements. GPA is still a crucial factor in the application process, although some debate exists about its weight. While it's possible to get into a good university without a high GPA, a strong academic record simplifies the process. In summary, start the application process early, prioritize LoRs from individuals who can provide specific examples of your skills, and create a well-rounded resume that emphasizes research experiences and relevant electives. Craft a well-structured SOP tailored to each university's requirements and expectations. With careful planning and attention to detail, you can create a compelling application for the graduate programs of your choice."
-          },
-          {
-            "section": "Transition Shift from Undergrad to Higher studies",
-            "text": "The first is effective time management. Graduate school can be overwhelming at times, and proper time management is vital for juggling assignments, research, and personal life. Creating a balance and setting aside time for self-care has been essential for maintaining a clear mind. The second key factor is the shift from learning to application. In undergraduate courses, the focus is on acquiring knowledge. However, in graduate school, it's more about how you can apply that knowledge. This transition from theory to practical application involves interacting with peers from various backgrounds."
-          },
-          {
-            "section": "A Word for Juniors",
-            "text": "Don't limit yourself, and it's okay to feel uncomfortable initially. If you're not very outgoing, start small, perhaps by talking to your roommate and gradually expanding your circle. The most important advice I can give is to have fun and make the most of your time. While you may put in a lot of effort into academics, it's equally vital to create mental space for yourself and enjoy your time. Go out, explore, try new things, and take advantage of the opportunities in this new and unfamiliar environment. This is your chance to experiment with various activities and interests, and you can engage in activities you've always wanted to try. Confidence grows when you push yourself to step out of your comfort zone and do things you've never done before, like giving a talk on stage. Health is an often underestimated aspect, but taking care of your well-being is essential. In the first year, you might be involved in activities like (NSO) but afterward, it's up to you to maintain your physical and mental health. Explore opportunities to join clubs and take on leadership roles. If you have a strong interest in a particular topic, remember that there are countless resources available today. The more you delve into areas of interest, the more you'll grow, learn, and develop new skills. Keep yourself motivated and maintain your curiosity as this is the path to personal and professional growth."
-          }
-        ]
+        "section": "Exploration Leads to Knowledge",
+        "text": "Prateek's introduction to computer vision was a serendipitous one. A senior, Ashish Arora, had suggested some machine learning courses at the end of Prateek's first year, which piqued his interest in the field. When the time came to apply for internships, he made sure to equip himself with knowledge of computer vision through a course, which he then utilized during his work interestingly , Prateek landed his DRDO internship through a series of cold emails to professors at foreign universities, IITs, and various other places. Among the few acceptances he received was an opportunity to connect with a scientist at DRDO through a professor at IIT Dharwad. This goes to show that sometimes, opportunities come from the most unexpected places."
       },
       {
-        "id": 5,
-        "title": "Journey of Yogesh Dhyani",
-        "date": "Dec 2023",
-        "image": "./yogesh.jpg",
-        "description": "Yogesh Dhyani is a graduate from IIT Dharwad with a background in electrical engineering. He co-founded a startup during his college years, demonstrating entrepreneurial spirit. Currently employed as an ML engineer in a US-based company, Yogesh emphasizes holistic development for success in career pursuits.",
-        "content": [
-            {
-              "section": "From Idea to Impact: My Inspiring Startup Journey",
-              "text": "Amidst the chaos of the 2020 COVID-19 outbreak, Yogesh Dhyani and his team faced a unique challenge. With classes disrupted and misinformation rampant, they decided to tackle the problem head-on. Starting small, they developed a prototype using cutting-edge technology. Their journey gained momentum as they participated in hackathons and secured a spot in the NSF I-Corps program. With mentorship, they transitioned from a project to a startup. However, after a dedicated year, they faced unexpected hurdles, leading to a decision to pivot in February 2023. Yogesh's tale illustrates the resilience needed to navigate the unpredictable path from idea to impact."
-            },
-            {
-              "section": "My Journey to Secure Current Job",
-              "ispointwise": "true",
-              "text": "Strategic Networking: Yogesh emphasized the importance of networking, mentioning how he leveraged professional connections and actively engaged in industry events to expand his network. Continuous Learning: He highlighted his commitment to continuous learning, showcasing how he kept up with industry trends and acquired new skills, making him an attractive candidate for the role. Entrepreneurial Experience: Yogesh spoke about his entrepreneurial journey, emphasizing the unique skills and insights gained, which set him apart from other candidates and resonated with the company's goals. Project Portfolio: He presented a strong project portfolio, showcasing hands-on experience and practical application of his skills, demonstrating his ability to contribute meaningfully to the organization. Alignment with Company Values: Yogesh articulated how his professional values aligned with the company's mission and goals, emphasizing his enthusiasm to contribute to the organization's success."
-            },
-            {
-              "section": "Internship  Mastery",
-              "text": "Mastering Self-Marketing: Yogesh highlighted the need to view oneself as a marketable product, emphasizing the art of selling personal skills and strengths effectively. LinkedIn: Your Professional Ally: He recommended investing in a compelling Linkedin profile, recognizing its pivotal role in attracting internship opportunities. Flexible Preparation Timeline: Yogesh dismissed a one-size-fits-all approach, encouraging individuals to align internship preparation with their unique priorities and circumstances. Timing is Everything: Advising a pragmatic approach, Yogesh proposed initiating internship pursuits by the end of the third year, aligning them strategically with future placement goals. Enjoyment Enhances Efficiency: Stressing the connection between enjoyment and productivity, Yogesh urged pursuing activities that bring joy, as this, according to him, is the key to effective stress management and time utilization."
-            },
-            {
-              "section": "A Word for Juniors",
-              "ispointwise":"true",
-              "text": "Prioritize self-exploration to discover a field that aligns with your passions and goals, leading to a more fulfilling and Deep Dive into Interests. (Final Year, Especially Fourth): Leverage lighter academic load for in-depth exploration. Deepen understanding of discovered interests. Prioritize Passion and Goals (Throughout College): Prioritize self-exploration for passion and goal alignment. Enhance journey for a more fulfilling and successful life. Early Involvement for Personal Growth (Initial Years): Actively engage in college clubs for personal development. Discover genuine interests through early involvement. Exploration in Initial Years (First Two Years): Utilize initial years to explore diverse topics. Identify areas that genuinely spark curiosity. Thoughtful Approach to Further Studies (Post-Graduation Plans): When considering MBA or higher studies, avoid blindly following advice. Explore options thoroughly and choose a passionate and viable field."
-            }
-          ]   
+        "section": "The Adobe Story",
+        "text": "Prateek's journey to securing an internship at Adobe Research is an intriguing one. Although he applied to Adobe during his second year, he was late in submitting his application and was informed that all their positions had been filled. However, in his third year, Adobe reached out to him before he had even started his application process. They had found his resume in their files, liked it, and wanted to interview him. By the end of July or August, he had cleared the interview and secured his place at Adobe. This is a testament to the strength of Prateek's resume and his skills."
       },
       {
-        "id": 6,
-        "title": "Insights from Putti Gowtham Sai",
-        "date": "Nov 2023",
-        "image": "./putti-gowtham.jpg",
-        "description": "Putti Gowtham Sai shares his journey from IIT Dharwad to CRED",
-        "content": [
-          {
-            "section": "Introduction",
-            "text": "Putti Gowtham Sai did his Btech here at lIT Dharwad in Computer Science, he's of the 2023 batch currently working in CRED. During his college journey, he has done internships in companies like Mentor Graphics, needl.ai, euprime, Fusion Technologies, and Cred. The Start & Journey Through IIT Dharwad by himself ... \"I spent my first year figuring out my way around college until the pandemic started and I had to go home. I started exploring new languages and technologies at home. We did a few college projects like the election website during our third semester which further strengthened my interest in coding. I believe this led to me getting a couple of off-campus internships in some early-stage startups. I got to work on some really cool stuff there! I continued to build on this experience through some more internships and projects, which eventually landed my current role at CRED. I was initially more interested in the electronics side of things and participated in the Inter IIT Robotics competition in my first year. We built a terrace farming robot. When I went home, I found myself wondering what more could be done and what more could be automated. This led to me building a simple web application and layering it over the robotics part of our project. I started exploring more and eventually learned new things. I was not really interested in competitive coding, but I did some just before the placement season in my 4th year.\""
-          },
-          {
-            "section": "Insights on Interviews & Internships",
-            "ispointwise":"true",
-            "text": "Preparing for Interviews: Interview Preparation Approach: He did not engage in specific interview preparation or mock interviews. Focus on DSA: His interview preparation centered around understanding basie data structures and algorithms (DSA) and problem-solving on platforms like Leetcode. Coding Journey Platforms: Platform Selection: Leetcode is sufficient for interviews at companies like CRED, but for highly competitive companies like Google, Amazon, and Goldman Sachs, consider engaging in competitive coding on platforms like Codechef or Codeforces. Expectations from Student Internships: Value Learning: Companies highly value learning experiences during internships. Relevance to Business and Technology: Internships that are relevant to current business contexts or the latest technologies are appreciated. Demonstrate Adaptability: Companies seek interns who can demonstrate the ability to learn quickly and adapt to new environments."
-          },
-          {
-            "section": "Quick to learn",
-            "text": "Being a quick learner is considered as a valuable trait in a student intern."
-          },
-          {
-            "section": "Regarding Internships & LinkedIn",
-            "ispointwise":"true",
-            "text": "Internships Bridge Gaps: Internships are essential for gaining practical experience between academic terms and distinguishing yourself in the job market. Resume Clarity: When detailing internships on your resume, provide specific, results-oriented descriptions of your contributions to demonstrate your hands-on experience. LinkedIn Networking: LinkedIn is a valuable platform for connecting with industry professionals and finding internship opportunities. Effective Profile: A strong LinkedIn profile can help you make a lasting impression on potential employers and build a professional network. Competitive Advantage: Utilizing LinkedIn effectively can give you an edge in securing better internship positions and expanding your network in your chosen field."
-          },
-          {
-            "section": "Words by him regarding Resources used for learning new skills",
-            "text": "\"It depends on what you're trying to learn. For example, for fast API and Django, I felt like the official documentation was good to go. However, I struggled with Flask as the documentation proved to be a bit confusing. You must also take care to learn from updated sources. For instance, when I was learning React I realized that the tutorials from W3Schools were not updated regularly, so I started learning from YouTube. Before you start learning something, you must investigate what you need. Moreover, you must know why you are learning this particular new thing. Do not jump into something new without knowing more about it.\""
-          },
-          {
-            "section": "The Role of Al in the Software Job Market",
-            "text": "Limited Complexity Handling: AI currently cannot handle the complexity of software development work, and it's unlikely to replace skilled professionals, even interns. Automation of Basic Coding: Lower-paying, basic coding positions may see more disruption as Al can automate routine tasks efficiently. Enhancement of Skills: Skilled professionals can use AI to enhance their productivity and skills, making it more about leveraging AI for their advantage rather than a threat to their jobs. Some companies, like Gotham's, allow the use of Al tools like Copilot for code writing, while others may have  stricter policies due to potential code exposure risks."
-          },
-          {
-            "section": "A Word for Juniors",
-            "ispointwise":"true",
-            "text": "Competitive Coding's Role: Recognize competitive coding's importance in passing coding interviews but caution against relying on it exclusively. Practical Relevance: Understand that competitive coding may not directly apply to your daily work, and it's okay not to be solely focused on it. Open Source Contribution: Advocate for contributing to open source projects and gaining experience with new technologies to foster your learning and development. College Course Value: Highlight the relevance of the courses you take in college, as they will provide the necessary knowledge for your future work in the industry. Industry Application: Emphasize that the concepts learned in college, such as database locks, 1/0 operations, and scheduling algorithms, will prove essential when working on real-world projects. Problem-Solving Over Salary: Prioritize problem-solving and creating projects over fixating on the size of your future salary or package."
-          }
-        ]
+        "section": "Crafting an Impressive Resume",
+        "text": "Prateek believes that a good resume should spotlight information that's relevant to the industry. While personal achievements may feel significant, they might not hold much weight in the professional sphere. For instance, a school leadership role may not be as impressive to potential employers as the projects you've tackled and your academic performance. Prateek suggests receiving feedback from industry professionals and incorporating that into your resume for maximum effect. Prateek offers valuable advice for those who perform well in coding rounds but get stuck in interviews. His approach towards preparation involves understanding the types of questions that a company typically asks in its interviews. He found it useful to explore platforms like LeetCode to better prepare for his coding interviews at companies like CRED. He also draws attention to the gap between academic study fields like data structures and algorithms and what companies typically ask during interviews, emphasizing that candidates should prepare accordingly."
       },
       {
-        "id": 7,
-        "title": "Rishit Saiya's Journey",
-        "date": "August 2023",
-        "image": "./rishit_saiya.jpg",
-        "description": "Rishit Saiya pursued his Master of Sciences in Cyber Security Specialization from the University of Southern California (USC) after graduating with a B.Tech degree in Computer Science and Engineering from IIT Dharwad.",
-        "content": [
-          {
-            "section": "Introduction",
-            "text": "Rishit Saiya is currently pursuing his Master of Sciences in Cyber Security Specialization from the University of Southern California(USC). He recently(2022) graduated with a B.Tech degree(Director Gold Medalist) in Computer Science and Engineering at IIT Dharwad."
-          },
-          {
-            "section": "Journey through IIT Dharwad",
-            "ispointwise":"true",
-            "text": "CS Exploration & Initial Disinterest: Started as a CS student in August 2018, first year focused on understanding CS fundamentals, industry norms, and domains. Explored areas like ML, and app/web development but lacked a strong connection. Cybersecurity Spark: A friend's hacking challenge ignited interest in cybersecurity. Delved deeper, solving challenges, and finding true passion in the field. US Firm Opportunity: A US firm kickstarted the cybersecurity journey, offering an overview. Engaged in R&D and BTP projects, gaining exposure and skills in the field. Strategic Shift & Foundation: Approaching 3rd year, realized the need for a solid cybersecurity base. Recognized two paths: amateur certifications or concrete, standardized study for industry entry. Master's Pursuit in the USA: Aimed to enhance expertise, the planned pursuit of a Master's in cybersecurity in the USA, reflecting dedication to career growth and specialization."
-          },
-          {
-            "section": "Approach for Internships",
-            "ispointwise":"true",
-            "text": "Cold Emailing & Learning Focus: Approach companies with internship programs through cold emailing, emphasizing a learning experience and willingness to contribute. This allows you to learn and showcase your abilities. Networking for Value: Network actively by engaging industry professionals and offering value beyond the usual interaction. This led to valuable connections, like the cybersecurity workshop, enhancing your skills and insights. Use of College Resources: Utilize college resources like the Career Development Center (CDC) for internship opportunities, proving helpful, especially during your final year. LinkedIn's Role and Impact: LinkedIn serves as a central platform to display education, projects, experience, and publications, providing an engaging alternative to traditional resumes. Engaging with the LinkedIn community expands your network and highlights your expertise through posts and interactions. LinkedIn empowers professionals to present their journey, engage with a broader network, and uncover new opportunities."
-          },
-          {
-            "section": "About LOR and SOP",
-            "text": "\"Compose a focused 1.5-page SOP: introduce, provide background, state motivations, goals, and program fit. Use compelling sentences to convey passion, skills, and potential contributions, captivating the college's attention.\" \"Prioritize project supervisors for LORs, showcasing academic prowess. Choose IIT professors or industry mentors for enhanced credibility.\" \"Include unique experiences that set you apart, showcasing how your presence will enrich the academic community.\" \"You can create a compelling SOP and secure impactful LORs, bolstering your chances of a strong application to your desired program.\""
-          },
-          {
-            "section": "Choosing College for PG and Selecting Abroad",
-            "text": "\"For my current college, I prioritized a strong cybersecurity program with rich research opportunities. I focused on the learning experience rather than just the university's name. When selecting a college abroad, I advise considering program alignment, research background, and finances. Talk to seniors for insights and explore government-funded and private options. Don't solely chase top universities; find the right fit for your field and aspirations.\""
-          },
-          {
-            "section": "A Word for Juniors",
-            "text": "Aim to secure a summer internship or collaborate with a professor for research work. IIT students might have an edge, but a proactive approach matters for all. Engaging with professors on research projects can offer valuable hands-on experience and insights, boosting your skillset and credibility. Dedicate 2-3 hours on weekends for practical, hands-on work. Select unconventional projects to learn new technologies and enhance your profile. Opt for projects that go beyond classroom teachings, challenging you to apply new skills and expand your horizons. Regularly update your skills and experiences, demonstrating continuous growth and adaptability to potential employers."
-          }
-        ]
+        "section": "Competitive Coding - A Necessary Skill?",
+        "text": "Prateek acknowledges that many students prepare for interviews by doing competitive coding. He suggests platforms like LeetCode, Codeforces, and CodeChef for interview preparation and competitive programming, respectively. However, he also points out that while competitive programming holds significance due to its prevalence in interviews, it may not always be directly applicable to day-to-day job responsibilities."
+      },
+      {
+        "section": "Preparation for Prestigious Universities",
+        "text": "When it comes to securing admission into a prestigious university, Prateek lays stress on the significance of maintaining a good academic record. However, he also acknowledges that impactful research, such as publishing papers at renowned conferences or undertaking notable research projects, can compensate for a less-than-stellar GPA. He further emphasizing the importance of quality letters of recommendation. According to him, these letters should come from individuals who know you well and can strongly advocate for your abilities. Generic letters may work against you, so make sure to seek recommendations from people who have worked closely with you."
+      },
+      {
+        "section": "Academia vs. Industry - A Personal Experience",
+        "text": "Prateek shares his unique insights into the differences between the professional world and academia. In the industry, every task you undertake is tied to generating revenue. The focus is on achieving measurable outcomes that contribute to the company's financial success. On the other hand, in academia, the emphasis lies on conducting research and exploring new ideas. However, Prateek notes that while academia offers the opportunity to publish research papers, the impact is usually limited to a niche audience. Working in the industry allows you to make a significant impact, with your contributions potentially reaching millions of customers."
+      },
+      {
+        "section": "Recommendations for the Aspiring Impact-Makers",
+        "text": "For those at IIT Dharwad who want to make an impact but don’t know where to start or what skills to develop, Prateek offers some solid advice. He encourages first and second-year students to use their time wisely, to study diligently, and to engage in as many projects as possible related to their major. He also emphasizes the importance of having a basic understanding of web development, considering it an essential skill for those planning to start a startup in the futurePrateek urges students to explore various fields during their early years and not limit themselves to a particular field just because it's currently trendy. He believes that while it's good to have knowledge in multiple areas, the industry generally values individuals who have mastered one specific domain"
+      },
+      {
+        "section": "Exploring Different Fields – The How",
+        "text": "When it comes to exploring different fields, Prateek believes in the importance of connecting and engaging with people from different backgrounds. His own experiences in machine learning and cybersecurity came from interactions with a senior and his best friend in college moreover, he credits his second-year Software Systems Lab course, specifically for computer science students, for providing him with web development experience. Prateek emphasizes that professors can be an excellent resource to start or delve deeper into a particular field. At IIT, students have access to exceptional professors who can offer valuable insights and a better understanding of how things function in a specific subfield."
+      },
+      {
+        "section": "A Journey of Endless Learning and Growth",
+        "text": "Prateek Jain's journey is a testament to his passion for computer science, his dedication to both academia and industry and his relentless pursuit of knowledge and success. From his early days at IIT Dharwad to his current pursuits at Columbia University and in the corporate world, Prateek's story is filled with valuable insights and advice. His experiences highlight the importance of academics, research, and practical experience in shaping a successful career. He emphasizes the importance of exploring different fields, mastering a specific domain, crafting a strong resume, and preparing effectively for interviews. His advice to students and young professionals underscores the significance of hard work, continuous learning, and the pursuit of passion. As we conclude our conversation with Prateek, we are reminded of the profound impact that our alumni have in the world and the powerful role that IIT Dharwad plays in shaping the leaders of tomorrow."
+      },
+      {
+        "section": "Join the Conversation",
+        "text": "We hope that Prateek's journey has inspired you, whether you're a student at the start of your academic journey or a seasoned professional. The road to success is paved with hard work, exploration, and continual learning, as Prateek's story so eloquently demonstrates."
       }
-      ]
+    ]
+  },
+  {
+    "id": 2,
+    "title": "Journey to IIM Ahmedabad: Huzaif Barkati",
+    "date": "Aug 25, 2023",
+    "image": "./huzaif_barkati.png",
+    "description": "Huzaif Barkati discusses his journey in choosing a management career, preparing for CAT exams, and securing admission to IIM Ahmedabad in this informative post. He shares insights on CAT preparation strategies, resources used, and the significance of case studies and internships. Moreover, he offers advice on balancing academics and preparation, along with valuable tips for exam success. The post also delves into the decision to defer admission and the author's rewarding experience in a startup. The advice to juniors centers around exploration, genuine interests, and making well-informed career choices.",
+    "content": [
+      {
+        "section": "What made you decide to choose management as a career path, and why IIM?",
+        "text": "During the second year of lockdown, I got quite involved in my father’s business. Moreover, I and a couple of students from my batch formed a group and started participating in competitions and case studies, eventually even taking up internships. This made me go for management as a career option. Pursuing an MBA seemed like an obvious path for this, and IIMs are renowned for having great management programmes. I attempted CAT and ended up getting into IIM Ahmedabad. "
+      },
+      {
+        "section": "How hard did you find CAT to be? How much preparation does a student require to crack it?",
+        "text": "The exam should be easier for a student from IIT as the mathematics involved in sections like quant, and data analytics are much less complex than, say, mathematics questions in the JEE exam. I feel like you can start preparing for CAT during the summer vacation for the 3rd or 4th year. For example, if the exam is in November, you should ideally have started at least in March. This will give you ample time to prepare for the exam. Speaking about the amount of preparation, I don’t feel like you have to go to a specific coaching. The key is to practice and solve mock question papers. Identify your strengths and weaknesses, and commit at least some hours to solving a test series online each week. "
+      },
+      {
+        "section": "Did your case studies or internships help in your admission process?",
+        "text": "I wouldn’t say it had a significant impact on my admission. I don’t think case studies matter at all because if you are a fresh graduate, it automatically means you have no professional work experience, and they do not expect you to have such experiences before joining. However, I feel it is good to try your hand at case study competitions and go for internships to understand where your interests lie. Do not try to go for something merely because of the monetary value it offers. "
+      },
+      {
+        "section": "How did you manage to balance your academic workload and your CAT preparation together?",
+        "text": "Honestly, I didn't find it particularly difficult. The academic workload in our 7th and 8th semesters was fairly light, and unless one is enrolled in coaching, it's relatively easy to manage. For instance, I used to tackle 3 or 4 mock exams per week, totalling a maximum of 8 hours. "
+      },
+      {
+        "section": "What resources did you use for your preparation?",
+        "text": "I had a friend who attended coaching classes earlier, and got the books from him for reference. Additionally, I bought the T.I.M.E and IMS test series and attempted them. Apart from this, I think it might be a good idea to practice your English skills by reading books, but I did not do this. People tend to read books in two distinct ways - skimming through without much thought or thoroughly understanding and reading between the lines. To enhance your skills, you should strive for the latter approach. Comprehending the underlying meaning will prove more beneficial than mere reading. There's a common misconception that extraordinary verbal skills are required to score well in this section. However, I believe consistent practice can help achieve good scores"
+      },
+      {
+        "section": "What kind of exam strategy did you follow for CAT?",
+        "text": "I’ll give an example of a strategy that you could follow. In CAT, the paper is of 198 marks. If you score 50%, which is around 99 marks, you would cross 99.7 percentile. This means that you would get a call from all the IIMs. So you have to just score around 50% of the marks. This is why you must figure out what your strengths and weaknesses are in the first two months of preparation, as I mentioned before. So let’s take the example of the quant section- there are 22 questions. If you attempt 16 questions and you can be sure that 14 or 15 of them are definitely correct, you’re good. For example, there were certain areas that I had issues with, and I would keep them for later while solving all the questions from areas that I’m strong in. This maximizes your marks. The test is time-bound, so it is a bad idea to spend too much time on a question that you don’t understand. Spend more time on your strengths, and try not to attempt questions that you are not too confident about. This is how a general CAT strategy would work. "
+      },
+      {
+        "section": "Why did you choose IIM Ahmedabad as your university? Did you think of joining any foreign university for an MBA?",
+        "text": "All major IIMs are actually pretty acclaimed internationally for their programmes, and I didn’t feel like there was a need to go to a foreign university for an MBA. Moreover, a lot of foreign universities require work experience, so it wasn’t suitable for me. I chose IIM-A for its reputation and the flexibility it offers. They provide you a chance to defer your admission if your work experience is under 2 years, provided that you have a job offer in hand before a stipulated date. I wanted to experience the industry and explore a bit apart from academics, and therefore I deferred my admission by a year. Moreover, I won't deny that I desired a short break before embarking on another academic journey. After years dedicated to JEE and IIT preparation, I felt a brief hiatus was justified."
+      },
+      {
+        "section": "Could you tell us a bit about how your career is going after deferring the admission?",
+        "text": "Thanks for asking. I got a job in a B2C startup called Kaagaz. I was always interested in things such as strategy and product development, so I embraced the role. We have a lot of customers, and I feel amazing to have the opportunity to work somewhere that I can make a tangible impact. The role aligns with my interests, the working hours are reasonable, and the work culture is great. I work under the CEO, who is highly accomplished, making it a rich learning experience for me. Simply put, I love what I do."
+      },
+      {
+        "section": "What advice would you like to impart to your juniors, in general?",
+        "text": "One of my primary regrets is my lack of involvement during my first two years. Active participation in college clubs significantly contributes to personal development. Utilize your initial years to explore and identify your genuine interests. Determine which topics capture your curiosity and which do not. This approach leaves ample time during your final two years, especially the fourth year with its lighter academic load, to develop these interests. From an MBA or higher studies perspective, I’d say not to listen blindly to anyone who says a field is good. It is better if you explore yourself and find a field that you love and is viable at the same time. I wish you a successful and fulfilling journey in life!"
+      }
+    ]
+  },
+  {
+    "id": 3,
+    "title": "Journey to CRED: Mayank Mittal, IIT Dharwad Alumnus",
+    "date": "Aug 6, 2023",
+    "image": "./mayank_mittal.jpeg",
+    "description": "In this insightful post, Mayank Mittal shares his journey as a backend developer at CRED, emphasizing the significance of exploration, skill alignment, and networking. He details his approach to interview preparation and offers valuable resources for success, including mock interviews, coding books, and online platforms. To learn more about Mayank and his experiences at IIT Dharwad, check out this blog post!",
+    "content": [
+      {
+        "section": "A brief introduction",
+        "text": "Mayank Mittal has been placed at CRED as a backend developer, focused on enhancing the system's reliability and user-friendliness. The company's culture revolves around growth, customer value, and user engagement, strongly emphasizing productivity and continuous improvement. His role involves making the product better and more efficient to meet user needs effectively."
+      },
+      {
+        "section": "College experience",
+        "text": "His experience was excellent. Initially, in his first year, everything was offline. Unfortunately, COVID-19 struck, forcing him and his batchmates to return. However, the learning journey persisted. They continuously acquire new knowledge, evolving and improving themselves. The college offered abundant opportunities that helped them become better students, developers, and engineers from all perspectives."
+      },
+      {
+        "section": "Exploring different fields",
+        "text": "According to Mayank, there is no definitive answer to the question, ‘How will I come to know what I’m interested in?‘‘as it depends on the exposure you receive.              He said that if you explore four or five different areas, you might discover an interest even in something you initially didn't want to pursue. These experiences have helped him improve in areas that didn't initially appeal to him. Sometimes you may not enjoy specific tasks in your career, but if you have a passion for something and believe in your abilities, you can work on it and find fulfillment."
+      },
+      {
+        "section": "What were the key factors or qualities that you believe contributed to your success in securing the job?",
+        "text": "Confidence in your preparation and accomplishments is crucial. When presenting your resume, believe in your work and be ready to answer any questions, even from top-level professionals like the CTO. Consistency is also essential for future success. Whether you aim to be a developer or have other aspirations, staying dedicated and continuously learning will keep you updated with industry advancements. Additionally, the environment you surround yourself with and the connections you build play a vital role in understanding and excelling in your chosen field. These attributes have a significant impact during job and internship searches."
+      },
+      {
+        "section": "Was there any particular soft skill that the company majorly focused on during? Your selection process.",
+        "text": "There are a few critical points that the company particularly emphasized. Firstly, truth-seeking is vital, which involves knowing in-depth about your work and being prepared to address any questions or concerns about it. Secondly, a culture of sharing knowledge is encouraged. You may need to present your work to other teams, even those unfamiliar with your area, so confidence in conveying your expertise is essential. Lastly, having a solid grasp of the knowledge and skills listed in your resume and job description is crucial. While the company doesn't expect you to know beyond those, being well-versed in what you've mentioned is significant."
+      },
+      {
+        "section": "So tracing back to your coding journey, actually what were the things that kept you motivated all the time? ",
+        "text": "During the first and second years, the focus lies on exploration, where you get exposed to various fields such as game development, entrepreneurship, and set aims. However, I found my true passion in action, where creating new things and continuous learning motivated me immensely. Consistency played a vital role in becoming a better developer. Whether seeking guidance from seniors or being part of a development group, passion remains the driving force. Ultimately, one must assess their dedication and capability to put forth the required effort. Hence, it all boils down to love and consistency."
+      },
+      {
+        "section": "Like you, while answering, you mentioned connections. So like, how did you approach networking during your job search? Do you have any connection referrals, or did CDC? ",
+        "text": "In internships and job searches, platforms like LinkedIn play a significant role in connecting individuals with opportunities. However, numerous other platforms, such as Reddit and GitHub, facilitate job hunting and foster continuous learning and development. By joining relevant subreddits or communities of developers, one can stay updated with new trends, learn from others' code, and gain insights into documentation practices. Surrounding yourself with like-minded communities that align with your interests and eagerness to know can be highly beneficial. Therefore, continuously exploring various platforms beyond LinkedIn is crucial to fostering personal and professional growth."
+      },
+      {
+        "section": "Most of us use LinkedIn only. So how did you leverage your LinkedIn profile During your job search?",
+        "text": "In utilizing LinkedIn effectively, connecting with individuals who share similar interests or possess expertise that exceeds your own is important. Continuously observe their profile updates and improvements to gain insights. Ensure your profile aligns with common points in relevant job descriptions to increase visibility in employer searches. Keeping track of such updates is straightforward due to LinkedIn's continuous connection updates. By checking and  analyzing profiles, you can identify attractive elements and maintain a perspective that aligns with potential employers' preferences. Remember to incorporate critical points from job descriptions into your profile to enhance the chances of matching with desired job opportunities."
+      },
+      {
+        "section": "What were the internship opportunities you got, and how did you implement them in securing the job?",
+        "text": "During my six-month internship at CDC, I focused on connecting with seniors, seeking help when needed, and documenting my work. This approach allowed me to prove myself and improve my skills effectively. Additionally, I learned to consider both the problem and solution perspective to develop better solutions. This experience was invaluable as it taught me essential aspects of the corporate world. I now understand the importance of aligning myself with the company's requirements and leveraging opportunities for growth. By documenting my tasks and understanding their significance, I can better articulate my learnings during job interviews. Being specific and well-prepared while seeking help from colleagues demonstrates professionalism and respect for their time. These qualities are highly valued in the cooperative work environment and should be kept in mind during internships, job searches, and project collaborations."
+      },
+      {
+        "section": "How did you start researching the internship? Was it that time when you were building the projects?",
+        "text": "In my case, I aligned my project with my coding skills, and I researched how to present it effectively on my resume and LinkedIn. This approach led to selection for several off-campus opportunities, although I faced rejections in the final rounds. Aligning projects with current market needs is crucial for internships and jobs. Searching for relevant projects and seeking advice from seniors can be valuable. Fresh and useful projects showcasing your coding skills are essential when applying for internships. Connecting with others and asking for feedback can help improve projects and algorithmic knowledge. Focus on building projects that align with your chosen career path and enhance your coding skills."
+      },
+      {
+        "section": "What were the challenges you faced during your interview process, and how you handled them?",
+        "text": "Fortunately, I was selected for my first placement without many issues. However, I struggled with presenting my work effectively during interviews, both technical and HR rounds. To improve, I participated in mock interviews on specific websites and practiced presenting my technical and non-tech-related work. As the complexity of technical interviews increased, I focused on staying updated and reading about computer programming, operating systems, databases, and networking. Time management was a significant challenge as I had an internship during weekdays. I tackled this by dedicating weekends to study and preparation. I also strategically selected companies to apply for, considering the specific skills they would likely assess. This filtering process allowed me to focus and allocate more time to prepare for the interviews effectively."
+      },
+      {
+        "section": "Before accepting the offer, like did you sell research about the company values, mission or the environment you're going to work with?",
+        "text": "Researching a company's values and aligning them with your own before applying is crucial. During interviews, they often inquire about your alignment with their values, making this preparation essential for success. Searching on LinkedIn, Glassdoor reviews, and the company's career site can provide valuable insights into their requirements and expectations for the developer position or the role you are seeking. Presenting your alignment with their values during the interview increases your chances of getting selected. Be proactive in gathering this information to enhance your preparation and make a positive impression on potential employers."
+      },
+      {
+        "section": "Any resources such as books, websites, or any courses you did and found very helpful during your interview. Would you like to recommend some? ",
+        "text": "Mock interview sites like InterviewBit can be incredibly helpful for interview preparation. Additionally, books like \"Cracking the Coding Interview\" and \"Clean Code\" have been instrumental in structuring my responses during interviews. \"Cracking the Coding Interview\" assisted in answering questions about projects, internships, and personal experiences, while \"Clean Code\" provided theoretical knowledge relevant to both entry-level and senior-level developers. These resources are valuable for interview preparation and enhancing one's presentation and technical skills."
+      },
+      {
+        "section": "How did you prepare for the interviews? Did you give active mock interviews or any interrelated documents and all? ",
+        "text": "Apart from mock interview sites like InterviewBit, two books that have been helpful in interview preparation are \"Clean Code\" and \"Cracking the Coding Interview.\" Additionally, there are valuable resources available on the internet, such as spreadsheets and documents, containing top questions for different programming topics like Dynamic Programming (DP) and computer-related subjects like networking, databases, and operating systems. Searching on websites like GeekforGeeks, Glassdoor, and LeetCode provides valuable insights into common interview questions and experiences shared by others. For example, LeetCode's machine coding round can be prepared using a repository created by someone to understand how to approach and solve the given problems effectively. Researching the company's interview style and preparing accordingly is essential to stay up-to-date with the current market trends and increasing the chances of success"
+      },
+      {
+        "section": "Looking back, is there any wish during the second or third years of engineering that you can better prepare for an internship? Any advice or lessons for this?",
+        "text": "The coding culture and community in our college could be improved to match the strength and problem-solving abilities seen in other colleges and among professionals. As a third-year student, I believe we can take the initiative to enhance the coding culture for ourselves and our juniors. Looking back, I have some regrets about missed opportunities in this regard. I encourage all juniors to make the most of their college time. Enjoy every moment, embrace joy, and continuously work on self-improvement during this phase. Avoid future regrets by taking this opportunity to grow and learn. You won't have to rely on seniors for guidance if you focus on personal development now. Embrace whatever comes your way and enjoy the best experiences that life offers. Embrace student life to the fullest."
+      },
+      {
+        "section": "Join the Conversation",
+        "text": "We hope that Mayank's journey has inspired you. As Mayank's story eloquently demonstrates, the road to success is paved with hard work, exploration, and continual learning. Did Mayank's journey resonate with you? Do you have any experiences or insights to share? We invite you to join the conversation in the comments section below. Don't forget to subscribe to our blog to stay updated with more inspiring stories from our distinguished alumni. Together, we can learn, grow, and continue to make a significant impact."
+      }
+    ]
+  },
+  {
+    "id": 4,
+    "title": "Journey to Stanford: Gowri Subedar",
+    "date": "Nov 2023",
+    "image": "./gowri-subedar.jpg",
+    "description": "Gowri Subedar, an accomplished alumnus and currently pursuing PhD in mechanical engineering in Stanford University.",
+    "content": [
+      {
+        "section": "First year at Dharwad",
+        "text": "My first year at IIT Dharwad was a significant learning experience, extending well beyond the classroom and coursework. It marked my first exposure to people from incredibly diverse backgrounds, offering a valuable opportunity for interaction and learning from their varied perspectives. This experience highlighted the importance of more than just textbook knowledge. Some of my most insightful learning moments occurred during late-night walks and discussions with friends."
+      },
+      {
+        "section": "First year at Stanford",
+        "text": "Completing my first year at Stanford University, I transitioned from a master's program to a Ph.D. during the summer. Research has been the focal point of this journey, specifically in the field of computational biology with my advisor Michaelle Mayalu. Stanford's extensive and diverse academic landscape has encouraged me to explore beyond research. I've delved into various activities, from playing sports to enrolling in a range of classes, even those outside my technical field. The interdisciplinary nature of Stanford has enriched my academic experience."
+      },
+      {
+        "section": "Advises for Pursuing Higher Studies",
+        "text": "There are countless opportunities available globally, and it's crucial to consider various factors such as location, adaptability, personal growth, and the challenges that come with moving away from home. The takeaway here is to be well-prepared and informed. It's perfectly okay if you're still in the process of figuring things out, but during this phase, make the most of your time by conducting thorough research."
+      },
+      {
+        "section": "Preparation Resources",
+        "text": "I took the GRE a bit earlier than my application process, typically at the end of my semester. For GRE preparation, I primarily relied on ETS (Educational Testing Service) materials. ETS offers books with essential information, examples, and practice questions that are quite useful. Additionally, a senior shared Princeton Review books with me, and I found them helpful for GRE preparation. As for TOEFL, I mostly used ETS materials. To prepare for the speaking section, I watched some YouTube videos, which provided prompts and helped me practice timing my responses. If you're looking to expand your vocabulary, I recommend an app GRE Edge. This app offers over 1600 words for free, and it's a valuable resource for improving your vocabulary, which can be beneficial for both GRE and TOEFL scores. It's more than sufficient for achieving a respectable score in these exams."
+      },
+      {
+        "section": "Application Process & Prep for Entrance Exams",
+        "text": "The graduate school application process is comprehensive and quite time-consuming. The main components include your CV or resume, GRE scores (though some universities don't require them anymore), your Statement of Purpose (SOP), and Letters of Recommendation (LoRs). Some institutions may have additional requirements like a personal statement or diversity statement. Starting the process early is crucial. GRE scores are valid for five years, and TOEFL scores are valid for two years. Taking these tests as soon as possible is advisable. Then, focus on your LoRs. It's essential to approach professors or professionals who can write strong, detailed letters that go beyond generic praise. Specific anecdotes highlighting your skills, accomplishments, and growth can make a significant difference. Your CV or resume should showcase relevant experiences, such as research internships and elective courses related to your field of interest. While co-curricular activities are important, they shouldn't overshadow academic achievements. GPA is still a crucial factor in the application process, although some debate exists about its weight. While it's possible to get into a good university without a high GPA, a strong academic record simplifies the process. In summary, start the application process early, prioritize LoRs from individuals who can provide specific examples of your skills, and create a well-rounded resume that emphasizes research experiences and relevant electives. Craft a well-structured SOP tailored to each university's requirements and expectations. With careful planning and attention to detail, you can create a compelling application for the graduate programs of your choice."
+      },
+      {
+        "section": "Transition Shift from Undergrad to Higher studies",
+        "text": "The first is effective time management. Graduate school can be overwhelming at times, and proper time management is vital for juggling assignments, research, and personal life. Creating a balance and setting aside time for self-care has been essential for maintaining a clear mind. The second key factor is the shift from learning to application. In undergraduate courses, the focus is on acquiring knowledge. However, in graduate school, it's more about how you can apply that knowledge. This transition from theory to practical application involves interacting with peers from various backgrounds."
+      },
+      {
+        "section": "A Word for Juniors",
+        "text": "Don't limit yourself, and it's okay to feel uncomfortable initially. If you're not very outgoing, start small, perhaps by talking to your roommate and gradually expanding your circle. The most important advice I can give is to have fun and make the most of your time. While you may put in a lot of effort into academics, it's equally vital to create mental space for yourself and enjoy your time. Go out, explore, try new things, and take advantage of the opportunities in this new and unfamiliar environment. This is your chance to experiment with various activities and interests, and you can engage in activities you've always wanted to try. Confidence grows when you push yourself to step out of your comfort zone and do things you've never done before, like giving a talk on stage. Health is an often underestimated aspect, but taking care of your well-being is essential. In the first year, you might be involved in activities like (NSO) but afterward, it's up to you to maintain your physical and mental health. Explore opportunities to join clubs and take on leadership roles. If you have a strong interest in a particular topic, remember that there are countless resources available today. The more you delve into areas of interest, the more you'll grow, learn, and develop new skills. Keep yourself motivated and maintain your curiosity as this is the path to personal and professional growth."
+      }
+    ]
+  },
+  {
+    "id": 5,
+    "title": "Journey of Yogesh Dhyani",
+    "date": "Dec 2023",
+    "image": "./yogesh.jpg",
+    "description": "Yogesh Dhyani is a graduate from IIT Dharwad with a background in electrical engineering. He co-founded a startup during his college years, demonstrating entrepreneurial spirit. Currently employed as an ML engineer in a US-based company, Yogesh emphasizes holistic development for success in career pursuits.",
+    "content": [
+      {
+        "section": "From Idea to Impact: My Inspiring Startup Journey",
+        "text": "Amidst the chaos of the 2020 COVID-19 outbreak, Yogesh Dhyani and his team faced a unique challenge. With classes disrupted and misinformation rampant, they decided to tackle the problem head-on. Starting small, they developed a prototype using cutting-edge technology. Their journey gained momentum as they participated in hackathons and secured a spot in the NSF I-Corps program. With mentorship, they transitioned from a project to a startup. However, after a dedicated year, they faced unexpected hurdles, leading to a decision to pivot in February 2023. Yogesh's tale illustrates the resilience needed to navigate the unpredictable path from idea to impact."
+      },
+      {
+        "section": "My Journey to Secure Current Job",
+        "ispointwise": "true",
+        "text": "Strategic Networking: Yogesh emphasized the importance of networking, mentioning how he leveraged professional connections and actively engaged in industry events to expand his network. Continuous Learning: He highlighted his commitment to continuous learning, showcasing how he kept up with industry trends and acquired new skills, making him an attractive candidate for the role. Entrepreneurial Experience: Yogesh spoke about his entrepreneurial journey, emphasizing the unique skills and insights gained, which set him apart from other candidates and resonated with the company's goals. Project Portfolio: He presented a strong project portfolio, showcasing hands-on experience and practical application of his skills, demonstrating his ability to contribute meaningfully to the organization. Alignment with Company Values: Yogesh articulated how his professional values aligned with the company's mission and goals, emphasizing his enthusiasm to contribute to the organization's success."
+      },
+      {
+        "section": "Internship  Mastery",
+        "text": "Mastering Self-Marketing: Yogesh highlighted the need to view oneself as a marketable product, emphasizing the art of selling personal skills and strengths effectively. LinkedIn: Your Professional Ally: He recommended investing in a compelling Linkedin profile, recognizing its pivotal role in attracting internship opportunities. Flexible Preparation Timeline: Yogesh dismissed a one-size-fits-all approach, encouraging individuals to align internship preparation with their unique priorities and circumstances. Timing is Everything: Advising a pragmatic approach, Yogesh proposed initiating internship pursuits by the end of the third year, aligning them strategically with future placement goals. Enjoyment Enhances Efficiency: Stressing the connection between enjoyment and productivity, Yogesh urged pursuing activities that bring joy, as this, according to him, is the key to effective stress management and time utilization."
+      },
+      {
+        "section": "A Word for Juniors",
+        "ispointwise": "true",
+        "text": "Prioritize self-exploration to discover a field that aligns with your passions and goals, leading to a more fulfilling and Deep Dive into Interests. (Final Year, Especially Fourth): Leverage lighter academic load for in-depth exploration. Deepen understanding of discovered interests. Prioritize Passion and Goals (Throughout College): Prioritize self-exploration for passion and goal alignment. Enhance journey for a more fulfilling and successful life. Early Involvement for Personal Growth (Initial Years): Actively engage in college clubs for personal development. Discover genuine interests through early involvement. Exploration in Initial Years (First Two Years): Utilize initial years to explore diverse topics. Identify areas that genuinely spark curiosity. Thoughtful Approach to Further Studies (Post-Graduation Plans): When considering MBA or higher studies, avoid blindly following advice. Explore options thoroughly and choose a passionate and viable field."
+      }
+    ]
+  },
+  {
+    "id": 6,
+    "title": "Insights from Putti Gowtham Sai",
+    "date": "Nov 2023",
+    "image": "./putti-gowtham.jpg",
+    "description": "Putti Gowtham Sai shares his journey from IIT Dharwad to CRED",
+    "content": [
+      {
+        "section": "Introduction",
+        "text": "Putti Gowtham Sai did his Btech here at lIT Dharwad in Computer Science, he's of the 2023 batch currently working in CRED. During his college journey, he has done internships in companies like Mentor Graphics, needl.ai, euprime, Fusion Technologies, and Cred. The Start & Journey Through IIT Dharwad by himself ... \"I spent my first year figuring out my way around college until the pandemic started and I had to go home. I started exploring new languages and technologies at home. We did a few college projects like the election website during our third semester which further strengthened my interest in coding. I believe this led to me getting a couple of off-campus internships in some early-stage startups. I got to work on some really cool stuff there! I continued to build on this experience through some more internships and projects, which eventually landed my current role at CRED. I was initially more interested in the electronics side of things and participated in the Inter IIT Robotics competition in my first year. We built a terrace farming robot. When I went home, I found myself wondering what more could be done and what more could be automated. This led to me building a simple web application and layering it over the robotics part of our project. I started exploring more and eventually learned new things. I was not really interested in competitive coding, but I did some just before the placement season in my 4th year.\""
+      },
+      {
+        "section": "Insights on Interviews & Internships",
+        "ispointwise": "true",
+        "text": "Preparing for Interviews: Interview Preparation Approach: He did not engage in specific interview preparation or mock interviews. Focus on DSA: His interview preparation centered around understanding basie data structures and algorithms (DSA) and problem-solving on platforms like Leetcode. Coding Journey Platforms: Platform Selection: Leetcode is sufficient for interviews at companies like CRED, but for highly competitive companies like Google, Amazon, and Goldman Sachs, consider engaging in competitive coding on platforms like Codechef or Codeforces. Expectations from Student Internships: Value Learning: Companies highly value learning experiences during internships. Relevance to Business and Technology: Internships that are relevant to current business contexts or the latest technologies are appreciated. Demonstrate Adaptability: Companies seek interns who can demonstrate the ability to learn quickly and adapt to new environments."
+      },
+      {
+        "section": "Quick to learn",
+        "text": "Being a quick learner is considered as a valuable trait in a student intern."
+      },
+      {
+        "section": "Regarding Internships & LinkedIn",
+        "ispointwise": "true",
+        "text": "Internships Bridge Gaps: Internships are essential for gaining practical experience between academic terms and distinguishing yourself in the job market. Resume Clarity: When detailing internships on your resume, provide specific, results-oriented descriptions of your contributions to demonstrate your hands-on experience. LinkedIn Networking: LinkedIn is a valuable platform for connecting with industry professionals and finding internship opportunities. Effective Profile: A strong LinkedIn profile can help you make a lasting impression on potential employers and build a professional network. Competitive Advantage: Utilizing LinkedIn effectively can give you an edge in securing better internship positions and expanding your network in your chosen field."
+      },
+      {
+        "section": "Words by him regarding Resources used for learning new skills",
+        "text": "\"It depends on what you're trying to learn. For example, for fast API and Django, I felt like the official documentation was good to go. However, I struggled with Flask as the documentation proved to be a bit confusing. You must also take care to learn from updated sources. For instance, when I was learning React I realized that the tutorials from W3Schools were not updated regularly, so I started learning from YouTube. Before you start learning something, you must investigate what you need. Moreover, you must know why you are learning this particular new thing. Do not jump into something new without knowing more about it.\""
+      },
+      {
+        "section": "The Role of Al in the Software Job Market",
+        "text": "Limited Complexity Handling: AI currently cannot handle the complexity of software development work, and it's unlikely to replace skilled professionals, even interns. Automation of Basic Coding: Lower-paying, basic coding positions may see more disruption as Al can automate routine tasks efficiently. Enhancement of Skills: Skilled professionals can use AI to enhance their productivity and skills, making it more about leveraging AI for their advantage rather than a threat to their jobs. Some companies, like Gotham's, allow the use of Al tools like Copilot for code writing, while others may have  stricter policies due to potential code exposure risks."
+      },
+      {
+        "section": "A Word for Juniors",
+        "ispointwise": "true",
+        "text": "Competitive Coding's Role: Recognize competitive coding's importance in passing coding interviews but caution against relying on it exclusively. Practical Relevance: Understand that competitive coding may not directly apply to your daily work, and it's okay not to be solely focused on it. Open Source Contribution: Advocate for contributing to open source projects and gaining experience with new technologies to foster your learning and development. College Course Value: Highlight the relevance of the courses you take in college, as they will provide the necessary knowledge for your future work in the industry. Industry Application: Emphasize that the concepts learned in college, such as database locks, 1/0 operations, and scheduling algorithms, will prove essential when working on real-world projects. Problem-Solving Over Salary: Prioritize problem-solving and creating projects over fixating on the size of your future salary or package."
+      }
+    ]
+  },
+  {
+    "id": 7,
+    "title": "Rishit Saiya's Journey",
+    "date": "August 2023",
+    "image": "./rishit_saiya.jpg",
+    "description": "Rishit Saiya pursued his Master of Sciences in Cyber Security Specialization from the University of Southern California (USC) after graduating with a B.Tech degree in Computer Science and Engineering from IIT Dharwad.",
+    "content": [
+      {
+        "section": "Introduction",
+        "text": "Rishit Saiya is currently pursuing his Master of Sciences in Cyber Security Specialization from the University of Southern California(USC). He recently(2022) graduated with a B.Tech degree(Director Gold Medalist) in Computer Science and Engineering at IIT Dharwad."
+      },
+      {
+        "section": "Journey through IIT Dharwad",
+        "ispointwise": "true",
+        "text": "CS Exploration & Initial Disinterest: Started as a CS student in August 2018, first year focused on understanding CS fundamentals, industry norms, and domains. Explored areas like ML, and app/web development but lacked a strong connection. Cybersecurity Spark: A friend's hacking challenge ignited interest in cybersecurity. Delved deeper, solving challenges, and finding true passion in the field. US Firm Opportunity: A US firm kickstarted the cybersecurity journey, offering an overview. Engaged in R&D and BTP projects, gaining exposure and skills in the field. Strategic Shift & Foundation: Approaching 3rd year, realized the need for a solid cybersecurity base. Recognized two paths: amateur certifications or concrete, standardized study for industry entry. Master's Pursuit in the USA: Aimed to enhance expertise, the planned pursuit of a Master's in cybersecurity in the USA, reflecting dedication to career growth and specialization."
+      },
+      {
+        "section": "Approach for Internships",
+        "ispointwise": "true",
+        "text": "Cold Emailing & Learning Focus: Approach companies with internship programs through cold emailing, emphasizing a learning experience and willingness to contribute. This allows you to learn and showcase your abilities. Networking for Value: Network actively by engaging industry professionals and offering value beyond the usual interaction. This led to valuable connections, like the cybersecurity workshop, enhancing your skills and insights. Use of College Resources: Utilize college resources like the Career Development Center (CDC) for internship opportunities, proving helpful, especially during your final year. LinkedIn's Role and Impact: LinkedIn serves as a central platform to display education, projects, experience, and publications, providing an engaging alternative to traditional resumes. Engaging with the LinkedIn community expands your network and highlights your expertise through posts and interactions. LinkedIn empowers professionals to present their journey, engage with a broader network, and uncover new opportunities."
+      },
+      {
+        "section": "About LOR and SOP",
+        "text": "\"Compose a focused 1.5-page SOP: introduce, provide background, state motivations, goals, and program fit. Use compelling sentences to convey passion, skills, and potential contributions, captivating the college's attention.\" \"Prioritize project supervisors for LORs, showcasing academic prowess. Choose IIT professors or industry mentors for enhanced credibility.\" \"Include unique experiences that set you apart, showcasing how your presence will enrich the academic community.\" \"You can create a compelling SOP and secure impactful LORs, bolstering your chances of a strong application to your desired program.\""
+      },
+      {
+        "section": "Choosing College for PG and Selecting Abroad",
+        "text": "\"For my current college, I prioritized a strong cybersecurity program with rich research opportunities. I focused on the learning experience rather than just the university's name. When selecting a college abroad, I advise considering program alignment, research background, and finances. Talk to seniors for insights and explore government-funded and private options. Don't solely chase top universities; find the right fit for your field and aspirations.\""
+      },
+      {
+        "section": "A Word for Juniors",
+        "text": "Aim to secure a summer internship or collaborate with a professor for research work. IIT students might have an edge, but a proactive approach matters for all. Engaging with professors on research projects can offer valuable hands-on experience and insights, boosting your skillset and credibility. Dedicate 2-3 hours on weekends for practical, hands-on work. Select unconventional projects to learn new technologies and enhance your profile. Opt for projects that go beyond classroom teachings, challenging you to apply new skills and expand your horizons. Regularly update your skills and experiences, demonstrating continuous growth and adaptability to potential employers."
+      }
+    ]
+  }
+]

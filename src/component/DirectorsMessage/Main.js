@@ -1,12 +1,10 @@
 import React from "react";
 import Bredcom from "../Bredcom/Main";
-
 import CssData from "../../CustomCSS/TestimonialthreeCSS.json";
-
 import directorImg from "./../../assets/img/director/Director.jpeg";
 import deanApImg from "./../../assets/img/director/dean_ap.jpg";
-// import deanRndImg from "./../../assets/img/director/dean_rnd.jpeg";
 import FICImg from "./../../assets/img/director/Satya_Priya_Image.jpeg";
+import FICImg2 from "./../../assets/img/team/ankit_v_k.JPG";
 
 const Testimonialnew = () => {
   const testimonials = [
@@ -36,6 +34,15 @@ const Testimonialnew = () => {
       authorName: "Prof. Satyapriya Gupta",
       authorRole: "Dept. of Mechanical, Materials and Aerospace Engineering",
       imgSrc: FICImg,
+    },
+    {
+      id: 4,
+      title: "Faculty In Charge's Message",
+      quote:
+        "Dear Esteemed Guests, it brings me immense pleasure to extend a heartfelt invitation on behalf of the entire IIT Dharwad community. We eagerly anticipate your involvement in hiring interns from pre-final year students. We believe your visit will mark the beginning of a promising and enduring relationship between our esteemed Institute and your organization.",
+      authorName: "Prof. Aniket Kataware",
+      authorRole: "Dept. of Civil & Infrastructure Engineering",
+      imgSrc: FICImg2,
     },
   ];
 

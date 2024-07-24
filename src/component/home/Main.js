@@ -15,6 +15,7 @@ import Blog from "../menhome/Blog";
 import Subscribe from "../menhome/Subscribe";
 import Testimonialthree from "../menhomethree/Testimonialthree";
 
+// Currently, I have comment out twitter timeline as Sameer Sir said -- Parikshit
 function Main() {
   return (
     <>

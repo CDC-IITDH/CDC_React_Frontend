@@ -114,7 +114,7 @@ function Main() {
                             </li>
                             <li>
                               <Link
-                                to="https://drive.google.com/file/d/1N3gjPwgOSC2XvUOwhdcfDpJ74VrTUHUt/view"
+                                to="https://drive.google.com/file/d/12pAxMUUjzrhTeVq0xXWOv84mGW_dbEvO/view"
                                 target="_blank"
                               >
                                 Brochure
@@ -298,7 +298,7 @@ function Main() {
                                   </li>
                                   <li onClick={() => setmobile(!mobile)}>
                                     <Link
-                                      to="https://drive.google.com/file/d/1N3gjPwgOSC2XvUOwhdcfDpJ74VrTUHUt/view"
+                                      to="https://drive.google.com/file/d/12pAxMUUjzrhTeVq0xXWOv84mGW_dbEvO/view"
                                       target="_blank"
                                     >
                                       Brochure

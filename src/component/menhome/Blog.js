@@ -173,7 +173,8 @@ function Blog() {
                     </div>
                 </div> */}
           </div>
-          <TwitterTimeline />
+
+          {/* <TwitterTimeline /> */}
         </div>
       </section>
     </>
