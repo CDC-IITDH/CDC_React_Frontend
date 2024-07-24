@@ -36,6 +36,7 @@ const Interninfo = () => {
       alignItems: "center",
       justifyContent: "center",
       margin: "0 auto",
+      marginBottom:"10px"
     },
     text: {
       color: "black",
@@ -61,6 +62,7 @@ const Interninfo = () => {
     mobile: {
       padding: "5%",
       width: "100%",
+      marginBottom:"10px"
     },
   };
   return (
@@ -76,7 +78,7 @@ const Interninfo = () => {
         </h3>
         <div style={styles.section}>
           <h4 style={styles.sectionTitle}>
-            1. Fill the Internship Notification Form
+            Fill the Internship Notification Form
           </h4>
           <div style={styles.sub1}>
             <h5 style={styles.text}>
@@ -118,7 +120,7 @@ const Interninfo = () => {
             </h5>
           </div>
         </div>
-        <div style={styles.section}>
+        {/* <div style={styles.section}>
           <h4 style={styles.sectionTitle}>2. Pre-assessment / Shortlist</h4>
           <div style={styles.sub1}>
             <h5 style={styles.text}>
@@ -127,8 +129,8 @@ const Interninfo = () => {
               their resumes.
             </h5>
           </div>
-        </div>
-        <div style={styles.section}>
+        </div> */}
+        {/* <div style={styles.section}>
           <h4 style={styles.sectionTitle}>3. Examination / Test</h4>
           <div style={styles.sub1}>
             <h5 style={styles.text}>
@@ -137,8 +139,8 @@ const Interninfo = () => {
               the basis of their performance in the examination.
             </h5>
           </div>
-        </div>
-        <div style={styles.section}>
+        </div> */}
+        {/* <div style={styles.section}>
           <h4 style={styles.sectionTitle}>4. Interview</h4>
           <div style={styles.sub1}>
             <h5 style={styles.text}>
@@ -148,8 +150,8 @@ const Interninfo = () => {
               help in arranging for the interview in the campus.
             </h5>
           </div>
-        </div>
-        <div style={styles.section}>
+        </div> */}
+        {/* <div style={styles.section}>
           <h4 style={styles.sectionTitle}>5. Offer</h4>
           <div style={styles.sub1}>
             <h5 style={styles.text}>
@@ -157,8 +159,8 @@ const Interninfo = () => {
               the students selected, offering to join the internship.
             </h5>
           </div>
-        </div>
-        <div style={styles.section}>
+        </div> */}
+        {/* <div style={styles.section}>
           <h4 style={styles.sectionTitle}>6. Student Accept / Reject</h4>
           <div style={styles.sub1}>
             <h5 style={styles.text}>
@@ -167,7 +169,7 @@ const Interninfo = () => {
               decision within the stipulated time.
             </h5>
           </div>
-        </div>
+        </div> */}
       </div>
     </div>
   );

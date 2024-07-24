@@ -54,7 +54,7 @@ function About() {
                   </h5>
                   <h2>A Few Words About IIT Dharwad</h2>
                 </div>
-                <p className="txt-clr">
+                <p className="txt-clr" style={{textAlign:"justify"}}>
                   {/* Our community is being called to reimagine the future. As the only
                         university where a renowned design school comes together with
                         premier colleges, we are making learning more relevant and
@@ -66,7 +66,7 @@ function About() {
                   establishing themselves in the higher echelons of any field
                   they venture into.
                 </p>
-                <p>
+                <p style={{textAlign:"justify"}}>
                   {/* We are proud to offer top ranige in employment services such and
                         asser payroll and benefits administrato managemen and asistance with
                         global business range ployment employer readings from religious

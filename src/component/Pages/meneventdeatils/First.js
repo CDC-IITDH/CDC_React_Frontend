@@ -118,7 +118,7 @@ function First({eventsData}) {
                       </div>
                       </div>
                     )}
-                                    <p>{description}
+                                    <p style={{textAlign:"justify"}}>{description}
                                         {/* The world of search engine optimization is complex and
                                         ever-changing, but you can easily understand the basics, and even
                                         a small amount of SEO knowledge can make a big difference. Free
@@ -130,7 +130,7 @@ function First({eventsData}) {
                                         marketing the unique value of your site.Etiam pharetra erat sed
                                         fermentum feugiat velit mauris egestas quam ut erat justo. */}
                                     </p>
-                                    <p>
+                                    <p style={{textAlign:"justify"}}>
                                        {details}
                                     </p>
                                     {/*

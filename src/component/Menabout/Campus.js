@@ -92,7 +92,7 @@ function Campus() {
                 <div className="dnumber"></div>
                 <div className="text">
                   <h2>About CDC</h2>
-                  <p>
+                  <p style={{textAlign:"justify"}}>
                     CDC is a student driven body of IIT Dharwad that supports
                     the student community in shaping and managing their careers
                     by building critical ingredients required for a student to

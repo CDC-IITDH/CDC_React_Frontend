@@ -119,7 +119,7 @@ function Sliderone() {
                         IIT Dharwad
                       </h2>
 
-                      <p data-animation="fadeInUp" data-delay=".6s">
+                      <p data-animation="fadeInUp" data-delay=".6s" style={{textAlign:"justify"}}>
                         CDC is a student-driven body of IIT Dharwad that
                         supports the student community in shaping and managing
                         their careers by building critical ingredients required

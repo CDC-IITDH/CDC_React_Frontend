@@ -33,7 +33,7 @@ function University() {
                   </h5>
                   <h2>A Few Words About IIT Dharwad</h2>
                 </div>
-                <p className="txt-clr">
+                <p className="txt-clr" style={{textAlign:"justify"}}>
                   {/* Our community is being called to reimagine the future. As the only
                         university where a renowned design school comes together with
                         premier colleges, we are making learning more relevant and
@@ -45,7 +45,7 @@ function University() {
                   engineers who are capable of establishing themselves in the
                   higher echelons of any field they venture into.
                 </p>
-                <p>
+                <p style={{textAlign:"justify"}}>
                   {/* We are proud to offer top ranige in employment services such and
                         asser payroll and benefits administrato managemen and asistance with
                         global business range ployment employer readings from religious
@@ -57,19 +57,19 @@ function University() {
                   Computer Science, Physics, Humanities and Social Sciences,
                   Biosciences Bioengineering and Chemistry.
                 </p>
-                <p>
+                <p style={{textAlign:"justify"}}>
                   The institute aims to make education an innovative and
                   enriching experience through a unique blend of academic,
                   sports and extra-curricular programs delivered within a
                   student-centric culture to enable the younger generation
                   emerge as future leaders.
                 </p>
-                <p>
+                <p style={{textAlign:"justify"}}>
                   The overall academic environment in the institution is highly
                   conducive for achieving academic excellence and for developing
                   analytical abilities, ethics and integrity.
                 </p>
-                <p>
+                <p style={{textAlign:"justify"}}>
                   Apart from academic excellence, the institute lays emphasis on
                   research temperament, entrepreneurship and motivates its
                   students to recognize their true potential without the fear of
