@@ -137,7 +137,7 @@ const Placementinfo = () => {
         </h3>
       </div>
       <div style={isDesktop ? styles.desktop : styles.mobile}>
-        <div>
+        <div style={{marginBottom:"20px"}}>
           <h3 style={styles.text}>Fill the Job Notification Form</h3>
           <h5 style={styles.subText}>
             Interested companies will fill out the{" "}
@@ -155,7 +155,7 @@ const Placementinfo = () => {
           <h5 style={styles.subText}>
             Before filling the form kindly refer to the
             <a
-              href="https://drive.google.com/file/d/1N3gjPwgOSC2XvUOwhdcfDpJ74VrTUHUt/view"
+              href="https://drive.google.com/file/d/12pAxMUUjzrhTeVq0xXWOv84mGW_dbEvO/view"
               target="_blank"
               style={{ color: "rgb(255, 115, 80)" }}
             >

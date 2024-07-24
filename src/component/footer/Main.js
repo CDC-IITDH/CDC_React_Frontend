@@ -45,10 +45,10 @@ function Main() {
                   <div className="f-widget-title">
                     <h2>About Us</h2>
                   </div>
-                  <div className="f-contact">
+                  <div className="f-contact" style={{marginRight:"10px"}}>
                     {" "}
                     {/* about cdc */}
-                    <p>
+                    <p style={{textAlign:"justify"}}>
                       CDC is a student-driven body of IIT Dharwad that the
                       student community in shaping and managing their careers by
                       building critical ingredients required for a student to be
@@ -183,21 +183,21 @@ function Main() {
                   </div>
                   <div className="f-contact">
                     <ul>
-                      {/* <li>
+                      <li>
                         <div style={{ display: "flex", alignItems: "center" }}>
                           <i className="icon fal fa-phone" />
                           <span>
-                             <Link to="tel:+14440008888">+1 (444) 000-8888</Link>
-                                <br /> 
+                             {/* <Link to="tel:+14440008888">+1 (444) 000-8888</Link>
+                                <br />  */}
                             <Link
                               style={{ display: "block" }}
-                              to="tel:+91 88268 24591"
+                              to="tel:+91 8553316439"
                             >
-                              +91 88268 24591
+                              +91 8553316439
                             </Link>
                           </span>
                         </div>
-                      </li>*/}
+                      </li>
                       <li>
                         <div style={{ display: "flex", alignItems: "center" }}>
                           <i className="icon fal fa-envelope" />
