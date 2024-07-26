@@ -1,27 +1,142 @@
 [
   {
     "id": "1",
-    "question": "When does the internship and placement programmes start for season 2023-24 ?",
-    "answer": "Placement drive and internship drive is starting from September 1, 2023. You can register for the same by filling the INF/JNF form. Contact us for more details."
+    "question": "When Does the Placement and Internship Programmes start for the Season 2024-25 ?",
+    "answer": "Placement drive and internship drive is starting from September 1, 2024. You can register for the same by filling the INF/JNF form. Contact us for more details."
   },
   {
     "id": "2",
-    "question": "Any fee associated with the process ?",
-    "answer": "No, the companies are not required to pay any fees."
+    "question": "Brief about the programmes offered by IITdh ?",
+    "answer": {
+      "B.Tech": [
+        "Computer Science and Engineering",
+        "Electrical Engineering",
+        "Mechanical Engineering",
+        "Engineering Physics",
+        "Civil & Infrastructure Engineering",
+        "Chemical & Biochemical Engineering",
+        "Mathematics & Computing"
+      ],
+      "M.Tech": [
+        "Computer Science & Engineering",
+        "Electrical Engineering",
+        "Mechanical Engineering"
+      ],
+      "MS": [
+        "Computer Science & Engineering",
+        "Electrical Engineering",
+        "Mechanical Engineering"
+      ],
+      "BSMS (Interdisciplinary Sciences)": [
+        "Physics",
+        "Chemistry",
+        "Mathematics",
+        "Biology"
+      ],
+      "P.hD": [
+        "Bioscience and Bioengineering",
+        "Chemical Engineering",
+        "Chemistry",
+        "Civil & Infrastructure Engineering",
+        "Computer Science & Engineering",
+        "Electrical Engineering",
+        "Humanities",
+        "Mechanical Engineering",
+        "Mathematics",
+        "Physics"
+      ]
+    }
   },
   {
     "id": "3",
-    "question": "Brief about the courses offered at IITDh ?",
-    "answer": "IIT Dharwad has B.Tech. , MS and PhD programs. B.Tech has 3 departments Computer Science Engineering ,Electrical Engineering, and Mechanical Engineering each having a batch strength of 45, 40, and 35 respectively. MS and PhD from 3 departments Computer Science Engineering . Electrical Engineering. and Mechanical Engineering. There is also a Engineering Physics department introduced from Btech batch of 2021-25."
+    "question": "In which modes can be the selection process can be conducted ?",
+    "answer": "our campus which is equipped to organize a Physical, Online or hybrid selection process, based on your selection process.The company can choose the mode of selection procedure as per their convenience."
   },
   {
     "id": "4",
-    "question": "In which modes can the selection procedure be conducted? (offline/online)",
-    "answer": "The selection procedure can be conducted in both online and offline mode. The company can choose the mode of selection procedure as per their convenience."
+    "question": "The Company has filled the JNF/INF, now what is the next step?",
+    "answer": "On successful submission of JNF/INF, CDC has received your details and the Public Relation Coordinator will connect with you soon , who will assist you in the whole interview process. In case of queries or doubts, please give a call on +91-8553316439 (Sameer Joshi, Placement Executive) or email us at cdc@iitdh.ac.in or cdcfic@iitdh.ac.in"
   },
   {
     "id": "5",
-    "question": "The company has already filled the INF/JNF, now what is the next step ?",
-    "answer": "On successful submission of INF/JNF and verification of your Email, we have received your details. We are in process of assigning a Public Relation officer for you, they will get in touch with you soon. Feel free to contact us at cdc@iitdh.ac.in for any queries."
+    "question": "What is the Job Policy IITdh is following ?",
+    "answer": "From this year, we are following the One Regular Job and One Dream Job (1.5 X of the regular job CTC) policy."
+  },
+  {
+    "id": "6",
+    "question": "Which branches are available for the placements?",
+    "answer": {
+      "B.Tech": [
+        "Computer Science and Engineering",
+        "Electrical Engineering",
+        "Mechanical Engineering",
+        "Engineering Physics"
+      ],
+      "M.Tech": [
+        "Computer Science & Engineering",
+        "Electrical Engineering",
+        "Mechanical Engineering"
+      ],
+      "MS": [
+        "Computer Science & Engineering",
+        "Electrical Engineering",
+        "Mechanical Engineering"
+      ],
+      "P.hD": [
+        "Bioscience and Bioengineering",
+        "Chemical Engineering",
+        "Chemistry",
+        "Civil & Infrastructure Engineering",
+        "Computer Science & Engineering",
+        "Electrical Engineering",
+        "Humanities",
+        "Mechanical Engineering",
+        "Mathematics",
+        "Physics"
+      ]
+    }
+  },
+  {
+    "id": "7",
+    "question": "Which branches are available for the Internships only?",
+    "answer": {
+      "B.Tech": [
+        "Computer Science and Engineering",
+        "Electrical Engineering",
+        "Mechanical Engineering",
+        "Engineering Physics",
+        "Civil & Infrastructure Engineering",
+        "Chemical & Biochemical Engineering",
+        "Mathematics & Computing"
+      ],
+      "M.Tech": [
+        "Computer Science & Engineering",
+        "Electrical Engineering",
+        "Mechanical Engineering"
+      ],
+      "MS": [
+        "Computer Science & Engineering",
+        "Electrical Engineering",
+        "Mechanical Engineering"
+      ],
+      "BSMS (Interdisciplinary Sciences)": [
+        "Physics",
+        "Chemistry",
+        "Mathematics",
+        "Biology"
+      ],
+      "P.hD": [
+        "Bioscience and Bioengineering",
+        "Chemical Engineering",
+        "Chemistry",
+        "Civil & Infrastructure Engineering",
+        "Computer Science & Engineering",
+        "Electrical Engineering",
+        "Humanities",
+        "Mechanical Engineering",
+        "Mathematics",
+        "Physics"
+      ]
+    }
   }
 ]
