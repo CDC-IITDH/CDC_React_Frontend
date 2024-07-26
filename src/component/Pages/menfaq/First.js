@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import { Link } from "react-router-dom";
 import faqData from "../../../data/recruiterFAQs.json";
-import faqImage from "../../../assets/img/features/Faq-Image.jpg"
+import faqImage from "../../../assets/img/features/Faq-Image.jpg";
 function First() {
   const [video, setVideo] = useState();
 
@@ -9,6 +9,19 @@ function First() {
 
   const handleToggle = (index) => {
     setActiveIndex((prevIndex) => (prevIndex === index ? null : index));
+  };
+
+  const renderBranches = (branches) => {
+    return Object.entries(branches).map(([degree, branchesList]) => (
+      <div key={degree}>
+        <h4>{degree}</h4>
+        <ol>
+          {branchesList.map((branch, index) => (
+            <li key={index}>{branch}</li>
+          ))}
+        </ol>
+      </div>
+    ));
   };
 
   return (
@@ -22,24 +35,21 @@ function First() {
               data-delay=".4s"
             >
               <div
-                // className="s-video-wrap2" 
-                style={{display:"flex",alignItems:"flex-start"}}
+                // className="s-video-wrap2"
+                style={{ display: "flex", alignItems: "flex-start" }}
                 // style={{ backgroundImage: "url(assets/img/bg/video-img3.png)" }}
               >
-                <div 
+                <div
                 // className="s-video-content text-center"
                 >
                   {/* <h6> */}
-                    {/* <Link
+                  {/* <Link
                       to="#"
                       className="popup-video mb-50"
                       onClick={() => setVideo(true)}
                     > */}
-                      <img
-                        src={faqImage}
-                        alt="circle_right"
-                      />
-                    {/* </Link> */}
+                  <img src={faqImage} alt="circle_right" />
+                  {/* </Link> */}
                   {/* </h6> */}
                 </div>
               </div>
@@ -79,7 +89,11 @@ function First() {
                         }`}
                         data-bs-parent="#accordionExample"
                       >
-                        <div className="card-body">{item.answer}</div>
+                        <div className="card-body">
+                          {typeof item.answer === "object"
+                            ? renderBranches(item.answer)
+                            : item.answer}
+                        </div>
                       </div>
                     </div>
                   ))}
