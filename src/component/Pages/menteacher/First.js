@@ -14,7 +14,7 @@ import facultyAdvisorsImage6 from "../../../assets/img/team/Ramesh_Nayaka_Image.
 
 import teamMemberImage1 from "../../../assets/img/team/srihari.jpeg";
 import teamMemberImage2 from "../../../assets/img/team/agrim.jpeg";
-import teamMemberImage3 from "../../../assets/img/team/saksham.jpeg";
+import teamMemberImage3 from "../../../assets/img/team/varun.jpg";
 import placementExecutiveImage from "../../../assets/img/team/Sameer_Joshi_Image.jpg";
 
 function First() {
@@ -103,13 +103,13 @@ function First() {
       instagram: "https://www.instagram.com/agrimjain_26/",
     },
     {
-      name: "Saksham Chhimwal",
+      name: "Varun Limaye",
       role: "",
       image: teamMemberImage3,
-      phone: "+91 82795 69911",
-      mail: "210010046@iitdh.ac.in",
-      linkedin: "https://www.linkedin.com/in/saksham-chhimwal-838baa25a/",
-      instagram: "https://www.instagram.com/sakshamchhimwal/",
+      phone: "+91 96041 89100",
+      mail: "varunlimaye1771@gmail.com ",
+      linkedin: "https://www.linkedin.com/in/varunlimaye1771/",
+      instagram: "https://www.instagram.com/jackwtf1771",
     },
     {
       name: "Srihari K G",
