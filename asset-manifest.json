@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.30249509.css",
-    "main.js": "/static/js/main.ad6335f3.js",
+    "main.js": "/static/js/main.90570eb0.js",
     "static/media/fa-duotone-900.svg": "/static/media/fa-duotone-900.e2ad3965c2a9e62098b9.svg",
     "static/media/fa-light-300.svg": "/static/media/fa-light-300.9dd7bbb937f23efa25fb.svg",
     "static/media/fa-regular-400.svg": "/static/media/fa-regular-400.4e2c87c166dd32bc2485.svg",
@@ -81,6 +81,7 @@
     "static/media/entrupy.png": "/static/media/entrupy.6ce932f13bd021e40fea.png",
     "static/media/Vandana_Bharti_Image.jpeg": "/static/media/Vandana_Bharti_Image.7c87d76e8aa47ec1c70c.jpeg",
     "static/media/fa-brands-400.woff": "/static/media/fa-brands-400.97667d8cd09ef6acdf71.woff",
+    "static/media/varun.jpg": "/static/media/varun.663af40ca726f1c2da34.jpg",
     "static/media/Ramesh_Nayaka_Image.jpeg": "/static/media/Ramesh_Nayaka_Image.a6c511064b964f3d5052.jpeg",
     "static/media/yogesh.jpg": "/static/media/yogesh.cc50d5157d342e56a701.jpg",
     "static/media/fa-brands-400.woff2": "/static/media/fa-brands-400.6e6a4a81a7f71c0ba134.woff2",
@@ -119,7 +120,6 @@
     "static/media/cred.png": "/static/media/cred.bb540444f04a661803ee.png",
     "static/media/aptean.png": "/static/media/aptean.c2aecae174bcfb325c6c.png",
     "static/media/Sameer_Joshi_Image.jpg": "/static/media/Sameer_Joshi_Image.93dc3a15bf87e22c0dbc.jpg",
-    "static/media/saksham.jpeg": "/static/media/saksham.e0dae4ae56db7c06462d.jpeg",
     "static/media/1200px-ITI_Limited_logo.svg-min.png": "/static/media/1200px-ITI_Limited_logo.svg-min.46108ff6b9ae909a77d3.png",
     "static/media/maq_software.png": "/static/media/maq_software.b98284983ab6e6ef4a42.png",
     "static/media/gupshup.jpeg": "/static/media/gupshup.db4eb04b3ac088a9d9e1.jpeg",
@@ -130,10 +130,10 @@
     "static/media/mmrfi.jpg": "/static/media/mmrfi.62d4ad283ad2ae086a0f.jpg",
     "index.html": "/index.html",
     "main.30249509.css.map": "/static/css/main.30249509.css.map",
-    "main.ad6335f3.js.map": "/static/js/main.ad6335f3.js.map"
+    "main.90570eb0.js.map": "/static/js/main.90570eb0.js.map"
   },
   "entrypoints": [
     "static/css/main.30249509.css",
-    "static/js/main.ad6335f3.js"
+    "static/js/main.90570eb0.js"
   ]
 }
