@@ -1,16 +1,10 @@
 import React from "react";
 import { Link } from "react-router-dom";
 import image1 from "../../assets/img/features/About-Home.jpg";
-import TPO_ad from "../../assets/img/TPO/Advertisement_TPO_page-0001.jpg";
 
 function About() {
   return (
     <>
-      <section>
-        <div className="container mt-40 mb-40 ">
-          <img src={TPO_ad} alt="" />
-        </div>
-      </section>
       <section
         className="about-area about-p pt-120 pb-120 p-relative fix"
         style={{ background: "#eff7ff" }}
