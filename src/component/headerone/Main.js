@@ -58,8 +58,7 @@ function Main() {
                           <ul>
                             <li>
                               <Link
-                                to="https://drive.google.com/file/d/1P8z5w-PVAl3w6p2Z8kWgSDOUPukuMx--/view?usp=sharing"
-                                target="_blank"
+                               
                               >
                                 Placements - Rules & Regulations
                               </Link>
@@ -67,8 +66,6 @@ function Main() {
                             <li>
                               {" "}
                               <Link
-                                to="https://drive.google.com/file/d/1PLHd6BiXP7fAbQaob8o0juXZzRSu8vWa/view"
-                                target="_blank"
                               >
                                 Internships - Rules & Regulations
                               </Link>
@@ -227,8 +224,7 @@ function Main() {
                                 <ul style={{ display: "block" }}>
                                   <li onClick={() => setmobile(!mobile)}>
                                     <Link
-                                      to="https://drive.google.com/file/d/1P8z5w-PVAl3w6p2Z8kWgSDOUPukuMx--/view?usp=sharing"
-                                      target="_blank"
+                                      
                                     >
                                       Placements - Rules & Regulations
                                     </Link>
@@ -236,8 +232,7 @@ function Main() {
                                   <li onClick={() => setmobile(!mobile)}>
                                     {" "}
                                     <Link
-                                      to="https://drive.google.com/file/d/1PLHd6BiXP7fAbQaob8o0juXZzRSu8vWa/view"
-                                      target="_blank"
+                                     
                                     >
                                       Internships - Rules & Regulations
                                     </Link>
