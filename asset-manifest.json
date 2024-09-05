@@ -1,14 +1,13 @@
 {
   "files": {
     "main.css": "/static/css/main.30249509.css",
-    "main.js": "/static/js/main.98004b94.js",
+    "main.js": "/static/js/main.bca4ffaa.js",
     "static/media/fa-duotone-900.svg": "/static/media/fa-duotone-900.e2ad3965c2a9e62098b9.svg",
     "static/media/fa-light-300.svg": "/static/media/fa-light-300.9dd7bbb937f23efa25fb.svg",
     "static/media/fa-regular-400.svg": "/static/media/fa-regular-400.4e2c87c166dd32bc2485.svg",
     "static/media/fa-solid-900.svg": "/static/media/fa-solid-900.4cc469b44aa813f1716d.svg",
     "static/media/Gallery-35.jpg": "/static/media/Gallery-35.1a2dae1bd8073614459c.jpg",
     "static/media/Suvamay_Jana_Image.jpeg": "/static/media/Suvamay_Jana_Image.584e26a2c84fda58410e.jpeg",
-    "static/media/Advertisement_TPO_page-0001.jpg": "/static/media/Advertisement_TPO_page-0001.a2a2941df5aa9bbf99bb.jpg",
     "static/media/fa-brands-400.svg": "/static/media/fa-brands-400.bf400661c005d8597892.svg",
     "static/media/Gallery-14.jpg": "/static/media/Gallery-14.f9ba861a8ed2a049d072.jpg",
     "static/media/Gallery-11.jpg": "/static/media/Gallery-11.7aea706c11e327490c6c.jpg",
@@ -130,10 +129,10 @@
     "static/media/mmrfi.jpg": "/static/media/mmrfi.62d4ad283ad2ae086a0f.jpg",
     "index.html": "/index.html",
     "main.30249509.css.map": "/static/css/main.30249509.css.map",
-    "main.98004b94.js.map": "/static/js/main.98004b94.js.map"
+    "main.bca4ffaa.js.map": "/static/js/main.bca4ffaa.js.map"
   },
   "entrypoints": [
     "static/css/main.30249509.css",
-    "static/js/main.98004b94.js"
+    "static/js/main.bca4ffaa.js"
   ]
 }
