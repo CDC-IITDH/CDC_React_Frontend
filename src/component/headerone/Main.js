@@ -58,7 +58,8 @@ function Main() {
                           <ul>
                             <li>
                               <Link
-                               
+                                to="https://drive.google.com/file/d/1TMw1GLrgmZ2Ay9GUJFRHEtTOA4L3Znb_/view?usp=sharing"
+                                target="_blank"
                               >
                                 Placements - Rules & Regulations
                               </Link>
@@ -224,7 +225,8 @@ function Main() {
                                 <ul style={{ display: "block" }}>
                                   <li onClick={() => setmobile(!mobile)}>
                                     <Link
-                                      
+                                      to="https://drive.google.com/file/d/1TMw1GLrgmZ2Ay9GUJFRHEtTOA4L3Znb_/view?usp=sharing"
+                                target="_blank"
                                     >
                                       Placements - Rules & Regulations
                                     </Link>
