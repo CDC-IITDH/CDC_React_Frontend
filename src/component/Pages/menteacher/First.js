@@ -103,15 +103,6 @@ function First() {
       instagram: "https://www.instagram.com/agrimjain_26/",
     },
     {
-      name: "Varun Limaye",
-      role: "",
-      image: teamMemberImage3,
-      phone: "+91 96041 89100",
-      mail: "varunlimaye1771@gmail.com ",
-      linkedin: "https://www.linkedin.com/in/varunlimaye1771/",
-      instagram: "https://www.instagram.com/jackwtf1771",
-    },
-    {
       name: "Srihari K G",
       role: "",
       image: teamMemberImage1,
@@ -201,6 +192,7 @@ function First() {
       "R Eshwar",
       "Akella Vyaghra Satya Sreenivasu",
       "Parikshit Gehlaut",
+      "Shiv Mohan"
     ],
   ];
 
@@ -327,7 +319,7 @@ function First() {
               </div>
               <div className="row">
                 {teamMembers.map((member, index) => (
-                  <div key={index} className="col-xl-4 col-md-6">
+                  <div key={index} className="col-xl-6 col-md-6">
                     <div
                       className="single-team mb-40"
                       style={{ minHeight: "350px" }}
