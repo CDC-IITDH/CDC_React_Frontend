@@ -1,7 +1,7 @@
 import React from "react";
 import { Link } from "react-router-dom";
 
-import defaultProfileImage from "../../../assets/img/team/default-avatar-profile.jpg";
+import DefaultImage from "../../../assets/img/team/default-avatar-profile.jpg";
 import facultyInChargeImage1 from "../../../assets/img/team/Satya_Priya_Image.jpeg";
 import facultyInChargeImage2 from "../../../assets/img/team/ankit_v_k.JPG";
 
@@ -37,14 +37,38 @@ function First() {
     },
   ];
 
+  const TPO = [
+    {
+      name: "Jayanti M Belur",
+      role: "Training & Placement Officer",
+      dept: "",
+      image: DefaultImage,
+      phone: "+91 63625 42567",
+      mail: "jayantibelur@iitdh.ac.in",
+      position: "Training & Placement Officer",
+    },
+  ]
+
   const placementExecutive = [
     {
       name: "Sameer Joshi",
       role: "Placement Executive",
+      dept: "",
       image: placementExecutiveImage,
       phone: "+91 85533 16439",
       mail: "sameerjoshi@iitdh.ac.in",
+      position: "Placement Executive",
     },
+    {
+      name: "Jayanti M Belur",
+      role: "Training & Placement Officer",
+      dept: "",
+      image: DefaultImage,
+      phone: "+91 63625 42567",
+      mail: "jayantibelur@iitdh.ac.in",
+      position: "Training & Placement Officer",
+    },
+    
   ];
 
   const facultyAdvisors = [
@@ -252,17 +276,19 @@ function First() {
                 ))}
               </div>
             </div>
+            {/* <div className="d-flex justify-content-center row"> */}
             {placementExecutive.length > 0 && (
               <div className="col">
                 <div
                   className="d-flex justify-content-center"
                   style={{ paddingBottom: "30px", paddingTop: "10px" }}
                 >
-                  <h2>Placement Executive</h2>
+                 
                 </div>
                 <div className="row d-flex justify-content-center">
                   {placementExecutive.map((member, index) => (
                     <div key={index} className="col-xl-3 col-md-6">
+                      <h5 className="text-center">{member.position}</h5>
                       <div className="single-team mb-40">
                         <div className="team-thumb">
                           <div className="brd">
@@ -309,6 +335,9 @@ function First() {
                 </div>
               </div>
             )}
+
+            
+            {/* </div> */}
             {/* CDC Student Heads */}
             <div className="col">
               <div
