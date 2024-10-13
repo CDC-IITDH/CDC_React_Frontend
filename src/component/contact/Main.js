@@ -13,6 +13,7 @@ import teamMemberImage1 from "../../assets/img/team/srihari.jpeg";
 import teamMemberImage2 from "../../assets/img/team/agrim.jpeg";
 import teamMemberImage3 from "../../assets/img/team/varun.jpg";
 import placementExecutiveImage from "../../assets/img/team/Sameer_Joshi_Image.jpg";
+import DefaultImage from "../../assets/img/team/default-avatar-profile.jpg";
 
 function Main() {
   const facultyMembers = [
@@ -44,6 +45,15 @@ function Main() {
       mail: "sameerjoshi@iitdh.ac.in",
       position: "Placement Executive",
     },
+    {
+      name: "Jayanti M Belur",
+      role: "Training & Placement Officer",
+      dept: "",
+      image: DefaultImage,
+      phone: "+91 63625 42567",
+      mail: "jayantibelur@iitdh.ac.in",
+      position: "Training & Placement Officer",
+    },
   ];
 
   const teamMembers = [
@@ -74,7 +84,7 @@ function Main() {
         <div className="col">
           <div className="row">
             {facultyMembers.map((member, index) => (
-              <div key={index} className="col-md-4 col-12">
+              <div key={index} className="col-md-6 col-12">
                 <div
                   className="single-team mb-40"
                   style={{ minHeight: "350px" }}
