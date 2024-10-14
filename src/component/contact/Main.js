@@ -36,7 +36,23 @@ function Main() {
       mail: "aniket.kataware@iitdh.ac.in",
       position: "Faculty In Charge",
     },
+  ];
 
+  const tpo = [
+    {
+      name: "Jayanti M Belur",
+      role: "Training & Placement Officer",
+      dept: "",
+      image: TPO_Image,
+      phone: "+91 63625 42567",
+      mail: "jayantibelur@iitdh.ac.in",
+      tel: "+91 63635 42567",
+      Email: "tpo@iitdh.ac.in",
+      position: "Training & Placement Officer",
+    },
+  ];
+
+  const placement_Executive = [
     {
       name: "Sameer Joshi",
       role: "Placement Executive",
@@ -46,17 +62,7 @@ function Main() {
       mail: "sameerjoshi@iitdh.ac.in",
       position: "Placement Executive",
     },
-    {
-      name: "Jayanti M Belur",
-      role: "Training & Placement Officer",
-      dept: "",
-      image: TPO_Image,
-      phone: "+91 63625 42567",
-      mail: "jayantibelur@iitdh.ac.in",
-      position: "Training & Placement Officer",
-    },
   ];
-
   const teamMembers = [
     {
       name: "Agrim Jain",
@@ -129,6 +135,107 @@ function Main() {
             ))}
           </div>
         </div>
+
+        {/* tpo */}
+        <div className="col">
+          <div className="row justify-content-center">
+            {tpo.map((member, index) => (
+              <div key={index} className="col-md-6 col-12">
+                <div
+                  className="single-team mb-40"
+                  style={{ minHeight: "350px" }}
+                >
+                  <div>
+                    <h3 className="text-center">
+                      <b>{member.position}</b>
+                    </h3>
+                  </div>
+                  <div className="team-thumb">
+                    <div className="brd">
+                      <Link to="#">
+                        {" "}
+                        <img src={member.image} alt="img" />
+                      </Link>
+                    </div>
+                  </div>
+                  <div className="team-info">
+                    <h4>
+                      <Link to="#">{member.name}</Link>
+                    </h4>
+                    <p>{member.role}</p>
+                    <p>{member.dept}</p>
+                    <p>{member.tel}</p>
+                    <p>{member.Email}</p>
+                    <div className="team-social">
+                      <ul>
+                        <li>
+                          <Link to={`mailto:${member.mail}`}>
+                            <i className="fa fa-envelope" />
+                          </Link>
+                        </li>
+                        <li>
+                          <Link to={`tel:${member.phone}`}>
+                            <i className="fa fa-phone" />
+                          </Link>
+                        </li>
+                      </ul>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            ))}
+          </div>
+        </div>
+
+        {/* placement_Executive */}
+        <div className="col">
+          <div className="row justify-content-center">
+            {placement_Executive.map((member, index) => (
+              <div key={index} className="col-md-6 col-12">
+                <div
+                  className="single-team mb-40"
+                  style={{ minHeight: "350px" }}
+                >
+                  <div>
+                    <h3 className="text-center">
+                      <b>{member.position}</b>
+                    </h3>
+                  </div>
+                  <div className="team-thumb">
+                    <div className="brd">
+                      <Link to="#">
+                        {" "}
+                        <img src={member.image} alt="img" />
+                      </Link>
+                    </div>
+                  </div>
+                  <div className="team-info">
+                    <h4>
+                      <Link to="#">{member.name}</Link>
+                    </h4>
+                    <p>{member.role}</p>
+                    <p>{member.dept}</p>
+                    <div className="team-social">
+                      <ul>
+                        <li>
+                          <Link to={`mailto:${member.mail}`}>
+                            <i className="fa fa-envelope" />
+                          </Link>
+                        </li>
+                        <li>
+                          <Link to={`tel:${member.phone}`}>
+                            <i className="fa fa-phone" />
+                          </Link>
+                        </li>
+                      </ul>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            ))}
+          </div>
+        </div>
+
         {/* CDC Student Heads */}
         <div className="col">
           <div
