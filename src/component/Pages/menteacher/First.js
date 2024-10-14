@@ -16,6 +16,7 @@ import teamMemberImage1 from "../../../assets/img/team/srihari.jpeg";
 import teamMemberImage2 from "../../../assets/img/team/agrim.jpeg";
 import teamMemberImage3 from "../../../assets/img/team/varun.jpg";
 import placementExecutiveImage from "../../../assets/img/team/Sameer_Joshi_Image.jpg";
+import TPO_Image from "../../../assets/img/team/Jayanti_m_b.jpg";
 
 function First() {
   const facultyInCharge = [
@@ -63,7 +64,7 @@ function First() {
       name: "Jayanti M Belur",
       role: "Training & Placement Officer",
       dept: "",
-      image: DefaultImage,
+      image: TPO_Image,
       phone: "+91 63625 42567",
       mail: "jayantibelur@iitdh.ac.in",
       position: "Training & Placement Officer",
