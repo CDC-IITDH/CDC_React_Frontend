@@ -43,12 +43,13 @@ function First() {
       name: "Jayanti M Belur",
       role: "Training & Placement Officer",
       dept: "",
-      image: DefaultImage,
+      image: TPO_Image,
       phone: "+91 63625 42567",
       mail: "jayantibelur@iitdh.ac.in",
+      Email: "tpo@iitdh.ac.in",
       position: "Training & Placement Officer",
     },
-  ]
+  ];
 
   const placementExecutive = [
     {
@@ -60,16 +61,6 @@ function First() {
       mail: "sameerjoshi@iitdh.ac.in",
       position: "Placement Executive",
     },
-    {
-      name: "Jayanti M Belur",
-      role: "Training & Placement Officer",
-      dept: "",
-      image: TPO_Image,
-      phone: "+91 63625 42567",
-      mail: "jayantibelur@iitdh.ac.in",
-      position: "Training & Placement Officer",
-    },
-    
   ];
 
   const facultyAdvisors = [
@@ -217,7 +208,7 @@ function First() {
       "R Eshwar",
       "Akella Vyaghra Satya Sreenivasu",
       "Parikshit Gehlaut",
-      "Sivamohan"
+      "Sivamohan",
     ],
   ];
 
@@ -277,15 +268,74 @@ function First() {
                 ))}
               </div>
             </div>
+
+            {/* <div className="d-flex justify-content-center row"> */}
+            {TPO.length > 0 && (
+              <div className="col">
+                <div
+                  className="d-flex justify-content-center"
+                  style={{ paddingBottom: "30px", paddingTop: "10px" }}
+                ></div>
+                <div className="row d-flex justify-content-center">
+                  {TPO.map((member, index) => (
+                    <div key={index} className="col-xl-3 col-md-6">
+                      <h5 className="text-center">{member.position}</h5>
+                      <div className="single-team mb-40">
+                        <div className="team-thumb">
+                          <div className="brd">
+                            <Link to="#">
+                              {" "}
+                              <img src={member.image} alt="img" />
+                            </Link>
+                          </div>
+                        </div>
+                        <div className="team-info">
+                          <h4>
+                            <Link to="#">{member.name}</Link>
+                          </h4>
+                          <p>{member.role}</p>
+                          <p>{member.phone}</p>
+                          <p>{member.Email}</p>
+                          <div className="team-social">
+                            <ul>
+                              {/* <li>
+                                <Link to={member.linkedin}>
+                                  <i className="fab fa-linkedin" />
+                                </Link>
+                              </li>
+                              <li>
+                                <Link to={member.instagram}>
+                                  <i className="fab fa-instagram" />
+                                </Link>
+                              </li>*/}
+                              <li>
+                                {" "}
+                                <Link to={`mailto:${member.mail}`}>
+                                  <i className="fa fa-envelope" />
+                                </Link>
+                              </li>
+                              <li>
+                                <Link to={`tel:${member.phone}`}>
+                                  <i className="fa fa-phone" />
+                                </Link>
+                              </li>
+                            </ul>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  ))}
+                </div>
+              </div>
+            )}
+
             {/* <div className="d-flex justify-content-center row"> */}
             {placementExecutive.length > 0 && (
               <div className="col">
                 <div
                   className="d-flex justify-content-center"
                   style={{ paddingBottom: "30px", paddingTop: "10px" }}
-                >
-                 
-                </div>
+                ></div>
                 <div className="row d-flex justify-content-center">
                   {placementExecutive.map((member, index) => (
                     <div key={index} className="col-xl-3 col-md-6">
@@ -337,7 +387,6 @@ function First() {
               </div>
             )}
 
-            
             {/* </div> */}
             {/* CDC Student Heads */}
             <div className="col">

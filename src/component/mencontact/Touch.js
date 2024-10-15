@@ -30,8 +30,12 @@ function Touch() {
                 </div>
                 <div className="services-content2">
                   <h5>
+                    <a href="tel:+916362542567">+91 63625 42567</a>
+                  </h5>
+                  <h5>
                     <a href="tel:+918826824591">+91 85533 16439</a>
                   </h5>
+
                   <p>Phone Support</p>
                 </div>
               </div>
@@ -46,7 +50,10 @@ function Touch() {
                 </div>
                 <div className="services-content2">
                   <h5>
-                    <a href="mailto:cdc@iitdh.ac.in">cdc@iitdh.ac.in</a>
+                    <a href="mailto:tpo@iitdh.ac.in">tpo@iitdh.ac.in</a>
+                    <div>
+                      <a href="mailto:cdc@iitdh.ac.in">cdc@iitdh.ac.in</a>
+                    </div>
                   </h5>
                   <p>Email Address</p>
                 </div>
@@ -62,7 +69,7 @@ function Touch() {
                 </div>
                 <div className="services-content2">
                   <h6>
-                    Indian Institute of Technology Dharwad, Chikka Malligwad, 
+                    Indian Institute of Technology Dharwad, Chikka Malligwad,
                     Dharwad, Karnataka 580007
                   </h6>
                   <p>Address</p>
