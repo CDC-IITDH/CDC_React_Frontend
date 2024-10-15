@@ -40,7 +40,7 @@ function Main() {
 
   const tpo = [
     {
-      name: "Jayanti M Belur",
+      name: "Dr. Jayanti M Belur",
       role: "Training & Placement Officer",
       dept: "",
       image: TPO_Image,
