@@ -23,15 +23,21 @@ function Touch() {
             <div className="col-lg-4 col-md-4">
               <div
                 className="services-box text-center"
-                style={{ minHeight: "400px" }}
+                style={{ minHeight: "496px" }}
               >
                 <div className="services-icon">
                   <img src="assets/img/bg/contact-icon01.png" alt="image" />
                 </div>
                 <div className="services-content2">
+                 <h5>
+                  <span>Training & Placement Officer</span>
+                 </h5>
                   <h5>
                     <a href="tel:+916362542567">+91 63625 42567</a>
                   </h5>
+                  <h5>
+                  <span>Placement Executive</span>
+                 </h5>
                   <h5>
                     <a href="tel:+918826824591">+91 85533 16439</a>
                   </h5>
@@ -43,18 +49,18 @@ function Touch() {
             <div className="col-lg-4 col-md-4">
               <div
                 className="services-box text-center active"
-                style={{ minHeight: "400px" }}
+                style={{ minHeight: "496px" }}
               >
                 <div className="services-icon">
                   <img src="assets/img/bg/contact-icon02.png" alt="image" />
                 </div>
                 <div className="services-content2">
-                  <h5>
+                  <h2>
                     <a href="mailto:tpo@iitdh.ac.in">tpo@iitdh.ac.in</a>
                     <div>
                       <a href="mailto:cdc@iitdh.ac.in">cdc@iitdh.ac.in</a>
                     </div>
-                  </h5>
+                  </h2>
                   <p>Email Address</p>
                 </div>
               </div>
@@ -62,16 +68,16 @@ function Touch() {
             <div className="col-lg-4 col-md-4">
               <div
                 className="services-box text-center"
-                style={{ minHeight: "400px" }}
+                style={{ minHeight: "496px" }}
               >
                 <div className="services-icon">
                   <img src="assets/img/bg/contact-icon03.png" alt="image" />
                 </div>
                 <div className="services-content2">
-                  <h6>
+                  <h4>
                     Indian Institute of Technology Dharwad, Chikka Malligwad,
                     Dharwad, Karnataka 580007
-                  </h6>
+                  </h4>
                   <p>Address</p>
                 </div>
               </div>
