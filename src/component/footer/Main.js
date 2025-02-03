@@ -187,8 +187,22 @@ function Main() {
                         <div style={{ display: "flex", alignItems: "center" }}>
                           <i className="icon fal fa-phone" />
                           <span>
-                             {/* <Link to="tel:+14440008888">+1 (444) 000-8888</Link>
-                                <br />  */}
+                            Training & Placement Officer
+                            <Link
+                              style={{ display: "block" }}
+                              to="tel: +91 63625 42567"
+                            >
+                            +91 63625 42567
+                            </Link>
+                          </span>
+                          
+                        </div>
+                      </li>
+                      <li>
+                        <div style={{ display: "flex", alignItems: "center" }}>
+                          <i className="icon fal fa-phone" />
+                          <span>
+                            Placement Executive
                             <Link
                               style={{ display: "block" }}
                               to="tel:+91 8553316439"
@@ -196,6 +210,7 @@ function Main() {
                               +91 8553316439
                             </Link>
                           </span>
+                          
                         </div>
                       </li>
                       <li>
