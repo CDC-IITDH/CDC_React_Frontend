@@ -219,12 +219,17 @@ function Main() {
                           <span>
                             <Link
                               style={{ display: "block" }}
+                              to="mailto:tpo@iitdh.ac.in"
+                            >
+                              tpo@iitdh.ac.in
+                            </Link>
+                            <Link
+                              style={{ display: "block" }}
                               to="mailto:cdc@iitdh.ac.in"
                             >
                               cdc@iitdh.ac.in
                             </Link>
-                            {/* <br />
-                                <Link to="mailto:help@example.com">help@example.com</Link> */}
+                              
                           </span>
                         </div>
                       </li>
