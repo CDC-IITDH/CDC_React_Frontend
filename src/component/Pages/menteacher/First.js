@@ -38,18 +38,18 @@ function First() {
     },
   ];
 
-  const TPO = [
-    {
-      name: "Dr. Jayanti M Belur",
-      role: "Training & Placement Officer",
-      dept: "",
-      image: TPO_Image,
-      phone: "+91 63625 42567",
-      mail: "jayantibelur@iitdh.ac.in",
-      Email: "tpo@iitdh.ac.in",
-      position: "Training & Placement Officer",
-    },
-  ];
+  // const TPO = [
+  //   {
+  //     name: "Dr. Jayanti M Belur",
+  //     role: "Training & Placement Officer",
+  //     dept: "",
+  //     image: TPO_Image,
+  //     phone: "+91 63625 42567",
+  //     mail: "jayantibelur@iitdh.ac.in",
+  //     Email: "tpo@iitdh.ac.in",
+  //     position: "Training & Placement Officer",
+  //   },
+  // ];
 
   const placementExecutive = [
     {
@@ -269,7 +269,7 @@ function First() {
               </div>
             </div>
 
-            {/* <div className="d-flex justify-content-center row"> */}
+            {/* <div className="d-flex justify-content-center row">
             {TPO.length > 0 && (
               <div className="col">
                 <div
@@ -298,16 +298,6 @@ function First() {
                           <p>{member.Email}</p>
                           <div className="team-social">
                             <ul>
-                              {/* <li>
-                                <Link to={member.linkedin}>
-                                  <i className="fab fa-linkedin" />
-                                </Link>
-                              </li>
-                              <li>
-                                <Link to={member.instagram}>
-                                  <i className="fab fa-instagram" />
-                                </Link>
-                              </li>*/}
                               <li>
                                 {" "}
                                 <Link to={`mailto:${member.mail}`}>
@@ -327,7 +317,7 @@ function First() {
                   ))}
                 </div>
               </div>
-            )}
+            )} */}
 
             {/* <div className="d-flex justify-content-center row"> */}
             {placementExecutive.length > 0 && (

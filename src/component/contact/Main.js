@@ -38,19 +38,19 @@ function Main() {
     },
   ];
 
-  const tpo = [
-    {
-      name: "Dr. Jayanti M Belur",
-      role: "Training & Placement Officer",
-      dept: "",
-      image: TPO_Image,
-      phone: "+91 63625 42567",
-      mail: "jayantibelur@iitdh.ac.in",
-      tel: "+91 63635 42567",
-      Email: "tpo@iitdh.ac.in",
-      position: "Training & Placement Officer",
-    },
-  ];
+  // const tpo = [
+  //   {
+  //     name: "Dr. Jayanti M Belur",
+  //     role: "Training & Placement Officer",
+  //     dept: "",
+  //     image: TPO_Image,
+  //     phone: "+91 63625 42567",
+  //     mail: "jayantibelur@iitdh.ac.in",
+  //     tel: "+91 63635 42567",
+  //     Email: "tpo@iitdh.ac.in",
+  //     position: "Training & Placement Officer",
+  //   },
+  // ];
 
   const placement_Executive = [
     {
@@ -136,8 +136,7 @@ function Main() {
           </div>
         </div>
 
-        {/* tpo */}
-        <div className="col">
+        {/* <div className="col">
           <div className="row justify-content-center">
             {tpo.map((member, index) => (
               <div key={index} className="col-md-6 col-12">
@@ -185,7 +184,7 @@ function Main() {
               </div>
             ))}
           </div>
-        </div>
+        </div> */}
 
         {/* placement_Executive */}
         <div className="col">
