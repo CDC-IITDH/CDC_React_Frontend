@@ -183,10 +183,10 @@ function Main() {
                   </div>
                   <div className="f-contact">
                     <ul>
-                      <li>
-                        <div style={{ display: "flex", alignItems: "center" }}>
-                          <i className="icon fal fa-phone" />
-                          <span>
+                      {/* <li> */}
+                        {/* <div style={{ display: "flex", alignItems: "center" }}> */}
+                          {/* <i className="icon fal fa-phone" /> */}
+                          {/* <span>
                             Training & Placement Officer
                             <Link
                               style={{ display: "block" }}
@@ -194,10 +194,10 @@ function Main() {
                             >
                             +91 63625 42567
                             </Link>
-                          </span>
+                          </span> */}
                           
-                        </div>
-                      </li>
+                        {/* </div> */}
+                      {/* </li> */}
                       <li>
                         <div style={{ display: "flex", alignItems: "center" }}>
                           <i className="icon fal fa-phone" />

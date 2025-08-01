@@ -29,12 +29,7 @@ function Touch() {
                   <img src="assets/img/bg/contact-icon01.png" alt="image" />
                 </div>
                 <div className="services-content2">
-                 <h5>
-                  <span>Training & Placement Officer</span>
-                 </h5>
-                  <h5>
-                    <a href="tel:+916362542567">+91 63625 42567</a>
-                  </h5>
+                 
                   <h5>
                   <span>Placement Executive</span>
                  </h5>
