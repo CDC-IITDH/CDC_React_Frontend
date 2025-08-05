@@ -183,21 +183,24 @@ function Main() {
                   </div>
                   <div className="f-contact">
                     <ul>
-                      {/* <li> */}
-                        {/* <div style={{ display: "flex", alignItems: "center" }}> */}
-                          {/* <i className="icon fal fa-phone" /> */}
-                          {/* <span>
+                      <li>
+                        <div style={{ display: "flex", alignItems: "center" }}>
+                          <i className="icon fal fa-phone" />
+                          <span>
                             Training & Placement Officer
+                           
                             <Link
                               style={{ display: "block" }}
-                              to="tel: +91 63625 42567"
+                              to="tel: +91- 9010162099"
                             >
-                            +91 63625 42567
+                              Mr.Murali Krishna : +91- 9010162099
+                              <br />
+                              Mr. Nethaji Kumar : +91-9633892340
                             </Link>
-                          </span> */}
+                          </span>
                           
-                        {/* </div> */}
-                      {/* </li> */}
+                        </div>
+                      </li>
                       <li>
                         <div style={{ display: "flex", alignItems: "center" }}>
                           <i className="icon fal fa-phone" />

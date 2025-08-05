@@ -9,7 +9,7 @@ import facultyAdvisorsImage1 from "../../../assets/img/team/Vandana_Bharti_Image
 import facultyAdvisorsImage2 from "../../../assets/img/team/Sairam_Boggavarapu_Image.jpeg";
 import facultyAdvisorsImage3 from "../../../assets/img/team/Naveen_MB_Image.jpeg";
 import facultyAdvisorsImage4 from "../../../assets/img/team/Dhriti_Sundar_Ghosh_Image.jpeg";
-import facultyAdvisorsImage5 from "../../../assets/img/team/Suvamay_Jana_Image.jpeg";
+import facultyAdvisorsImage5 from "../../../assets/img/team/ghosh.jpg";
 import facultyAdvisorsImage6 from "../../../assets/img/team/Ramesh_Nayaka_Image.jpeg";
 
 import teamMemberImage1 from "../../../assets/img/team/surya.jpeg";
@@ -101,11 +101,11 @@ function First() {
       mail: "dhriti.ghost@iitdh.ac.in",
     },
     {
-      name: "Dr. Suvamay Jana",
+      name: "Dr. Shashwata Ghosh",
       role: "Assistant Professor",
       dept: "Dept. of Chemical Engineering",
       image: facultyAdvisorsImage5,
-      mail: "suvamay@iitdh.ac.in",
+      mail: "shashwata.ghosh@iitdh.ac.in",
     },
     {
       name: "Dr. Ramesh Nayaka",

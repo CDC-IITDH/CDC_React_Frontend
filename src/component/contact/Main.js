@@ -48,6 +48,8 @@ function Main() {
       mail: "muralik@iitdh.ac.in",
       Email: "muralik@iitdh.ac.in",
       position: "Training & Placement Officer",
+      phone: "+91-9010162099",
+      tel: "+91-9010162099",
     },
     {
       name: "Nethaji Kumar D",
@@ -57,6 +59,8 @@ function Main() {
       mail: "nethajikumar@iitdh.ac.in",
       Email: "nethajikumar@iitdh.ac.in",
       position: "Training & Placement Officer",
+      phone:" +91-9633892340",
+      tel: "+91-9633892340",
     },
   ];
 
