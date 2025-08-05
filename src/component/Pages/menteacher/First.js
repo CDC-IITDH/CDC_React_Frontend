@@ -12,11 +12,12 @@ import facultyAdvisorsImage4 from "../../../assets/img/team/Dhriti_Sundar_Ghosh_
 import facultyAdvisorsImage5 from "../../../assets/img/team/Suvamay_Jana_Image.jpeg";
 import facultyAdvisorsImage6 from "../../../assets/img/team/Ramesh_Nayaka_Image.jpeg";
 
-import teamMemberImage1 from "../../../assets/img/team/srihari.jpeg";
-import teamMemberImage2 from "../../../assets/img/team/agrim.jpeg";
+import teamMemberImage1 from "../../../assets/img/team/surya.jpeg";
+import teamMemberImage2 from "../../../assets/img/team/mohit.jpeg";
 import teamMemberImage3 from "../../../assets/img/team/varun.jpg";
 import placementExecutiveImage from "../../../assets/img/team/Sameer_Joshi_Image.jpg";
-import TPO_Image from "../../../assets/img/team/Jayanti_m_b.jpg";
+import TPO_Image from "../../../assets/img/team/Murali.jpeg";
+import tpo1 from "../../../assets/img/team/nethaji.jpeg";
 
 function First() {
   const facultyInCharge = [
@@ -38,19 +39,26 @@ function First() {
     },
   ];
 
-  // const TPO = [
-  //   {
-  //     name: "Dr. Jayanti M Belur",
-  //     role: "Training & Placement Officer",
-  //     dept: "",
-  //     image: TPO_Image,
-  //     phone: "+91 63625 42567",
-  //     mail: "jayantibelur@iitdh.ac.in",
-  //     Email: "tpo@iitdh.ac.in",
-  //     position: "Training & Placement Officer",
-  //   },
-  // ];
-
+  const TPO = [
+    {
+      name: "Murali Krishna E",
+      role: "Training & Placement Officer",
+      dept: "",
+      image: TPO_Image,
+      mail: "muralik@iitdh.ac.in",
+      Email: "muralik@iitdh.ac.in",
+      position: "Training & Placement Officer",
+    },
+    {
+      name: "Nethaji Kumar D",
+      role: "Training & Placement Officer",
+      dept: "",
+      image: tpo1,
+      mail: "nethajikumar@iitdh.ac.in",
+      Email: "nethajikumar@iitdh.ac.in",
+      position: "Training & Placement Officer",
+    },
+  ];
   const placementExecutive = [
     {
       name: "Sameer Joshi",
@@ -110,95 +118,85 @@ function First() {
 
   const teamMembers = [
     {
-      name: "Agrim Jain",
+      name: "Velivela Mohith Naga",
       role: "",
       image: teamMemberImage2,
-      phone: "+91 95288 76421",
-      mail: "210010003@iitdh.ac.in",
-      linkedin: "https://www.linkedin.com/in/agrim-jain-6b9356234/",
-      instagram: "https://www.instagram.com/agrimjain_26/",
+      phone: "+91 93474 58634",
+      mail: "220120028@iitdh.ac.in",
+      linkedin: "https://www.linkedin.com/in/velivela-mohith-naga-sai-4a3b32264/?originalSubdomain=in",
+      
     },
     {
-      name: "Srihari K G",
+      name: "Surya Narayan Upadhyay",
       role: "",
       image: teamMemberImage1,
-      phone: "+91 99022 60373",
-      mail: "210030035@iitdh.ac.in",
-      linkedin: "https://www.linkedin.com/in/srihari-k-g-91931a1ab/",
-      instagram: "https://www.instagram.com/srihari_k_g_2003/",
+      phone: "+91 73984 21950",
+      mail: "220020052@iitdh.ac.in",
+      linkedin: "https://www.linkedin.com/in/surya-narayan-upadhyay/"
     },
   ];
 
   const seniorCoordinators = [
-    {
-      name: "Abhiram",
-      mail: "210150001@iitdh.ac.in",
-      phone: "",
-    },
-    {
-      name: "Vivek",
-      mail: "210010058@iitdh.ac.in",
-      phone: "",
-    },
-    {
-      name: "Karthik Hedge",
-      mail: "210010022@iitdh.ac.in",
-      phone: "",
-    },
-    {
-      name: "Eluri Harshita",
-      mail: "210030011@iitdh.ac.in",
-      phone: "",
-    },
+    { name: "Nilesh", mail: "", phone: "" },
+    { name: "Yash", mail: "", phone: "" },
+    { name: "Varshita", mail: "", phone: "" },
+    { name: "Abhiraj", mail: "", phone: "" },
+    { name: "Shreya", mail: "", phone: "" },
+    { name: "Ritesh", mail: "", phone: "" },
+    { name: "Kavichelvan", mail: "", phone: "" },
+    { name: "Shreyas", mail: "", phone: "" },
+    { name: "Dev Srivastav", mail: "", phone: "" },
+    { name: "Saikat Ghosh", mail: "", phone: "" },
+    { name: "Vidit", mail: "", phone: "" },
+    { name: "Swaroop Sahoo", mail: "", phone: "" },
   ];
 
   const cdcTeam = [
     [
-      "Aayush Vats",
-      "Aditi Soukar",
-      "Ameya Langer",
-      "Anvay Jaykar",
-      "Arpan Sahu",
-      "Atharva Tijare",
-      "Bidipta Saha",
-      "Gurjaipal Singh",
-      "Ishaan Janjuha",
-      "Jai Sharma",
+      "Nilesh",
+      "Yash",
+      "Varshita",
+      "Abhiraj",
+      "Shreya",
+      "Ritesh",
       "Kavichelvan",
-      "Krunal Patel",
-      "Krutay Upadhyay",
+      "Shreyas",
+      "Dev Srivastav",
+      "Saikat Ghosh",
+      "Vidit",
+      "Swaroop Sahoo",
     ],
 
-    [
-      "Lavanya Shende",
-      "Md Inzamamul Haque",
-      "Meghana Bhat",
-      "Nandini G",
-      "Nihar Sagar G",
-      "Nipun Gupta",
-      "Nishant Shailesh Mehta",
-      "Omkar Kulkarni",
-      "Prajwal N Prasad",
-      "Prashant Veer",
-      "Priyanshu Mishra",
-      "Rishita Seepana",
-      "Sai Sreeharsha Bolloju",
-    ],
-    [
-      "Shubham Raj",
-      "Shubhranil Kundu",
-      "Siddharth Kumar Nishad",
-      "Sujay C",
-      "Surya Narayan Upadhyay",
-      "Utkarsh Gupta",
-      "Vatista Kachroo",
-      "Vedansh Chaudhary",
-      "Vedant Kannur",
-      "Velivela Mohith Naga Sai",
-      "Vidhi Kadam",
-      "Vidit Parikh",
-      "Yash Halbhavi",
-    ],
+    // [
+    //   "Lavanya Shende",
+    //   "Md Inzamamul Haque",
+    //   "Meghana Bhat",
+    //   "Nandini G",
+    //   "Nihar Sagar G",
+    //   "Nipun Gupta",
+    //   "Nishant Shailesh Mehta",
+    //   "Omkar Kulkarni",
+    //   "Prajwal N Prasad",
+    //   "Prashant Veer",
+    //   "Priyanshu Mishra",
+    //   "Rishita Seepana",
+    //   "Sai Sreeharsha Bolloju",
+    // ],
+    // [
+    //   "Shubham Raj",
+    //   "Shubhranil Kundu",
+    //   "Siddharth Kumar Nishad",
+    //   "Sujay C",
+    //   "Surya Narayan Upadhyay",
+    //   "Utkarsh Gupta",
+    //   "Vatista Kachroo",
+    //   "Vedansh Chaudhary",
+    //   "Vedant Kannur",
+    //   "Velivela Mohith Naga Sai",
+    //   "Vidhi Kadam",
+    //   "Vidit Parikh",
+    //   "Yash Halbhavi",
+    // ],
   ];
 
   const cdcTechTeam = [
@@ -269,7 +267,8 @@ function First() {
               </div>
             </div>
 
-            {/* <div className="d-flex justify-content-center row">
+            {/* <div className="d-flex justify-content-center row"> */}
+             <h2 className="text-center">Training & Placement Officer</h2>
             {TPO.length > 0 && (
               <div className="col">
                 <div
@@ -279,7 +278,7 @@ function First() {
                 <div className="row d-flex justify-content-center">
                   {TPO.map((member, index) => (
                     <div key={index} className="col-xl-3 col-md-6">
-                      <h5 className="text-center">{member.position}</h5>
+                     
                       <div className="single-team mb-40">
                         <div className="team-thumb">
                           <div className="brd">
@@ -304,11 +303,11 @@ function First() {
                                   <i className="fa fa-envelope" />
                                 </Link>
                               </li>
-                              <li>
+                              {/* <li>
                                 <Link to={`tel:${member.phone}`}>
                                   <i className="fa fa-phone" />
                                 </Link>
-                              </li>
+                              </li> */}
                             </ul>
                           </div>
                         </div>
@@ -317,7 +316,7 @@ function First() {
                   ))}
                 </div>
               </div>
-            )} */}
+            )}
 
             {/* <div className="d-flex justify-content-center row"> */}
             {placementExecutive.length > 0 && (
@@ -327,9 +326,10 @@ function First() {
                   style={{ paddingBottom: "30px", paddingTop: "10px" }}
                 ></div>
                 <div className="row d-flex justify-content-center">
+                <h2 className="text-center">Placement Executive</h2>
                   {placementExecutive.map((member, index) => (
                     <div key={index} className="col-xl-3 col-md-6">
-                      <h5 className="text-center">{member.position}</h5>
+                      {/* <h2 className="text-center">{member.position}</h2> */}
                       <div className="single-team mb-40">
                         <div className="team-thumb">
                           <div className="brd">
@@ -413,11 +413,11 @@ function First() {
                                 <i className="fab fa-linkedin" />
                               </Link>
                             </li>
-                            <li>
+                            {/* <li>
                               <Link to={member.instagram}>
                                 <i className="fab fa-instagram" />
                               </Link>
-                            </li>
+                            </li> */}
                             <li>
                               <Link to={`tel:${member.phone}`}>
                                 <i className="fa fa-phone" />
@@ -491,11 +491,11 @@ function First() {
               }}
             >
               <div className="card col-md-6">
-                <div className="card-body" style={{ height: "76vh" }}>
-                  <h3 className="text-center">Senior Coordinators</h3>
+                <div className="card-body" >
+                  <h3 className="text-center">Student Coordinators</h3>
                   <div className="row">
                     {seniorCoordinators.map((member, index) => (
-                      <div key={index}>
+                      <div key={index} className="mb-4">
                         <div className="single-team" style={{ height: "12vh" }}>
                           <div
                             className="team-info"
@@ -539,7 +539,7 @@ function First() {
             </div>
           </div>
           {/* team members  */}
-          <div className="container mt-4">
+          {/* <div className="container mt-4">
             <div className="row">
               <div
                 className="d-flex justify-content-center"
@@ -594,7 +594,7 @@ function First() {
                 </div>
               </div>
             </div>
-          </div>
+          </div> */}
         </div>
       </section>
     </>

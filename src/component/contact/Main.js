@@ -9,11 +9,12 @@ import { Link } from "react-router-dom";
 import facultyInChargeImage1 from "../../assets/img/team/Satya_Priya_Image.jpeg";
 import facultyInChargeImage2 from "../../assets/img/team/ankit_v_k.JPG";
 
-import teamMemberImage1 from "../../assets/img/team/srihari.jpeg";
-import teamMemberImage2 from "../../assets/img/team/agrim.jpeg";
+import teamMemberImage1 from "../../assets/img/team/surya.jpeg";
+import teamMemberImage2 from "../../assets/img/team/mohit.jpeg";
 import teamMemberImage3 from "../../assets/img/team/varun.jpg";
 import placementExecutiveImage from "../../assets/img/team/Sameer_Joshi_Image.jpg";
-import TPO_Image from "../../assets/img/team/Jayanti_m_b.jpg";
+import TPO_Image from "../../assets/img/team/Murali.jpeg";
+import tpo1 from "../../assets/img/team/nethaji.jpeg";
 import DefaultImage from "../../assets/img/team/default-avatar-profile.jpg";
 
 function Main() {
@@ -38,19 +39,26 @@ function Main() {
     },
   ];
 
-  // const tpo = [
-  //   {
-  //     name: "Dr. Jayanti M Belur",
-  //     role: "Training & Placement Officer",
-  //     dept: "",
-  //     image: TPO_Image,
-  //     phone: "+91 63625 42567",
-  //     mail: "jayantibelur@iitdh.ac.in",
-  //     tel: "+91 63635 42567",
-  //     Email: "tpo@iitdh.ac.in",
-  //     position: "Training & Placement Officer",
-  //   },
-  // ];
+  const tpo = [
+    {
+      name: "Murali Krishna E",
+      role: "Training & Placement Officer",
+      dept: "",
+      image: TPO_Image,
+      mail: "muralik@iitdh.ac.in",
+      Email: "muralik@iitdh.ac.in",
+      position: "Training & Placement Officer",
+    },
+    {
+      name: "Nethaji Kumar D",
+      role: "Training & Placement Officer",
+      dept: "",
+      image: tpo1,
+      mail: "nethajikumar@iitdh.ac.in",
+      Email: "nethajikumar@iitdh.ac.in",
+      position: "Training & Placement Officer",
+    },
+  ];
 
   const placement_Executive = [
     {
@@ -65,22 +73,21 @@ function Main() {
   ];
   const teamMembers = [
     {
-      name: "Agrim Jain",
+      name: "Velivela Mohith Naga",
       role: "",
       image: teamMemberImage2,
-      phone: "+91 95288 76421",
-      mail: "210010003@iitdh.ac.in",
-      linkedin: "https://www.linkedin.com/in/agrim-jain-6b9356234/",
-      instagram: "https://www.instagram.com/agrimjain_26/",
+      phone: "+91 93474 58634",
+      mail: "220120028@iitdh.ac.in",
+      linkedin: "https://www.linkedin.com/in/velivela-mohith-naga-sai-4a3b32264/?originalSubdomain=in",
+      
     },
     {
-      name: "Srihari K G",
+      name: "Surya Narayan Upadhyay",
       role: "",
       image: teamMemberImage1,
-      phone: "+91 99022 60373",
-      mail: "210030035@iitdh.ac.in",
-      linkedin: "https://www.linkedin.com/in/srihari-k-g-91931a1ab/",
-      instagram: "https://www.instagram.com/srihari_k_g_2003/",
+      phone: "+91 73984 21950",
+      mail: "220020052@iitdh.ac.in",
+      linkedin: "https://www.linkedin.com/in/surya-narayan-upadhyay/"
     },
   ];
   return (
@@ -136,19 +143,20 @@ function Main() {
           </div>
         </div>
 
-        {/* <div className="col">
+        <div className="col">
           <div className="row justify-content-center">
+          
+                  <div>
+                    <h3 className="text-center">
+                      <b>Training & Placement Officer</b>
+                    </h3>
+                  </div>
             {tpo.map((member, index) => (
               <div key={index} className="col-md-6 col-12">
                 <div
                   className="single-team mb-40"
                   style={{ minHeight: "350px" }}
                 >
-                  <div>
-                    <h3 className="text-center">
-                      <b>{member.position}</b>
-                    </h3>
-                  </div>
                   <div className="team-thumb">
                     <div className="brd">
                       <Link to="#">
@@ -184,7 +192,7 @@ function Main() {
               </div>
             ))}
           </div>
-        </div> */}
+        </div>
 
         {/* placement_Executive */}
         <div className="col">
@@ -270,11 +278,11 @@ function Main() {
                             <i className="fab fa-linkedin" />
                           </Link>
                         </li>
-                        <li>
+                        {/* <li>
                           <Link to={member.instagram}>
                             <i className="fab fa-instagram" />
                           </Link>
-                        </li>
+                        </li> */}
                         <li>
                           <Link to={`tel:${member.phone}`}>
                             <i className="fa fa-phone" />
