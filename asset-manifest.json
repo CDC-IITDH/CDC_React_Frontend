@@ -1,13 +1,12 @@
 {
   "files": {
     "main.css": "/static/css/main.30249509.css",
-    "main.js": "/static/js/main.54c626d2.js",
+    "main.js": "/static/js/main.839b9882.js",
     "static/media/fa-duotone-900.svg": "/static/media/fa-duotone-900.e2ad3965c2a9e62098b9.svg",
     "static/media/fa-light-300.svg": "/static/media/fa-light-300.9dd7bbb937f23efa25fb.svg",
     "static/media/fa-regular-400.svg": "/static/media/fa-regular-400.4e2c87c166dd32bc2485.svg",
     "static/media/fa-solid-900.svg": "/static/media/fa-solid-900.4cc469b44aa813f1716d.svg",
     "static/media/Gallery-35.jpg": "/static/media/Gallery-35.1a2dae1bd8073614459c.jpg",
-    "static/media/Suvamay_Jana_Image.jpeg": "/static/media/Suvamay_Jana_Image.584e26a2c84fda58410e.jpeg",
     "static/media/fa-brands-400.svg": "/static/media/fa-brands-400.bf400661c005d8597892.svg",
     "static/media/Gallery-14.jpg": "/static/media/Gallery-14.f9ba861a8ed2a049d072.jpg",
     "static/media/Gallery-11.jpg": "/static/media/Gallery-11.7aea706c11e327490c6c.jpg",
@@ -67,6 +66,7 @@
     "static/media/Gallery-12.jpg": "/static/media/Gallery-12.d0424047aff0b510fdc6.jpg",
     "static/media/Gallery-30.jpg": "/static/media/Gallery-30.d0424047aff0b510fdc6.jpg",
     "static/media/fa-regular-400.woff2": "/static/media/fa-regular-400.6f182a403c97e0e79648.woff2",
+    "static/media/ghosh.jpg": "/static/media/ghosh.98a455e3442b27ab5ecc.jpg",
     "static/media/About-Home.jpg": "/static/media/About-Home.6e7dd1db6bd93dd022d5.jpg",
     "static/media/Event-Background.jpg": "/static/media/Event-Background.e8ee83fee185f4c4d897.jpg",
     "static/media/fa-brands-400.eot": "/static/media/fa-brands-400.59b4d0d406e282f4231f.eot",
@@ -131,10 +131,10 @@
     "static/media/mmrfi.jpg": "/static/media/mmrfi.62d4ad283ad2ae086a0f.jpg",
     "index.html": "/index.html",
     "main.30249509.css.map": "/static/css/main.30249509.css.map",
-    "main.54c626d2.js.map": "/static/js/main.54c626d2.js.map"
+    "main.839b9882.js.map": "/static/js/main.839b9882.js.map"
   },
   "entrypoints": [
     "static/css/main.30249509.css",
-    "static/js/main.54c626d2.js"
+    "static/js/main.839b9882.js"
   ]
 }
